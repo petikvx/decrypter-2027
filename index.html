@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Observatoire indépendant et sourcé de l'élection présidentielle française de 2027." />
+    <title>Le Choix 2027 — Observatoire de la présidentielle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Le Choix 2027, accueil">
+        <span class="brand-mark">27</span>
+        <span><strong>Le Choix</strong><small>Observatoire présidentiel</small></span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <a href="#etat-course">La course</a>
+        <a href="#candidats">Candidats</a>
+        <a href="#comparateur">Comparer</a>
+        <a href="#chronologie">Chronologie</a>
+      </nav>
+      <button class="method-button" data-open-method>Notre méthode</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Présidentielle française · édition du 8 août 2026</p>
+          <h1>Comprendre le choix.<br /><em>Avant le bruit.</em></h1>
+          <p class="hero-intro">Programmes, rapports de force et moments de campagne : une lecture indépendante des chemins possibles vers l’Élysée.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#candidats">Explorer les candidats <span>↓</span></a>
+            <button class="text-action" data-open-method>Comment nous vérifions</button>
+          </div>
+        </div>
+        <aside class="countdown" aria-label="Compte à rebours avant le premier tour">
+          <span class="live-label"><i></i> La campagne en cours</span>
+          <div class="countdown-number" id="days-left">253</div>
+          <p>jours avant le 1<sup>er</sup> tour</p>
+          <div class="election-date"><strong>18 avril 2027</strong><span>Premier tour</span></div>
+          <div class="election-date"><strong>2 mai 2027</strong><span>Second tour</span></div>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="Points clés">
+        <span>À retenir</span>
+        <p><strong>23 candidatures déclarées recensées fin juillet</strong> · Le RN domine les intentions de vote · La gauche et le centre cherchent encore leur configuration</p>
+      </section>
+
+      <section class="section race" id="etat-course">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 — État de la course</p><h2>La photographie du moment</h2></div>
+          <p>Une tendance n’est pas une prédiction. Les scores varient selon les candidatures testées et restent soumis aux marges d’erreur.</p>
+        </div>
+        <div class="race-grid">
+          <article class="poll-card">
+            <div class="card-topline"><span>Intentions de vote · 1er tour</span><a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-06/presidentielle-2027-intention-vote-mai26-rapport-complet-web.pdf" target="_blank" rel="noreferrer">Ipsos · juin 2026 ↗</a></div>
+            <h3>Le RN possède une avance structurelle</h3>
+            <div class="poll-bars" id="poll-bars"></div>
+            <p class="fine-print">Fourchettes observées dans huit configurations Ipsos. Elles ne s’additionnent pas et ne constituent pas une projection du résultat.</p>
+          </article>
+          <div class="analysis-stack">
+            <article class="analysis-card accent-blue"><span>Le nœud du centre</span><h3>Attal ou Philippe — ou les deux ?</h3><p>Leur concurrence ouvre la qualification. Un rassemblement tardif pourrait replacer le centre au second tour.</p></article>
+            <article class="analysis-card accent-red"><span>Le nœud de la gauche</span><h3>Une offre encore éclatée</h3><p>Mélenchon, le pôle socialiste, les écologistes et Ruffin avancent selon des stratégies distinctes.</p></article>
+            <article class="analysis-card accent-gold"><span>La grande inconnue</span><h3>La décision des électeurs tardifs</h3><p>Participation, vote utile et événements de campagne pèseront davantage que les petites variations estivales.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section candidates" id="candidats">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 — Forces en présence</p><h2>Les principaux visages</h2></div>
+          <p>Le statut indique la situation connue à la date de mise à jour, pas la future liste validée par le Conseil constitutionnel.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrer les candidats">
+          <button class="active" data-filter="all">Tous</button>
+          <button data-filter="left">Gauche</button>
+          <button data-filter="center">Centre</button>
+          <button data-filter="right">Droite</button>
+          <button data-filter="far-right">Extrême droite</button>
+        </div>
+        <div class="candidate-grid" id="candidate-grid"></div>
+        <div class="more-candidates">
+          <strong>Et aussi dans le paysage</strong>
+          <p>Nathalie Arthaud, Fabien Roussel, Delphine Batho, Jérôme Guedj, Karim Bouamrane, Bernard Cazeneuve, Ségolène Royal, Dominique de Villepin, David Lisnard, Xavier Bertrand, Nicolas Dupont-Aignan, François Asselineau, Florian Philippot et d’autres candidatures conditionnelles ou plus confidentielles.</p>
+        </div>
+      </section>
+
+      <section class="section compare" id="comparateur">
+        <div class="section-heading light">
+          <div><p class="eyebrow">03 — Comparateur</p><h2>Six thèmes qui structurent le choix</h2></div>
+          <p>Sélectionnez un thème puis deux candidats. Les formulations résument uniquement les orientations documentées à ce stade.</p>
+        </div>
+        <div class="topic-tabs" id="topic-tabs"></div>
+        <div class="compare-controls">
+          <label>Candidat A<select id="candidate-a"></select></label>
+          <span>face à</span>
+          <label>Candidat B<select id="candidate-b"></select></label>
+        </div>
+        <div class="comparison" id="comparison"></div>
+      </section>
+
+      <section class="section scenarios">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 — Prospective</p><h2>Quatre chemins vers le second tour</h2></div>
+          <p>Des scénarios, pas des pronostics : chacun dépend d’événements encore incertains.</p>
+        </div>
+        <div class="scenario-grid">
+          <article><b>01</b><span>Scénario central</span><h3>RN face au bloc central</h3><p>Le RN conserve son socle et un candidat central finit par concentrer le vote modéré.</p><small>Signal à surveiller : désistement Attal–Philippe</small></article>
+          <article><b>02</b><span>Percée de la droite</span><h3>RN face à LR</h3><p>Retailleau agrège droite classique et électeurs revenus du RN ou du centre.</p><small>Signal : dépassement durable de 15 %</small></article>
+          <article><b>03</b><span>Remontée de la gauche</span><h3>RN face à la gauche</h3><p>Un candidat domine son camp, limite la dispersion et bénéficie d’une forte mobilisation.</p><small>Signal : écart gauche–centre inférieur à 3 points</small></article>
+          <article><b>04</b><span>Rupture de campagne</span><h3>Un choc rebat les cartes</h3><p>Crise économique, affaire, débat décisif ou événement international déplace les priorités.</p><small>Signal : mouvement supérieur aux marges d’erreur</small></article>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="chronologie">
+        <div class="section-heading">
+          <div><p class="eyebrow">05 — Chronologie</p><h2>Les faits qui façonnent la campagne</h2></div>
+          <p>Une sélection factuelle des décisions politiques, judiciaires et électorales structurantes.</p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="section sources">
+        <div><p class="eyebrow">06 — Transparence</p><h2>Sources et limites</h2></div>
+        <div class="source-grid">
+          <a href="https://www.info.gouv.fr/actualite/presidentielle-2027-date-a-retenir-et-informations-cles" target="_blank" rel="noreferrer"><span>Cadre officiel</span><strong>Gouvernement français</strong><small>Calendrier, règles et parrainages ↗</small></a>
+          <a href="https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373" target="_blank" rel="noreferrer"><span>Candidatures</span><strong>LCP — Assemblée nationale</strong><small>Recensement mis à jour ↗</small></a>
+          <a href="https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html" target="_blank" rel="noreferrer"><span>Rapports de force</span><strong>Le Monde — Les Décodeurs</strong><small>État des familles politiques ↗</small></a>
+          <a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-06/presidentielle-2027-intention-vote-mai26-rapport-complet-web.pdf" target="_blank" rel="noreferrer"><span>Opinion</span><strong>Ipsos bva</strong><small>Rapport complet et méthodologie ↗</small></a>
+        </div>
+        <p class="method-note">Les programmes définitifs n’existent pas encore pour la plupart des candidats. Ce site distingue les propositions présidentielles, les orientations de campagne et les positions antérieures. Il ne donne aucune consigne de vote.</p>
+      </section>
+    </main>
+
+    <footer><div class="brand inverse"><span class="brand-mark">27</span><span><strong>Le Choix</strong><small>Observatoire présidentiel</small></span></div><p>Une étude indépendante, datée et révisable.</p><a href="#top">Retour en haut ↑</a></footer>
+
+    <dialog id="candidate-modal"><button class="close-modal" aria-label="Fermer">×</button><div id="modal-content"></div></dialog>
+    <dialog id="method-modal"><button class="close-modal" aria-label="Fermer">×</button><p class="eyebrow">Notre méthode</p><h2>Informer sans prédire</h2><div class="method-list"><p><b>1. Dater</b><span>Chaque photographie politique porte une date précise.</span></p><p><b>2. Qualifier</b><span>Déclaré, pressenti ou conditionnel ne veulent pas dire candidat officiel.</span></p><p><b>3. Sourcer</b><span>Priorité aux documents officiels, puis aux médias de référence.</span></p><p><b>4. Comparer</b><span>Une promesse publiée n’est pas mise au même niveau qu’une orientation générale.</span></p><p><b>5. Corriger</b><span>Le contenu est appelé à évoluer jusqu’au scrutin.</span></p></div></dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
