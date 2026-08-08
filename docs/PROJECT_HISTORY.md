@@ -130,3 +130,18 @@ changé et pourquoi.
 - **Résultat** : configuration prête à valider et à publier sur `main` ; une
   reconstruction du conteneur sera nécessaire pour l’appliquer à un Codespace
   déjà créé.
+
+## 2026-08-08 22:34 CEST — mémento Codespaces et Codex
+
+- **Environnement** : local, après validation de l’installation et de la
+  connexion Codex dans GitHub Codespaces.
+- **Demande** : conserver dans le dépôt les commandes et le premier prompt à
+  utiliser lors des prochaines ouvertures du Codespace.
+- **Travail effectué** : création de `MEMENTO.md` avec les étapes de début de
+  session, la reprise avec `codex resume` et le contrôle à effectuer avant de
+  fermer ; ajout d’un lien dans le README.
+- **Sources consultées** : aucune ; documentation interne du projet.
+- **Fichiers modifiés** : `MEMENTO.md`, `README.md` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : contrôle du format Markdown et du diff Git.
+- **Résultat** : mémento prêt à être publié sur `main`.

@@ -8,6 +8,7 @@ Codex lit automatiquement `AGENTS.md` à l’ouverture du dépôt. Les décision
 les règles éditoriales durables sont conservées dans :
 
 - [`AGENTS.md`](AGENTS.md) ;
+- [`MEMENTO.md`](MEMENTO.md), pour démarrer ou reprendre rapidement une session ;
 - [`docs/PROJECT_HISTORY.md`](docs/PROJECT_HISTORY.md) ;
 - [`docs/EDITORIAL_POLICY.md`](docs/EDITORIAL_POLICY.md).
 
