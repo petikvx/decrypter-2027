@@ -66,12 +66,20 @@ Le script `.devcontainer/setup-codex.sh` :
 
 ## État à la dernière mise à jour
 
-- Le dépôt local n’était pas encore publié sur GitHub.
+- Le dépôt est publié sur GitHub sous `petikvx/decrypter-2027`, branche `main`.
 - La date éditoriale affichée par le site est le 8 août 2026.
 - Les données politiques devront être révisées régulièrement jusqu’au scrutin.
 - La prochaine amélioration logique est de séparer les données politiques du
   code d’affichage, puis d’enrichir les fiches avec davantage de sources
   primaires et de chiffrages.
+
+## 8 août 2026 — routine de mise à jour
+
+Le `README.md` contient désormais une procédure quotidienne pour Codespaces et
+Codex : synchronisation Git, recherche web, audit sourcé, validation humaine,
+prévisualisation, contrôles et publication. Le prompt demande à Codex de ne pas
+modifier le site avant d’avoir présenté les faits nouveaux et leur niveau de
+certitude.
 
 ## Comment poursuivre
 
