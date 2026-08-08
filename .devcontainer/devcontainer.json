@@ -1,13 +1,7 @@
 {
   "name": "Décrypter 2027",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.12"
-    }
-  },
-  "postCreateCommand": "bash .devcontainer/setup-codex.sh --install-only",
-  "postAttachCommand": "printf '\nPrêt. Connexion Codex : .devcontainer/setup-codex.sh\nAperçu du site : python3 -m http.server 8000\n\n'",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postAttachCommand": "printf '\nPrêt. Installation et connexion Codex : .devcontainer/setup-codex.sh\nAperçu du site : python3 -m http.server 8000\n\n'",
   "forwardPorts": [8000],
   "portsAttributes": {
     "8000": {

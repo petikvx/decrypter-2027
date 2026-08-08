@@ -108,3 +108,25 @@ changé et pourquoi.
 - **Vérifications** : recherche globale de l’ancien nom, validation JSON,
   vérification JavaScript et contrôle du diff.
 - **Résultat** : prêt à valider et à publier sur `main`.
+
+## 2026-08-08 22:12 CEST — accélération de la création Codespaces
+
+- **Environnement** : local, après observation du journal de création d’un
+  GitHub Codespace.
+- **Demande** : empêcher l’installation de Codex et la compilation de Python de
+  ralentir ou bloquer la création du Codespace.
+- **Travail effectué** : remplacement de l’image Ubuntu complétée par la feature
+  Python par une image Python 3.12 préconstruite ; suppression de l’installation
+  automatique de Codex dans `postCreateCommand`. L’installation et la connexion
+  sont désormais lancées volontairement dans le terminal avec
+  `.devcontainer/setup-codex.sh`.
+- **Sources consultées** : documentation officielle OpenAI « Codex CLI », qui
+  confirme l’installateur autonome et la connexion après installation :
+  <https://learn.chatgpt.com/docs/codex/cli>.
+- **Fichiers modifiés** : `.devcontainer/devcontainer.json`, `README.md` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : validation JSON, validation syntaxique du script Bash,
+  contrôle de cohérence du README et du diff Git.
+- **Résultat** : configuration prête à valider et à publier sur `main` ; une
+  reconstruction du conteneur sera nécessaire pour l’appliquer à un Codespace
+  déjà créé.

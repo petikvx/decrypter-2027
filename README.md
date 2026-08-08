@@ -23,17 +23,20 @@ Puis ouvrir <http://localhost:8000>.
 
 ## GitHub Codespaces et Codex
 
-Le fichier `.devcontainer/devcontainer.json` prépare automatiquement un
-Codespace, installe Codex CLI et rend le port 8000 disponible pour l’aperçu.
+Le fichier `.devcontainer/devcontainer.json` utilise une image où Python 3.12
+est déjà prêt et rend le port 8000 disponible pour l’aperçu. La création du
+Codespace n’installe volontairement pas Codex : aucune opération réseau longue
+ne bloque ainsi l’ouverture du terminal.
 
-Une fois le Codespace créé, connecter Codex avec :
+Une fois le Codespace créé, installer Codex puis se connecter avec :
 
 ```bash
 .devcontainer/setup-codex.sh
 ```
 
-Le script utilise l’authentification par code d’appareil, adaptée aux
-environnements distants. Il peut aussi être utilisé hors Codespaces sur Linux :
+Le script utilise l’installateur autonome officiel OpenAI, puis la commande
+`codex login --device-auth`, adaptée aux environnements distants. Il peut aussi
+être utilisé hors Codespaces sur Linux :
 
 ```bash
 # Installation et connexion
@@ -70,6 +73,8 @@ terminées. Les examiner ou les enregistrer d’abord.
 ```
 
 Le script ne redemande pas de connexion si la session est toujours valide.
+Lors du tout premier lancement du Codespace, il installe Codex avant d’afficher
+le lien et le code temporaire de connexion.
 
 Pour reprendre une conversation récente du même Codespace :
 
