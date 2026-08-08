@@ -17,7 +17,7 @@ les règles éditoriales durables sont conservées dans :
 Ouvrir directement `index.html` dans un navigateur, ou démarrer un serveur local :
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
 Puis ouvrir <http://localhost:8000>.
@@ -131,7 +131,7 @@ git diff
 Lancer ensuite le site :
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
 Codespaces affiche le port `8000` dans l’onglet **Ports**. Ouvrir son URL et

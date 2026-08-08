@@ -145,3 +145,17 @@ changé et pourquoi.
   `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : contrôle du format Markdown et du diff Git.
 - **Résultat** : mémento prêt à être publié sur `main`.
+
+## 2026-08-08 22:39 CEST — commande d’aperçu Codespaces
+
+- **Environnement** : GitHub Codespaces et local.
+- **Demande** : préciser la commande permettant de servir le site correctement
+  derrière le transfert de port Codespaces.
+- **Travail effectué** : ajout de `--bind 0.0.0.0` aux commandes d’aperçu du
+  README et au message affiché à l’ouverture du devcontainer.
+- **Sources consultées** : aucune ; comportement vérifié directement dans le
+  Codespace.
+- **Fichiers modifiés** : `README.md`, `.devcontainer/devcontainer.json` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : validation JSON, contrôle du diff et de son format.
+- **Résultat** : commande d’aperçu Codespaces corrigée et prête à publier.
