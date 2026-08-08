@@ -1,5 +1,5 @@
 {
-  "name": "Le Choix 2027",
+  "name": "Décrypter 2027",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
@@ -11,7 +11,7 @@
   "forwardPorts": [8000],
   "portsAttributes": {
     "8000": {
-      "label": "Le Choix 2027",
+      "label": "Décrypter 2027",
       "onAutoForward": "openPreview"
     }
   },

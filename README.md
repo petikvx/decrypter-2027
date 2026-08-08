@@ -1,4 +1,4 @@
-# Le Choix 2027
+# Décrypter 2027
 
 Observatoire statique et sourcé de l’élection présidentielle française de 2027.
 
@@ -103,8 +103,10 @@ Effectue la mise à jour quotidienne de Décrypter 2027.
    certitude, contenu potentiellement obsolète et changements proposés.
 6. N’édite le site qu’après cet audit. N’intègre ni rumeur non recoupée ni
    variation de sondage non significative.
-7. Mets à jour les dates et les liens de sources concernés, puis ajoute une
-   entrée concise dans docs/PROJECT_HISTORY.md.
+7. Ajoute toujours une entrée chronologique dans docs/PROJECT_HISTORY.md pour
+   cette session, même si l’audit ne trouve aucun changement à publier. Indique
+   la date et l’heure, le travail effectué, les sources consultées, les fichiers
+   modifiés et les vérifications réalisées.
 8. Vérifie le JavaScript, le responsive et les liens modifiés. Montre-moi le
    diff final et ne crée pas de commit avant mon accord.
 ```
@@ -160,6 +162,29 @@ mise à jour.
 - **Après chaque événement majeur** : scénarios électoraux et chronologie.
 
 Une journée sans fait nouveau fiable ne nécessite aucun changement du site.
+Elle nécessite néanmoins une entrée dans `docs/PROJECT_HISTORY.md` afin de
+conserver la trace de l’audit effectué.
+
+### Journal obligatoire de chaque session Codex
+
+Toute session Codex consacrée au projet doit ajouter à la fin de
+`docs/PROJECT_HISTORY.md` une entrée dans ce format :
+
+```markdown
+## AAAA-MM-JJ HH:MM TZ — titre court
+
+- **Environnement** : GitHub Codespaces ou local.
+- **Demande** : objectif de la session.
+- **Travail effectué** : recherches, décisions et modifications.
+- **Sources consultées** : liens principaux, ou « aucune ».
+- **Fichiers modifiés** : liste, ou « aucun ».
+- **Vérifications** : commandes et contrôles réalisés.
+- **Résultat** : publié, prêt à valider, ou aucun changement nécessaire.
+```
+
+Les nouvelles entrées sont ajoutées à la fin du fichier, dans l’ordre
+chronologique. Elles ne doivent pas effacer ni réécrire les entrées précédentes,
+sauf pour corriger une erreur factuelle explicitement signalée.
 
 ## Mise à jour éditoriale
 

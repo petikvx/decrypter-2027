@@ -1,4 +1,4 @@
-# Le Choix 2027 — consignes du dépôt
+# Décrypter 2027 — consignes du dépôt
 
 ## Mission
 
@@ -55,8 +55,13 @@ l’utilisateur.
 - Pour une modification visuelle importante, lancer
   `python3 -m http.server 8000` et vérifier au moins un affichage ordinateur et
   un affichage mobile.
-- Ajouter dans `docs/PROJECT_HISTORY.md` toute décision éditoriale, technique ou
-  structurelle qui aidera une future session à comprendre le projet.
+- Avant de terminer chaque session de travail, ajouter une entrée à la fin de
+  `docs/PROJECT_HISTORY.md`, y compris lorsqu’un audit ne produit aucun
+  changement éditorial. Utiliser une date et une heure avec fuseau, puis noter
+  l’environnement, la demande, le travail effectué, les sources consultées, les
+  fichiers modifiés, les vérifications et le résultat.
+- Ne jamais supprimer ni réordonner les anciennes entrées du journal. Signaler
+  explicitement toute correction d’une entrée antérieure.
 
 ## État actuel
 

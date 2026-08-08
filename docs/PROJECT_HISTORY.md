@@ -90,3 +90,21 @@ Avant une nouvelle session, demander à Codex :
 
 Après une décision importante, ajouter ici une entrée datée expliquant ce qui a
 changé et pourquoi.
+
+## 2026-08-08 21:26 CEST — renommage et journal obligatoire
+
+- **Environnement** : local.
+- **Demande** : remplacer l’ancien nom « Le Choix 2027 » par « Décrypter 2027 »
+  et garantir une trace chronologique de chaque utilisation de Codex et
+  Codespaces.
+- **Travail effectué** : renommage dans le site, le README, les consignes Codex,
+  la charte éditoriale et le devcontainer. Ajout d’un format obligatoire de
+  journal de session et modification du prompt quotidien.
+- **Sources consultées** : aucune source politique ; modification interne au
+  projet.
+- **Fichiers modifiés** : `README.md`, `AGENTS.md`, `index.html`,
+  `.devcontainer/devcontainer.json`, `docs/EDITORIAL_POLICY.md` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : recherche globale de l’ancien nom, validation JSON,
+  vérification JavaScript et contrôle du diff.
+- **Résultat** : prêt à valider et à publier sur `main`.

@@ -2,7 +2,7 @@
 
 ## 1. Objet
 
-Le Choix 2027 est un outil de compréhension de l’élection présidentielle
+Décrypter 2027 est un outil de compréhension de l’élection présidentielle
 française. Il décrit les acteurs, compare leurs propositions et étudie les
 scénarios sans soutenir ni combattre un candidat.
 
