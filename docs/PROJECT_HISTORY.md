@@ -159,3 +159,22 @@ changé et pourquoi.
   `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : validation JSON, contrôle du diff et de son format.
 - **Résultat** : commande d’aperçu Codespaces corrigée et prête à publier.
+
+## 2026-08-09 08:50 CEST — audit éditorial quotidien
+
+- **Environnement** : local.
+- **Demande** : effectuer la mise à jour quotidienne de Décrypter 2027.
+- **Travail effectué** : recherche des faits publiés depuis l’édition du 8 août
+  concernant les candidatures, les programmes, la campagne, les décisions
+  judiciaires et les sondages. Aucun changement politique suffisamment nouveau
+  et établi n’a été retenu. La date éditoriale générale passe au 9 août 2026 ;
+  les fiches, sondages, scénarios et événements restent inchangés.
+- **Sources consultées** : Commission des sondages, rubrique « 2027 -
+  Présidentielle » ; LCP, recensement des candidats ; Le Monde, articles du
+  8 août 2026 sur la campagne estivale de Gabriel Attal et les ingérences
+  russes dans la campagne.
+- **Fichiers modifiés** : `index.html` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : comparaison avec l’édition du 8 août, contrôle de la date,
+  recherche web multi-source et `git diff --check`.
+- **Résultat** : audit du 9 août consigné ; aucune donnée politique nouvelle à
+  publier, date éditoriale actualisée.
