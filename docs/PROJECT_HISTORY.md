@@ -178,3 +178,23 @@ changé et pourquoi.
   recherche web multi-source et `git diff --check`.
 - **Résultat** : audit du 9 août consigné ; aucune donnée politique nouvelle à
   publier, date éditoriale actualisée.
+
+## 2026-08-10 21:43 CEST — audit éditorial quotidien
+
+- **Environnement** : local.
+- **Demande** : effectuer la mise à jour quotidienne de Décrypter 2027.
+- **Travail effectué** : recherche des faits publiés depuis l’édition du 9 août
+  concernant les candidatures, les programmes, les meetings, les alliances,
+  les décisions judiciaires et les sondages. Aucun changement politique nouveau
+  et suffisamment établi n’a été retenu. La date éditoriale générale passe au
+  10 août 2026 ; les fiches, sondages, scénarios et événements restent
+  inchangés.
+- **Sources consultées** : Commission des sondages, rubrique « 2027 -
+  Présidentielle » ; LCP, recensement des candidats ; Le Monde, analyse du
+  10 août 2026 sur le thème de l’expérience ; Le Parisien, annonce du 10 juillet
+  concernant Ségolène Royal et la primaire socialiste.
+- **Fichiers modifiés** : `index.html` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : comparaison avec l’édition du 9 août, contrôle de la date,
+  recherche web multi-source et `git diff --check`.
+- **Résultat** : audit du 10 août consigné ; aucune donnée politique nouvelle à
+  publier, date éditoriale actualisée.
