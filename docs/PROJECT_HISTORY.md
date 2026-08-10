@@ -198,3 +198,39 @@ changé et pourquoi.
   recherche web multi-source et `git diff --check`.
 - **Résultat** : audit du 10 août consigné ; aucune donnée politique nouvelle à
   publier, date éditoriale actualisée.
+
+## 2026-08-10 21:55 CEST — réflexion sur la feuille de route
+
+- **Environnement** : local.
+- **Demande** : proposer des améliorations utiles pour Décrypter 2027.
+- **Travail effectué** : analyse de l’architecture et définition de priorités :
+  données éditoriales séparées du rendu, traçabilité par affirmation, état de
+  fraîcheur des fiches, panorama plus complet des candidatures, historique des
+  sondages, contrôles automatisés et publication simplifiée.
+- **Sources consultées** : aucune ; analyse interne du produit et du dépôt.
+- **Fichiers modifiés** : `docs/PROJECT_HISTORY.md` uniquement, pour consigner
+  la session conformément aux règles du projet.
+- **Vérifications** : cohérence avec `AGENTS.md`, la charte éditoriale et
+  l’architecture statique sans dépendance.
+- **Résultat** : recommandations formulées ; aucune amélioration fonctionnelle
+  implémentée et aucun commit créé.
+
+## 2026-08-10 22:05 CEST — lot 1, séparation des données
+
+- **Environnement** : local.
+- **Demande** : commencer la feuille de route par la séparation des données
+  éditoriales et du code d’affichage.
+- **Travail effectué** : extraction des candidats, sondages, événements et
+  sources générales dans quatre fichiers sous `data/`. Adaptation de `app.js`
+  pour consommer ces données, rendu dynamique de la bibliographie et mise à
+  jour de la documentation d’architecture. Le chargement reste constitué de
+  scripts classiques afin de préserver l’ouverture directe de `index.html`.
+- **Sources consultées** : aucune nouvelle source politique ; refactorisation à
+  contenu éditorial constant.
+- **Fichiers modifiés** : `app.js`, `index.html`, `README.md`, `AGENTS.md`,
+  `docs/PROJECT_HISTORY.md`, `data/candidates.js`, `data/polls.js`,
+  `data/events.js` et `data/sources.js`.
+- **Vérifications** : `node --check` sur les cinq scripts, `git diff --check`,
+  rendu ordinateur et mobile, test via serveur HTTP et ouverture directe. Le
+  DOM final contient 10 candidats, 7 sondages, 7 événements et 4 sources.
+- **Résultat** : lot 1 terminé et prêt à valider ; aucun commit créé.

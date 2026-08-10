@@ -126,12 +126,7 @@
 
       <section class="section sources">
         <div><p class="eyebrow">06 — Transparence</p><h2>Sources et limites</h2></div>
-        <div class="source-grid">
-          <a href="https://www.info.gouv.fr/actualite/presidentielle-2027-date-a-retenir-et-informations-cles" target="_blank" rel="noreferrer"><span>Cadre officiel</span><strong>Gouvernement français</strong><small>Calendrier, règles et parrainages ↗</small></a>
-          <a href="https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-deja-en-lice-et-des-pretendants-436373" target="_blank" rel="noreferrer"><span>Candidatures</span><strong>LCP — Assemblée nationale</strong><small>Recensement mis à jour ↗</small></a>
-          <a href="https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html" target="_blank" rel="noreferrer"><span>Rapports de force</span><strong>Le Monde — Les Décodeurs</strong><small>État des familles politiques ↗</small></a>
-          <a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-06/presidentielle-2027-intention-vote-mai26-rapport-complet-web.pdf" target="_blank" rel="noreferrer"><span>Opinion</span><strong>Ipsos bva</strong><small>Rapport complet et méthodologie ↗</small></a>
-        </div>
+        <div class="source-grid" id="source-grid"></div>
         <p class="method-note">Les programmes définitifs n’existent pas encore pour la plupart des candidats. Ce site distingue les propositions présidentielles, les orientations de campagne et les positions antérieures. Il ne donne aucune consigne de vote.</p>
       </section>
     </main>
@@ -141,6 +136,10 @@
     <dialog id="candidate-modal"><button class="close-modal" aria-label="Fermer">×</button><div id="modal-content"></div></dialog>
     <dialog id="method-modal"><button class="close-modal" aria-label="Fermer">×</button><p class="eyebrow">Notre méthode</p><h2>Informer sans prédire</h2><div class="method-list"><p><b>1. Dater</b><span>Chaque photographie politique porte une date précise.</span></p><p><b>2. Qualifier</b><span>Déclaré, pressenti ou conditionnel ne veulent pas dire candidat officiel.</span></p><p><b>3. Sourcer</b><span>Priorité aux documents officiels, puis aux médias de référence.</span></p><p><b>4. Comparer</b><span>Une promesse publiée n’est pas mise au même niveau qu’une orientation générale.</span></p><p><b>5. Corriger</b><span>Le contenu est appelé à évoluer jusqu’au scrutin.</span></p></div></dialog>
 
+    <script src="data/candidates.js"></script>
+    <script src="data/polls.js"></script>
+    <script src="data/events.js"></script>
+    <script src="data/sources.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

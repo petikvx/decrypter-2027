@@ -17,7 +17,8 @@ Avant une modification importante, lire :
 
 - `index.html` : structure et contenus éditoriaux fixes ;
 - `styles.css` : identité visuelle et responsive design ;
-- `app.js` : candidats, sondages, thèmes, chronologie et interactions ;
+- `data/` : candidats, sondages, chronologie et sources éditoriales ;
+- `app.js` : rendu des données et interactions ;
 - `.devcontainer/` : environnement GitHub Codespaces et installation Codex.
 
 Le site est volontairement statique et sans dépendance applicative. Ne pas
@@ -46,7 +47,8 @@ l’utilisateur.
 
 - Préserver l’accessibilité, le fonctionnement mobile et l’identité visuelle
   éditoriale existante.
-- Centraliser les nouvelles données interactives dans `app.js`.
+- Centraliser les nouvelles données éditoriales dans le fichier adapté de
+  `data/` et conserver la logique de rendu dans `app.js`.
 - Ne jamais ajouter de secret, clé API ou fichier `~/.codex` au dépôt.
 - Après une modification JavaScript, exécuter `node --check app.js`.
 - Après une modification du devcontainer, exécuter

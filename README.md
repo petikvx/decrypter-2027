@@ -194,4 +194,14 @@ sauf pour corriger une erreur factuelle explicitement signalée.
 
 ## Mise à jour éditoriale
 
-Les candidats, comparaisons, sondages et événements sont centralisés dans `app.js`. Toute donnée politique doit être datée et reliée à une source. Les statuts « déclaré », « pressenti » et « conditionnel » ne remplacent pas la liste officielle du Conseil constitutionnel.
+Les données éditoriales sont séparées par fonction :
+
+- `data/candidates.js` : fiches et positions comparées ;
+- `data/polls.js` : photographie des intentions de vote ;
+- `data/events.js` : chronologie ;
+- `data/sources.js` : bibliographie générale.
+
+`app.js` se limite au rendu et aux interactions. Toute donnée politique doit
+être datée et reliée à une source. Les statuts « déclaré », « pressenti » et
+« conditionnel » ne remplacent pas la liste officielle du Conseil
+constitutionnel.
