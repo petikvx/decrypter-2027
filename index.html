@@ -68,6 +68,16 @@
             <article class="analysis-card accent-gold"><span>La grande inconnue</span><h3>La décision des électeurs tardifs</h3><p>Participation, vote utile et événements de campagne pèseront davantage que les petites variations estivales.</p></article>
           </div>
         </div>
+        <article class="poll-history-card" aria-labelledby="poll-history-title">
+          <div class="poll-history-heading">
+            <div><p class="eyebrow">Série comparable · cinq vagues</p><h3 id="poll-history-title">Ce qui bouge — et ce qui résiste</h3></div>
+            <p>Une seule configuration suivie dans le temps, pour ne pas mélanger des hypothèses incompatibles.</p>
+          </div>
+          <div class="poll-history-legend" id="poll-history-legend"></div>
+          <div class="poll-history-chart" id="poll-history-chart"></div>
+          <p class="fine-print" id="poll-history-note"></p>
+          <details class="poll-history-data"><summary>Consulter les chiffres et les échantillons</summary><div id="poll-history-table"></div></details>
+        </article>
       </section>
 
       <section class="section candidates" id="candidats">
@@ -82,11 +92,12 @@
           <button data-filter="right">Droite</button>
           <button data-filter="far-right">Extrême droite</button>
         </div>
+        <div class="freshness-overview" id="freshness-overview" aria-live="polite"></div>
         <div class="candidate-grid" id="candidate-grid"></div>
-        <div class="more-candidates">
-          <strong>Et aussi dans le paysage</strong>
-          <p>Nathalie Arthaud, Fabien Roussel, Delphine Batho, Jérôme Guedj, Karim Bouamrane, Bernard Cazeneuve, Ségolène Royal, Dominique de Villepin, David Lisnard, Xavier Bertrand, Nicolas Dupont-Aignan, François Asselineau, Florian Philippot et d’autres candidatures conditionnelles ou plus confidentielles.</p>
-        </div>
+        <section class="candidate-landscape" aria-labelledby="landscape-title">
+          <div class="landscape-heading"><div><p class="eyebrow">Panorama élargi</p><h3 id="landscape-title">Au-delà des dix fiches détaillées</h3></div><p>Déclaration, primaire, hypothèse et retrait sont séparés. Aucun de ces statuts ne vaut validation par le Conseil constitutionnel.</p></div>
+          <div class="landscape-grid" id="candidate-landscape"></div>
+        </section>
       </section>
 
       <section class="section compare" id="comparateur">

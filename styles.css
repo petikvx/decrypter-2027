@@ -67,9 +67,39 @@ h1 em { color: var(--red); font-weight: 500; }
 .analysis-card span { font-size: 9px; text-transform: uppercase; letter-spacing: .1em; font-weight: 700; }
 .analysis-card h3 { margin: 10px 0; font-size: 23px; }
 .analysis-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.poll-history-card { margin-top: 22px; padding: 34px; background: var(--paper); }
+.poll-history-heading { display: grid; grid-template-columns: 1fr 360px; gap: 35px; align-items: end; }
+.poll-history-heading .eyebrow { margin-bottom: 8px; }
+.poll-history-heading h3 { margin: 0; font-size: 34px; }
+.poll-history-heading > p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.poll-history-legend { display: flex; gap: 18px; margin: 28px 0 5px; flex-wrap: wrap; }
+.poll-history-legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 9px; text-transform: uppercase; letter-spacing: .05em; }
+.poll-history-legend i { width: 18px; height: 3px; }
+.poll-history-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.history-grid line { stroke: var(--line); stroke-width: 1; }
+.history-grid text { fill: var(--muted); font: 10px "DM Sans", sans-serif; }
+.history-series polyline { fill: none; stroke: var(--series-color); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.history-series circle { fill: var(--paper); stroke: var(--series-color); stroke-width: 3; }
+.history-series circle:focus { outline: none; stroke-width: 6; }
+.poll-history-card > .fine-print a { font-weight: 700; }
+.poll-history-data { margin-top: 18px; border-top: 1px solid var(--line); }
+.poll-history-data summary { padding: 15px 0 0; cursor: pointer; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.poll-history-data > div { margin-top: 14px; overflow-x: auto; }
+.poll-history-data table { width: 100%; border-collapse: collapse; font-size: 10px; white-space: nowrap; }
+.poll-history-data th, .poll-history-data td { padding: 9px; border: 1px solid var(--line); text-align: right; }
+.poll-history-data th:first-child { text-align: left; }
 .filters { display: flex; gap: 8px; margin-bottom: 26px; flex-wrap: wrap; }
 .filters button { border: 1px solid var(--line); padding: 9px 14px; background: transparent; border-radius: 99px; font-size: 11px; }
 .filters button.active, .filters button:hover { color: white; background: var(--green); }
+.freshness-overview { display: flex; justify-content: space-between; gap: 25px; margin-bottom: 24px; padding: 16px 18px; border: 1px solid var(--line); background: rgba(255,255,255,.3); }
+.freshness-overview > p { display: grid; gap: 3px; margin: 0; font-size: 11px; }
+.freshness-overview > p span { color: var(--muted); font-size: 10px; }
+.freshness-overview > div { display: flex; align-items: center; gap: 18px; }
+.freshness-count { display: inline-flex; align-items: center; gap: 5px; font-size: 9px; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
+.freshness-count i, .freshness-badge i { width: 7px; height: 7px; flex: 0 0 auto; border-radius: 50%; background: currentColor; }
+.freshness-recent { color: #28704f; }
+.freshness-watch { color: #95680f; }
+.freshness-review { color: #b44c3b; }
 .candidate-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .candidate-card { min-height: 315px; display: flex; flex-direction: column; padding: 24px; background: transparent; border: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; transition: background .2s, transform .2s; }
 .candidate-card:hover { background: white; transform: translateY(-4px); }
@@ -80,11 +110,35 @@ h1 em { color: var(--red); font-weight: 500; }
 .candidate-initials { width: 70px; height: 70px; display: grid; place-items: center; margin: 35px 0 28px; border-radius: 50%; color: white; font-family: "Newsreader"; font-size: 27px; }
 .candidate-card h3 { margin: auto 0 3px; font-size: 26px; }
 .candidate-card > small { color: var(--muted); }
+.freshness-badge { width: fit-content; display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; padding: 5px 7px; border-radius: 2px; background: rgba(255,255,255,.65); font-size: 8px; font-weight: 700; line-height: 1; letter-spacing: .04em; text-transform: uppercase; }
+.freshness-badge time { font: inherit; }
 .candidate-meta { margin-top: 18px; display: flex; justify-content: space-between; align-items: end; }
 .candidate-meta span { max-width: 145px; font-size: 10px; line-height: 1.35; }
 .candidate-meta b { font-size: 18px; }
-.more-candidates { margin-top: 30px; padding: 22px 25px; border-left: 4px solid var(--lime); background: #e9e4d9; display: grid; grid-template-columns: 180px 1fr; gap: 25px; }
-.more-candidates p { margin: 0; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.candidate-landscape { margin-top: 45px; padding-top: 35px; border-top: 1px solid var(--ink); }
+.landscape-heading { display: grid; grid-template-columns: 1fr 420px; gap: 35px; align-items: end; margin-bottom: 25px; }
+.landscape-heading .eyebrow { margin-bottom: 8px; }
+.landscape-heading h3 { margin: 0; font-size: 35px; }
+.landscape-heading > p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.landscape-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.landscape-group { padding: 22px; border: 1px solid var(--line); background: rgba(255,255,255,.26); }
+.landscape-group > header { display: flex; gap: 13px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.landscape-group > header > span { width: 34px; height: 34px; display: grid; flex: 0 0 auto; place-items: center; border-radius: 50%; color: white; background: var(--green); font-family: "Newsreader"; font-size: 18px; }
+.landscape-conditional > header > span { color: var(--ink); background: var(--gold); }
+.landscape-possible > header > span { background: var(--blue); }
+.landscape-withdrawn > header > span { background: var(--muted); }
+.landscape-group h4 { margin: 0; font-family: "Newsreader"; font-size: 22px; }
+.landscape-group header p { margin: 3px 0 0; color: var(--muted); font-size: 9px; line-height: 1.4; }
+.landscape-group ul { margin: 0; padding: 0; list-style: none; }
+.landscape-group li { display: grid; grid-template-columns: minmax(130px, .7fr) 1fr; gap: 8px 18px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.landscape-group li:last-child { padding-bottom: 0; border-bottom: 0; }
+.landscape-group li > div:first-child { display: grid; align-content: start; gap: 2px; }
+.landscape-group li strong { font-family: "Newsreader"; font-size: 17px; }
+.landscape-group li > div:first-child span, .landscape-group li > p { color: var(--muted); font-size: 9px; line-height: 1.45; }
+.landscape-group li > p { margin: 0; }
+.landscape-meta { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; }
+.landscape-meta .freshness-badge { margin: 0; }
+.landscape-meta > a { font-size: 9px; font-weight: 700; text-transform: uppercase; text-underline-offset: 3px; }
 .compare { color: var(--paper); background: var(--green); }
 .section-heading.light > p { color: rgba(255,255,255,.62); }
 .topic-tabs { display: flex; border-bottom: 1px solid rgba(255,255,255,.2); overflow-x: auto; }
@@ -123,17 +177,32 @@ h1 em { color: var(--red); font-weight: 500; }
 footer { padding: 36px 5vw; display: flex; align-items: center; justify-content: space-between; color: white; background: #0d2922; }
 footer p, footer a { font-size: 11px; }
 .inverse .brand-mark { color: var(--green); background: var(--lime); }
-dialog { width: min(680px, calc(100vw - 30px)); padding: 45px; color: var(--ink); background: var(--paper); border: 0; box-shadow: 0 30px 100px rgba(0,0,0,.35); }
+dialog { width: min(680px, calc(100vw - 30px)); max-height: calc(100vh - 30px); padding: 45px; overflow: auto; color: var(--ink); background: var(--paper); border: 0; box-shadow: 0 30px 100px rgba(0,0,0,.35); }
 dialog::backdrop { background: rgba(8,24,20,.72); backdrop-filter: blur(4px); }
 .close-modal { position: absolute; right: 20px; top: 15px; border: 0; background: none; font-size: 27px; }
 #modal-content h2, #method-modal h2 { margin: 6px 0 12px; font-size: 48px; }
 .modal-party { color: var(--muted); }
+.verification-panel { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 18px; padding: 13px 15px; border: 1px solid var(--line); }
+.verification-panel .freshness-badge { margin: 0; }
+.verification-panel > span { display: grid; gap: 2px; color: var(--muted); font-size: 10px; text-align: right; }
+.verification-panel > span b { color: var(--ink); font-size: 9px; letter-spacing: .07em; text-transform: uppercase; }
 .modal-summary { padding: 20px 0; font-family: "Newsreader"; font-size: 21px; line-height: 1.4; border-bottom: 1px solid var(--line); }
 .modal-positions { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 25px; }
 .modal-positions div { padding: 15px; background: #e9e4d9; }
 .modal-positions b { display: block; margin-bottom: 7px; font-size: 10px; text-transform: uppercase; }
 .modal-positions p { margin: 0; font-size: 12px; line-height: 1.45; }
-.modal-source { display: inline-block; margin-top: 22px; font-size: 11px; }
+.position-sources, .status-sources, .comparison-sources { display: block; margin-top: 9px; font-size: 9px; letter-spacing: .04em; text-transform: uppercase; }
+.position-sources a, .status-sources a, .comparison-sources a { font-weight: 700; text-underline-offset: 2px; }
+.status-sources { margin-top: -4px; color: var(--muted); }
+.comparison-sources { margin-top: auto; padding-top: 16px; color: var(--lime); }
+.modal-sources { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+.modal-sources h3 { margin: 0 0 12px; font-family: "Newsreader"; font-size: 22px; }
+.modal-sources ol { margin: 0; padding: 0; list-style: none; }
+.modal-sources li + li { border-top: 1px solid var(--line); }
+.modal-sources a { display: grid; grid-template-columns: minmax(150px, .7fr) 1fr; gap: 14px; padding: 11px 0; text-decoration: none; }
+.modal-sources a:hover b { text-decoration: underline; text-underline-offset: 3px; }
+.modal-sources b { font-size: 11px; }
+.modal-sources span { color: var(--muted); font-size: 10px; line-height: 1.45; }
 .method-list p { display: grid; grid-template-columns: 120px 1fr; padding: 14px 0; margin: 0; border-top: 1px solid var(--line); font-size: 13px; }
 @media (max-width: 980px) {
   nav { display: none; }
@@ -154,8 +223,16 @@ dialog::backdrop { background: rgba(8,24,20,.72); backdrop-filter: blur(4px); }
   .hero-actions { align-items: flex-start; flex-direction: column; }
   .section { padding: 70px 5vw; }
   .section-heading { grid-template-columns: 1fr; margin-bottom: 35px; }
+  .poll-history-card { padding: 22px 14px; }
+  .poll-history-heading, .landscape-heading { grid-template-columns: 1fr; gap: 15px; }
+  .poll-history-legend { gap: 10px 15px; }
+  .poll-history-chart { overflow-x: auto; }
+  .poll-history-chart svg { width: 720px; max-width: none; }
+  .freshness-overview { align-items: flex-start; flex-direction: column; }
+  .freshness-overview > div { align-items: flex-start; flex-direction: column; gap: 9px; }
   .candidate-grid, .scenario-grid, .source-grid { grid-template-columns: 1fr; }
-  .more-candidates { grid-template-columns: 1fr; gap: 8px; }
+  .landscape-grid { grid-template-columns: 1fr; }
+  .landscape-group li { grid-template-columns: 1fr; }
   .poll-card { padding: 22px; }
   .poll-row { grid-template-columns: 92px 1fr 55px; gap: 8px; }
   .compare-controls { align-items: stretch; flex-direction: column; }
@@ -167,4 +244,7 @@ dialog::backdrop { background: rgba(8,24,20,.72); backdrop-filter: blur(4px); }
   .timeline-tag { justify-self: start; }
   footer { align-items: flex-start; gap: 25px; flex-direction: column; }
   .modal-positions { grid-template-columns: 1fr; }
+  .verification-panel { align-items: flex-start; flex-direction: column; }
+  .verification-panel > span { text-align: left; }
+  .modal-sources a { grid-template-columns: 1fr; gap: 4px; }
 }

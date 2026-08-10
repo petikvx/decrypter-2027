@@ -148,7 +148,9 @@ sélectionner que ceux de la mise à jour :
 
 ```bash
 git status --short
-git add app.js index.html styles.css docs/PROJECT_HISTORY.md
+git add app.js index.html styles.css data/candidates.js data/polls.js \
+  data/events.js data/sources.js docs/EDITORIAL_POLICY.md \
+  docs/PROJECT_HISTORY.md README.md
 git diff --cached --check
 git diff --cached
 git commit -m "Mettre à jour l’analyse du AAAA-MM-JJ"
@@ -196,12 +198,48 @@ sauf pour corriger une erreur factuelle explicitement signalée.
 
 Les données éditoriales sont séparées par fonction :
 
-- `data/candidates.js` : fiches et positions comparées ;
-- `data/polls.js` : photographie des intentions de vote ;
+- `data/candidates.js` : dix fiches détaillées et panorama complémentaire des
+  candidatures, hypothèses et retraits ;
+- `data/polls.js` : photographie des intentions de vote et série historique
+  comparable ;
 - `data/events.js` : chronologie ;
-- `data/sources.js` : bibliographie générale.
+- `data/sources.js` : registre central des sources, avec éditeur, type et dates
+  de publication et de vérification.
 
 `app.js` se limite au rendu et aux interactions. Toute donnée politique doit
-être datée et reliée à une source. Les statuts « déclaré », « pressenti » et
-« conditionnel » ne remplacent pas la liste officielle du Conseil
-constitutionnel.
+être datée et reliée à un identifiant de ce registre. Dans
+`data/candidates.js`, `statusSourceIds` documente le statut de candidature,
+`positionSourceIds` relie chaque thème à ses références et `maturityLevel`
+reprend l'échelle de 1 à 6 de la charte éditoriale. Les statuts « déclaré »,
+« pressenti » et « conditionnel » ne remplacent pas la liste officielle du
+Conseil constitutionnel.
+
+### Fraîcheur des fiches
+
+Chaque profil possède une date `verifiedAt`. Le site calcule automatiquement
+un indicateur à partir de cette date :
+
+- **vérifié récemment** : contrôle effectué depuis 7 jours au maximum ;
+- **à surveiller** : dernier contrôle effectué depuis 8 à 30 jours ;
+- **à revérifier** : plus de 30 jours depuis le dernier contrôle.
+
+Cet indicateur mesure l'ancienneté du contrôle documentaire, pas la fiabilité
+absolue ni la validité garantie d'une affirmation. Ne modifier `verifiedAt`
+qu'après avoir réellement rouvert les sources du profil et vérifié son statut,
+sa maturité programmatique et ses six thèmes. Les références disposent aussi
+d'une date `verifiedAt`, affichée dans la bibliographie de chaque fiche.
+
+### Panorama et historique des sondages
+
+Le tableau `otherCandidates` complète les dix fiches principales. Ces profils
+ne sont pas injectés dans le comparateur tant que leurs six thèmes ne sont pas
+suffisamment documentés. Les groupes `declared`, `conditional`, `possible` et
+`withdrawn` doivent rester distincts ; une personnalité retirée n'est jamais
+laissée dans une catégorie active.
+
+La série `pollHistory` ne rassemble que des vagues que l'institut source publie
+dans une même configuration de premier tour. Chaque vague conserve ses dates de
+terrain et la taille de son échantillon. Pour ajouter une mesure, vérifier que
+la question, la personnalité testée pour chaque famille politique et le périmètre
+des répondants sont comparables. Dans le doute, créer une autre série plutôt que
+prolonger artificiellement la courbe existante.

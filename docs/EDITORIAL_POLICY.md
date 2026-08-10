@@ -76,6 +76,13 @@ Règles de présentation :
   « n’a aucune chance » ;
 - dater visiblement toute photographie de l’opinion.
 
+Une courbe historique ne peut relier que des vagues explicitement comparables :
+même institut ou tableau de comparaison publié par l'institut, même hypothèse de
+candidatures, même question et même population de référence. Afficher les dates
+de terrain, les tailles d'échantillon, le rapport source et les valeurs sous
+forme de tableau accessible. Ne pas lisser la courbe ni combler une vague
+absente par interpolation.
+
 ## 6. Analyse et scénarios
 
 Une analyse doit être identifiable comme telle et reposer sur des faits exposés.
@@ -116,6 +123,13 @@ une source et une formulation sobre.
   structurantes dans `docs/PROJECT_HISTORY.md` et dans Git ;
 - corriger rapidement les erreurs factuelles ;
 - expliquer une correction importante dans l’historique du projet.
+
+L'indicateur de fraîcheur des fiches repose exclusivement sur la date de leur
+dernier contrôle documentaire : « vérifié récemment » jusqu'à 7 jours,
+« à surveiller » de 8 à 30 jours et « à revérifier » au-delà. Il ne constitue
+pas une certification du contenu. Ne jamais avancer une date de vérification
+sans avoir contrôlé le statut, le niveau de maturité, les six thèmes et leurs
+sources associées.
 
 ## 10. Financement et faisabilité
 

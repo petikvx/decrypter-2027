@@ -234,3 +234,100 @@ changé et pourquoi.
   rendu ordinateur et mobile, test via serveur HTTP et ouverture directe. Le
   DOM final contient 10 candidats, 7 sondages, 7 événements et 4 sources.
 - **Résultat** : lot 1 terminé et prêt à valider ; aucun commit créé.
+
+## 2026-08-10 22:18 CEST — lot 2, traçabilité des affirmations
+
+- **Environnement** : local.
+- **Demande** : réaliser le deuxième lot de la feuille de route, consacré à la
+  traçabilité des statuts et des positions programmatiques.
+- **Travail effectué** : transformation de `data/sources.js` en registre
+  central de 26 références avec identifiant, éditeur, type, date de publication
+  lorsqu'elle est disponible et date de vérification. Ajout, pour les dix
+  profils, d'un niveau de maturité conforme à la charte, d'une date de
+  vérification, de références de statut et de références pour chacun des six
+  thèmes. Les liens numérotés sont affichés dans les fiches et le comparateur ;
+  chaque fiche présente une bibliographie détaillée. Les formulations
+  politiques existantes n'ont pas été réécrites au cours de ce lot.
+- **Sources consultées** : sites et documents officiels du Rassemblement
+  national, de Jean-Luc Mélenchon et de La France insoumise, de Gabriel Attal,
+  d'Horizons, des Républicains, de Place publique, de François Ruffin, des
+  Écologistes et de Reconquête ; Gouvernement français ; rapport Ipsos bva ;
+  recensements de LCP et du Monde.
+- **Fichiers modifiés** : `app.js`, `styles.css`, `README.md`,
+  `data/candidates.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts modifiés,
+  `git diff --check`, contrôle automatisé de l'unicité des 26 identifiants et
+  des 60 relations thème-source, rendu HTTP sans erreur JavaScript, présence
+  des 10 fiches et des références dans le comparateur, contrôles visuels
+  ordinateur et mobile.
+- **Résultat** : lot 2 terminé et prêt à valider ; aucun commit créé.
+
+## 2026-08-10 22:28 CEST — lot 3, indicateurs de fraîcheur
+
+- **Environnement** : local.
+- **Demande** : réaliser le troisième lot de la feuille de route, consacré à la
+  visibilité de la fraîcheur des fiches.
+- **Travail effectué** : ajout d'un calcul automatique fondé sur `verifiedAt`
+  avec trois états symétriques : « vérifié récemment » jusqu'à 7 jours, « à
+  surveiller » de 8 à 30 jours et « à revérifier » au-delà. Ajout d'une synthèse
+  des dix profils, d'un badge daté sur chaque carte et dans le comparateur,
+  ainsi que d'un panneau détaillé dans les fiches avec le niveau de maturité.
+  La date de contrôle de chaque référence apparaît désormais dans la
+  bibliographie. Les seuils et leur portée sont documentés.
+- **Sources consultées** : aucune nouvelle source politique ; utilisation des
+  dates de vérification et du registre de sources constitués lors du lot 2.
+- **Fichiers modifiés** : `app.js`, `index.html`, `styles.css`, `README.md`,
+  `docs/EDITORIAL_POLICY.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts, validation des dates des
+  10 profils et des 26 sources, `git diff --check`, rendu HTTP sans erreur
+  JavaScript, contrôle des 10 badges de fiche et des deux badges du comparateur,
+  contrôles visuels ordinateur et mobile.
+- **Résultat** : lot 3 terminé et prêt à valider ; aucun commit créé.
+
+## 2026-08-10 23:24 CEST — lot 4, panorama élargi des candidatures
+
+- **Environnement** : local.
+- **Demande** : réaliser le quatrième lot de la feuille de route en élargissant
+  le panorama au-delà des dix fiches programmatiques.
+- **Travail effectué** : remplacement de la liste de noms statique par 28
+  profils structurés et datés : 16 candidatures déclarées, 4 candidatures sous
+  condition, 6 personnalités pressenties et 2 retraits conservés comme tels.
+  Chaque ligne précise le parti, la nature du statut, la date de vérification et
+  un accès à la source. Les profils complémentaires ne sont pas ajoutés au
+  comparateur tant que leurs six thèmes ne sont pas documentés.
+- **Sources consultées** : LCP, recensement mis à jour le 10 juillet 2026 ; Le
+  Monde, panorama mis à jour le 27 juillet 2026 ; PCF, préparation d'une
+  candidature soumise au vote militant ; LCP et site de campagne de Bernard
+  Cazeneuve ; sites de campagne et communiqués d'Anasse Kazib et Selma Labib ;
+  articles de référence sur la primaire socialiste.
+- **Fichiers modifiés** : `data/candidates.js`, `app.js`, `index.html`,
+  `styles.css`, `README.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : validation JavaScript, contrôle des quatre groupes et des
+  28 références de profil, rendu ordinateur et mobile, ouverture directe de
+  `index.html`, contrôle HTTP et `git diff --check`.
+- **Résultat** : lot 4 terminé ; panorama plus complet sans assimiler les
+  déclarations à la liste officielle du Conseil constitutionnel.
+
+## 2026-08-10 23:24 CEST — lot 5, historique comparable des sondages
+
+- **Environnement** : local.
+- **Demande** : réaliser le cinquième lot de la feuille de route en ajoutant une
+  lecture historique des intentions de vote.
+- **Travail effectué** : ajout de cinq vagues Ifop, de septembre 2025 à juillet
+  2026, limitées à une même hypothèse de premier tour avec Édouard Philippe et
+  Marine Le Pen. Six séries sont affichées sans lissage dans un graphique SVG,
+  complété par les valeurs exactes, les dates de terrain et les tailles
+  d'échantillon dans un tableau accessible. La méthodologie interdit désormais
+  de relier des configurations incompatibles.
+- **Sources consultées** : rapport Ifop de juillet 2026 « Les intentions de vote
+  à l'élection présidentielle 2027 et l'opinion des Français après la
+  déclaration de candidature de Marine Le Pen », comprenant le tableau
+  comparatif des cinq vagues et leurs notices méthodologiques.
+- **Fichiers modifiés** : `data/polls.js`, `data/sources.js`, `app.js`,
+  `index.html`, `styles.css`, `README.md`, `docs/EDITORIAL_POLICY.md` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : validation JavaScript, contrôle de 5 vagues, 6 séries et
+  30 points, source présente dans le registre, graphique doté d'un titre et
+  d'une description, tableau accessible, rendu ordinateur et mobile, ouverture
+  directe et HTTP, `git diff --check`.
+- **Résultat** : lot 5 terminé ; historique prêt à publier avec les lots 2 à 4.
