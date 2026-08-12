@@ -331,3 +331,26 @@ changé et pourquoi.
   d'une description, tableau accessible, rendu ordinateur et mobile, ouverture
   directe et HTTP, `git diff --check`.
 - **Résultat** : lot 5 terminé ; historique prêt à publier avec les lots 2 à 4.
+
+## 2026-08-12 21:51 CEST — veille quotidienne sans changement politique
+
+- **Environnement** : local.
+- **Demande** : effectuer la mise à jour quotidienne des actualités de la
+  présidentielle française de 2027.
+- **Travail effectué** : audit des informations publiées depuis l'édition du
+  10 août sur les candidatures, programmes, alliances, faits de campagne,
+  procédures judiciaires et sondages. Aucun élément nouveau suffisamment
+  établi ne justifie de modifier les fiches, la chronologie ou les données de
+  sondage. La date de l'édition a été portée au 12 août 2026. Les dates de
+  vérification détaillées des profils et des sources restent au 10 août, cet
+  audit transversal ne constituant pas une nouvelle vérification intégrale de
+  chacune des fiches.
+- **Sources consultées** : Commission des sondages, rubrique « 2027 -
+  Présidentielle » ; pages présidentielles d'Ipsos bva, de l'Ifop et d'Elabe ;
+  panorama des candidatures de LCP et du Monde ; actualités des candidats et
+  formations politiques, dont le site de campagne de Gabriel Attal.
+- **Fichiers modifiés** : `index.html` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : contrôle des publications datées des 11 et 12 août,
+  validation JavaScript du site et `git diff --check`.
+- **Résultat** : édition du 12 août prête à valider ; aucun changement
+  politique ni nouveau sondage présidentiel retenu ; aucun commit créé.
