@@ -420,3 +420,18 @@ changé et pourquoi.
 - **Vérifications** : `node --check` sur les scripts, contrôle d’unicité des
   32 identifiants de sources et des relations thème-source, `git diff --check`.
 - **Résultat** : édition du 15 août prête à valider ; aucun commit créé.
+
+## 2026-08-15 12:19 CEST — favicon au drapeau français
+
+- **Environnement** : local.
+- **Demande** : ajouter un favicon, par exemple un drapeau français.
+- **Travail effectué** : ajout d’un tricolore (bleu officiel `#002395`, blanc,
+  rouge `#ED2939`) en SVG, ICO 16/32 px et icône Apple 180 px, puis liaison
+  dans `index.html`.
+- **Sources consultées** : aucune source politique ; couleurs du drapeau
+  utilisées par les institutions.
+- **Fichiers modifiés** : `favicon.svg`, `favicon.ico`,
+  `apple-touch-icon.png`, `index.html` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : contrôle visuel du PNG généré et des balises
+  `rel="icon"` dans l’en-tête.
+- **Résultat** : prêt à valider ; aucun commit créé.
