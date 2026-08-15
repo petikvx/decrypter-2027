@@ -19,7 +19,8 @@ Avant une modification importante, lire :
 - `styles.css` : identité visuelle et responsive design ;
 - `data/` : candidats, sondages, chronologie et sources éditoriales ;
 - `app.js` : rendu des données et interactions ;
-- `.devcontainer/` : environnement GitHub Codespaces et installation Codex.
+- `.devcontainer/` : environnement GitHub Codespaces et installation de Codex
+  ou de Grok Build.
 
 Le site est volontairement statique et sans dépendance applicative. Ne pas
 introduire de framework ou de compilation sans besoin démontré et accord de
@@ -49,11 +50,12 @@ l’utilisateur.
   éditoriale existante.
 - Centraliser les nouvelles données éditoriales dans le fichier adapté de
   `data/` et conserver la logique de rendu dans `app.js`.
-- Ne jamais ajouter de secret, clé API ou fichier `~/.codex` au dépôt.
+- Ne jamais ajouter de secret, clé API ou fichier `~/.codex` / `~/.grok` au dépôt.
 - Après une modification JavaScript, exécuter `node --check app.js`.
 - Après une modification du devcontainer, exécuter
-  `jq empty .devcontainer/devcontainer.json` et
-  `bash -n .devcontainer/setup-codex.sh`.
+  `jq empty .devcontainer/devcontainer.json`,
+  `bash -n .devcontainer/setup-codex.sh` et
+  `bash -n .devcontainer/setup-grok.sh`.
 - Pour une modification visuelle importante, lancer
   `python3 -m http.server 8000` et vérifier au moins un affichage ordinateur et
   un affichage mobile.

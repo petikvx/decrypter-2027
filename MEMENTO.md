@@ -1,5 +1,17 @@
 # Mémento Codespaces et Codex
 
+## Installer Codex ou Grok Build
+
+Dans un Codespace ou sur Linux, si l’outil n’est pas encore prêt :
+
+```bash
+.devcontainer/setup-codex.sh
+.devcontainer/setup-grok.sh
+```
+
+Ajouter `--install-only` pour installer sans lancer la connexion. Grok Build
+se connecte par défaut avec un code d’appareil ; `--oauth` ouvre le navigateur.
+
 ## Commencer une session
 
 Dans le terminal du Codespace :

@@ -22,12 +22,14 @@ python3 -m http.server 8000 --bind 0.0.0.0
 
 Puis ouvrir <http://localhost:8000>.
 
-## GitHub Codespaces et Codex
+## GitHub Codespaces, Codex et Grok Build
 
 Le fichier `.devcontainer/devcontainer.json` utilise une image où Python 3.12
 est déjà prêt et rend le port 8000 disponible pour l’aperçu. La création du
-Codespace n’installe volontairement pas Codex : aucune opération réseau longue
-ne bloque ainsi l’ouverture du terminal.
+Codespace n’installe volontairement ni Codex ni Grok Build : aucune opération
+réseau longue ne bloque ainsi l’ouverture du terminal.
+
+### Codex
 
 Une fois le Codespace créé, installer Codex puis se connecter avec :
 
@@ -48,6 +50,28 @@ Le script utilise l’installateur autonome officiel OpenAI, puis la commande
 ```
 
 Ne jamais ajouter le fichier d’authentification `~/.codex/auth.json` au dépôt.
+
+### Grok Build
+
+Le script jumeau installe Grok Build via l’installateur officiel xAI, puis
+connecte le compte. La connexion se fait **par défaut** avec
+`grok login --device-auth`, adaptée aux Codespaces et aux sessions distantes :
+
+```bash
+# Installation et connexion par code d’appareil (défaut)
+.devcontainer/setup-grok.sh
+
+# Installation uniquement
+.devcontainer/setup-grok.sh --install-only
+
+# Connexion navigateur, uniquement en local si besoin
+.devcontainer/setup-grok.sh --oauth
+```
+
+S’il trouve déjà `grok` dans le `PATH`, dans `~/.grok/bin/grok`, une session
+enregistrée dans `~/.grok/auth.json` ou une clé `XAI_API_KEY`, il ne relance
+pas l’installation ni la connexion. Ne jamais ajouter le fichier
+`~/.grok/auth.json` au dépôt.
 
 ## Routine quotidienne avec Codespaces et Codex
 
