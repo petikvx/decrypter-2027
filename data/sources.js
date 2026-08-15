@@ -82,6 +82,36 @@ window.DECRYPTER_2027.sources = [
     url: "https://attalpresident.fr/programme/dette-de-letat"
   },
   {
+    id: "attal-institutions-2026", category: "Proposition", name: "Réforme institutionnelle",
+    publisher: "Gabriel Attal 2027", type: "official-campaign", publishedAt: "2026-08-02", verifiedAt: "2026-08-15",
+    description: "Entretien au JDD repris sur le site de campagne : réforme soumise aux Français",
+    url: "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+  },
+  {
+    id: "franceinfo-ps-primary-2026", category: "Candidatures", name: "Primaire du Parti socialiste",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-04", verifiedAt: "2026-08-15",
+    description: "Dates envisagées, candidats et débat sur le coût de participation",
+    url: "https://www.franceinfo.fr/politique/ps/candidats-dates-cout-cinq-questions-sur-la-primaire-du-parti-socialiste-en-vue-de-la-presidentielle-de-2027_8133077.html"
+  },
+  {
+    id: "franceinfo-bayrou-primary-2026", category: "Alliances", name: "François Bayrou et la primaire du centre",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-10", verifiedAt: "2026-08-15",
+    description: "Appel à une primaire entre « tous ceux qui rejettent les extrêmes »",
+    url: "https://www.franceinfo.fr/politique/francois-bayrou/presidentielle-2027-francois-bayrou-veut-une-primaire-contre-les-extremes_8142209.html"
+  },
+  {
+    id: "liberation-hollande-affiches-2026", category: "Campagne", name: "Affichage des proches de François Hollande",
+    publisher: "Libération", type: "reference-media", publishedAt: "2026-08-12", verifiedAt: "2026-08-15",
+    description: "Campagne d'affichage pour les 72 ans de François Hollande, présentée comme non déclarative",
+    url: "https://www.liberation.fr/politique/elections/ce-nest-pas-un-lancement-de-campagne-pour-son-anniversaire-les-proches-de-francois-hollande-lui-offrent-une-campagne-daffichage-20260812_BC4FICZY2FHHFOYKPB6HUEZZHM/"
+  },
+  {
+    id: "tf1-ref-debate-2026", category: "Campagne", name: "Débat de la REF sur LCI",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-07-28", verifiedAt: "2026-08-15",
+    description: "Annonce du débat du 27 août 2026 organisé par le Medef et diffusé par LCI",
+    url: "https://www.tf1info.fr/politique/election-presidentielle-2027-lci-organisera-le-27-aout-un-grand-debat-avec-sept-candidats-declares-ou-pressentis-2455591.html"
+  },
+  {
     id: "horizons-campaign-2026", category: "Candidature", name: "Discours et campagne d'Édouard Philippe",
     publisher: "Horizons", type: "official-party", publishedAt: "2026-07-05", verifiedAt: "2026-08-10",
     description: "Actualités de campagne et discours officiels",

@@ -354,3 +354,69 @@ changé et pourquoi.
   validation JavaScript du site et `git diff --check`.
 - **Résultat** : édition du 12 août prête à valider ; aucun changement
   politique ni nouveau sondage présidentiel retenu ; aucun commit créé.
+
+## 2026-08-15 12:03 CEST — script d’installation Grok Build
+
+- **Environnement** : local.
+- **Demande** : créer un script d’installation rapide de Grok Build, sur le
+  modèle de `.devcontainer/setup-codex.sh`.
+- **Travail effectué** : ajout de `.devcontainer/setup-grok.sh`, qui installe
+  Grok Build via l’installateur officiel xAI, réutilise un binaire déjà
+  présent, saute la connexion si `~/.grok/auth.json` ou `XAI_API_KEY` existe,
+  puis lance `grok login --device-auth` dans un environnement distant.
+  Documentation mise à jour dans le README, le mémento, les consignes du
+  dépôt, le message d’ouverture du Codespace et le `.gitignore`.
+- **Sources consultées** : documentation officielle Grok Build
+  (`https://x.ai/cli/install.sh`, `https://docs.x.ai/build/overview`,
+  `https://x.ai/build`) et guide d’authentification local
+  (`~/.grok/docs/user-guide/02-authentication.md`).
+- **Fichiers modifiés** : `.devcontainer/setup-grok.sh`,
+  `.devcontainer/devcontainer.json`, `.gitignore`, `README.md`, `AGENTS.md`,
+  `MEMENTO.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `bash -n` sur les deux scripts d’installation,
+  `jq empty .devcontainer/devcontainer.json` et `git diff --check`.
+- **Résultat** : prêt à valider ; aucun commit créé.
+
+## 2026-08-15 12:05 CEST — connexion Grok par device-auth par défaut
+
+- **Environnement** : local.
+- **Demande** : faire de `grok login --device-auth` le mode de connexion par
+  défaut du script d’installation.
+- **Travail effectué** : le script `.devcontainer/setup-grok.sh` conserve
+  `--device-auth` comme défaut et accepte `--oauth` pour une connexion
+  navigateur locale. Documentation du README et du mémento alignée.
+- **Sources consultées** : `grok login --help` (`--device-auth`, alias
+  `--device-code` ; `--oauth` pour le navigateur).
+- **Fichiers modifiés** : `.devcontainer/setup-grok.sh`, `README.md`,
+  `MEMENTO.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `bash -n .devcontainer/setup-grok.sh` et
+  `git diff --check`.
+- **Résultat** : prêt à valider ; aucun commit créé.
+
+## 2026-08-15 12:09 CEST — mise à jour candidats et actualité
+
+- **Environnement** : local.
+- **Demande** : mettre à jour les candidatures et l’actualité depuis l’édition
+  du 12 août 2026.
+- **Travail effectué** : audit sourcé des candidatures, programmes, alliances,
+  faits de campagne, procédures judiciaires et sondages. Aucune nouvelle
+  déclaration majeure ni nouveau sondage d’intentions de vote comparable n’a
+  été retenu. Intégration des faits établis : réforme institutionnelle d’Attal
+  (2 août), appel de François Bayrou à une primaire du centre (10 août),
+  affichage des proches de François Hollande (12 août), débat de la REF
+  annoncé pour le 27 août, et précisions sur la primaire socialiste encore
+  non datée officiellement. L’édition passe au 15 août 2026. Les dates
+  `verifiedAt` des neuf autres fiches principales restent au 10 août : cet
+  audit n’a pas rouvert l’ensemble de leurs six thèmes.
+- **Sources consultées** : Commission des sondages (notices août 2026 :
+  YouGov/HuffPost et Cluster17/Le Point, baromètres et non IV de premier
+  tour) ; LCP, recensement des candidats (mise à jour 10 juillet) ; Le Monde,
+  12–13 août, tentation d’un candidat unique du bloc central ; franceinfo,
+  primaire PS (4 août) et appel de Bayrou (10 août) ; site de campagne
+  d’Attal et entretien JDD du 2 août ; Libération, Le Parisien et Sud Ouest,
+  affichage Hollande du 12 août ; TF1 Info, débat REF/LCI du 27 août.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts, contrôle d’unicité des
+  32 identifiants de sources et des relations thème-source, `git diff --check`.
+- **Résultat** : édition du 15 août prête à valider ; aucun commit créé.
