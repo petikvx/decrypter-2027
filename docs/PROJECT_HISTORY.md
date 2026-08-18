@@ -435,3 +435,35 @@ changé et pourquoi.
 - **Vérifications** : contrôle visuel du PNG généré et des balises
   `rel="icon"` dans l’en-tête.
 - **Résultat** : prêt à valider ; aucun commit créé.
+
+## 2026-08-18 21:50 CEST — mise à jour candidats et actualité
+
+- **Environnement** : Codespace / Grok Build.
+- **Demande** : mise à jour des données depuis l’édition du 15 août 2026.
+- **Travail effectué** : audit sourcé des candidatures, alliances, faits de
+  campagne et sondages. Intégration du fait établi du 17 août : Gérald
+  Darmanin annonce qu’il ne sera pas candidat et soutient Édouard Philippe ;
+  bascule de sa fiche panorama vers les retraits, ajout d’un événement de
+  chronologie et d’une source franceinfo. Aucun nouveau sondage d’intentions
+  de vote comparable retenu (notices d’août de la Commission des sondages :
+  baromètres YouGov/HuffPost et Cluster17/Le Point, non IV de premier tour).
+  Les tensions internes écologistes (critiques de Sandrine Rousseau envers
+  Marine Tondelier) et l’enquête du parquet de Paris sur des soupçons
+  d’ingérence visant Philippe et Attal sont notées en veille, sans
+  modification des fiches programmatiques. L’édition passe au 18 août 2026.
+  Les dates `verifiedAt` des dix fiches principales restent inchangées : cet
+  audit n’a pas rouvert l’ensemble de leurs six thèmes.
+- **Sources consultées** : Commission des sondages (thème « 2027 -
+  Présidentielle ») ; franceinfo (ralliement Darmanin–Philippe, 18 août) ;
+  La Voix du Nord / Les Échos / Libération (même annonce du 17 août) ;
+  LCP et panoramas de candidatures ; pages présidentielles Ipsos, Ifop et
+  Elabe.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts, unicité de 33
+  identifiants de sources et relations sourceIds, `git diff --check`,
+  serveur local HTTP et contrôle du contenu servi (édition, Darmanin en
+  retraits, événement du 17 août). Pas d’outil navigateur disponible pour un
+  parcours cliquable ; vérification par HTTP et simulation du regroupement
+  panorama.
+- **Résultat** : édition du 18 août prête à valider ; aucun commit créé.

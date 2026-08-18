@@ -112,6 +112,12 @@ window.DECRYPTER_2027.sources = [
     url: "https://www.tf1info.fr/politique/election-presidentielle-2027-lci-organisera-le-27-aout-un-grand-debat-avec-sept-candidats-declares-ou-pressentis-2455591.html"
   },
   {
+    id: "franceinfo-darmanin-philippe-2026", category: "Alliances", name: "Ralliement de Gérald Darmanin à Édouard Philippe",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-18", verifiedAt: "2026-08-18",
+    description: "Renoncement à candidature et soutien au candidat Horizons, annoncé le 17 août dans la presse régionale",
+    url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-gerald-darmanin-rallie-le-camp-edouard-philippe_8151761.html"
+  },
+  {
     id: "horizons-campaign-2026", category: "Candidature", name: "Discours et campagne d'Édouard Philippe",
     publisher: "Horizons", type: "official-party", publishedAt: "2026-07-05", verifiedAt: "2026-08-10",
     description: "Actualités de campagne et discours officiels",

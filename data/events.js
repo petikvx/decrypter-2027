@@ -10,6 +10,7 @@ window.DECRYPTER_2027.events = [
   ["2 août 2026", "Gabriel Attal propose une réforme institutionnelle", "Dans le JDD, il promet une réforme soumise aux Français : journée référendaire annuelle, délai de deux mois et recours limités à dix-huit mois.", "Centre"],
   ["10 août 2026", "François Bayrou relance une primaire du centre", "L’ancien Premier ministre appelle à un candidat unique « contre les extrêmes », sans rallier Attal, Philippe ou Retailleau.", "Centre"],
   ["12 août 2026", "Affichage des proches de François Hollande", "Cinq cents affiches « Lui président » célèbrent son bilan pour ses 72 ans ; les organisateurs nient un lancement de campagne.", "Gauche"],
+  ["17 août 2026", "Gérald Darmanin rallie Édouard Philippe", "Le ministre de la Justice annonce qu’il ne sera pas candidat et soutient le maire du Havre, plaidant pour ne pas « rajouter de la division ».", "Centre"],
   ["27 août 2026", "Premier débat public à la REF", "LCI doit diffuser un échange organisé par le Medef à Roland-Garros avec plusieurs candidats déclarés ou pressentis.", "À venir"],
   ["Automne 2026", "Choix et rassemblements attendus", "Le conseil national du PS du 25 août doit arrêter les dates d’une primaire en octobre. Ralliements et désistements restent ouverts.", "À venir"]
 ];

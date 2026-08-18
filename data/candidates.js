@@ -119,9 +119,9 @@ window.DECRYPTER_2027.otherCandidates = [
   { name: "Dominique de Villepin", party: "La France humaniste", group: "possible", note: "Campagne préparatoire active, sans déclaration formelle.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "François Hollande", party: "Parti socialiste", group: "possible", note: "Sans déclaration ; affichage de proches le 12 août. Son entourage écarte la primaire d'octobre.", verifiedAt: "2026-08-15", sourceIds: ["lcp-candidates", "liberation-hollande-affiches-2026", "franceinfo-ps-primary-2026"] },
   { name: "Élisabeth Borne", party: "Renaissance", group: "possible", note: "Personnalité pressentie, sans candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
-  { name: "Gérald Darmanin", party: "Renaissance", group: "possible", note: "Personnalité pressentie, sans candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Bruno Le Maire", party: "Ancien ministre de l'Économie", group: "possible", note: "Décision annoncée pour l'automne 2026.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates"] },
   { name: "Olivier Becht", party: "Apparenté Ensemble pour la République", group: "possible", note: "Réflexion publique, sans candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates"] },
+  { name: "Gérald Darmanin", party: "Renaissance", group: "withdrawn", note: "Le 17 août 2026, annonce qu'il ne sera pas candidat et apporte son soutien à Édouard Philippe.", verifiedAt: "2026-08-18", sourceIds: ["franceinfo-darmanin-philippe-2026", "lcp-candidates", "lemonde-candidates"] },
   { name: "Clémentine Autain", party: "L'Après", group: "withdrawn", note: "Candidature retirée le 14 juillet 2026.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates"] },
   { name: "Benjamin Lucas", party: "Génération.s", group: "withdrawn", note: "Candidature à la primaire retirée le 7 juillet 2026.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] }
 ];
