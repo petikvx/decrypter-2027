@@ -467,3 +467,38 @@ changé et pourquoi.
   parcours cliquable ; vérification par HTTP et simulation du regroupement
   panorama.
 - **Résultat** : édition du 18 août prête à valider ; aucun commit créé.
+
+## 2026-08-21 10:05 CEST — mise à jour candidats et actualité
+
+- **Environnement** : Codespace / Grok Build.
+- **Demande** : mise à jour des données depuis l’édition du 18 août 2026.
+- **Travail effectué** : audit sourcé des candidatures, propositions et
+  calendrier de campagne. Intégration des faits établis : candidature de
+  Francis Lalanne (19 août, France Libre), avec mention de la fin
+  d’inéligibilité mi-octobre ; propositions d’Édouard Philippe sur Mayotte
+  (20 août : suspension d’asile, droit du sol et immigration familiale) ;
+  officialisation pressentie de Raphaël Glucksmann le 23 août au 20 Heures
+  de TF1, sans bascule du statut (reste « Pressenti » jusqu’à déclaration
+  publique). Ajout du débat Hollande–Philippe du 29 août à Sens. Mise à
+  jour du bandeau et des cartes d’analyse (ralliement Darmanin, attente
+  Glucksmann). Aucun nouveau sondage d’intentions de vote comparable retenu
+  (notices d’août de la Commission des sondages : baromètres YouGov/HuffPost
+  et Cluster17/Le Point, non IV de premier tour). L’édition passe au
+  21 août 2026. Les `verifiedAt` de Philippe et Glucksmann passent au
+  21 août ; les huit autres fiches principales restent inchangées sur
+  l’ensemble de leurs thèmes.
+- **Sources consultées** : Commission des sondages (thème « 2027 -
+  Présidentielle ») ; franceinfo et Le Figaro/AFP (Lalanne, 19 août) ;
+  LCP (propositions Philippe–Mayotte, 20 août) ; L’Indépendant, Le Parisien
+  et L’Opinion repris via L’Indépendant (annonce Glucksmann attendue le
+  23 août) ; TF1 Info / Medef (REF du 27 août, déjà en chronologie) ;
+  ICI Auxerre / Laboratoire de la République (débat Sens du 29 août).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts (binaire Node portable,
+  `node` système absent), unicité de 37 identifiants de sources et relations
+  sourceIds, `git diff --check`, serveur local HTTP et contrôle du contenu
+  servi (édition du 21 août, Lalanne en déclarés, événements 19–29 août).
+  Pas d’outil navigateur MCP pour un parcours cliquable ; vérification par
+  HTTP.
+- **Résultat** : édition du 21 août prête à valider ; aucun commit créé.

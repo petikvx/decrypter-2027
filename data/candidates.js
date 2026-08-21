@@ -39,12 +39,12 @@ window.DECRYPTER_2027.candidates = [
   },
   {
     id: "philippe", name: "Édouard Philippe", initials: "ÉP", party: "Horizons", family: "center", familyLabel: "Centre droit", status: "Déclaré", declared: true, color: "#4a7795", score: "13–19 %",
-    maturity: "Projet en construction", maturityLevel: 3, verifiedAt: "2026-08-10",
-    summary: "Parti tôt, l’ancien Premier ministre cherche à réunir le centre et la droite autour de l’ordre, de la production et du redressement des finances publiques.",
-    positions: { economy: "Réduction de la dette, priorité à la production et à la compétitivité.", immigration: "Maîtrise des flux et renforcement de l’efficacité des éloignements.", ecology: "Transition pragmatique, nucléaire et adaptation au changement climatique.", institutions: "Stabilité institutionnelle et culture de coalition.", europe: "Europe de la puissance, défense commune et soutien à l’Ukraine.", services: "Recentrage de l’État sur les fonctions essentielles et réforme de l’action publique." },
-    statusSourceIds: ["horizons-campaign-2026", "lcp-candidates"],
-    sourceIds: ["horizons-campaign-2026", "lcp-candidates", "horizons-manifesto", "horizons-documents"],
-    positionSourceIds: { economy: ["horizons-manifesto", "horizons-documents"], immigration: ["horizons-campaign-2026"], ecology: ["horizons-manifesto", "horizons-documents"], institutions: ["horizons-manifesto"], europe: ["horizons-documents"], services: ["horizons-manifesto", "horizons-documents"] }
+    maturity: "Projet en construction", maturityLevel: 3, verifiedAt: "2026-08-21",
+    summary: "Parti tôt, l’ancien Premier ministre cherche à réunir le centre et la droite autour de l’ordre, de la production et du redressement des finances publiques. Gérald Darmanin l’a rallié le 17 août.",
+    positions: { economy: "Réduction de la dette, priorité à la production et à la compétitivité.", immigration: "À Mayotte : suspension de l’asile, du droit du sol et de l’immigration familiale pendant le quinquennat si le territoire reste saturé ; maîtrise des flux et éloignements accélérés.", ecology: "Transition pragmatique, nucléaire et adaptation au changement climatique.", institutions: "Stabilité institutionnelle et culture de coalition.", europe: "Europe de la puissance, défense commune et soutien à l’Ukraine.", services: "Recentrage de l’État sur les fonctions essentielles et réforme de l’action publique." },
+    statusSourceIds: ["horizons-campaign-2026", "lcp-candidates", "franceinfo-darmanin-philippe-2026"],
+    sourceIds: ["horizons-campaign-2026", "lcp-candidates", "horizons-manifesto", "horizons-documents", "lcp-philippe-mayotte-2026", "franceinfo-darmanin-philippe-2026"],
+    positionSourceIds: { economy: ["horizons-manifesto", "horizons-documents"], immigration: ["lcp-philippe-mayotte-2026", "horizons-campaign-2026"], ecology: ["horizons-manifesto", "horizons-documents"], institutions: ["horizons-manifesto"], europe: ["horizons-documents"], services: ["horizons-manifesto", "horizons-documents"] }
   },
   {
     id: "retailleau", name: "Bruno Retailleau", initials: "BR", party: "Les Républicains", family: "right", familyLabel: "Droite", status: "Désigné par LR", declared: true, color: "#305d8c", score: "7,5–10 %",
@@ -57,11 +57,11 @@ window.DECRYPTER_2027.candidates = [
   },
   {
     id: "glucksmann", name: "Raphaël Glucksmann", initials: "RG", party: "Place publique", family: "left", familyLabel: "Gauche", status: "Pressenti", declared: false, color: "#d45d69", score: "11–14 %",
-    maturity: "Propositions publiées — candidature à confirmer", maturityLevel: 2, verifiedAt: "2026-08-10",
-    summary: "Une ligne sociale-démocrate, écologiste et pro-européenne qui revendique une rupture politique avec LFI.",
+    maturity: "Propositions publiées — candidature à confirmer", maturityLevel: 2, verifiedAt: "2026-08-21",
+    summary: "Une ligne sociale-démocrate, écologiste et pro-européenne qui revendique une rupture politique avec LFI. Une officialisation est attendue le 23 août au 20 Heures de TF1, sans déclaration formelle encore publiée.",
     positions: { economy: "Réindustrialisation verte, justice fiscale et soutien au travail.", immigration: "Convention citoyenne pour construire une politique migratoire durable.", ecology: "Planification écologique européenne et investissements dans la transition.", institutions: "Proportionnelle et investiture du Premier ministre par l’Assemblée.", europe: "Renforcement de l’Europe politique, militaire et démocratique.", services: "École de l’émancipation, santé et service civique obligatoire." },
-    statusSourceIds: ["lcp-candidates", "lemonde-candidates"],
-    sourceIds: ["glucksmann-proposals-2026", "place-publique-project-2025", "lcp-candidates", "lemonde-candidates"],
+    statusSourceIds: ["lindependant-glucksmann-2026", "lcp-candidates", "lemonde-candidates"],
+    sourceIds: ["glucksmann-proposals-2026", "place-publique-project-2025", "lcp-candidates", "lemonde-candidates", "lindependant-glucksmann-2026"],
     positionSourceIds: { economy: ["glucksmann-proposals-2026", "place-publique-project-2025"], immigration: ["glucksmann-proposals-2026"], ecology: ["glucksmann-proposals-2026", "place-publique-project-2025"], institutions: ["glucksmann-proposals-2026"], europe: ["glucksmann-proposals-2026", "place-publique-project-2025"], services: ["glucksmann-proposals-2026"] }
   },
   {
@@ -109,6 +109,7 @@ window.DECRYPTER_2027.otherCandidates = [
   { name: "Nicolas Dupont-Aignan", party: "Debout la France", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Florian Philippot", party: "Les Patriotes", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "François Asselineau", party: "Union populaire républicaine", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
+  { name: "Francis Lalanne", party: "France Libre", group: "declared", note: "Candidature annoncée le 19 août 2026 ; meeting de lancement à Paris. Une peine d’inéligibilité prend fin mi-octobre 2026.", verifiedAt: "2026-08-21", sourceIds: ["franceinfo-lalanne-2026", "lefigaro-lalanne-2026"] },
   { name: "Clara Egger", party: "Solution démocratique", group: "declared", note: "Candidature annoncée autour de la démocratie directe.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Antoine Mikolajczak", party: "Équinoxe", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates"] },
   { name: "Benoît Mathieu", party: "Sans étiquette partisane indiquée", group: "declared", note: "Candidature citoyenne annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates"] },

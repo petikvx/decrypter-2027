@@ -118,6 +118,30 @@ window.DECRYPTER_2027.sources = [
     url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-gerald-darmanin-rallie-le-camp-edouard-philippe_8151761.html"
   },
   {
+    id: "franceinfo-lalanne-2026", category: "Candidature", name: "Candidature de Francis Lalanne",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-19", verifiedAt: "2026-08-21",
+    description: "Annonce de candidature, soutien de France Libre et premier meeting à Paris",
+    url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-chanteur-francis-lalanne-officiellement-candidat-premier-meeting-vendredi-a-paris_8153588.html"
+  },
+  {
+    id: "lefigaro-lalanne-2026", category: "Candidature", name: "Campagne et cadre judiciaire de Francis Lalanne",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-08-19", verifiedAt: "2026-08-21",
+    description: "Meeting de lancement, orientations annoncées et fin d’inéligibilité mi-octobre 2026",
+    url: "https://www.lefigaro.fr/elections/presidentielles/presidentielle-francis-lalanne-lance-sa-campagne-samedi-avec-un-premier-meeting-20260819"
+  },
+  {
+    id: "lindependant-glucksmann-2026", category: "Candidature", name: "Officialisation attendue de Raphaël Glucksmann",
+    publisher: "L’Indépendant", type: "reference-media", publishedAt: "2026-08-19", verifiedAt: "2026-08-21",
+    description: "Annonce pressentie au 20 Heures de TF1 le 23 août, avec primaire du pôle socialiste",
+    url: "https://www.lindependant.fr/2026/08/19/presidentielle-2027-cest-la-fin-dun-vrai-faux-suspense-raphael-glucksmann-devrait-annoncer-officiellement-sa-candidature-sur-tf1-dans-les-prochains-13514345.php"
+  },
+  {
+    id: "lcp-philippe-mayotte-2026", category: "Propositions", name: "Propositions d’Édouard Philippe pour Mayotte",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-08-20", verifiedAt: "2026-08-21",
+    description: "Suspension de l’asile, du droit du sol et de l’immigration familiale à Mayotte pendant le quinquennat",
+    url: "https://lcp.fr/actualites/mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-vannes-de-l-immigration-440519"
+  },
+  {
     id: "horizons-campaign-2026", category: "Candidature", name: "Discours et campagne d'Édouard Philippe",
     publisher: "Horizons", type: "official-party", publishedAt: "2026-07-05", verifiedAt: "2026-08-10",
     description: "Actualités de campagne et discours officiels",
