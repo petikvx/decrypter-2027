@@ -24,10 +24,14 @@ Puis ouvrir <http://localhost:8000>.
 
 ## GitHub Codespaces, Codex et Grok Build
 
-Le fichier `.devcontainer/devcontainer.json` utilise une image où Python 3.12
-est déjà prêt et rend le port 8000 disponible pour l’aperçu. La création du
-Codespace n’installe volontairement ni Codex ni Grok Build : aucune opération
-réseau longue ne bloque ainsi l’ouverture du terminal.
+Le fichier `.devcontainer/devcontainer.json` utilise Ubuntu 24.04
+(`mcr.microsoft.com/devcontainers/base:ubuntu-24.04`), avec le Python 3.12
+système déjà fourni par l’OS, et rend le port 8000 disponible pour l’aperçu.
+La création du Codespace n’installe volontairement ni Codex ni Grok Build :
+aucune opération réseau longue ne bloque ainsi l’ouverture du terminal.
+
+L’ancienne image Debian Bookworm + Python préconstruit est conservée dans
+`.devcontainer/devcontainer.bookworm.json` si un retour arrière est nécessaire.
 
 ### Codex
 

@@ -1,6 +1,6 @@
 {
   "name": "Décrypter 2027",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
   "postAttachCommand": "printf '\nPrêt.\nInstallation et connexion Codex : .devcontainer/setup-codex.sh\nInstallation et connexion Grok Build : .devcontainer/setup-grok.sh\nAperçu du site : python3 -m http.server 8000 --bind 0.0.0.0\n\n'",
   "forwardPorts": [8000],
   "portsAttributes": {

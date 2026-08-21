@@ -515,3 +515,22 @@ changé et pourquoi.
 - **Fichiers modifiés** : `README.md` et `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : contrôle des titres et commandes dans le README.
 - **Résultat** : prêt à valider ; aucun commit créé.
+
+## 2026-08-21 10:12 CEST — bascule du devcontainer vers Ubuntu 24.04
+
+- **Environnement** : Codespace / Grok Build.
+- **Demande** : sauvegarder le `devcontainer.json` actuel et passer à Ubuntu
+  24.04.
+- **Travail effectué** : copie de la configuration Bookworm dans
+  `.devcontainer/devcontainer.bookworm.json` ; remplacement de l’image active
+  par `mcr.microsoft.com/devcontainers/base:ubuntu-24.04` (Python 3.12
+  système, sans feature Python) ; mise à jour du README.
+- **Sources consultées** : catalogue d’images Microsoft Dev Containers
+  (`base:ubuntu-24.04` / `noble`).
+- **Fichiers modifiés** : `.devcontainer/devcontainer.json`,
+  `.devcontainer/devcontainer.bookworm.json`, `README.md` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `jq empty` sur les deux JSON,
+  `bash -n` sur `setup-codex.sh` et `setup-grok.sh`.
+- **Résultat** : prêt à valider ; aucun commit créé. Un rebuild du Codespace
+  est nécessaire pour appliquer l’image Ubuntu.
