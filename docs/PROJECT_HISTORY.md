@@ -502,3 +502,16 @@ changé et pourquoi.
   Pas d’outil navigateur MCP pour un parcours cliquable ; vérification par
   HTTP.
 - **Résultat** : édition du 21 août prête à valider ; aucun commit créé.
+
+## 2026-08-21 10:08 CEST — documentation Grok Build dans le README
+
+- **Environnement** : Codespace / Grok Build.
+- **Demande** : compléter le README pour Grok Build, comme pour Codex.
+- **Travail effectué** : alignement de la sous-section d’installation Grok
+  Build sur le schéma Codex ; ajout d’une routine quotidienne symétrique
+  (`setup-grok.sh`, `grok`, `grok --continue`, `grok --resume`) ; extension
+  du journal de session et du prompt quotidien aux deux outils.
+- **Sources consultées** : aucune source politique ; aide CLI `grok --help`.
+- **Fichiers modifiés** : `README.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : contrôle des titres et commandes dans le README.
+- **Résultat** : prêt à valider ; aucun commit créé.

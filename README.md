@@ -4,8 +4,8 @@ Observatoire statique et sourcé de l’élection présidentielle française de 
 
 ## Mémoire du projet
 
-Codex lit automatiquement `AGENTS.md` à l’ouverture du dépôt. Les décisions et
-les règles éditoriales durables sont conservées dans :
+Codex et Grok Build lisent automatiquement `AGENTS.md` à l’ouverture du dépôt.
+Les décisions et les règles éditoriales durables sont conservées dans :
 
 - [`AGENTS.md`](AGENTS.md) ;
 - [`MEMENTO.md`](MEMENTO.md), pour démarrer ou reprendre rapidement une session ;
@@ -53,9 +53,15 @@ Ne jamais ajouter le fichier d’authentification `~/.codex/auth.json` au dépô
 
 ### Grok Build
 
-Le script jumeau installe Grok Build via l’installateur officiel xAI, puis
-connecte le compte. La connexion se fait **par défaut** avec
-`grok login --device-auth`, adaptée aux Codespaces et aux sessions distantes :
+Une fois le Codespace créé, installer Grok Build puis se connecter avec :
+
+```bash
+.devcontainer/setup-grok.sh
+```
+
+Le script utilise l’installateur officiel xAI, puis la commande
+`grok login --device-auth` **par défaut**, adaptée aux Codespaces et aux
+sessions distantes. Il peut aussi être utilisé hors Codespaces sur Linux :
 
 ```bash
 # Installation et connexion par code d’appareil (défaut)
@@ -73,7 +79,11 @@ enregistrée dans `~/.grok/auth.json` ou une clé `XAI_API_KEY`, il ne relance
 pas l’installation ni la connexion. Ne jamais ajouter le fichier
 `~/.grok/auth.json` au dépôt.
 
-## Routine quotidienne avec Codespaces et Codex
+## Routine quotidienne avec Codespaces, Codex ou Grok Build
+
+Codex et Grok Build sont deux outils interchangeables pour la veille
+éditoriale. Choisir l’un ou l’autre suffit ; la suite de la routine (prompt,
+relecture, commit) est la même.
 
 ### 1. Ouvrir et synchroniser le Codespace
 
@@ -91,7 +101,9 @@ git pull --ff-only
 Ne pas lancer `git pull` si `git status` montre des modifications locales non
 terminées. Les examiner ou les enregistrer d’abord.
 
-### 2. Vérifier Codex
+### 2. Vérifier Codex ou Grok Build
+
+#### Codex
 
 ```bash
 .devcontainer/setup-codex.sh
@@ -113,12 +125,44 @@ Pour démarrer une nouvelle recherche quotidienne avec accès au web :
 codex --search
 ```
 
-`AGENTS.md` est chargé automatiquement au début de la session. Il indique à
-Codex de consulter l’historique et la charte éditoriale du dépôt.
+`AGENTS.md` est chargé automatiquement au début de la session. Il indique de
+consulter l’historique et la charte éditoriale du dépôt.
+
+#### Grok Build
+
+```bash
+.devcontainer/setup-grok.sh
+```
+
+Le script ne redemande pas de connexion si `~/.grok/auth.json` ou
+`XAI_API_KEY` est déjà présent. Lors du tout premier lancement du Codespace,
+il installe Grok Build avant d’afficher le lien et le code temporaire de
+connexion.
+
+Pour démarrer une nouvelle session :
+
+```bash
+grok
+```
+
+Pour reprendre la conversation la plus récente du même répertoire :
+
+```bash
+grok --continue
+```
+
+Pour reprendre une session précise (identifiant ou titre) :
+
+```bash
+grok --resume
+```
+
+La recherche web est disponible par défaut dans Grok Build.
+`AGENTS.md` est également chargé automatiquement au début de la session.
 
 ### 3. Utiliser le prompt quotidien
 
-Copier ce message dans Codex :
+Copier ce message dans Codex ou Grok Build :
 
 ```text
 Effectue la mise à jour quotidienne de Décrypter 2027.
@@ -162,8 +206,8 @@ Codespaces affiche le port `8000` dans l’onglet **Ports**. Ouvrir son URL et
 vérifier au minimum l’accueil, les fiches modifiées, le comparateur et la version
 mobile. Arrêter le serveur avec `Ctrl+C`.
 
-Dans la session Codex, la commande `/review` peut aussi demander une dernière
-revue des modifications non commitées.
+Dans la session, la commande `/review` (Codex ou Grok Build) peut aussi
+demander une dernière revue des modifications non commitées.
 
 ### 5. Enregistrer la mise à jour sur GitHub
 
@@ -197,9 +241,9 @@ Une journée sans fait nouveau fiable ne nécessite aucun changement du site.
 Elle nécessite néanmoins une entrée dans `docs/PROJECT_HISTORY.md` afin de
 conserver la trace de l’audit effectué.
 
-### Journal obligatoire de chaque session Codex
+### Journal obligatoire de chaque session
 
-Toute session Codex consacrée au projet doit ajouter à la fin de
+Toute session Codex ou Grok Build consacrée au projet doit ajouter à la fin de
 `docs/PROJECT_HISTORY.md` une entrée dans ce format :
 
 ```markdown
