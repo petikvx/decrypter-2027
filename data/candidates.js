@@ -2,8 +2,8 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 
 window.DECRYPTER_2027.candidates = [
   {
-    id: "lepen", name: "Marine Le Pen", initials: "MLP", party: "Rassemblement national", family: "far-right", familyLabel: "Extrême droite", status: "Déclarée", declared: true, color: "#293d64", score: "31–32 %",
-    maturity: "Orientations — programme 2027 incomplet", maturityLevel: 3, verifiedAt: "2026-08-10",
+    id: "lepen", name: "Marine Le Pen", initials: "MLP", party: "Rassemblement national", family: "far-right", familyLabel: "Extrême droite", status: "Déclarée", declared: true, color: "#293d64", score: "35–38 %",
+    maturity: "Orientations — programme 2027 incomplet", maturityLevel: 3, verifiedAt: "2026-08-26",
     summary: "Une quatrième candidature portée par un socle électoral élevé, une stratégie de normalisation et la priorité donnée au pouvoir d’achat, à l’immigration et à l’autorité.",
     positions: { economy: "Baisse ciblée de fiscalité et priorité au pouvoir d’achat ; le chiffrage 2027 reste à stabiliser.", immigration: "Réduction forte de l’immigration et priorité nationale, sous réserve des obstacles constitutionnels et européens.", ecology: "Écologie non punitive, défense du nucléaire et critique des contraintes jugées excessives.", institutions: "Référendum et renforcement de la souveraineté nationale.", europe: "Europe des nations, refus de nouveaux transferts de souveraineté.", services: "Protection des services publics et priorité annoncée à la sécurité et à la santé." },
     statusSourceIds: ["rn-lepen-candidacy-2026", "lcp-candidates"],
@@ -20,8 +20,8 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["rn-project-2022"], immigration: ["rn-project-2022"], ecology: ["rn-project-2022"], institutions: ["rn-project-2022"], europe: ["rn-project-2022"], services: ["rn-project-2022"] }
   },
   {
-    id: "melenchon", name: "Jean-Luc Mélenchon", initials: "JLM", party: "La France insoumise", family: "left", familyLabel: "Gauche", status: "Déclaré", declared: true, color: "#bd493b", score: "≈ 13 %",
-    maturity: "Socle programmatique documenté", maturityLevel: 4, verifiedAt: "2026-08-10",
+    id: "melenchon", name: "Jean-Luc Mélenchon", initials: "JLM", party: "La France insoumise", family: "left", familyLabel: "Gauche", status: "Déclaré", declared: true, color: "#bd493b", score: "16–17 %",
+    maturity: "Socle programmatique documenté", maturityLevel: 4, verifiedAt: "2026-08-26",
     summary: "Une quatrième campagne fondée sur L’Avenir en commun, la rupture avec la politique économique actuelle et le récit d’une « nouvelle France » populaire.",
     positions: { economy: "Planification, redistribution, hausse des bas salaires et intervention publique renforcée.", immigration: "Accueil digne, régularisations selon critères et opposition au durcissement des politiques migratoires.", ecology: "Planification écologique et sortie progressive du nucléaire au profit des renouvelables.", institutions: "Passage à une VIe République par une assemblée constituante.", europe: "Désobéissance aux règles européennes jugées incompatibles avec le programme.", services: "Investissements massifs dans l’école, la santé et les services publics." },
     statusSourceIds: ["melenchon-letter-2026", "lcp-candidates"],
@@ -29,8 +29,8 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["melenchon-program-2022", "lfi-contributions-2026"], immigration: ["melenchon-program-2022"], ecology: ["melenchon-program-2022", "lfi-contributions-2026"], institutions: ["melenchon-program-2022"], europe: ["melenchon-program-2022"], services: ["melenchon-program-2022"] }
   },
   {
-    id: "attal", name: "Gabriel Attal", initials: "GA", party: "Renaissance", family: "center", familyLabel: "Centre", status: "Déclaré", declared: true, color: "#8066a6", score: "8,5–17,5 %",
-    maturity: "Propositions de campagne publiées", maturityLevel: 2, verifiedAt: "2026-08-15",
+    id: "attal", name: "Gabriel Attal", initials: "GA", party: "Renaissance", family: "center", familyLabel: "Centre", status: "Déclaré", declared: true, color: "#8066a6", score: "8–15 %",
+    maturity: "Propositions de campagne publiées", maturityLevel: 2, verifiedAt: "2026-08-26",
     summary: "Une candidature qui revendique l’action et cherche à s’émanciper du bilan Macron, autour de l’école, des salaires, des frontières, de l’IA et d’une réforme institutionnelle.",
     positions: { economy: "Détaxer le travail, supprimer 100 000 postes publics et viser l’équilibre budgétaire en 2037.", immigration: "Quotas migratoires et contrôle renforcé des frontières.", ecology: "Décarbonation compatible avec l’innovation, l’industrie et le nucléaire.", institutions: "Réforme soumise aux Français : journée référendaire annuelle, délai constitutionnel de deux mois et recours administratifs limités à 18 mois.", europe: "Ligne pro-européenne et recherche d’une Europe plus puissante.", services: "Priorité à l’école et à l’autorité ; maîtrise des effectifs publics." },
     statusSourceIds: ["attal-campaign-2026", "lcp-candidates"],
@@ -38,8 +38,8 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["attal-work-2026", "attal-debt-2026"], immigration: ["attal-campaign-2026"], ecology: ["attal-campaign-2026", "attal-debt-2026"], institutions: ["attal-institutions-2026"], europe: ["attal-campaign-2026"], services: ["attal-campaign-2026", "attal-debt-2026"] }
   },
   {
-    id: "philippe", name: "Édouard Philippe", initials: "ÉP", party: "Horizons", family: "center", familyLabel: "Centre droit", status: "Déclaré", declared: true, color: "#4a7795", score: "13–19 %",
-    maturity: "Projet en construction", maturityLevel: 3, verifiedAt: "2026-08-21",
+    id: "philippe", name: "Édouard Philippe", initials: "ÉP", party: "Horizons", family: "center", familyLabel: "Centre droit", status: "Déclaré", declared: true, color: "#4a7795", score: "14–19 %",
+    maturity: "Projet en construction", maturityLevel: 3, verifiedAt: "2026-08-26",
     summary: "Parti tôt, l’ancien Premier ministre cherche à réunir le centre et la droite autour de l’ordre, de la production et du redressement des finances publiques. Gérald Darmanin l’a rallié le 17 août.",
     positions: { economy: "Réduction de la dette, priorité à la production et à la compétitivité.", immigration: "À Mayotte : suspension de l’asile, du droit du sol et de l’immigration familiale pendant le quinquennat si le territoire reste saturé ; maîtrise des flux et éloignements accélérés.", ecology: "Transition pragmatique, nucléaire et adaptation au changement climatique.", institutions: "Stabilité institutionnelle et culture de coalition.", europe: "Europe de la puissance, défense commune et soutien à l’Ukraine.", services: "Recentrage de l’État sur les fonctions essentielles et réforme de l’action publique." },
     statusSourceIds: ["horizons-campaign-2026", "lcp-candidates", "franceinfo-darmanin-philippe-2026"],
@@ -47,8 +47,8 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["horizons-manifesto", "horizons-documents"], immigration: ["lcp-philippe-mayotte-2026", "horizons-campaign-2026"], ecology: ["horizons-manifesto", "horizons-documents"], institutions: ["horizons-manifesto"], europe: ["horizons-documents"], services: ["horizons-manifesto", "horizons-documents"] }
   },
   {
-    id: "retailleau", name: "Bruno Retailleau", initials: "BR", party: "Les Républicains", family: "right", familyLabel: "Droite", status: "Désigné par LR", declared: true, color: "#305d8c", score: "7,5–10 %",
-    maturity: "Premières propositions", maturityLevel: 2, verifiedAt: "2026-08-10",
+    id: "retailleau", name: "Bruno Retailleau", initials: "BR", party: "Les Républicains", family: "right", familyLabel: "Droite", status: "Désigné par LR", declared: true, color: "#305d8c", score: "6–9 %",
+    maturity: "Premières propositions", maturityLevel: 2, verifiedAt: "2026-08-26",
     summary: "Une droite assumée qui place l’autorité, l’immigration, la maîtrise des dépenses et la transmission au cœur de son offre.",
     positions: { economy: "Baisse des dépenses, libération de l’économie et refus des hausses d’impôts.", immigration: "Réduction de l’immigration légale et illégale, avec révisions constitutionnelle et européenne.", ecology: "Priorité au nucléaire, à l’innovation et au refus d’une écologie punitive.", institutions: "Référendums et primauté accrue de la décision politique sur les jurisprudences.", europe: "Europe moins normative et davantage tournée vers les frontières et la puissance.", services: "Autorité scolaire, sécurité et recentrage de l’État." },
     statusSourceIds: ["lr-designation-2026", "lcp-candidates"],
@@ -56,13 +56,13 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["lr-proposals-2026"], immigration: ["retailleau-interview-2026"], ecology: ["lr-designation-2026"], institutions: ["retailleau-interview-2026"], europe: ["retailleau-interview-2026"], services: ["lr-proposals-2026", "lr-designation-2026"] }
   },
   {
-    id: "glucksmann", name: "Raphaël Glucksmann", initials: "RG", party: "Place publique", family: "left", familyLabel: "Gauche", status: "Pressenti", declared: false, color: "#d45d69", score: "11–14 %",
-    maturity: "Propositions publiées — candidature à confirmer", maturityLevel: 2, verifiedAt: "2026-08-21",
-    summary: "Une ligne sociale-démocrate, écologiste et pro-européenne qui revendique une rupture politique avec LFI. Une officialisation est attendue le 23 août au 20 Heures de TF1, sans déclaration formelle encore publiée.",
-    positions: { economy: "Réindustrialisation verte, justice fiscale et soutien au travail.", immigration: "Convention citoyenne pour construire une politique migratoire durable.", ecology: "Planification écologique européenne et investissements dans la transition.", institutions: "Proportionnelle et investiture du Premier ministre par l’Assemblée.", europe: "Renforcement de l’Europe politique, militaire et démocratique.", services: "École de l’émancipation, santé et service civique obligatoire." },
-    statusSourceIds: ["lindependant-glucksmann-2026", "lcp-candidates", "lemonde-candidates"],
-    sourceIds: ["glucksmann-proposals-2026", "place-publique-project-2025", "lcp-candidates", "lemonde-candidates", "lindependant-glucksmann-2026"],
-    positionSourceIds: { economy: ["glucksmann-proposals-2026", "place-publique-project-2025"], immigration: ["glucksmann-proposals-2026"], ecology: ["glucksmann-proposals-2026", "place-publique-project-2025"], institutions: ["glucksmann-proposals-2026"], europe: ["glucksmann-proposals-2026", "place-publique-project-2025"], services: ["glucksmann-proposals-2026"] }
+    id: "glucksmann", name: "Raphaël Glucksmann", initials: "RG", party: "Place publique", family: "left", familyLabel: "Gauche", status: "Déclaré", declared: true, color: "#d45d69", score: "10–11 %",
+    maturity: "Propositions de campagne — primaire d’octobre", maturityLevel: 2, verifiedAt: "2026-08-26",
+    summary: "Candidature officialisée le 23 août au 20 Heures de TF1. Il vise l’investiture de la primaire sociale-démocrate (9-10 et 16-17 octobre) et promet, s’il l’emporte, de ne plus conclure d’accord avec LFI. Yannick Jadot le soutient depuis le 24 août.",
+    positions: { economy: "Hausse du net via une baisse des prélèvements sur les salaires, financée par une taxation accrue des méga-héritages (ordre de grandeur annoncé : 15 milliards d’euros).", immigration: "Convention citoyenne pour construire une politique migratoire durable.", ecology: "Transformation écologique présentée comme urgence ; Yannick Jadot chargé de préparer un « état d’urgence écologique » pour les cent premiers jours.", institutions: "Proportionnelle et investiture du Premier ministre par l’Assemblée.", europe: "Renforcement de l’Europe politique, militaire et démocratique.", services: "Plan de sauvetage de l’école publique, santé et service civique obligatoire." },
+    statusSourceIds: ["franceinfo-glucksmann-2026", "lcp-glucksmann-2026", "tf1-glucksmann-2026"],
+    sourceIds: ["franceinfo-glucksmann-2026", "lcp-glucksmann-2026", "tf1-glucksmann-2026", "franceinfo-jadot-glucksmann-2026", "franceinfo-ps-primary-modalities-2026", "glucksmann-proposals-2026", "place-publique-project-2025"],
+    positionSourceIds: { economy: ["franceinfo-glucksmann-2026", "glucksmann-proposals-2026"], immigration: ["glucksmann-proposals-2026"], ecology: ["franceinfo-jadot-glucksmann-2026", "franceinfo-glucksmann-2026", "glucksmann-proposals-2026"], institutions: ["glucksmann-proposals-2026"], europe: ["glucksmann-proposals-2026", "place-publique-project-2025"], services: ["franceinfo-glucksmann-2026", "glucksmann-proposals-2026"] }
   },
   {
     id: "ruffin", name: "François Ruffin", initials: "FR", party: "Debout !", family: "left", familyLabel: "Gauche", status: "Conditionnel", declared: false, color: "#ce7559", score: "Non testé ici",
@@ -74,17 +74,17 @@ window.DECRYPTER_2027.candidates = [
     positionSourceIds: { economy: ["ruffin-work-2026", "ruffin-ideas"], immigration: ["ruffin-campaign-2026"], ecology: ["ruffin-campaign-2026", "ruffin-ideas"], institutions: ["ruffin-ideas"], europe: ["ruffin-campaign-2026"], services: ["ruffin-ideas"] }
   },
   {
-    id: "tondelier", name: "Marine Tondelier", initials: "MT", party: "Les Écologistes", family: "left", familyLabel: "Écologistes", status: "Conditionnelle", declared: false, color: "#388b61", score: "≈ 4 %",
-    maturity: "Socle partisan — stratégie à définir", maturityLevel: 4, verifiedAt: "2026-08-10",
-    summary: "Une offre écologiste tournée vers la justice sociale, l’adaptation climatique et l’union d’une partie de la gauche.",
+    id: "tondelier", name: "Marine Tondelier", initials: "MT", party: "Les Écologistes", family: "left", familyLabel: "Écologistes", status: "Conditionnelle", declared: false, color: "#388b61", score: "2–5 %",
+    maturity: "Socle partisan — stratégie à définir", maturityLevel: 4, verifiedAt: "2026-08-26",
+    summary: "Une offre écologiste tournée vers la justice sociale, l’adaptation climatique et l’union d’une partie de la gauche. Le ralliement de Yannick Jadot à Glucksmann accentue la division interne sur la stratégie présidentielle.",
     positions: { economy: "Investissements verts et redistribution pour accompagner la transition.", immigration: "Accueil européen coordonné et défense du droit d’asile.", ecology: "Réduction des émissions, adaptation, biodiversité et sobriété.", institutions: "Proportionnelle et démocratie participative renforcée.", europe: "Approfondissement écologique et démocratique de l’Union européenne.", services: "Services publics de proximité et rénovation thermique des bâtiments." },
-    statusSourceIds: ["tondelier-status-2026", "lcp-candidates"],
-    sourceIds: ["tondelier-status-2026", "ecologists-program-2026", "lcp-candidates"],
+    statusSourceIds: ["tondelier-status-2026", "lcp-candidates", "franceinfo-jadot-glucksmann-2026"],
+    sourceIds: ["tondelier-status-2026", "ecologists-program-2026", "lcp-candidates", "franceinfo-jadot-glucksmann-2026"],
     positionSourceIds: { economy: ["ecologists-program-2026"], immigration: ["ecologists-program-2026"], ecology: ["ecologists-program-2026"], institutions: ["ecologists-program-2026"], europe: ["ecologists-program-2026"], services: ["ecologists-program-2026"] }
   },
   {
-    id: "zemmour", name: "Éric Zemmour", initials: "ÉZ", party: "Reconquête !", family: "far-right", familyLabel: "Extrême droite", status: "Conditionnel", declared: false, color: "#625467", score: "≈ 4 %",
-    maturity: "Socle 2022 — candidature conditionnelle", maturityLevel: 4, verifiedAt: "2026-08-10",
+    id: "zemmour", name: "Éric Zemmour", initials: "ÉZ", party: "Reconquête !", family: "far-right", familyLabel: "Extrême droite", status: "Conditionnel", declared: false, color: "#625467", score: "3–4 %",
+    maturity: "Socle 2022 — candidature conditionnelle", maturityLevel: 4, verifiedAt: "2026-08-26",
     summary: "Une ligne nationaliste axée sur l’identité, l’immigration et l’assimilation, en concurrence directe avec le RN.",
     positions: { economy: "Baisse des prélèvements et politique favorable aux entreprises et aux indépendants.", immigration: "Immigration quasi nulle, suppression du regroupement familial et politique d’assimilation.", ecology: "Nucléaire, technologie et opposition à l’écologie dite punitive.", institutions: "Référendums et renforcement du pouvoir exécutif.", europe: "Europe des nations et primauté du droit national.", services: "Autorité scolaire, sécurité et recentrage des politiques sociales." },
     statusSourceIds: ["lcp-candidates", "lemonde-candidates"],
@@ -100,9 +100,9 @@ window.DECRYPTER_2027.otherCandidates = [
   { name: "Anasse Kazib", party: "Révolution permanente", group: "declared", note: "Candidature annoncée le 1er juin 2026.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates"] },
   { name: "Selma Labib", party: "NPA-Révolutionnaires", group: "declared", note: "Candidature présentée par son organisation.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates"] },
   { name: "Delphine Batho", party: "Génération écologie", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
-  { name: "Jérôme Guedj", party: "Parti socialiste", group: "declared", note: "Candidature annoncée dans le pôle socialiste.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
+  { name: "Jérôme Guedj", party: "Parti socialiste", group: "declared", note: "Candidat à la primaire sociale-démocrate (déclarations formelles 1er–15 septembre).", verifiedAt: "2026-08-26", sourceIds: ["franceinfo-ps-primary-modalities-2026", "lcp-candidates", "lemonde-candidates"] },
   { name: "Karim Bouamrane", party: "Parti socialiste", group: "declared", note: "Candidature annoncée le 8 juin 2026, hors de la primaire socialiste.", verifiedAt: "2026-08-15", sourceIds: ["lcp-candidates", "lemonde-candidates", "franceinfo-ps-primary-2026"] },
-  { name: "Philippe Brun", party: "Parti socialiste", group: "declared", note: "Candidat déclaré à la primaire du pôle socialiste.", verifiedAt: "2026-08-15", sourceIds: ["lcp-candidates", "lemonde-candidates", "franceinfo-ps-primary-2026"] },
+  { name: "Philippe Brun", party: "Parti socialiste", group: "declared", note: "Candidat à la primaire sociale-démocrate des 9-10 et 16-17 octobre.", verifiedAt: "2026-08-26", sourceIds: ["franceinfo-ps-primary-modalities-2026", "lcp-candidates", "lemonde-candidates"] },
   { name: "Bernard Cazeneuve", party: "La Convention", group: "declared", note: "Candidature déclarée hors de la primaire socialiste.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates", "lcp-candidates"] },
   { name: "David Lisnard", party: "Nouvelle Énergie", group: "declared", note: "Candidature annoncée après son départ de LR.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Xavier Bertrand", party: "Nous France", group: "declared", note: "Candidature annoncée, distincte de la désignation LR.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
@@ -113,8 +113,9 @@ window.DECRYPTER_2027.otherCandidates = [
   { name: "Clara Egger", party: "Solution démocratique", group: "declared", note: "Candidature annoncée autour de la démocratie directe.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Antoine Mikolajczak", party: "Équinoxe", group: "declared", note: "Candidature annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates"] },
   { name: "Benoît Mathieu", party: "Sans étiquette partisane indiquée", group: "declared", note: "Candidature citoyenne annoncée.", verifiedAt: "2026-08-10", sourceIds: ["lemonde-candidates"] },
-  { name: "Ségolène Royal", party: "Parti socialiste", group: "conditional", note: "Candidate à la primaire du pôle socialiste ; les dates doivent encore être arrêtées le 25 août.", verifiedAt: "2026-08-15", sourceIds: ["lcp-candidates", "lemonde-candidates", "franceinfo-ps-primary-2026"] },
-  { name: "Olivier Faure", party: "Parti socialiste", group: "conditional", note: "Participation à la primaire socialiste encore à confirmer ; une décision est attendue en septembre.", verifiedAt: "2026-08-15", sourceIds: ["lcp-candidates", "lemonde-candidates", "franceinfo-ps-primary-2026"] },
+  { name: "Ségolène Royal", party: "Parti socialiste", group: "declared", note: "Candidate à la primaire sociale-démocrate des 9-10 et 16-17 octobre.", verifiedAt: "2026-08-26", sourceIds: ["franceinfo-ps-primary-modalities-2026", "lcp-candidates", "lemonde-candidates"] },
+  { name: "Olivier Faure", party: "Parti socialiste", group: "conditional", note: "Participation à la primaire encore non officialisée ; déclaration possible entre le 1er et le 15 septembre.", verifiedAt: "2026-08-26", sourceIds: ["franceinfo-ps-primary-modalities-2026", "lcp-candidates", "lemonde-candidates"] },
+  { name: "Emmanuel Maurel", party: "Gauche républicaine et socialiste", group: "conditional", note: "La GRS a annoncé le 26 août sa participation à la primaire ; un éventuel candidat sera précisé après le campus d’été du PS.", verifiedAt: "2026-08-26", sourceIds: ["lemonde-maurel-grs-2026", "franceinfo-ps-primary-modalities-2026"] },
   { name: "Lydie Massard", party: "Union démocratique bretonne", group: "conditional", note: "Candidature liée au processus de primaire unitaire désormais écarté.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates"] },
   { name: "Fabien Roussel", party: "Parti communiste français", group: "conditional", note: "Disponible pour une candidature, soumise à un vote militant en septembre.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },
   { name: "Dominique de Villepin", party: "La France humaniste", group: "possible", note: "Campagne préparatoire active, sans déclaration formelle.", verifiedAt: "2026-08-10", sourceIds: ["lcp-candidates", "lemonde-candidates"] },

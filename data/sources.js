@@ -136,6 +136,48 @@ window.DECRYPTER_2027.sources = [
     url: "https://www.lindependant.fr/2026/08/19/presidentielle-2027-cest-la-fin-dun-vrai-faux-suspense-raphael-glucksmann-devrait-annoncer-officiellement-sa-candidature-sur-tf1-dans-les-prochains-13514345.php"
   },
   {
+    id: "franceinfo-glucksmann-2026", category: "Candidature", name: "Candidature de Raphaël Glucksmann",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-23", verifiedAt: "2026-08-26",
+    description: "Officialisation au 20 Heures de TF1, participation à la primaire et premières propositions",
+    url: "https://www.franceinfo.fr/elections/presidentielle/le-cofondateur-de-place-publique-raphael-glucksmann-officialise-sa-candidature-a-l-election-presidentielle-pour-relever-la-france_8158841.html"
+  },
+  {
+    id: "tf1-glucksmann-2026", category: "Candidature", name: "Interview TF1 — Raphaël Glucksmann",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-08-23", verifiedAt: "2026-08-26",
+    description: "Déclaration de candidature, primaire d’octobre et rupture annoncée avec LFI en cas de victoire",
+    url: "https://www.tf1info.fr/politique/oui-je-suis-candidat-a-l-election-presidentielle-2027-confirme-raphael-glucksmann-place-publique-sur-tf1-2459966.html"
+  },
+  {
+    id: "lcp-glucksmann-2026", category: "Candidature", name: "LCP — candidature de Raphaël Glucksmann",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-08-23", verifiedAt: "2026-08-26",
+    description: "Officialisation et participation à la primaire sociale-démocrate d’octobre",
+    url: "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la"
+  },
+  {
+    id: "franceinfo-jadot-glucksmann-2026", category: "Alliances", name: "Soutien de Yannick Jadot à Raphaël Glucksmann",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-24", verifiedAt: "2026-08-26",
+    description: "Ralliement annoncé sur France Inter et rôle sur un « état d’urgence écologique »",
+    url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-senateur-ecologiste-yannick-jadot-soutient-raphael-glucksmann-sans-hesitation-estimant-qu-il-peut-gagner-cette-election_8159192.html"
+  },
+  {
+    id: "franceinfo-ps-primary-modalities-2026", category: "Primaires", name: "Modalités de la primaire PS–Place publique",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-25", verifiedAt: "2026-08-26",
+    description: "Ratification de l’accord : deux tours les 9-10 et 16-17 octobre, scrutin électronique, cotisation 15 euros",
+    url: "https://www.franceinfo.fr/politique/ps/le-parti-socialiste-valide-l-accord-sur-les-modalites-de-la-primaire-a-laquelle-participera-raphael-glucksmann_8161388.html"
+  },
+  {
+    id: "lemonde-maurel-grs-2026", category: "Primaires", name: "Participation de la GRS à la primaire",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-08-26", verifiedAt: "2026-08-26",
+    description: "Annonce de la Gauche républicaine et socialiste ; candidat éventuel après le campus d’été du PS",
+    url: "https://www.lemonde.fr/politique/article/2026/08/26/presidentielle-2027-le-parti-du-depute-emmanuel-maurel-participera-a-la-primaire-du-ps-et-de-place-publique_6757377_823448.html"
+  },
+  {
+    id: "harris-august-2026", category: "Opinion", name: "Toluna Harris Interactive — août 2026",
+    publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-08-24", verifiedAt: "2026-08-26", featured: true,
+    description: "Baromètre M6/RTL : terrains des 18-19 août, 1 764 inscrits, cinq hypothèses de premier tour",
+    url: "https://tolunacorporate.com/wp-content/uploads/2026/08/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-4-M6-RTL-Aout-2026.pdf"
+  },
+  {
     id: "lcp-philippe-mayotte-2026", category: "Propositions", name: "Propositions d’Édouard Philippe pour Mayotte",
     publisher: "LCP", type: "reference-media", publishedAt: "2026-08-20", verifiedAt: "2026-08-21",
     description: "Suspension de l’asile, du droit du sol et de l’immigration familiale à Mayotte pendant le quinquennat",

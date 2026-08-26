@@ -534,3 +534,35 @@ changé et pourquoi.
   `bash -n` sur `setup-codex.sh` et `setup-grok.sh`.
 - **Résultat** : prêt à valider ; aucun commit créé. Un rebuild du Codespace
   est nécessaire pour appliquer l’image Ubuntu.
+
+## 2026-08-26 20:20 CEST — mise à jour éditoriale post-rentrée
+
+- **Environnement** : poste local / Grok Build.
+- **Demande** : mise à jour complète après plusieurs jours d’actualité.
+- **Travail effectué** : bascule de Raphaël Glucksmann de « Pressenti » à
+  « Déclaré » (annonce TF1 du 23 août) avec propositions actualisées
+  (salaires nets / méga-héritages, école, urgence écologique) ; intégration
+  du soutien de Yannick Jadot (24 août) ; ratification des modalités de la
+  primaire PS–Place publique (25 août : 9-10 et 16-17 octobre, cotisation
+  15 €) ; participation de la GRS d’Emmanuel Maurel (26 août) ; mise à jour
+  du panorama (Royal en déclarée à la primaire, notes Brun/Guedj/Faure) ;
+  remplacement des fourchettes Ipsos de juin par le baromètre Toluna Harris
+  Interactive pour M6/RTL (terrains 18-19 août) sur les barres et les scores
+  des fiches ; conservation de la série historique Ifop comparable ;
+  bandeau, cartes d’analyse et chronologie mis à jour ; édition au
+  26 août 2026.
+- **Sources consultées** : franceinfo, TF1 Info et LCP (candidature
+  Glucksmann, 23 août) ; franceinfo (Jadot, 24 août) ; franceinfo / AFP
+  (modalités primaire, 25 août) ; Le Monde / AFP (GRS, 26 août) ; rapport
+  Toluna Harris Interactive Vague 4 M6/RTL (18-19 août 2026).
+- **Fichiers modifiés** : `index.html`, `app.js`, `data/candidates.js`,
+  `data/events.js`, `data/polls.js`, `data/sources.js` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` (binaire Node portable) sur les
+  scripts ; unicité de 44 identifiants de sources et relations sourceIds ;
+  `git diff --check` ; serveur local HTTP ; captures Chrome headless
+  desktop (1440×900) et mobile (390×844) ; DOM vérifié (édition, barres
+  Harris, statut Déclaré de Glucksmann, chronologie 23–26 août, panorama
+  Maurel). Pas d’outil navigateur MCP interactif ; parcours cliquable
+  non exercé au-delà du rendu headless.
+- **Résultat** : édition du 26 août prête à valider ; aucun commit créé.

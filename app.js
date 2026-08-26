@@ -108,7 +108,7 @@ function renderCandidates(filter = "all") {
     </button>`).join("");
 }
 
-document.querySelector("#poll-bars").innerHTML = polls.map(p => `<div class="poll-row"><span>${p.name}</span><div class="bar-track"><div class="bar-fill" style="width:${p.value / 36 * 100}%;background:${p.color}"></div></div><strong>${p.label}</strong></div>`).join("");
+document.querySelector("#poll-bars").innerHTML = polls.map(p => `<div class="poll-row"><span>${p.name}</span><div class="bar-track"><div class="bar-fill" style="width:${p.value / 38 * 100}%;background:${p.color}"></div></div><strong>${p.label}</strong></div>`).join("");
 
 document.querySelectorAll("[data-filter]").forEach(button => button.addEventListener("click", () => {
   document.querySelectorAll("[data-filter]").forEach(b => b.classList.remove("active"));
