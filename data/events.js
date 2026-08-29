@@ -17,8 +17,8 @@ window.DECRYPTER_2027.events = [
   ["24 août 2026", "Yannick Jadot rallie Glucksmann", "Sur France Inter, le sénateur écologiste soutient le candidat de Place publique et doit préparer un « état d’urgence écologique ».", "Gauche"],
   ["25 août 2026", "Le PS et Place publique valident leur primaire", "Scrutin électronique en deux tours les 9-10 et 16-17 octobre ; cotisation de 15 euros (tarif social à 10 euros).", "Gauche"],
   ["26 août 2026", "La GRS rejoint la primaire sociale-démocrate", "Le parti d’Emmanuel Maurel annonce sa participation ; un éventuel candidat sera précisé après le campus d’été du PS.", "Gauche"],
-  ["27 août 2026", "Premier débat public à la REF", "LCI doit diffuser un échange organisé par le Medef à Roland-Garros avec plusieurs candidats déclarés ou pressentis.", "À venir"],
-  ["29 août 2026", "Débat Hollande–Philippe à Sens", "L’université de rentrée du Laboratoire de la République doit les réunir autour des programmes pour « redresser la France ».", "À venir"],
+  ["27 août 2026", "Premier débat télévisé à la REF", "À Roland-Garros, LCI diffuse près de trois heures d’échanges entre Le Pen, Mélenchon, Philippe, Attal, Retailleau, Glucksmann et Tondelier, interrogés par des chefs d’entreprise du Medef sur dette, retraites, réindustrialisation, coût du travail, normes et fiscalité.", "Campagne"],
+  ["29 août 2026", "Débat Hollande–Philippe à Sens", "L’université de rentrée du Laboratoire de la République doit les réunir autour des perspectives pour 2027, en direct sur LCI.", "À venir"],
   ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique doivent être déposées durant cette fenêtre.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];

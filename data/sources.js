@@ -106,9 +106,9 @@ window.DECRYPTER_2027.sources = [
     url: "https://www.liberation.fr/politique/elections/ce-nest-pas-un-lancement-de-campagne-pour-son-anniversaire-les-proches-de-francois-hollande-lui-offrent-une-campagne-daffichage-20260812_BC4FICZY2FHHFOYKPB6HUEZZHM/"
   },
   {
-    id: "tf1-ref-debate-2026", category: "Campagne", name: "Débat de la REF sur LCI",
-    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-07-28", verifiedAt: "2026-08-15",
-    description: "Annonce du débat du 27 août 2026 organisé par le Medef et diffusé par LCI",
+    id: "tf1-ref-debate-2026", category: "Campagne", name: "Annonce du débat de la REF sur LCI",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-07-28", verifiedAt: "2026-08-29",
+    description: "Annonce préalable du débat du 27 août 2026 organisé par le Medef et diffusé par LCI",
     url: "https://www.tf1info.fr/politique/election-presidentielle-2027-lci-organisera-le-27-aout-un-grand-debat-avec-sept-candidats-declares-ou-pressentis-2455591.html"
   },
   {
@@ -266,5 +266,23 @@ window.DECRYPTER_2027.sources = [
     publisher: "Reconquête !", type: "official-party", publishedAt: null, verifiedAt: "2026-08-10",
     description: "Priorités politiques et programme actuellement publiés par le parti",
     url: "https://www.parti-reconquete.fr/"
+  },
+  {
+    id: "franceinfo-ref-debate-2026", category: "Campagne", name: "Premier débat REF — ce qu’il faut retenir",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-27", updatedAt: "2026-08-28", verifiedAt: "2026-08-29", featured: true,
+    description: "Compte rendu du débat Medef du 27 août : dette, retraites, réindustrialisation, coût du travail, normes et fiscalité",
+    url: "https://www.franceinfo.fr/elections/presidentielle/dette-publique-retraites-reindustrialisation-ce-qu-il-faut-retenir-du-premier-debat-des-principaux-candidats-a-la-presidentielle_8165342.html"
+  },
+  {
+    id: "lefigaro-lepen-125bn-2026", category: "Proposition", name: "Plan d’économies de 125 Md€ annoncé par Marine Le Pen",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-08-27", verifiedAt: "2026-08-29",
+    description: "Annonce faite au débat Medef d’une trajectoire de 125 milliards d’euros d’économies avant le débat budgétaire",
+    url: "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-marine-le-pen-presentera-un-plan-d-economies-de-125-milliards-d-euros-avant-le-debat-budgetaire-20260827"
+  },
+  {
+    id: "affiches-ref-debate-2026", category: "Campagne", name: "Synthèse Affiches Parisiennes du débat REF",
+    publisher: "Affiches Parisiennes", type: "reference-media", publishedAt: "2026-08-27", verifiedAt: "2026-08-29",
+    description: "Points retenus sur dette, retraites, normes, coût du travail et pacte Dutreil",
+    url: "https://mesinfos.fr/75000-paris/presidentielle-2027-que-retenir-du-debat-organise-par-le-medef-a-laref-2026-337765.html"
   }
 ];

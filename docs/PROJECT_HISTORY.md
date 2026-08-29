@@ -566,3 +566,32 @@ changé et pourquoi.
   Maurel). Pas d’outil navigateur MCP interactif ; parcours cliquable
   non exercé au-delà du rendu headless.
 - **Résultat** : édition du 26 août prête à valider ; aucun commit créé.
+
+## 2026-08-29 13:48 CEST — mise à jour post-débat REF (Medef)
+
+- **Environnement** : poste local / Grok Build.
+- **Demande** : mise à jour détaillée autour du premier débat télévisé
+  des candidats (débat REF du 27 août) ; le débat Hollande–Philippe de
+  Sens (29 août) est laissé en « À venir ».
+- **Travail effectué** : chronologie actualisée (événement REF passé,
+  participants et thèmes) ; bandeau et cartes d’analyse recentrés sur la
+  dette et la concurrence Attal–Philippe ; positions économiques des sept
+  participants mises à jour à partir des annonces du débat (125 Md€ Le Pen,
+  annulation dette BCE Mélenchon, trajectoire Attal 2032/2037, retraites
+  et Dutreil, SMIC 2 000 € Tondelier, etc.) ; édition au 29 août 2026 ;
+  trois sources ajoutées (franceinfo, Le Figaro, Affiches Parisiennes).
+- **Sources consultées** : franceinfo (compte rendu du 27–28 août) ;
+  Le Figaro (plan 125 Md€) ; Affiches Parisiennes / mesinfos ; Politico,
+  Financial Times, BFMTV et France Inter pour recoupement ; LCI/Medef
+  (format et participants).
+- **Fichiers modifiés** : `index.html`, `data/events.js`,
+  `data/candidates.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur les scripts ; 47 identifiants de
+  sources uniques et relations `sourceIds` valides ; serveur HTTP local ;
+  captures Chrome headless desktop (1440×900) et mobile (390×844) ; DOM
+  vérifié (édition du 29 août, chronologie REF, cartes d’analyse,
+  comparateur Mélenchon/Retailleau avec propositions REF). Pas d’outil
+  navigateur MCP interactif ; parcours cliquable non exercé au-delà du
+  rendu headless.
+- **Résultat** : édition du 29 août centrée sur le débat REF, prête à
+  valider ; aucun commit créé.
