@@ -233,6 +233,29 @@ Un fichier inchangé indiqué dans `git add` est simplement ignoré. Ajouter
 explicitement un autre fichier à la commande s’il fait réellement partie de la
 mise à jour.
 
+### Mise à jour automatique (cron + Grok)
+
+Le script [`scripts/auto-update.sh`](scripts/auto-update.sh) lance Grok en
+mode headless (`grok -p --always-approve`), demande la veille éditoriale,
+puis commit et push si nécessaire. Les journaux vont dans
+`~/logs/decrypter-2027/` (hors dépôt).
+
+Test manuel :
+
+```bash
+./scripts/auto-update.sh
+```
+
+Exemple crontab (lundi, mercredi et vendredi à 9h, heure machine) :
+
+```cron
+0 9 * * 1,3,5 /home/petik/decrypter-2027/scripts/auto-update.sh
+```
+
+Prérequis : `grok` authentifié (`~/.grok/auth.json` ou `XAI_API_KEY`),
+`git push` sans interaction, et working tree propre au moment du lancement.
+Ne jamais committer de clé API dans le dépôt.
+
 ### Rythme conseillé
 
 - **Chaque jour** : candidatures, décisions importantes, événements et erreurs

@@ -595,3 +595,21 @@ changé et pourquoi.
   rendu headless.
 - **Résultat** : édition du 29 août centrée sur le débat REF, prête à
   valider ; aucun commit créé.
+
+## 2026-09-01 04:25 UTC — script de mise à jour cron
+
+- **Environnement** : poste local / Grok Build.
+- **Demande** : placer dans le dépôt un script pour lancer automatiquement
+  la mise à jour éditoriale via Grok (headless) les lundi, mercredi et
+  vendredi, avec commit et push.
+- **Travail effectué** : ajout de `scripts/auto-update.sh` (pull, verrou
+  flock, prompt d’audit éditorial, `grok -p --always-approve`, journaux
+  dans `~/logs/decrypter-2027/`) ; documentation courte dans le README.
+- **Sources consultées** : documentation Grok headless
+  (`~/.grok/docs/user-guide/14-headless-mode.md`) ; aucune source politique.
+- **Fichiers modifiés** : `scripts/auto-update.sh`, `README.md`,
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `bash -n scripts/auto-update.sh` ; script rendu
+  exécutable (`chmod +x`).
+- **Résultat** : script prêt ; crontab à installer manuellement côté machine
+  (`0 9 * * 1,3,5 …/scripts/auto-update.sh`).
