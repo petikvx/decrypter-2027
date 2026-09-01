@@ -613,3 +613,40 @@ changé et pourquoi.
   exécutable (`chmod +x`).
 - **Résultat** : script prêt ; crontab à installer manuellement côté machine
   (`0 9 * * 1,3,5 …/scripts/auto-update.sh`).
+
+## 2026-09-01 06:30 CEST — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 29 août 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 29 août. Intégration des faits établis : débat
+  Hollande–Philippe tenu à Sens le 29 août (redressement, fiscalité ; Hollande
+  hors primaire, décision éventuelle renvoyée à décembre) ; candidature
+  d’Olivier Faure à la primaire sociale-démocrate officialisée le 30 août au
+  20 Heures de TF1 (cinq candidats déclarés : Glucksmann, Faure, Brun, Guedj,
+  Royal) ; remplacement des fourchettes Toluna Harris (18-19 août) par le
+  baromètre Elabe pour BFMTV / La Tribune Dimanche (terrain 26–28 août,
+  1 378 inscrits) sur les barres et les scores des fiches ; conservation de la
+  série historique Ifop comparable ; bandeau, cartes d’analyse et chronologie
+  mis à jour ; échelle des barres de sondage rendue dynamique dans `app.js` ;
+  édition au 1er septembre 2026. Les `verifiedAt` de Philippe, Glucksmann,
+  Faure (panorama) et Hollande (panorama) passent au 1er septembre ; les autres
+  fiches principales conservent leur date de contrôle thématique du 29 août.
+  Appel de Laurent Wauquiez à une primaire de droite (30 août) noté en veille,
+  sans modification de la fiche Retailleau (déjà désigné par LR).
+- **Sources consultées** : rapport Elabe PDF (août 2026) et page institut ;
+  franceinfo (Faure, 30 août) ; Ouest-France et LCP (débat Sens, 29 août) ;
+  Le Parisien, BFMTV, RTL, Le Figaro pour recoupement ; Commission des
+  sondages / agrégateurs pour vérifier l’absence d’autre vague IV postérieure
+  à Elabe au 1er septembre.
+- **Fichiers modifiés** : `index.html`, `app.js`, `data/candidates.js`,
+  `data/events.js`, `data/polls.js`, `data/sources.js` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  51 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML servi (édition,
+  Elabe, Faure, Sens). Pas d’outil navigateur MCP ni Chrome headless ;
+  vérification par HTTP et simulation Node du rendu des barres, de la
+  chronologie et du panorama.
+- **Résultat** : édition du 1er septembre prête ; commit et push sur `main`.

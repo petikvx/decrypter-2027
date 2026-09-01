@@ -284,5 +284,29 @@ window.DECRYPTER_2027.sources = [
     publisher: "Affiches Parisiennes", type: "reference-media", publishedAt: "2026-08-27", verifiedAt: "2026-08-29",
     description: "Points retenus sur dette, retraites, normes, coût du travail et pacte Dutreil",
     url: "https://mesinfos.fr/75000-paris/presidentielle-2027-que-retenir-du-debat-organise-par-le-medef-a-laref-2026-337765.html"
+  },
+  {
+    id: "elabe-august-2026", category: "Opinion", name: "Elabe — août 2026",
+    publisher: "Elabe", type: "poll", publishedAt: "2026-08-29", verifiedAt: "2026-09-01", featured: true,
+    description: "Rapport complet BFMTV / La Tribune Dimanche ; terrain 26–28 août, 1 378 inscrits",
+    url: "https://elabe.fr/fichier-pdf/13224-les-francais-et-lelection-presidentielle-2027/"
+  },
+  {
+    id: "franceinfo-faure-2026", category: "Candidature", name: "Candidature d’Olivier Faure à la primaire",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-08-30", verifiedAt: "2026-09-01",
+    description: "Annonce au 20 Heures de TF1 de la candidature du premier secrétaire du PS à la primaire sociale-démocrate",
+    url: "https://www.franceinfo.fr/elections/presidentielle/le-chef-du-parti-socialiste-olivier-faure-confirme-sa-candidature-a-la-primaire-de-son-camp-en-vue-de-l-election-presidentielle_8169896.html"
+  },
+  {
+    id: "ouest-france-sens-2026", category: "Campagne", name: "Débat Hollande–Philippe à Sens",
+    publisher: "Ouest-France", type: "reference-media", publishedAt: "2026-08-29", verifiedAt: "2026-09-01",
+    description: "Compte rendu du débat du 29 août : redressement, fiscalité et positionnement face aux « extrêmes »",
+    url: "https://www.ouest-france.fr/elections/presidentielle/debat-entre-edouard-philippe-et-francois-hollande-echanges-polices-les-extremes-cibles-ce-quil-faut-retenir-88e2dfba-a3cc-11f1-8465-547a0964275c"
+  },
+  {
+    id: "lcp-sens-2026", category: "Campagne", name: "LCP — débat de Sens et union des démocrates",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-08-29", verifiedAt: "2026-09-01",
+    description: "Compte rendu de la journée de Sens et du débat Hollande–Philippe",
+    url: "https://lcp.fr/actualites/presidentielle-2027-a-sens-la-necessite-d-une-union-des-democrates-face-aux-extremes-au"
   }
 ];

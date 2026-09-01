@@ -18,7 +18,8 @@ window.DECRYPTER_2027.events = [
   ["25 août 2026", "Le PS et Place publique valident leur primaire", "Scrutin électronique en deux tours les 9-10 et 16-17 octobre ; cotisation de 15 euros (tarif social à 10 euros).", "Gauche"],
   ["26 août 2026", "La GRS rejoint la primaire sociale-démocrate", "Le parti d’Emmanuel Maurel annonce sa participation ; un éventuel candidat sera précisé après le campus d’été du PS.", "Gauche"],
   ["27 août 2026", "Premier débat télévisé à la REF", "À Roland-Garros, LCI diffuse près de trois heures d’échanges entre Le Pen, Mélenchon, Philippe, Attal, Retailleau, Glucksmann et Tondelier, interrogés par des chefs d’entreprise du Medef sur dette, retraites, réindustrialisation, coût du travail, normes et fiscalité.", "Campagne"],
-  ["29 août 2026", "Débat Hollande–Philippe à Sens", "L’université de rentrée du Laboratoire de la République doit les réunir autour des perspectives pour 2027, en direct sur LCI.", "À venir"],
+  ["29 août 2026", "Débat Hollande–Philippe à Sens", "À l’université de rentrée du Laboratoire de la République, les deux hommes convergent sur le redressement à mener et divergent sur la fiscalité ; Hollande reste hors primaire et renvoie une éventuelle décision à décembre.", "Campagne"],
+  ["30 août 2026", "Olivier Faure candidat à la primaire", "Au 20 Heures de TF1, le premier secrétaire du PS officialise sa candidature à la primaire sociale-démocrate face à Glucksmann, Brun, Guedj et Royal.", "Gauche"],
   ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique doivent être déposées durant cette fenêtre.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];
