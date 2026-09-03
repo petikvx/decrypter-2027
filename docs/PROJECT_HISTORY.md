@@ -673,3 +673,32 @@ changé et pourquoi.
 - **Résultat** : auth GitHub OK pour le repo ; prochaine exécution cron
   (vendredi 9h) devrait passer le pull. Mise à jour éditoriale du 2
   septembre non rejouée dans cette session.
+
+## 2026-09-03 04:45 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 1er septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 1er septembre. Aucun nouveau baromètre d’intentions de vote
+  postérieur à Elabe (26–28 août) identifié. Intégration des faits établis :
+  débat sur une primaire de la droite et du centre (Philippe refuse à Châlons ;
+  Attal et Retailleau se disent prêts à l’affronter ; pression Wauquiez/Morin) ;
+  précisions de Glucksmann sur l’école à la rentrée (salaires enseignants,
+  effectifs, mixité conditionnant les subventions au privé sous contrat) ;
+  calendrier du vote PCF du 6 septembre pour l’investiture Roussel. Édition au
+  3 septembre 2026. Les `verifiedAt` d’Attal, Philippe, Retailleau et Glucksmann,
+  ainsi que la fiche panorama Roussel, passent au 3 septembre. Quatre sources
+  ajoutées.
+- **Sources consultées** : franceinfo (primaire droite/centre, 3 sept.) ;
+  La Croix et Le Nouvel Obs (école / Glucksmann, 1er–2 sept.) ; L’Humanité
+  (calendrier Roussel) ; SP2027 / pages instituts pour confirmer l’absence de
+  vague post-Elabe ; Les Echos et Ouest-France pour recoupement.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  55 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  carte d’analyse, chronologie, fiches). Pas d’outil navigateur MCP ni Chrome
+  headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 3 septembre prête ; commit et push sur `main`.

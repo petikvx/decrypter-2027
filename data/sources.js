@@ -308,5 +308,29 @@ window.DECRYPTER_2027.sources = [
     publisher: "LCP", type: "reference-media", publishedAt: "2026-08-29", verifiedAt: "2026-09-01",
     description: "Compte rendu de la journée de Sens et du débat Hollande–Philippe",
     url: "https://lcp.fr/actualites/presidentielle-2027-a-sens-la-necessite-d-une-union-des-democrates-face-aux-extremes-au"
+  },
+  {
+    id: "franceinfo-primary-right-2026", category: "Campagne", name: "Primaire droite/centre : le refus de Philippe",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-03", featured: true,
+    description: "Philippe refuse une primaire à Châlons ; Attal et Retailleau se disent ouverts ; pression de Wauquiez et Morin",
+    url: "https://www.franceinfo.fr/elections/presidentielle/les-socialistes-la-font-bien-la-droite-et-le-centre-peuvent-ils-encore-organiser-une-primaire-pour-la-presidentielle-de-2027_8171882.html"
+  },
+  {
+    id: "lacroix-school-2026", category: "Proposition", name: "Rentrée scolaire : propositions des candidats sur l’école",
+    publisher: "La Croix", type: "reference-media", publishedAt: "2026-09-01", verifiedAt: "2026-09-03",
+    description: "Tour d’horizon des mesures éducatives, dont le plan Glucksmann (salaires, effectifs, mixité du privé sous contrat)",
+    url: "https://www.la-croix.com/politique/rentree-scolaire-ce-que-proposent-les-candidats-a-la-presidentielle-2027-pour-reformer-l-ecole-20260901"
+  },
+  {
+    id: "nouvelobs-glucksmann-school-2026", category: "Proposition", name: "Glucksmann conditionne les subventions au privé sous contrat",
+    publisher: "Le Nouvel Obs", type: "reference-media", publishedAt: "2026-09-01", updatedAt: "2026-09-02", verifiedAt: "2026-09-03",
+    description: "Rentrée à Trilport : mixité sociale, revalorisation des enseignants et réduction des effectifs",
+    url: "https://www.nouvelobs.com/politique/20260901.OBS117858/la-mixite-sociale-doit-etre-partout-raphael-glucksmann-propose-de-conditionner-les-subventions-aux-ecoles-privees-sous-contrat.html"
+  },
+  {
+    id: "humanite-roussel-2026", category: "Candidature", name: "Université d’été PCF et calendrier Roussel",
+    publisher: "L’Humanité", type: "reference-media", publishedAt: "2026-08-23", verifiedAt: "2026-09-03",
+    description: "Calendrier d’une investiture communiste attendue après un vote militant le 6 septembre",
+    url: "https://www.humanite.fr/politique/communisme/a-luniversite-dete-du-pcf-fabien-roussel-parie-sur-lelargissement-du-socle-electoral-de-la-gauche"
   }
 ];

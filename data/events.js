@@ -20,6 +20,9 @@ window.DECRYPTER_2027.events = [
   ["27 août 2026", "Premier débat télévisé à la REF", "À Roland-Garros, LCI diffuse près de trois heures d’échanges entre Le Pen, Mélenchon, Philippe, Attal, Retailleau, Glucksmann et Tondelier, interrogés par des chefs d’entreprise du Medef sur dette, retraites, réindustrialisation, coût du travail, normes et fiscalité.", "Campagne"],
   ["29 août 2026", "Débat Hollande–Philippe à Sens", "À l’université de rentrée du Laboratoire de la République, les deux hommes convergent sur le redressement à mener et divergent sur la fiscalité ; Hollande reste hors primaire et renvoie une éventuelle décision à décembre.", "Campagne"],
   ["30 août 2026", "Olivier Faure candidat à la primaire", "Au 20 Heures de TF1, le premier secrétaire du PS officialise sa candidature à la primaire sociale-démocrate face à Glucksmann, Brun, Guedj et Royal.", "Gauche"],
+  ["1er septembre 2026", "Glucksmann précise son plan pour l’école", "À Trilport, il détaille revalorisation des enseignants, réduction des effectifs et conditionnement des subventions au privé sous contrat à des objectifs de mixité sociale.", "Gauche"],
+  ["1er–2 septembre 2026", "Débat sur une primaire droite/centre", "Philippe refuse à Châlons un scrutin qui « accentue les différences » ; Attal et Retailleau se disent prêts à l’affronter ; Wauquiez et Morin maintiennent la pression.", "Centre"],
   ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique doivent être déposées durant cette fenêtre.", "À venir"],
+  ["6 septembre 2026", "Vote PCF sur l’investiture Roussel", "Les militants communistes doivent se prononcer sur l’officialisation de la candidature de Fabien Roussel.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];
