@@ -252,9 +252,19 @@ Exemple crontab (lundi, mercredi et vendredi à 9h, heure machine) :
 0 9 * * 1,3,5 /home/petik/decrypter-2027/scripts/auto-update.sh
 ```
 
-Prérequis : `grok` authentifié (`~/.grok/auth.json` ou `XAI_API_KEY`),
-`git push` sans interaction, et working tree propre au moment du lancement.
-Ne jamais committer de clé API dans le dépôt.
+Prérequis :
+
+- `grok` authentifié (`~/.grok/auth.json` ou `XAI_API_KEY`) ;
+- working tree propre au moment du lancement ;
+- clé **deploy** GitHub sans passphrase pour ce dépôt uniquement :
+  `~/.ssh/decrypter-2027_deploy` (la clé personnelle `scaleway` a une
+  passphrase et n’est pas utilisable depuis cron).
+
+Ajouter la clé publique sur GitHub :
+**Settings → Deploy keys → Add deploy key**, cocher **Allow write access**
+(le script fait `git push`). Ne jamais committer de clé privée ni d’API
+dans le dépôt. Les échecs précoces (pull SSH, tree sale, etc.) sont
+écrits dans `~/logs/decrypter-2027/cron.log`.
 
 ### Rythme conseillé
 

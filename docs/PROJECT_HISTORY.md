@@ -650,3 +650,26 @@ changé et pourquoi.
   vérification par HTTP et simulation Node du rendu des barres, de la
   chronologie et du panorama.
 - **Résultat** : édition du 1er septembre prête ; commit et push sur `main`.
+
+## 2026-09-03 04:35 UTC — correctif cron git SSH
+
+- **Environnement** : poste local / Grok Build.
+- **Demande** : diagnostiquer l’échec apparent de la crontask décrypter
+  d’hier (mercredi 2 septembre).
+- **Travail effectué** : constat que cron a bien lancé
+  `scripts/auto-update.sh` à 09:00 UTC le 2 septembre, mais le script
+  a quitté immédiatement sur `git pull` (`Permission denied (publickey)`),
+  faute d’agent SSH en cron (clé `~/.ssh/scaleway` protégée par passphrase).
+  La sortie a été jetée (`No MTA installed`). Correctifs : clé deploy
+  ed25519 sans passphrase `~/.ssh/decrypter-2027_deploy` (hors dépôt),
+  `GIT_SSH_COMMAND` dans le script, journalisation des échecs précoces
+  dans `~/logs/decrypter-2027/cron.log`, doc README mise à jour.
+- **Sources consultées** : `/var/log/syslog` (entrée CRON du 2026-09-02
+  09:00) ; aucune source politique.
+- **Fichiers modifiés** : `scripts/auto-update.sh`, `README.md`,
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `bash -n scripts/auto-update.sh` ; `git pull` et
+  `git push --dry-run` en environnement type cron avec la clé deploy.
+- **Résultat** : auth GitHub OK pour le repo ; prochaine exécution cron
+  (vendredi 9h) devrait passer le pull. Mise à jour éditoriale du 2
+  septembre non rejouée dans cette session.

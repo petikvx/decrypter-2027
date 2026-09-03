@@ -9,40 +9,58 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "$SCRIPT_DIR/.." && pwd)"
 LOG_DIR="${DECRYPTER_LOG_DIR:-$HOME/logs/decrypter-2027}"
 LOCK="${DECRYPTER_LOCK:-/tmp/decrypter-2027-update.lock}"
+# Clé deploy dédiée (sans passphrase) — voir README / GitHub Deploy keys.
+DEPLOY_KEY="${DECRYPTER_DEPLOY_KEY:-$HOME/.ssh/decrypter-2027_deploy}"
+CRON_LOG="$LOG_DIR/cron.log"
 
 mkdir -p "$LOG_DIR"
+
+log_cron() {
+  echo "$(date -Is) $*" >>"$CRON_LOG"
+}
 
 # PATH minimal pour cron (grok est souvent hors du PATH par défaut de cron).
 export PATH="$HOME/.local/bin:$HOME/.grok/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
-# Auth : préférer une session déjà présente (~/.grok/auth.json).
+# Auth GitHub en cron : pas d’agent SSH (clé scaleway avec passphrase).
+# Utiliser une clé deploy repo-scoped, sans passphrase.
+if [[ ! -f "$DEPLOY_KEY" ]]; then
+  log_cron "clé deploy introuvable: $DEPLOY_KEY"
+  exit 1
+fi
+export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=accept-new"
+
+# Auth Grok : préférer une session déjà présente (~/.grok/auth.json).
 # En cron sans session, exporter XAI_API_KEY dans l’environnement crontab
 # ou dans un fichier non versionné (ne jamais committer de secret).
 
 exec 9>"$LOCK"
 if ! flock -n 9; then
-  echo "$(date -Is) déjà en cours, sortie" >>"$LOG_DIR/cron.log"
+  log_cron "déjà en cours, sortie"
   exit 0
 fi
 
 cd "$REPO"
 
 if ! command -v grok >/dev/null 2>&1; then
-  echo "$(date -Is) grok introuvable dans PATH=$PATH" >>"$LOG_DIR/cron.log"
+  log_cron "grok introuvable dans PATH=$PATH"
   exit 1
 fi
 
 if ! command -v git >/dev/null 2>&1; then
-  echo "$(date -Is) git introuvable" >>"$LOG_DIR/cron.log"
+  log_cron "git introuvable"
   exit 1
 fi
 
 if [[ -n "$(git status --porcelain)" ]]; then
-  echo "$(date -Is) working tree sale, abort" >>"$LOG_DIR/cron.log"
+  log_cron "working tree sale, abort"
   exit 1
 fi
 
-git pull --ff-only
+if ! git pull --ff-only >>"$CRON_LOG" 2>&1; then
+  log_cron "git pull échoué (voir ci-dessus)"
+  exit 1
+fi
 
 TODAY="$(date +%Y-%m-%d)"
 
