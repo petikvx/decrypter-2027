@@ -702,3 +702,32 @@ changé et pourquoi.
   carte d’analyse, chronologie, fiches). Pas d’outil navigateur MCP ni Chrome
   headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 3 septembre prête ; commit et push sur `main`.
+
+## 2026-09-04 09:05 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 3 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 3 septembre. Aucun nouveau baromètre d’intentions de vote
+  postérieur à Elabe (26–28 août) identifié. Intégration des faits établis :
+  candidature d’Emmanuel Maurel (GRS) à la primaire sociale-démocrate
+  (franceinfo, 4 septembre) ; vote PCF du 3 au 6 septembre sur l’investiture
+  Roussel (proclamation TF1 attendue) ; Zemmour fixe une annonce de candidature
+  « avant décembre » à Châlons ; Lisnard annonce 500 promesses de parrainages ;
+  RN « plus de 400 » parrainages selon Aliot ; Tondelier réaffirme l’appel à
+  l’union. Édition au 4 septembre 2026. Les `verifiedAt` de Glucksmann,
+  Tondelier, Zemmour, Maurel, Roussel et Lisnard passent au 4 septembre. Sept
+  sources ajoutées.
+- **Sources consultées** : franceinfo (Maurel, 4 sept. ; Tondelier, 2 sept.) ;
+  LCP (vote Roussel, 3 sept.) ; Ouest-France / AFP et BFMTV (Zemmour, 3 sept.) ;
+  Le Parisien (Lisnard, 2 sept.) ; Le Figaro / AFP (parrainages RN, 3 sept.) ;
+  SP2027 / pages instituts pour confirmer l’absence de vague post-Elabe.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  62 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, carte d’analyse, chronologie, fiches). Pas d’outil navigateur MCP ni
+  Chrome headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 4 septembre prête ; commit et push sur `main`.

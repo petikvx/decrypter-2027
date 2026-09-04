@@ -332,5 +332,47 @@ window.DECRYPTER_2027.sources = [
     publisher: "L’Humanité", type: "reference-media", publishedAt: "2026-08-23", verifiedAt: "2026-09-03",
     description: "Calendrier d’une investiture communiste attendue après un vote militant le 6 septembre",
     url: "https://www.humanite.fr/politique/communisme/a-luniversite-dete-du-pcf-fabien-roussel-parie-sur-lelargissement-du-socle-electoral-de-la-gauche"
+  },
+  {
+    id: "franceinfo-maurel-2026", category: "Candidature", name: "Candidature d’Emmanuel Maurel à la primaire",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-04", verifiedAt: "2026-09-04", featured: true,
+    description: "Annonce sur franceinfo de la candidature du député GRS à la primaire sociale-démocrate",
+    url: "https://www.franceinfo.fr/politique/ps/primaire-socialiste/le-depute-emmanuel-maurel-annonce-sa-candidature-a-la-primaire-socialiste-pour-l-election-presidentielle_8176532.html"
+  },
+  {
+    id: "lcp-roussel-vote-2026", category: "Candidature", name: "Vote PCF sur l’investiture Roussel",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-04",
+    description: "Vote des adhérents du 3 au 6 septembre ; proclamation attendue dimanche soir sur TF1",
+    url: "https://lcp.fr/actualites/presidentielle-fabien-roussel-bientot-candidat-malgre-les-attaques-de-lfi-440943"
+  },
+  {
+    id: "ouest-france-zemmour-2026", category: "Candidature", name: "Zemmour annoncera sa candidature avant décembre",
+    publisher: "Ouest-France", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-04",
+    description: "Déclaration à la foire de Châlons : annonce de candidature prévue avant décembre (AFP)",
+    url: "https://www.ouest-france.fr/elections/presidentielle/presidentielle-2027-eric-zemmour-compte-annoncer-sa-candidature-avant-decembre-0d19995c-a7ad-11f1-8a27-1e0c4eb5e395"
+  },
+  {
+    id: "bfmtv-zemmour-chalons-2026", category: "Campagne", name: "Zemmour à Châlons : référendum sur l’immigration",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-04",
+    description: "Visite à la foire agricole de Châlons-en-Champagne et appel à un référendum sur l’immigration",
+    url: "https://www.bfmtv.com/politique/video-en-visite-a-la-foire-agricole-de-chalons-en-champagne-eric-zemmour-president-du-parti-reconquete-souhaite-un-referendum-sur-l-immigration_VN-202609030636.html"
+  },
+  {
+    id: "leparisien-lisnard-2026", category: "Candidature", name: "Lisnard et les 500 promesses de parrainages",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-09-02", verifiedAt: "2026-09-04",
+    description: "Le maire de Cannes affirme avoir recueilli 500 formulaires de promesses, à confirmer en février",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-le-maire-de-cannes-david-lisnard-assure-avoir-deja-recueilli-les-500-promesses-de-parrainages-02-09-2026-KXBG4QLUFJCAPPEKM3HCGIIHMA.php"
+  },
+  {
+    id: "lefigaro-rn-parrainages-2026", category: "Campagne", name: "RN : plus de 400 parrainages selon Aliot",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-04",
+    description: "Louis Aliot (TF1) annonce plus de 400 engagements d’élus et critique la procédure des 500 signatures",
+    url: "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-le-rn-pas-inquiet-sur-sa-collecte-de-parrainages-mais-y-voit-une-mauvaise-procedure-20260903"
+  },
+  {
+    id: "franceinfo-tondelier-2026", category: "Campagne", name: "Tondelier : « Personne ne gagnera seul »",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-02", verifiedAt: "2026-09-04",
+    description: "Appel renouvelé à l’union à gauche et annonce de rencontres avec « tout le monde » dans les semaines à venir",
+    url: "https://www.franceinfo.fr/elections/presidentielle/personne-ne-gagnera-seul-la-presidentielle-2027-martele-marine-tondelier-qui-prevoit-de-rencontrer-tout-le-monde-a-gauche-dans-les-semaines-a-venir_8173526.html"
   }
 ];

@@ -22,7 +22,12 @@ window.DECRYPTER_2027.events = [
   ["30 août 2026", "Olivier Faure candidat à la primaire", "Au 20 Heures de TF1, le premier secrétaire du PS officialise sa candidature à la primaire sociale-démocrate face à Glucksmann, Brun, Guedj et Royal.", "Gauche"],
   ["1er septembre 2026", "Glucksmann précise son plan pour l’école", "À Trilport, il détaille revalorisation des enseignants, réduction des effectifs et conditionnement des subventions au privé sous contrat à des objectifs de mixité sociale.", "Gauche"],
   ["1er–2 septembre 2026", "Débat sur une primaire droite/centre", "Philippe refuse à Châlons un scrutin qui « accentue les différences » ; Attal et Retailleau se disent prêts à l’affronter ; Wauquiez et Morin maintiennent la pression.", "Centre"],
-  ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique doivent être déposées durant cette fenêtre.", "À venir"],
-  ["6 septembre 2026", "Vote PCF sur l’investiture Roussel", "Les militants communistes doivent se prononcer sur l’officialisation de la candidature de Fabien Roussel.", "À venir"],
+  ["2 septembre 2026", "Lisnard annonce 500 promesses de parrainages", "Le maire de Cannes affirme avoir recueilli 500 formulaires de promesses, à confirmer après le décret de convocation.", "Candidature"],
+  ["3 septembre 2026", "Le RN dit disposer de plus de 400 parrainages", "Louis Aliot (TF1) affirme que le parti a déjà plus de 400 engagements d’élus pour Marine Le Pen, tout en critiquant la procédure des 500 signatures.", "Campagne"],
+  ["3 septembre 2026", "Zemmour fixe une annonce « avant décembre »", "À la foire de Châlons, le président de Reconquête indique qu’il annoncera sa candidature avant décembre.", "Extrême droite"],
+  ["3–6 septembre 2026", "Vote PCF sur l’investiture Roussel", "Les adhérents communistes votent du 3 au 6 septembre ; une proclamation est attendue dimanche soir sur TF1, avant la fête de l’Humanité.", "Gauche"],
+  ["4 septembre 2026", "Emmanuel Maurel candidat à la primaire", "Sur franceinfo, le député GRS officialise sa candidature à la primaire sociale-démocrate aux côtés de Glucksmann, Faure, Brun, Guedj et Royal.", "Gauche"],
+  ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique–GRS doivent être déposées durant cette fenêtre.", "À venir"],
+  ["9 septembre 2026", "Comité de liaison droite/centre", "Nouvelle réunion attendue sur l’hypothèse d’une primaire, sans périmètre encore fixé.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];
