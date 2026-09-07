@@ -374,5 +374,29 @@ window.DECRYPTER_2027.sources = [
     publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-02", verifiedAt: "2026-09-04",
     description: "Appel renouvelé à l’union à gauche et annonce de rencontres avec « tout le monde » dans les semaines à venir",
     url: "https://www.franceinfo.fr/elections/presidentielle/personne-ne-gagnera-seul-la-presidentielle-2027-martele-marine-tondelier-qui-prevoit-de-rencontrer-tout-le-monde-a-gauche-dans-les-semaines-a-venir_8173526.html"
+  },
+  {
+    id: "ipsos-sept-2026", category: "Opinion", name: "Ipsos bva-CESI · intentions de vote septembre 2026",
+    publisher: "Ipsos bva", type: "poll", publishedAt: "2026-09-05", verifiedAt: "2026-09-07", featured: true,
+    description: "Enquête pour Le Parisien (31 août–2 septembre, 1 500 inscrits) : six hypothèses de 1er tour ; Le Pen à 34–36 %",
+    url: "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/presidentielle-2027-intention-vote-ipsos-bva-cesi-le-parisien-09-26-rapport-complet.pdf"
+  },
+  {
+    id: "lcp-roussel-candidacy-2026", category: "Candidature", name: "Roussel officialise sa candidature PCF",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-06", verifiedAt: "2026-09-07", featured: true,
+    description: "Vote militant à 72 % puis annonce au 20 Heures de TF1 ; candidature autonome du PCF",
+    url: "https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389"
+  },
+  {
+    id: "lefigaro-royal-parrainages-2026", category: "Primaires", name: "Royal affirme avoir ses parrainages",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-09-06", verifiedAt: "2026-09-07",
+    description: "Sur LCI, Ségolène Royal annonce disposer des parrainages pour la primaire sociale-démocrate (AFP)",
+    url: "https://www.lefigaro.fr/politique/primaire-socialiste-pour-la-presidentielle-2027-segolene-royal-annonce-avoir-obtenu-les-parrainages-necessaires-20260906"
+  },
+  {
+    id: "franceinfo-verdier-2026", category: "Primaires", name: "Candidature de Fabien Verdier à la primaire",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-07",
+    description: "Ancien maire de Châteaudun candidat pour porter la voix des « terroirs » et « sous-préfectures »",
+    url: "https://www.franceinfo.fr/elections/presidentielle/l-ancien-maire-de-chateaudun-fabien-verdier-candidat-a-la-primaire-de-la-gauche-pour-porter-la-voix-des-sous-prefectures_8176064.html"
   }
 ];

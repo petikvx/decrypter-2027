@@ -731,3 +731,32 @@ changé et pourquoi.
   ticker, carte d’analyse, chronologie, fiches). Pas d’outil navigateur MCP ni
   Chrome headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 4 septembre prête ; commit et push sur `main`.
+
+## 2026-09-07 09:15 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 4 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 4 septembre. Intégration des faits établis : Fabien Roussel
+  officialise sa candidature PCF le 6 septembre sur TF1 après un vote militant
+  à 72 % ; Ségolène Royal affirme le 6 septembre disposer des parrainages pour
+  la primaire ; Fabien Verdier (2–3 septembre) entre dans le panorama de la
+  primaire ; remplacement des fourchettes Elabe par Ipsos bva-CESI pour
+  Le Parisien (terrain 31 août–2 septembre, rapport complet). Édition au
+  7 septembre 2026. Les `verifiedAt` de Glucksmann, Royal, Verdier et Roussel
+  passent au 7 septembre. Scores des fiches principales alignés sur Ipsos.
+  Quatre sources ajoutées.
+- **Sources consultées** : rapport Ipsos PDF (5 sept.) et page institut ;
+  LCP et Reuters (Roussel, 6 sept.) ; Le Figaro / AFP (Royal, 6 sept.) ;
+  franceinfo (Verdier, 3 sept.) ; TF1 Info ; Wikipedia / SP2027 pour
+  recoupement OpinionWay 2–3 sept. (non retenu comme source primaire faute
+  de rapport institut directement exploité ici).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/polls.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  66 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, carte Ipsos, analyse gauche, chronologie, fiches). Pas d’outil
+  navigateur MCP ni Chrome headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 7 septembre prête ; commit et push sur `main`.

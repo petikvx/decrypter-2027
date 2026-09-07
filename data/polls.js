@@ -1,12 +1,12 @@
 window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 
 window.DECRYPTER_2027.polls = [
-  { name: "Le Pen", value: 35.5, label: "34–35,5 %", color: "#293d64" },
-  { name: "Philippe", value: 20.5, label: "17–20,5 %", color: "#4a7795" },
-  { name: "Mélenchon", value: 14.5, label: "14–14,5 %", color: "#bd493b" },
+  { name: "Le Pen", value: 36, label: "34–36 %", color: "#293d64" },
+  { name: "Philippe", value: 22.5, label: "14,5–22,5 %", color: "#4a7795" },
+  { name: "Mélenchon", value: 17, label: "15–17 %", color: "#bd493b" },
   { name: "Glucksmann", value: 14, label: "11,5–14 %", color: "#d45d69" },
-  { name: "Attal", value: 12.5, label: "6,5–12,5 %", color: "#8066a6" },
-  { name: "Retailleau", value: 9.5, label: "6–9,5 %", color: "#305d8c" }
+  { name: "Attal", value: 15.5, label: "7,5–15,5 %", color: "#8066a6" },
+  { name: "Retailleau", value: 10, label: "6–10 %", color: "#305d8c" }
 ];
 
 // Série strictement limitée à une même hypothèse de premier tour publiée par
