@@ -760,3 +760,33 @@ changé et pourquoi.
   ticker, carte Ipsos, analyse gauche, chronologie, fiches). Pas d’outil
   navigateur MCP ni Chrome headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 7 septembre prête ; commit et push sur `main`.
+
+## 2026-09-09 09:05 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 7 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 7 septembre. Aucun baromètre d’intentions de vote postérieur
+  à Ipsos (5 septembre) retenu pour remplacer les fourchettes affichées (SP2027
+  confirme Ipsos comme dernière vague de référence ; Cluster17 / Le Point du
+  7 septembre non substitué faute de convergence avec les autres instituts et
+  pour conserver la série Ipsos déjà sourcée). Intégration des faits établis du
+  8 septembre : Faure relance une primaire élargie « de Ruffin à Glucksmann »,
+  Ruffin dit oui, Glucksmann refuse de « changer les règles en cours de jeu » ;
+  Philippe propose un comité de la droite et du centre vers la Toussaint,
+  Retailleau refuse d’emblée ; Philippe doit quitter la présidence d’Horizons
+  le 1er octobre. Édition au 9 septembre 2026. Les `verifiedAt` de Philippe,
+  Retailleau, Glucksmann, Ruffin, Faure et Lisnard passent au 9 septembre.
+  Quatre sources ajoutées.
+- **Sources consultées** : LCP et Le Monde (Glucksmann / Ruffin, 8 sept.) ;
+  BFMTV et Le Figaro (Philippe / Retailleau, 8–9 sept.) ; SP2027 et pages
+  Ipsos / Cluster17 pour l’état des sondages ; franceinfo pour recoupement.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  70 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, cartes d’analyse, chronologie). Pas d’outil navigateur MCP disponible ;
+  vérification par HTTP.
+- **Résultat** : édition du 9 septembre prête ; commit et push sur `main`.

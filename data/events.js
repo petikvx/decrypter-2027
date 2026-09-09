@@ -31,8 +31,11 @@ window.DECRYPTER_2027.events = [
   ["5 septembre 2026", "Ipsos place Le Pen largement en tête", "Ipsos bva-CESI pour Le Parisien (terrain 31 août–2 septembre) crédite Marine Le Pen de 34 à 36 % selon six hypothèses ; Mélenchon progresse à 15–17 %.", "Opinion"],
   ["6 septembre 2026", "Fabien Roussel officialise sa candidature", "Au 20 Heures de TF1, le secrétaire national du PCF confirme sa candidature autonome après le vote militant, et dévoile une affiche « Vivre ! ».", "Candidature"],
   ["6 septembre 2026", "Royal dit avoir ses parrainages", "Sur LCI, Ségolène Royal affirme avoir obtenu les parrainages nécessaires pour participer à la primaire sociale-démocrate d’octobre.", "Gauche"],
+  ["8 septembre 2026", "Glucksmann refuse d’élargir la primaire à Ruffin", "Faure relance une primaire « de Ruffin à Glucksmann » ; Ruffin dit oui ; Glucksmann rappelle le vote des militants PS et refuse de « changer les règles en cours de jeu ».", "Gauche"],
+  ["8 septembre 2026", "Philippe propose un comité à la Toussaint", "Après son premier comité de campagne, il invite la droite et le centre à se réunir début novembre ; Retailleau refuse une « réunion pour les macronistes ».", "Centre"],
   ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique–GRS doivent être déposées durant cette fenêtre.", "À venir"],
-  ["9 septembre 2026", "Comité de liaison droite/centre", "Nouvelle réunion attendue sur l’hypothèse d’une primaire, sans périmètre encore fixé.", "À venir"],
+  ["1er octobre 2026", "Philippe quitte la présidence d’Horizons", "Le candidat doit laisser la présidence exécutive du parti à Christophe Béchu pour se consacrer à la campagne.", "À venir"],
   ["11–13 septembre 2026", "Fête de l’Humanité", "Rendez-vous de campagne de Fabien Roussel à Brétigny-sur-Orge, avec un discours prévu le samedi.", "À venir"],
+  ["Début novembre 2026", "Comité Philippe droite/centre", "Réunion proposée vers la Toussaint sur les convergences programmatiques et les législatives ; Retailleau a d’ores et déjà décliné.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];

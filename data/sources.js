@@ -398,5 +398,29 @@ window.DECRYPTER_2027.sources = [
     publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-03", verifiedAt: "2026-09-07",
     description: "Ancien maire de Châteaudun candidat pour porter la voix des « terroirs » et « sous-préfectures »",
     url: "https://www.franceinfo.fr/elections/presidentielle/l-ancien-maire-de-chateaudun-fabien-verdier-candidat-a-la-primaire-de-la-gauche-pour-porter-la-voix-des-sous-prefectures_8176064.html"
+  },
+  {
+    id: "lcp-glucksmann-ruffin-2026", category: "Primaires", name: "Glucksmann ferme la porte à Ruffin",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-08", verifiedAt: "2026-09-09", featured: true,
+    description: "Refus d’élargir la primaire sociale-démocrate à François Ruffin ; rappel du vote des militants PS",
+    url: "https://lcp.fr/actualites/on-ne-change-pas-les-regles-en-cours-de-jeu-glucksmann-ferme-la-porte-a-ruffin-et"
+  },
+  {
+    id: "lemonde-glucksmann-ruffin-2026", category: "Primaires", name: "Glucksmann rejette une primaire élargie à Ruffin",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-08", verifiedAt: "2026-09-09",
+    description: "AFP / Le Monde : « on ne change pas les règles en cours de jeu » ; Ruffin dit oui à Faure",
+    url: "https://www.lemonde.fr/politique/article/2026/09/08/presidentielle-2027-raphael-glucksmann-rejette-l-idee-d-une-primaire-elargie-a-francois-ruffin-estimant-qu-on-ne-change-pas-les-regles-en-cours-de-jeu_6768307_823448.html"
+  },
+  {
+    id: "bfmtv-philippe-toussaint-2026", category: "Campagne", name: "Philippe propose un comité à la Toussaint",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-08", verifiedAt: "2026-09-09", featured: true,
+    description: "Invitation de la droite et du centre ; Retailleau refuse ; Philippe quitte la présidence d’Horizons le 1er octobre",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-2027-gabriel-attal-lance-son-operation-1-000-bistrots-pour-aller-a-la-rencontre-des-francais-premier-comite-de-campagne-des-soutiens-d-edouard-philippe-a-paris_LN-202609080118.html"
+  },
+  {
+    id: "lefigaro-philippe-retailleau-2026", category: "Campagne", name: "Philippe tend la main, Retailleau refuse",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-09-09", verifiedAt: "2026-09-09",
+    description: "Main tendue vers un comité début novembre ; Retailleau décline une « réunion pour les macronistes »",
+    url: "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-edouard-philippe-tend-la-main-a-la-droite-et-au-centre-bruno-retailleau-la-refuse-20260909"
   }
 ];
