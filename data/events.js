@@ -33,9 +33,14 @@ window.DECRYPTER_2027.events = [
   ["6 septembre 2026", "Royal dit avoir ses parrainages", "Sur LCI, Ségolène Royal affirme avoir obtenu les parrainages nécessaires pour participer à la primaire sociale-démocrate d’octobre.", "Gauche"],
   ["8 septembre 2026", "Glucksmann refuse d’élargir la primaire à Ruffin", "Faure relance une primaire « de Ruffin à Glucksmann » ; Ruffin dit oui ; Glucksmann rappelle le vote des militants PS et refuse de « changer les règles en cours de jeu ».", "Gauche"],
   ["8 septembre 2026", "Philippe propose un comité à la Toussaint", "Après son premier comité de campagne, il invite la droite et le centre à se réunir début novembre ; Retailleau refuse une « réunion pour les macronistes ».", "Centre"],
+  ["8 septembre 2026", "Retailleau veut supprimer le droit du sol", "Sur CNews / Europe 1, le candidat LR annonce vouloir renoncer au droit du sol par référendum après révision constitutionnelle, avec une loi migratoire et une loi pénale soumises au peuple.", "Droite"],
+  ["9 septembre 2026", "Ruffin tance Glucksmann sur RTL", "Toujours prêt à rejoindre la primaire sociale-démocrate, il regrette que Glucksmann ait « peur des électeurs » et critique le droit d’entrée de 10 à 15 euros.", "Gauche"],
+  ["9 septembre 2026", "Odoxa : 70 % favorables à une primaire droite/centre", "Parmi les sympathisants de droite et du centre, 70 % veulent une primaire (64 % ouverte) ; Philippe est jugé bon candidat par 67 %, devant Retailleau (60 %) et Attal (48 %).", "Opinion"],
+  ["10 septembre 2026", "OpinionWay place Le Pen à 34 %", "PrésiTrack pour Les Echos / Radio Classique (terrain 8–9 septembre, 948 inscrits) : Le Pen à 34 % dans les trois hypothèses ; Philippe à 15–19 % ; Mélenchon à 15 %.", "Opinion"],
   ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique–GRS doivent être déposées durant cette fenêtre.", "À venir"],
-  ["1er octobre 2026", "Philippe quitte la présidence d’Horizons", "Le candidat doit laisser la présidence exécutive du parti à Christophe Béchu pour se consacrer à la campagne.", "À venir"],
   ["11–13 septembre 2026", "Fête de l’Humanité", "Rendez-vous de campagne de Fabien Roussel à Brétigny-sur-Orge, avec un discours prévu le samedi.", "À venir"],
+  ["1er octobre 2026", "Philippe quitte la présidence d’Horizons", "Le candidat doit laisser la présidence exécutive du parti à Christophe Béchu pour se consacrer à la campagne.", "À venir"],
+  ["1er octobre 2026", "Débat télévisé de la primaire sociale-démocrate", "Glucksmann, Faure, Royal et les autres candidats déclarés doivent débattre avant le premier tour des 9-10 octobre.", "À venir"],
   ["Début novembre 2026", "Comité Philippe droite/centre", "Réunion proposée vers la Toussaint sur les convergences programmatiques et les législatives ; Retailleau a d’ores et déjà décliné.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];

@@ -790,3 +790,36 @@ changé et pourquoi.
   ticker, cartes d’analyse, chronologie). Pas d’outil navigateur MCP disponible ;
   vérification par HTTP.
 - **Résultat** : édition du 9 septembre prête ; commit et push sur `main`.
+
+## 2026-09-11 09:05 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 9 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 9 septembre. Remplacement des fourchettes Ipsos par le
+  baromètre OpinionWay PrésiTrack pour Les Echos / Radio Classique (terrain
+  8–9 septembre, 948 inscrits, notice Commission des sondages) : Le Pen à 34 %
+  dans les trois hypothèses ; Philippe 15–19 % ; Mélenchon 15 % ; Glucksmann
+  9–12 % ; Attal 8–14 % ; Retailleau 8–12 %. Intégration des faits établis :
+  Odoxa-Backbone pour Le Figaro (8–9 septembre) — 70 % des sympathisants de
+  droite et du centre favorables à une primaire ; Retailleau annonce le
+  8 septembre vouloir supprimer le droit du sol par référendum ; Ruffin, le
+  9 septembre sur RTL, tance Glucksmann (« peur des électeurs ») tout en se
+  disant toujours prêt. Édition au 11 septembre 2026. Les `verifiedAt` des
+  fiches principales concernées et plusieurs entrées du panorama passent au
+  11 septembre. Cinq sources ajoutées. La série historique Ifop comparable est
+  conservée. Cluster17 / Verian de stature non substitués aux IV affichées.
+- **Sources consultées** : notice OpinionWay PDF (Commission des sondages,
+  10 sept.) ; notice Odoxa PDF (9 sept.) ; Le Monde / AFP (Retailleau droit du
+  sol, 8 sept.) ; Le Parisien (Ruffin RTL, 9 sept.) ; BFMTV et Le Figaro pour
+  recoupement Odoxa ; Wikipedia / SP2027 pour recoupement des scores ; Les Echos
+  (accès paywall partiel) pour le contexte PrésiTrack.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/polls.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  contrôle des identifiants de sources et relations `sourceIds` ; `git diff
+  --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition, ticker,
+  carte OpinionWay, chronologie). Pas d’outil navigateur MCP disponible ;
+  vérification par HTTP.
+- **Résultat** : édition du 11 septembre prête ; commit et push sur `main`.

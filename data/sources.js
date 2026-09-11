@@ -422,5 +422,35 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-09-09", verifiedAt: "2026-09-09",
     description: "Main tendue vers un comité début novembre ; Retailleau décline une « réunion pour les macronistes »",
     url: "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-edouard-philippe-tend-la-main-a-la-droite-et-au-centre-bruno-retailleau-la-refuse-20260909"
+  },
+  {
+    id: "opinionway-sept-2026", category: "Opinion", name: "OpinionWay PrésiTrack · intentions de vote septembre 2026",
+    publisher: "OpinionWay", type: "poll", publishedAt: "2026-09-10", verifiedAt: "2026-09-11", featured: true,
+    description: "Vague 2 pour Les Echos / Radio Classique (8–9 septembre, 948 inscrits) : trois hypothèses ; Le Pen à 34 %",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10259-pres-presitrack-v2-opinionway-les-echos-10-septembre.pdf"
+  },
+  {
+    id: "odoxa-primaire-droite-2026", category: "Opinion", name: "Odoxa · primaire de la droite et du centre",
+    publisher: "Odoxa", type: "poll", publishedAt: "2026-09-09", verifiedAt: "2026-09-11", featured: true,
+    description: "Pour Backbone / Le Figaro (8–9 septembre, 1 005 personnes) : 70 % des sympathisants droite/centre favorables à une primaire",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10257-pres-primaire-droite-centre-odoxa-9-septembre.pdf"
+  },
+  {
+    id: "leparisien-ruffin-rtl-2026", category: "Primaires", name: "Ruffin accuse Glucksmann d’avoir « peur des électeurs »",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-09-09", verifiedAt: "2026-09-11",
+    description: "Sur RTL, Ruffin se dit toujours prêt à la primaire sociale-démocrate et critique le droit d’entrée de 10–15 euros",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-francois-ruffin-regrette-que-raphael-glucksmann-ait-peur-dune-primaire-ouverte-a-gauche-09-09-2026-24FUX7GERVCEXITRGFLNHJLTXQ.php"
+  },
+  {
+    id: "lemonde-retailleau-droit-sol-2026", category: "Campagne", name: "Retailleau veut supprimer le droit du sol par référendum",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-08", verifiedAt: "2026-09-11", featured: true,
+    description: "AFP / Le Monde : engagement de référendum migratoire et pénal après révision constitutionnelle (CNews / Europe 1)",
+    url: "https://www.lemonde.fr/politique/article/2026/09/08/bruno-retailleau-souhaite-supprimer-le-droit-du-sol-par-referendum_6768586_823448.html"
+  },
+  {
+    id: "bfmtv-odoxa-primaire-2026", category: "Opinion", name: "BFMTV relais du sondage Odoxa sur la primaire",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-10", verifiedAt: "2026-09-11",
+    description: "Synthèse : 70 % favorables ; Philippe mieux placé ; Attal et Retailleau ouverts, Philippe refuse",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-plus-de-deux-tiers-des-electeurs-de-droite-et-du-centre-favorables-a-une-primaire-selon-un-sondage_AD-202609100200.html"
   }
 ];
