@@ -823,3 +823,39 @@ changé et pourquoi.
   carte OpinionWay, chronologie). Pas d’outil navigateur MCP disponible ;
   vérification par HTTP.
 - **Résultat** : édition du 11 septembre prête ; commit et push sur `main`.
+
+## 2026-09-14 09:15 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 11 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 11 septembre. Remplacement des fourchettes OpinionWay par
+  l’Enquête électorale française Ipsos bva-CESI pour Le Monde / Cevipof /
+  Fondation Jean-Jaurès / Institut Montaigne (terrain 3–9 septembre, 13 060
+  inscrits, notice Commission des sondages du 13 septembre) : Le Pen 33–35 % ;
+  Philippe 14–21 % ; Mélenchon 15,5–17 % (second tour dans quatre scénarios sur
+  six) ; Glucksmann 11,5–13,5 % ; Attal 6–15,5 % ; Retailleau 7–10,5 %.
+  Intégration des faits établis : meetings Mélenchon–Roussel à la Fête de
+  l’Humanité (12 septembre) ; Mélenchon plaide le blocage des marges et une
+  échelle mobile des salaires ; trois débats télévisés de la primaire
+  sociale-démocrate annoncés (LCI 23 septembre, France 2 / France Inter
+  1er octobre, puis BFMTV). Édition au 14 septembre 2026. Les `verifiedAt` des
+  fiches principales concernées et de Roussel / Faure (panorama) passent au
+  14 septembre. Cinq sources ajoutées. La série historique Ifop comparable est
+  conservée. Vague Toluna Harris Interactive (8–10 septembre, notice du
+  14 septembre) recensée mais non substituée à l’EEM Ipsos (échantillon plus
+  large et rapport institut exploité ici).
+- **Sources consultées** : notice Ipsos EEM PDF (Commission des sondages,
+  13 sept.) et page Ipsos ; franceinfo (Mélenchon Fête de l’Huma, 13 sept.) ;
+  LCP (duel Mélenchon–Roussel, 12 sept.) ; 20 Minutes (trois débats, 10 sept.) ;
+  registre Commission des sondages (Toluna Harris, OpinionWay CNews) ; Le
+  Parisien pour recoupement de la vague Ipsos.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/polls.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  80 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, carte Ipsos EEM, chronologie). Pas d’outil navigateur MCP ni Chrome
+  headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 14 septembre prête ; commit et push sur `main`.

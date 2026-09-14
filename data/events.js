@@ -37,10 +37,14 @@ window.DECRYPTER_2027.events = [
   ["9 septembre 2026", "Ruffin tance Glucksmann sur RTL", "Toujours prêt à rejoindre la primaire sociale-démocrate, il regrette que Glucksmann ait « peur des électeurs » et critique le droit d’entrée de 10 à 15 euros.", "Gauche"],
   ["9 septembre 2026", "Odoxa : 70 % favorables à une primaire droite/centre", "Parmi les sympathisants de droite et du centre, 70 % veulent une primaire (64 % ouverte) ; Philippe est jugé bon candidat par 67 %, devant Retailleau (60 %) et Attal (48 %).", "Opinion"],
   ["10 septembre 2026", "OpinionWay place Le Pen à 34 %", "PrésiTrack pour Les Echos / Radio Classique (terrain 8–9 septembre, 948 inscrits) : Le Pen à 34 % dans les trois hypothèses ; Philippe à 15–19 % ; Mélenchon à 15 %.", "Opinion"],
-  ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Les candidatures formelles à la primaire PS–Place publique–GRS doivent être déposées durant cette fenêtre.", "À venir"],
-  ["11–13 septembre 2026", "Fête de l’Humanité", "Rendez-vous de campagne de Fabien Roussel à Brétigny-sur-Orge, avec un discours prévu le samedi.", "À venir"],
+  ["10 septembre 2026", "Trois débats pour la primaire sociale-démocrate", "Patrick Mennucci annonce LCI le 23 septembre, France 2 / France Inter le 1er octobre, puis BFMTV avant le premier tour des 9-10 octobre.", "Gauche"],
+  ["1er–15 septembre 2026", "Déclarations à la primaire sociale-démocrate", "Fenêtre de dépôt des candidatures formelles à la primaire PS–Place publique–GRS ; clôture le 15 septembre.", "Gauche"],
+  ["12 septembre 2026", "Duel Mélenchon–Roussel à la Fête de l’Humanité", "À Brétigny-sur-Orge, Mélenchon (stand LFI) et Roussel (grande scène Angela Davis) tiennent des meetings à quelques minutes d’intervalle.", "Gauche"],
+  ["12 septembre 2026", "Mélenchon plaide le blocage des prix", "À la Fête de l’Humanité, le candidat LFI défend le blocage des marges et une échelle mobile des salaires.", "Gauche"],
+  ["13 septembre 2026", "Ipsos place Le Pen à 33–35 %", "Enquête électorale française (3–9 septembre, 13 060 inscrits) : Le Pen 33–35 % ; Mélenchon au second tour dans quatre scénarios sur six ; Philippe 14–21 %.", "Opinion"],
+  ["23 septembre 2026", "Premier débat LCI de la primaire", "Émission sur LCI avec les candidats de la primaire sociale-démocrate, avant le premier tour des 9-10 octobre.", "À venir"],
   ["1er octobre 2026", "Philippe quitte la présidence d’Horizons", "Le candidat doit laisser la présidence exécutive du parti à Christophe Béchu pour se consacrer à la campagne.", "À venir"],
-  ["1er octobre 2026", "Débat télévisé de la primaire sociale-démocrate", "Glucksmann, Faure, Royal et les autres candidats déclarés doivent débattre avant le premier tour des 9-10 octobre.", "À venir"],
+  ["1er octobre 2026", "Débat France 2 / France Inter de la primaire", "Confrontation en première partie de soirée sur le service public, après le débat LCI du 23 septembre.", "À venir"],
   ["Début novembre 2026", "Comité Philippe droite/centre", "Réunion proposée vers la Toussaint sur les convergences programmatiques et les législatives ; Retailleau a d’ores et déjà décliné.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];

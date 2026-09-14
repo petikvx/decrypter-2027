@@ -452,5 +452,35 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-10", verifiedAt: "2026-09-11",
     description: "Synthèse : 70 % favorables ; Philippe mieux placé ; Attal et Retailleau ouverts, Philippe refuse",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-plus-de-deux-tiers-des-electeurs-de-droite-et-du-centre-favorables-a-une-primaire-selon-un-sondage_AD-202609100200.html"
+  },
+  {
+    id: "ipsos-eem-sept-2026", category: "Opinion", name: "Ipsos EEM · Enquête électorale française septembre 2026",
+    publisher: "Ipsos bva", type: "poll", publishedAt: "2026-09-13", verifiedAt: "2026-09-14", featured: true,
+    description: "Vague 3 pour Le Monde / Cevipof / Fondation Jean-Jaurès / Institut Montaigne (3–9 septembre, 13 060 inscrits) : six hypothèses ; Le Pen 33–35 % ; Mélenchon au second tour dans 4 scénarios sur 6",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10262-pres-enquete-electorale-ipsos-bva-le-monde-13-septembre.pdf"
+  },
+  {
+    id: "ipsos-eem-page-sept-2026", category: "Opinion", name: "Ipsos · page de synthèse EEM septembre 2026",
+    publisher: "Ipsos bva", type: "poll", publishedAt: "2026-09-13", verifiedAt: "2026-09-14",
+    description: "Synthèse institut : climat d’opinion, fourchettes et rapport complet de la vague 3",
+    url: "https://www.ipsos.com/fr-fr/presidentielle-2027-le-point-7-mois-du-scrutin"
+  },
+  {
+    id: "franceinfo-melenchon-huma-2026", category: "Campagne", name: "Mélenchon à la Fête de l’Humanité : blocage des prix",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-13", verifiedAt: "2026-09-14", featured: true,
+    description: "Meeting du 12 septembre : blocage des marges et échelle mobile des salaires",
+    url: "https://www.franceinfo.fr/elections/presidentielle/en-meeting-a-la-fete-de-l-humanite-jean-luc-melenchon-attire-les-foules-et-plaide-pour-le-blocage-des-prix_8190017.html"
+  },
+  {
+    id: "lcp-huma-melenchon-roussel-2026", category: "Campagne", name: "Duel Mélenchon–Roussel à la Fête de l’Humanité",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-12", verifiedAt: "2026-09-14", featured: true,
+    description: "Meetings du 12 septembre à Brétigny-sur-Orge : stand LFI et grande scène Angela Davis pour Roussel",
+    url: "https://lcp.fr/actualites/a-la-fete-de-l-humanite-melenchon-et-roussel-se-livrent-un-duel-de-popularite-441652"
+  },
+  {
+    id: "vingtminutes-debats-primaire-2026", category: "Primaires", name: "Trois débats télévisés pour la primaire sociale-démocrate",
+    publisher: "20 Minutes", type: "reference-media", publishedAt: "2026-09-10", verifiedAt: "2026-09-14", featured: true,
+    description: "Annonce Mennucci : LCI le 23 septembre, France 2 / France Inter le 1er octobre, puis BFMTV avant le premier tour",
+    url: "https://www.20minutes.fr/politique/4244250-20260910-presidentielle-2027-lci-france-2-bfmtv-trois-debats-televises-primaire-ps"
   }
 ];
