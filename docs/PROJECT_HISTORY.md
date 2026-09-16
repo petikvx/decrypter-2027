@@ -859,3 +859,35 @@ changé et pourquoi.
   ticker, carte Ipsos EEM, chronologie). Pas d’outil navigateur MCP ni Chrome
   headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 14 septembre prête ; commit et push sur `main`.
+
+## 2026-09-16 09:05 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 14 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, alliances, faits de campagne et
+  sondages depuis le 14 septembre. Aucun baromètre d’intentions de vote
+  postérieur à l’Ipsos EEM (3–9 septembre, notice du 13 septembre) retenu pour
+  remplacer les fourchettes affichées (SP2027 confirme l’absence de vague plus
+  récente d’IV comparable). Intégration des faits établis du 15–16 septembre :
+  clôture des dépôts à la primaire sociale-démocrate ; validation de cinq
+  candidatures (Faure, Glucksmann, Guedj, Maurel, Royal) ; suspension à titre
+  conservatoire de Philippe Brun au PS pour accusations de violence, avec sa
+  réponse publique (il dit ignorer les faits) ; Fabien Verdier écarté faute de
+  parrainages ; débat BFMTV daté au 4 octobre ; Ruffin constate une « fin de
+  partie » hors du scrutin. Édition au 16 septembre 2026. Les `verifiedAt` de
+  Glucksmann, Ruffin et des entrées du panorama concernées passent au
+  16 septembre. Trois sources ajoutées. La série historique Ifop comparable est
+  conservée.
+- **Sources consultées** : LCP (ligne de départ de la primaire, 16 sept.) ;
+  Le Monde (suspension Brun, 16 sept.) ; BFMTV (réaction Brun, 16 sept.) ;
+  page Ipsos EEM et SP2027 pour l’état des sondages ; Wikipedia / Commission
+  des sondages pour recoupement (aucune nouvelle notice IV postérieure retenue).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  83 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, carte gauche, chronologie, panorama Brun/Verdier). Pas d’outil
+  navigateur MCP ni Chrome headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 16 septembre prête ; commit et push sur `main`.

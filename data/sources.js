@@ -482,5 +482,23 @@ window.DECRYPTER_2027.sources = [
     publisher: "20 Minutes", type: "reference-media", publishedAt: "2026-09-10", verifiedAt: "2026-09-14", featured: true,
     description: "Annonce Mennucci : LCI le 23 septembre, France 2 / France Inter le 1er octobre, puis BFMTV avant le premier tour",
     url: "https://www.20minutes.fr/politique/4244250-20260910-presidentielle-2027-lci-france-2-bfmtv-trois-debats-televises-primaire-ps"
+  },
+  {
+    id: "lcp-primaire-ligne-depart-2026", category: "Primaires", name: "Cinq candidats sur la ligne de départ de la primaire",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-16", verifiedAt: "2026-09-16", featured: true,
+    description: "Validation de Faure, Glucksmann, Guedj, Maurel et Royal ; Brun écarté ; Verdier sans parrainages ; débats LCI, France 2 et BFMTV le 4 octobre",
+    url: "https://lcp.fr/actualites/presidentielle-qui-sont-les-candidats-sur-la-ligne-de-depart-de-la-primaire-de-gauche"
+  },
+  {
+    id: "lemonde-brun-suspension-2026", category: "Primaires", name: "Suspension conservatoire de Philippe Brun au PS",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-16", verifiedAt: "2026-09-16", featured: true,
+    description: "Bureau national : suspension pour faits graves susceptibles de relever du pénal ; exclusion de la primaire ; Verdier sans parrainages",
+    url: "https://www.lemonde.fr/politique/article/2026/09/16/presidentielle-2027-philippe-brun-suspendu-a-titre-conservatoire-du-ps-ne-participera-pas-a-la-primaire-a-gauche_6775146_823448.html"
+  },
+  {
+    id: "bfmtv-brun-suspension-2026", category: "Primaires", name: "Réaction de Philippe Brun à sa suspension",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-16", verifiedAt: "2026-09-16",
+    description: "Communiqué : Brun dit ignorer ce qui lui est reproché et n’avoir pas été entendu ; signalement évoqué la veille à 23h50",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/j-ignore-ce-qui-m-est-reproche-le-depute-ps-philippe-brun-dit-avoir-appris-avec-stupeur-sa-suspension-du-ps_AN-202609160370.html"
   }
 ];

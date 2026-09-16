@@ -42,9 +42,12 @@ window.DECRYPTER_2027.events = [
   ["12 septembre 2026", "Duel Mélenchon–Roussel à la Fête de l’Humanité", "À Brétigny-sur-Orge, Mélenchon (stand LFI) et Roussel (grande scène Angela Davis) tiennent des meetings à quelques minutes d’intervalle.", "Gauche"],
   ["12 septembre 2026", "Mélenchon plaide le blocage des prix", "À la Fête de l’Humanité, le candidat LFI défend le blocage des marges et une échelle mobile des salaires.", "Gauche"],
   ["13 septembre 2026", "Ipsos place Le Pen à 33–35 %", "Enquête électorale française (3–9 septembre, 13 060 inscrits) : Le Pen 33–35 % ; Mélenchon au second tour dans quatre scénarios sur six ; Philippe 14–21 %.", "Opinion"],
-  ["23 septembre 2026", "Premier débat LCI de la primaire", "Émission sur LCI avec les candidats de la primaire sociale-démocrate, avant le premier tour des 9-10 octobre.", "À venir"],
+  ["15 septembre 2026", "Clôture des dépôts à la primaire", "Fin de la fenêtre de candidatures ; Ruffin constate sur X une « fin de partie » hors du scrutin.", "Gauche"],
+  ["16 septembre 2026", "Cinq candidats validés à la primaire", "La commission retient Faure, Glucksmann, Guedj, Maurel et Royal. Brun est suspendu du PS pour accusations de violence ; Verdier n’a pas les parrainages.", "Gauche"],
+  ["23 septembre 2026", "Premier débat LCI de la primaire", "Émission sur LCI avec les cinq candidats validés, avant le premier tour des 9-10 octobre.", "À venir"],
   ["1er octobre 2026", "Philippe quitte la présidence d’Horizons", "Le candidat doit laisser la présidence exécutive du parti à Christophe Béchu pour se consacrer à la campagne.", "À venir"],
   ["1er octobre 2026", "Débat France 2 / France Inter de la primaire", "Confrontation en première partie de soirée sur le service public, après le débat LCI du 23 septembre.", "À venir"],
+  ["4 octobre 2026", "Débat BFMTV de la primaire", "Troisième débat télévisé avant le premier tour des 9-10 octobre.", "À venir"],
   ["Début novembre 2026", "Comité Philippe droite/centre", "Réunion proposée vers la Toussaint sur les convergences programmatiques et les législatives ; Retailleau a d’ores et déjà décliné.", "À venir"],
   ["9-10 et 16-17 octobre 2026", "Primaire de la gauche socialiste et démocratique", "Deux tours électroniques pour désigner le candidat de l’arc social-démocrate à la présidentielle.", "À venir"]
 ];
