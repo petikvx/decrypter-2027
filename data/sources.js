@@ -500,5 +500,35 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-16", verifiedAt: "2026-09-16",
     description: "Communiqué : Brun dit ignorer ce qui lui est reproché et n’avoir pas été entendu ; signalement évoqué la veille à 23h50",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/j-ignore-ce-qui-m-est-reproche-le-depute-ps-philippe-brun-dit-avoir-appris-avec-stupeur-sa-suspension-du-ps_AN-202609160370.html"
+  },
+  {
+    id: "franceinfo-philippe-climat-2026", category: "Programmes", name: "Philippe : politique de sécurité climatique",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-17", verifiedAt: "2026-09-18", featured: true,
+    description: "Discours des Ponts-de-Cé : fonds d’adaptation, Canadairs français, stockage de l’eau",
+    url: "https://www.franceinfo.fr/elections/presidentielle/edouard-philippe-souhaite-doter-la-france-d-une-veritable-politique-de-securite-climatique_8197976.html"
+  },
+  {
+    id: "lesechos-philippe-climat-2026", category: "Programmes", name: "Philippe défend une écologie compatible avec le capitalisme",
+    publisher: "Les Echos", type: "reference-media", publishedAt: "2026-09-17", updatedAt: "2026-09-18", verifiedAt: "2026-09-18", featured: true,
+    description: "Compte rendu détaillé : fonds unique de 2 Md€/an (Barnier + Fonds vert), adaptation et marché",
+    url: "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-edouard-philippe-defend-une-vision-de-lecologie-compatible-avec-le-capitalisme-2252255"
+  },
+  {
+    id: "franceinfo-attal-etats-unis-europe-2026", category: "Programmes", name: "Attal plaide pour des États-Unis d’Europe",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-17", verifiedAt: "2026-09-18", featured: true,
+    description: "Discours de Reims : noyau volontaire, convergence fiscale et économique, dette commune, référendum",
+    url: "https://www.franceinfo.fr/monde/europe/gabriel-attal-juge-que-l-europe-des-27-a-atteint-ses-limites-et-plaide-pour-des-etats-unis-d-europe_8197754.html"
+  },
+  {
+    id: "franceinfo-tondelier-enfance-2026", category: "Programmes", name: "Tondelier : un pays à hauteur d’enfant",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-17", verifiedAt: "2026-09-18", featured: true,
+    description: "Arcueil : ministère de l’Enfance, ASE jusqu’à 25 ans, interdiction du lucratif, centres de prise en charge",
+    url: "https://www.franceinfo.fr/elections/presidentielle/pour-son-dernier-deplacement-avant-son-accouchement-marine-tondelier-veut-un-pays-a-hauteur-d-enfant_8197694.html"
+  },
+  {
+    id: "lemonde-lepen-porge-2026", category: "Campagne", name: "Le Pen face aux sinistrés du Porge",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-18", verifiedAt: "2026-09-18",
+    description: "Visite du 17 septembre dans la commune girondine touchée par un mégafeu ; habitants désabusés",
+    url: "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-au-porge-village-sinistre-ou-personne-ne-croit-plus-a-la-politique-marine-le-pen-face-a-des-habitants-desabuses_6776665_823448.html"
   }
 ];

@@ -891,3 +891,35 @@ changé et pourquoi.
   ticker, carte gauche, chronologie, panorama Brun/Verdier). Pas d’outil
   navigateur MCP ni Chrome headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 16 septembre prête ; commit et push sur `main`.
+
+## 2026-09-18 09:05 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 16 septembre 2026, commit et push sur `main`).
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits de
+  campagne et sondages depuis le 16 septembre. Aucun baromètre d’intentions de
+  vote postérieur à l’Ipsos EEM (3–9 septembre, notice du 13 septembre) retenu
+  pour remplacer les fourchettes affichées (SP2027 et registre Commission des
+  sondages : notices thématiques Odoxa/Elabe/CSA des 15–17 septembre, sans IV
+  comparable plus récente). Intégration des faits établis du 17–18 septembre :
+  Philippe présente aux Ponts-de-Cé une « politique de sécurité climatique »
+  (fonds d’adaptation de 2 Md€/an, Canadairs français, écologie « compatible
+  avec le capitalisme ») ; Attal plaide à Reims des « États-Unis d’Europe » via
+  un noyau volontaire ; Tondelier dévoile à Arcueil un plan « à hauteur
+  d’enfant » ; Le Pen rencontre des sinistrés au Porge. Édition au
+  18 septembre 2026. Les `verifiedAt` de Le Pen, Attal, Philippe et Tondelier
+  passent au 18 septembre. Cinq sources ajoutées. La série historique Ifop
+  comparable est conservée.
+- **Sources consultées** : franceinfo (Philippe climat, Attal Europe,
+  Tondelier enfance, 17 sept.) ; Les Echos (Philippe climat, 17–18 sept.) ;
+  Le Monde (Le Pen au Porge, 18 sept.) ; page Ipsos EEM et SP2027 pour l’état
+  des sondages ; Commission des sondages (notices 10262–10267) pour recoupement.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  88 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi (édition,
+  ticker, cartes climat/Europe, chronologie). Pas d’outil navigateur MCP ni
+  Chrome headless disponibles ; vérification par HTTP.
+- **Résultat** : édition du 18 septembre prête ; commit et push sur `main`.
