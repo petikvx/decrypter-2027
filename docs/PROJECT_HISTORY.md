@@ -923,3 +923,47 @@ changé et pourquoi.
   ticker, cartes climat/Europe, chronologie). Pas d’outil navigateur MCP ni
   Chrome headless disponibles ; vérification par HTTP.
 - **Résultat** : édition du 18 septembre prête ; commit et push sur `main`.
+
+## 2026-09-25 17:55 UTC — contrôle de la crontask Grok
+
+- **Environnement** : poste local / Grok 1.0.41 (stable).
+- **Demande** : vérifier si la tâche cron Décrypter reste valable avec la
+  version actuelle de Grok.
+- **Travail effectué** : crontab inchangée
+  (`0 9 * * 1,3,5 …/scripts/auto-update.sh`, fuseau système UTC).
+  Les drapeaux `-p`, `--cwd`, `--always-approve` et `--output-format plain`
+  sont toujours documentés et acceptés. `--no-auto-update` n’apparaît plus
+  dans `grok --help` mais reste accepté (essai headless `--max-turns 1`
+  concluant, et toujours cité dans le guide headless). Constat séparé :
+  les lancements des 21, 23 et 25 septembre ont quitté tout de suite
+  (« déjà en cours ») parce que `python3 -m http.server 8765`
+  (pid 2013084, démarré le 18 septembre 09:05 UTC pendant la vérification
+  de cette mise à jour, désormais orphelin) détient encore le `flock` sur
+  `/tmp/decrypter-2027-update.lock`.
+- **Sources consultées** : `grok --help`, `~/.grok/docs/user-guide/14-headless-mode.md`,
+  `~/logs/decrypter-2027/cron.log` ; aucune source politique.
+- **Fichiers modifiés** : `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : lecture crontab, test d’invocation headless, `lsof` /
+  `ps` sur le verrou.
+- **Résultat** : ligne cron et drapeaux compatibles avec Grok 1.0.41 ;
+  la mise à jour automatique ne repartira pas tant que ce processus
+  détient le verrou. Aucun changement éditorial.
+
+## 2026-09-25 18:05 UTC — précision : modèle du cron
+
+- **Environnement** : poste local / Grok 1.0.41.
+- **Demande** : la vérification précédente portait surtout sur le modèle
+  choisi par la tâche cron.
+- **Travail effectué** : `scripts/auto-update.sh` ne passe pas `-m` /
+  `--model`. Un appel headless équivalent, hors variables de session,
+  part sur `grok-4.7-build` (Grok 4.7, défaut annoncé par `grok models`).
+  `~/.grok/config.toml` contient encore `[models] default = "grok-4.6"` ;
+  cet ancien défaut n’est pas celui qui est exécuté.
+- **Sources consultées** : `grok models`, sortie JSON headless
+  (`modelUsage`) ; aucune source politique.
+- **Fichiers modifiés** : `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : invocation headless `--max-turns 1` sans
+  `GROK_AGENT` ni `GROK_SESSION_ID`.
+- **Résultat** : le cron, quand le verrou le laisse passer, tourne sur
+  Grok 4.7. Correction de l’entrée 17:55 UTC, qui ne traitait pas le
+  modèle.
