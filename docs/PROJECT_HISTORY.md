@@ -967,3 +967,45 @@ changé et pourquoi.
 - **Résultat** : le cron, quand le verrou le laisse passer, tourne sur
   Grok 4.7. Correction de l’entrée 17:55 UTC, qui ne traitait pas le
   modèle.
+
+## 2026-09-26 19:30 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 (audit sourcé depuis
+  l’édition du 18 septembre 2026, commit et push sur `main`). Les lancements
+  des 21, 23 et 25 septembre n’avaient pas produit d’édition (verrou
+  `flock` encore détenu).
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 18 septembre.
+  Les fourchettes Ipsos EEM (3–9 septembre, notice du 13 septembre) sont
+  conservées : Cluster17 / Politico (15–16 septembre, publié le 24) est
+  recensé en chronologie mais non substitué (effet maison documenté, Le Pen
+  plus bas, échantillon plus réduit). Intégration des faits établis :
+  Zemmour annonce le 17 septembre sur BFMTV qu’il sera candidat (lancement
+  formel renvoyé à l’automne par son entourage) ; premier débat LCI de la
+  primaire le 23 septembre (consensus salarial, fracture sur LFI et Gaza) ;
+  tribunal puis cour d’appel de Paris rejettent le 23 septembre le référé
+  de Philippe Brun, qui reste hors primaire ; Retailleau précise le 23
+  septembre sur LCI un départ à 63 ans et un taux plein à 65 ans ;
+  Tondelier participe le 26 septembre à la marche climat d’Arras, huit
+  jours après son accouchement, sans reprise à plein temps. Édition au
+  26 septembre 2026. Les `verifiedAt` de Retailleau, Glucksmann, Tondelier,
+  Zemmour et des entrées du panorama concernées passent au 26 septembre.
+  Huit sources ajoutées. La série historique Ifop comparable est conservée.
+- **Sources consultées** : LCP et Le Monde (Zemmour, 17–18 sept.) ;
+  franceinfo (débat LCI, 24 sept. ; Tondelier Arras, 26 sept.) ; communiqué
+  du tribunal judiciaire de Paris (23 sept.) et Le Monde / AFP (cour
+  d’appel Brun) ; Les Echos (retraites Retailleau, 23 sept.) ; rapport
+  Cluster17 PDF et page institut (24 sept.) ; Politico ; page Ipsos EEM et
+  SP2027 pour l’état des sondages ; Commission des sondages (notices de
+  septembre, pas de nouvelle IV Ipsos/Ifop/Elabe/OpinionWay postérieure
+  retenue pour remplacer l’affichage).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`, `data/events.js`,
+  `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  96 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local et contrôle du HTML/JS servi
+  (édition, ticker, carte gauche, chronologie, fiches Zemmour / Glucksmann /
+  Tondelier). Pas d’outil navigateur MCP ni Chrome headless disponibles ;
+  vérification par HTTP.
+- **Résultat** : édition du 26 septembre prête ; commit et push sur `main`.

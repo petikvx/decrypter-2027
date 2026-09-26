@@ -530,5 +530,53 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-18", verifiedAt: "2026-09-18",
     description: "Visite du 17 septembre dans la commune girondine touchée par un mégafeu ; habitants désabusés",
     url: "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-au-porge-village-sinistre-ou-personne-ne-croit-plus-a-la-politique-marine-le-pen-face-a-des-habitants-desabuses_6776665_823448.html"
+  },
+  {
+    id: "lcp-zemmour-candidacy-2026", category: "Candidatures", name: "Zemmour officialise sa candidature sur BFMTV",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-17", verifiedAt: "2026-09-26", featured: true,
+    description: "17 septembre : « Je serai candidat à l’élection présidentielle » ; campagne avec Sarah Knafo",
+    url: "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871"
+  },
+  {
+    id: "lemonde-zemmour-candidacy-2026", category: "Candidatures", name: "Zemmour confirme sa candidature et dresse une liste d’expulsions",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-18", verifiedAt: "2026-09-26", featured: true,
+    description: "AFP / Le Monde : annonce BFMTV ; lancement formel renvoyé à l’automne ; catégories d’étrangers à « renvoyer »",
+    url: "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-durcit-son-discours-sur-l-immigration_6776761_823448.html"
+  },
+  {
+    id: "franceinfo-debat-primaire-lci-2026", category: "Primaires", name: "Premier débat LCI de la primaire sociale-démocrate",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-24", verifiedAt: "2026-09-26", featured: true,
+    description: "23 septembre : consensus sur les salaires ; clivages Gaza/Ukraine et alliance avec LFI aux législatives",
+    url: "https://www.franceinfo.fr/elections/presidentielle/desaccords-sur-le-proche-orient-et-lfi-convergences-sur-les-salaires-ce-qu-il-faut-retenir-du-premier-debat-de-la-primaire-socialiste_8207438.html"
+  },
+  {
+    id: "tribunal-brun-refere-2026", category: "Justice", name: "Communiqué des référés : rejet de la demande de Philippe Brun",
+    publisher: "Tribunal judiciaire de Paris", type: "institution", publishedAt: "2026-09-23", verifiedAt: "2026-09-26", featured: true,
+    description: "Jugement RG 26/56420 : pas de trouble manifestement illicite ; suspension conservatoire du PS maintenue",
+    url: "https://www.tribunal-de-paris.justice.fr/sites/default/files/2026-09/CP%2023.09.2026%20-%20R%C3%A9f%C3%A9r%C3%A9s.pdf"
+  },
+  {
+    id: "lemonde-brun-appel-2026", category: "Justice", name: "La cour d’appel confirme l’éviction de Philippe Brun",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-23", verifiedAt: "2026-09-26", featured: true,
+    description: "Chambre des référés : signalement du 15 septembre établi ; pas de manœuvre dolosive caractérisée",
+    url: "https://www.lemonde.fr/politique/article/2026/09/23/presidentielle-2027-la-cour-d-appel-rejette-a-son-tour-la-demande-de-reintegration-de-philippe-brun-a-la-primaire-a-gauche_6780868_823449.html"
+  },
+  {
+    id: "lesechos-retailleau-retraites-2026", category: "Programmes", name: "Retailleau : départ à 63 ans, taux plein à 65 ans",
+    publisher: "Les Echos", type: "reference-media", publishedAt: "2026-09-23", verifiedAt: "2026-09-26", featured: true,
+    description: "Annonce LCI : âge minimal 63 ans, taux plein 65 ans, décote de 7 % par année manquante",
+    url: "https://www.lesechos.fr/elections/programmes-dechiffres/presidentielle-2027-comment-retailleau-veut-pousser-les-francais-a-travailler-plus-longtemps-sans-faire-bondir-lage-legal-2253203"
+  },
+  {
+    id: "cluster17-politico-sept-2026", category: "Opinion", name: "Cluster17 pour Politico · intentions de vote septembre 2026",
+    publisher: "Cluster17", type: "poll", publishedAt: "2026-09-24", verifiedAt: "2026-09-26",
+    description: "Terrain 15–16 septembre, 1 943 inscrits : Le Pen 30–31 % ; Mélenchon et Philippe autour de 19 % (hypothèse Philippe). Vague distincte de l’Ipsos EEM.",
+    url: "https://cluster17.com/presidentielle-2027-le-pen-largement-en-tete-melenchon-et-philippe-au-coude-a-coude/"
+  },
+  {
+    id: "franceinfo-tondelier-arras-2026", category: "Campagne", name: "Tondelier à la marche climat d’Arras",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-26", verifiedAt: "2026-09-26", featured: true,
+    description: "Huit jours après son accouchement : cortège « en tant que militante », pas de campagne à plein temps",
+    url: "https://www.franceinfo.fr/politique/marine-tondelier-fait-son-retour-en-manifestation-mais-pas-en-campagne-a-plein-temps-quelques-jours-apres-la-naissance-de-son-fils_8211029.html"
   }
 ];
