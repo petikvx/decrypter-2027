@@ -1009,3 +1009,51 @@ changé et pourquoi.
   Tondelier). Pas d’outil navigateur MCP ni Chrome headless disponibles ;
   vérification par HTTP.
 - **Résultat** : édition du 26 septembre prête ; commit et push sur `main`.
+
+## 2026-09-28 09:20 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  26 septembre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 26 septembre.
+  Les fourchettes Ipsos EEM (3–9 septembre) sont conservées. La vague 6
+  Toluna Harris Interactive pour M6 et RTL (terrain 22–24 septembre,
+  1 974 inscrits, rapport du 28 septembre) est recensée à part : Le Pen
+  35–36 % dans cinq hypothèses, Mélenchon mesuré deuxième à 17–18 %
+  (écart de deux points avec Philippe lorsqu’il est seul au centre, dans
+  la marge), seconds tours exprimés 69–31 face à Mélenchon et 57–43 face
+  à Philippe. Marge d’erreur indiquée par l’institut : ±1,4 à ±3,1 points
+  selon le score. Le communiqué de l’institut diverge du tableau du
+  rapport ; les chiffres retenus sont ceux du PDF. Intégration des faits
+  établis, y compris deux omissions des éditions du 18 et du 26 septembre :
+  Dupont-Aignan lance le 19 septembre à Yerres sa quatrième campagne
+  (sortie de l’UE, 15 Md€, capital de 10 000 €, fin de l’aide à l’Ukraine,
+  carburant −40 centimes) ; Attal présente le 23 septembre un plan de
+  150 Md€ d’économies et un « Messmer II ». Le 25 septembre, Les
+  Écologistes suspendent Yannick Jadot pour trois mois ; Rousseau réagit
+  le 27. Le 27 septembre, le RN et l’UDR sont en mesure de former un
+  groupe au Sénat (Le Monde : neuf élus RN nouveaux, trois de 2023, trois
+  UDR, soit 15) ; LFI obtient un premier sénateur ; LR reste la première
+  force. Édition au 28 septembre 2026. Les `verifiedAt` de Le Pen,
+  Mélenchon, Attal, Glucksmann, Tondelier et Dupont-Aignan passent au
+  28 septembre. Neuf sources ajoutées. La série historique Ifop comparable
+  est conservée.
+- **Sources consultées** : rapport Toluna Harris Interactive vague 6
+  (PDF, 28 sept.) et article RTL ; page de campagne d’Attal et La Tribune
+  (Messmer II, 23–24 sept.) ; franceinfo (Dupont-Aignan, 19 sept. ;
+  Jadot, 25 sept.) ; Le Figaro / AFP (suspension et vote de décembre) ;
+  HuffPost / La Tribune Dimanche (Rousseau, 27 sept.) ; Le Monde
+  (sénatoriales RN et gauche, 28 sept.) ; page Ipsos EEM pour les
+  fourchettes affichées. La notice Commission des sondages de cette vague
+  Harris n’était pas encore listée le matin du 28 septembre ; le rapport
+  d’institut en tient lieu.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  105 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8766) et contrôle du HTML
+  servi (édition du 28 septembre, ticker, carte Messmer II, chronologie).
+  Pas d’outil navigateur ; vérification par HTTP, y compris un en-tête
+  mobile. Le serveur a été arrêté ensuite.
+- **Résultat** : édition du 28 septembre prête ; commit et push sur `main`.

@@ -65,7 +65,7 @@ window.DECRYPTER_2027.sources = [
   },
   {
     id: "attal-campaign-2026", category: "Candidature", name: "Site de campagne de Gabriel Attal",
-    publisher: "Gabriel Attal 2027", type: "official-campaign", publishedAt: "2026-05-22", verifiedAt: "2026-08-10",
+    publisher: "Gabriel Attal 2027", type: "official-campaign", publishedAt: "2026-05-22", updatedAt: "2026-09-28", verifiedAt: "2026-09-28",
     description: "Candidature, priorités et chantier programmatique",
     url: "https://attalpresident.fr/"
   },
@@ -578,5 +578,59 @@ window.DECRYPTER_2027.sources = [
     publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-26", verifiedAt: "2026-09-26", featured: true,
     description: "Huit jours après son accouchement : cortège « en tant que militante », pas de campagne à plein temps",
     url: "https://www.franceinfo.fr/politique/marine-tondelier-fait-son-retour-en-manifestation-mais-pas-en-campagne-a-plein-temps-quelques-jours-apres-la-naissance-de-son-fils_8211029.html"
+  },
+  {
+    id: "franceinfo-nda-2026", category: "Candidatures", name: "Dupont-Aignan lance sa quatrième campagne",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-19", verifiedAt: "2026-09-28", featured: true,
+    description: "Yerres : sortie de l’UE, 15 Md€ d’économies, capital de 10 000 €, fin de l’aide à l’Ukraine, carburant à −40 centimes",
+    url: "https://www.franceinfo.fr/politique/nicolas-dupont-aignan/je-serai-le-seul-candidat-qui-propose-de-sortir-de-l-union-europeenne-dit-nicolas-dupont-aignan-qui-se-lance-dans-sa-quatrieme-campagne-presidentielle_8201024.html"
+  },
+  {
+    id: "attal-messmer-2026", category: "Programmes", name: "Attal : désendettement et plan Messmer II",
+    publisher: "Gabriel Attal 2027", type: "official-campaign", publishedAt: "2026-09-23", verifiedAt: "2026-09-28", featured: true,
+    description: "Compte rendu de campagne : 150 Md€, fossiles sous 30 % en 2035, 14 EPR, électricité autour de 75 €/MWh",
+    url: "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises"
+  },
+  {
+    id: "latribune-attal-messmer-2026", category: "Programmes", name: "Attal détaille sa réponse à la crise énergétique",
+    publisher: "La Tribune", type: "reference-media", publishedAt: "2026-09-24", verifiedAt: "2026-09-28",
+    description: "Conférence du 23 septembre : Messmer II, nucléaire, renouvelables et neutralité carbone en 2050",
+    url: "https://www.latribune.fr/article/entreprises-finance/energie-environnement/77374962525242/crise-energetique-pour-gabriel-attal-il-faudra-produire-davantage-plus-vite-et-moins-cher"
+  },
+  {
+    id: "franceinfo-jadot-suspension-2026", category: "Campagne", name: "Jadot suspendu trois mois des Écologistes",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-25", verifiedAt: "2026-09-28", featured: true,
+    description: "Suspension conservatoire pour soutien à Glucksmann ; Jadot dénonce une « stratégie funeste de résignation »",
+    url: "https://www.franceinfo.fr/politique/ps/primaire-a-gauche/yannick-jadot-suspendu-temporairement-des-ecologistes-pour-son-soutien-a-raphael-glucksmann_8209919.html"
+  },
+  {
+    id: "lefigaro-jadot-suspension-2026", category: "Campagne", name: "Les adhérents écologistes tranchent en décembre",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-09-25", verifiedAt: "2026-09-28",
+    description: "AFP : suspension de trois mois ; vote des adhérents en décembre sur le maintien de la candidature Tondelier",
+    url: "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-yannick-jadot-suspendu-temporairement-des-ecologistes-pour-son-soutien-a-raphael-glucksmann-20260925"
+  },
+  {
+    id: "lemonde-senatoriales-rn-2026", category: "Campagne", name: "Le RN peut former un groupe au Sénat",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-28", verifiedAt: "2026-09-28", featured: true,
+    description: "Neuf élus RN nouveaux, trois de 2023, trois UDR : groupe allié de 15 ; listes le 5 octobre",
+    url: "https://www.lemonde.fr/politique/article/2026/09/28/senatoriales-2026-en-formant-un-groupe-pour-la-premiere-fois-le-rassemblement-national-conforte-son-recit-de-marche-vers-le-pouvoir_6784663_823448.html"
+  },
+  {
+    id: "lemonde-senatoriales-gauche-2026", category: "Campagne", name: "LFI entre au Sénat, la gauche reste divisée",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-28", verifiedAt: "2026-09-28",
+    description: "Premier sénateur insoumis ; PS, écologistes et communistes sauvent leurs groupes sans accord national",
+    url: "https://www.lemonde.fr/politique/article/2026/09/28/senatoriales-2026-la-gauche-resiste-lfi-fait-son-entree-mais-les-divisions-persistent_6784664_823448.html"
+  },
+  {
+    id: "harris-rtl-sept28-2026", category: "Opinion", name: "Toluna Harris Interactive — vague 6, 28 septembre 2026",
+    publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-09-28", verifiedAt: "2026-09-28", featured: true,
+    description: "M6 et RTL, terrain 22–24 septembre, 1 974 inscrits : Le Pen 35–36 %. Marge ±1,4 à ±3,1 points. Non substitué aux fourchettes Ipsos.",
+    url: "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-6-M6-RTL-28-septembre-2026.pdf"
+  },
+  {
+    id: "huffpost-rousseau-jadot-2026", category: "Campagne", name: "Rousseau réagit à la suspension de Jadot",
+    publisher: "Le HuffPost", type: "reference-media", publishedAt: "2026-09-27", verifiedAt: "2026-09-28",
+    description: "La Tribune Dimanche : « la direction se bunkérise » ; elle craint d’être la prochaine visée",
+    url: "https://www.huffingtonpost.fr/politique/article/apres-la-suspension-de-jadot-des-ecologistes-rousseau-se-sent-la-prochaine-visee_331984.html"
   }
 ];
