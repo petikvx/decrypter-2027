@@ -632,5 +632,59 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le HuffPost", type: "reference-media", publishedAt: "2026-09-27", verifiedAt: "2026-09-28",
     description: "La Tribune Dimanche : « la direction se bunkérise » ; elle craint d’être la prochaine visée",
     url: "https://www.huffingtonpost.fr/politique/article/apres-la-suspension-de-jadot-des-ecologistes-rousseau-se-sent-la-prochaine-visee_331984.html"
+  },
+  {
+    id: "franceinfo-villepin-negociation-2026", category: "Programmes", name: "Villepin veut constitutionnaliser la négociation sociale",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-27", verifiedAt: "2026-09-30", featured: true,
+    description: "Grand Jury du 27 septembre : charte sociale, primauté des syndicats, séquence retraites ; pas de déclaration formelle",
+    url: "https://www.franceinfo.fr/elections/presidentielle/dominique-de-villepin-veut-inscrire-le-principe-de-la-negociation-sociale-dans-la-loi-et-meme-la-constitution_8212154.html"
+  },
+  {
+    id: "lemonde-batimat-2026", category: "Programmes", name: "Le Pen, Attal et Mélenchon au grand oral de Batimat",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-29", verifiedAt: "2026-09-30", featured: true,
+    description: "28 septembre : pénurie de logements, ZAN et MaPrimeRénov’ pour Le Pen ; Philippe absent",
+    url: "https://www.lemonde.fr/societe/article/2026/09/29/crise-du-logement-marine-le-pen-gabriel-attal-et-jean-luc-melenchon-detaillent-leurs-propositions-a-batimat-le-salon-de-la-construction_6785568_3224.html"
+  },
+  {
+    id: "afp-batimat-2026", category: "Programmes", name: "Batimat : trois candidats sur la crise du logement",
+    publisher: "AFP", type: "reference-media", publishedAt: "2026-09-28", verifiedAt: "2026-09-30",
+    description: "Le Pen : prêt à la place de MaPrimeRénov’. Attal : programmation sur cinq ans. Mélenchon : 12 Md€ d’État et pôle public bancaire",
+    url: "https://www.notretemps.com/depeches/attal-le-pen-et-melenchon-interpeles-sur-la-crise-du-logement-et-la-grande-souffrance-du-batiment-139177"
+  },
+  {
+    id: "melenchon-btp-2026", category: "Programmes", name: "Plan BTP et logement de la campagne Mélenchon",
+    publisher: "Jean-Luc Mélenchon", type: "official-campaign", publishedAt: "2026-09-28", verifiedAt: "2026-09-30", featured: true,
+    description: "Premier plan d’investissement productif publié : 400 000 logements par an, dont 200 000 publics, 700 000 isolations",
+    url: "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+  },
+  {
+    id: "franceinfo-bardella-mediapart-2026", category: "Campagne", name: "Bardella conteste les écrits que lui attribue Mediapart",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-28", verifiedAt: "2026-09-30", featured: true,
+    description: "Messages de 2013 attribués au président du RN ; il parle de « faux grossiers » et annonce des poursuites. Le Pen évoque une « barbouzerie »",
+    url: "https://www.franceinfo.fr/politique/jordan-bardella/mediapart-rapporte-des-ecrits-antisemites-de-jordan-bardella-datant-de-2013-le-president-du-rn-dement-aupres-du-media_8213504.html"
+  },
+  {
+    id: "lcp-bardella-groupe-2026", category: "Campagne", name: "Le groupe RN se range derrière Bardella",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-09-29", verifiedAt: "2026-09-30",
+    description: "29 septembre : démenti répété à l’Assemblée ; Le Pen dénonce des manipulations. Pas de décision de justice",
+    url: "https://lcp.fr/actualites/accusations-d-antisemitisme-publiees-par-mediapart-a-l-assemblee-le-rn-serre-les-rangs"
+  },
+  {
+    id: "philippe-retraites-video-2026", category: "Programmes", name: "Philippe : « Retraites : la réforme que je propose aux Français »",
+    publisher: "Édouard Philippe", type: "official-campaign", publishedAt: "2026-09-29", verifiedAt: "2026-09-30", featured: true,
+    description: "Vidéo du 29 septembre : 65 ans et 45 annuités en moins de dix ans, après reprise de la réforme de 2023 ; volet de capitalisation",
+    url: "https://www.youtube.com/watch?v=tZuZwWpT4ak"
+  },
+  {
+    id: "franceinfo-philippe-retraites-2026", category: "Programmes", name: "Philippe détaille l’âge, les exceptions et la capitalisation",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-09-29", verifiedAt: "2026-09-30", featured: true,
+    description: "Un Français sur trois entre 60 et 64 ans ; handicap à 55 ans, incapacité à 60 ans, invalidité à 62 ans ; carrières longues maintenues",
+    url: "https://www.franceinfo.fr/elections/presidentielle/age-de-depart-a-65-ans-45-annuites-de-cotisation-edouard-philippe-candidat-horizons-a-la-presidentielle-devoile-son-projet-de-reforme-des-retraites_8214737.html"
+  },
+  {
+    id: "lemonde-philippe-retraites-2026", category: "Programmes", name: "Le Monde : Philippe sort de l’ambiguïté sur l’âge légal",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-29", verifiedAt: "2026-09-30",
+    description: "Il écarte l’hypothèse de 67 ans évoquée en 2021 et assume une mesure qu’il dit impopulaire",
+    url: "https://www.lemonde.fr/politique/article/2026/09/29/retraites-edouard-philippe-propose-de-porter-progressivement-la-duree-de-cotisation-a-45-ans-et-l-age-de-depart-a-65-ans_6785597_823448.html"
   }
 ];

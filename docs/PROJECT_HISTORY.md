@@ -1057,3 +1057,57 @@ changé et pourquoi.
   Pas d’outil navigateur ; vérification par HTTP, y compris un en-tête
   mobile. Le serveur a été arrêté ensuite.
 - **Résultat** : édition du 28 septembre prête ; commit et push sur `main`.
+
+## 2026-09-30 09:10 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  28 septembre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 28 septembre.
+  Les fourchettes Ipsos EEM (3–9 septembre) sont conservées. Aucune vague
+  d’intentions de vote postérieure à Toluna Harris (22–24 septembre, publié
+  le 28) n’est retenue. Le baromètre Odoxa du 29 septembre (Mascaret, Public
+  Sénat, presse régionale ; terrain 23–24 septembre, 1 005 personnes) mesure
+  des images et des soutiens, pas des intentions de vote : il n’est pas
+  affiché. La notice Commission des sondages de la vague Harris est désormais
+  en ligne ; elle ne change pas les chiffres déjà tirés du rapport.
+  Intégration des faits établis : le 29 septembre, Philippe publie une vidéo
+  (« Retraites : la réforme que je propose aux Français ») fixant, en moins
+  de dix ans, un âge légal à 65 ans et 45 annuités après reprise de la
+  réforme de 2023, avec un départ entre 60 et 64 ans pour « un Français sur
+  trois », des exceptions inchangées pour le handicap, l’incapacité et
+  l’invalidité, et un volet de capitalisation ; il dit la mesure impopulaire.
+  Sa maturité passe au niveau 2. Le 28 septembre à Batimat, Le Pen, Attal et
+  Mélenchon détaillent le logement ; LFI publie son premier plan de campagne
+  (400 000 logements par an, dont 200 000 publics). La maturité de Mélenchon
+  passe au niveau 2. Le même jour, Mediapart attribue à Bardella, alors
+  mineur, des messages privés de 2013 à teneur antisémite ; il les conteste
+  comme des « faux grossiers » et annonce des poursuites ; Le Pen parle d’une
+  « barbouzerie » ; le 29 septembre le groupe RN à l’Assemblée se range
+  derrière lui. Aucune décision de justice. Les extraits attribués ne sont
+  pas reproduits. Omission de l’édition du 28 septembre : le 27 septembre au
+  Grand Jury, Villepin, toujours non déclaré, veut inscrire dans la
+  Constitution la primauté de la négociation syndicale. Édition au
+  30 septembre 2026. Les `verifiedAt` de Le Pen, Bardella, Mélenchon, Attal,
+  Philippe et Villepin passent au 30 septembre, après contrôle du statut, de
+  la maturité et des thèmes sourcés. Neuf sources ajoutées. La série
+  historique Ifop comparable est conservée. La carte « Messmer II » cède la
+  place, sur la page d’accueil, au nœud des retraites ; le plan énergétique
+  d’Attal reste dans sa fiche.
+- **Sources consultées** : vidéo YouTube d’Édouard Philippe (29 sept.) ;
+  franceinfo et Le Monde (retraites, 29 sept.) ; Le Monde et dépêche AFP
+  (Batimat, 28–29 sept.) ; page officielle du plan BTP et logement de
+  Mélenchon ; franceinfo (Mediapart / Bardella, 28 sept.) et LCP (groupe RN,
+  29 sept.) ; franceinfo (Villepin, 27 sept.) ; notice Commission des
+  sondages Odoxa du 29 septembre (baromètre, pas d’intentions de vote) ;
+  page Ipsos EEM pour les fourchettes affichées.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  114 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8767) et contrôle du HTML
+  servi (édition du 30 septembre, ticker, carte retraites, chronologie,
+  fiches). Pas d’outil navigateur ; vérification par HTTP, y compris un
+  en-tête mobile. Le serveur a été arrêté ensuite.
+- **Résultat** : édition du 30 septembre prête ; commit et push sur `main`.
