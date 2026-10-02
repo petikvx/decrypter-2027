@@ -686,5 +686,71 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Monde", type: "reference-media", publishedAt: "2026-09-29", verifiedAt: "2026-09-30",
     description: "Il écarte l’hypothèse de 67 ans évoquée en 2021 et assume une mesure qu’il dit impopulaire",
     url: "https://www.lemonde.fr/politique/article/2026/09/29/retraites-edouard-philippe-propose-de-porter-progressivement-la-duree-de-cotisation-a-45-ans-et-l-age-de-depart-a-65-ans_6785597_823448.html"
+  },
+  {
+    id: "ifop-sept-2026", category: "Opinion", name: "Ifop-Fiducial — vague 6, 30 septembre 2026",
+    publisher: "Ifop", type: "poll", publishedAt: "2026-09-30", verifiedAt: "2026-10-02", featured: true,
+    description: "LCI, Le Figaro et Sud Radio, terrain 25–29 septembre, 1 393 inscrits. Hypothèse Philippe et Glucksmann : Le Pen 33 %, Philippe 21 %, Mélenchon 16 %. Non substitué aux fourchettes Ipsos.",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-presidentielle-v6-ifop-le-figaro-30-septembre.pdf"
+  },
+  {
+    id: "tv5-attal-retraites-2026", category: "Programmes", name: "Attal juge le plan retraites de Philippe",
+    publisher: "TV5MONDE / AFP", type: "reference-media", publishedAt: "2026-09-30", verifiedAt: "2026-10-02", featured: true,
+    description: "Europe 1 / CNews : « proposition Macron de 2022 », système universel sans âge légal, durée de cotisation",
+    url: "https://information.tv5monde.com/france/retraites-attal-critique-philippe-qui-propose-la-reforme-de-2022-2839647"
+  },
+  {
+    id: "rn-equipe-campagne-2026", category: "Campagne", name: "Nominations dans l’équipe de campagne de Marine Le Pen",
+    publisher: "Rassemblement national", type: "official-campaign", publishedAt: "2026-09-30", verifiedAt: "2026-10-02", featured: true,
+    description: "Communiqué de Julien Sanchez : Tanguy (économie), Diaz (parrainages), Laporte (agriculture), Sainte-Marie (sondages)",
+    url: "https://rassemblementnational.fr/communiques/communique-de-presse-de-julien-sanchez-directeur-de-campagne-de-marine-le-pen-2"
+  },
+  {
+    id: "lopinion-lepen-regle-or-2026", category: "Programmes", name: "Le Pen : référendum sur une règle d’or budgétaire",
+    publisher: "L’Opinion", type: "official-campaign", publishedAt: "2026-10-01", verifiedAt: "2026-10-02", featured: true,
+    description: "Tribune du 1er octobre : déficit sous le seuil de stabilisation de la dette, objectif 60 % du PIB",
+    url: "https://www.lopinion.fr/economie/marine-le-pen-je-proposerai-aux-francais-dadopter-une-regle-dor-budgetaire-par-referendum"
+  },
+  {
+    id: "ouest-france-bechu-horizons-2026", category: "Campagne", name: "Béchu assure l’intérim à la tête d’Horizons",
+    publisher: "Ouest-France", type: "reference-media", publishedAt: "2026-09-10", verifiedAt: "2026-10-02",
+    description: "Annonce du 8–10 septembre : Philippe quitte la présidence exécutive au 1er octobre ; Béchu, maire d’Angers, assure l’intérim",
+    url: "https://www.ouest-france.fr/pays-de-la-loire/maine-et-loire/christophe-bechu-assurera-linterim-a-la-tete-dhorizons-apres-le-depart-dedouard-philippe-a3045c90-ad34-11f1-8346-c9d5c99462af"
+  },
+  {
+    id: "franceinfo-debat-france2-2026", category: "Campagne", name: "Débat de la primaire sur France 2 et France Inter",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-01", verifiedAt: "2026-10-02", featured: true,
+    description: "1er octobre : LFI, Gaza, Bardella, budget ; cinq candidats, Caroline Roux et Benjamin Duhamel",
+    url: "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-suivez-le-debat-des-candidats-a-la-primaire-du-pole-socialiste-sur-france-2-et-france-inter-a-20h40_8218531.html"
+  },
+  {
+    id: "france24-debat-france2-2026", category: "Campagne", name: "France 24 : LFI et Gaza clivent encore la primaire",
+    publisher: "France 24", type: "reference-media", publishedAt: "2026-10-02", verifiedAt: "2026-10-02", featured: true,
+    description: "Glucksmann et Faure s’opposent ; Guedj parle de « danse du ventre » ; unanimité déclarée sur Bardella",
+    url: "https://www.france24.com/fr/france/20261001-deuxieme-debat-primaire-gauche-possible-alliance-lfi-divise-genocide-gaza-glucksmann-faure"
+  },
+  {
+    id: "mediapart-bardella-preuves-2026", category: "Campagne", name: "Mediapart : éléments d’authentification des messages attribués à Bardella",
+    publisher: "Mediapart", type: "reference-media", publishedAt: "2026-10-01", verifiedAt: "2026-10-02", featured: true,
+    description: "Le site dit s’appuyer sur une extraction Messenger authentifiée par Meta et un commissaire de justice. Bardella conteste.",
+    url: "https://www.mediapart.fr/journal/france/011026/ecrits-antisemites-de-jordan-bardella-les-preuves-du-mensonge"
+  },
+  {
+    id: "franceinfo-bardella-preuves-2026", category: "Campagne", name: "Bardella annonce une plainte pour faux",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-01", verifiedAt: "2026-10-02", featured: true,
+    description: "Il parle de « montages grossiers » ; plainte pour faux en plus de la diffamation. Le parquet confirme une plainte du 30 septembre.",
+    url: "https://www.franceinfo.fr/politique/jordan-bardella/jordan-bardella-denonce-les-pseudo-preuves-de-mediapart-et-va-porter-plainte-pour-faux-et-usage-de-faux_8218723.html"
+  },
+  {
+    id: "lemonde-bardella-preuves-2026", category: "Campagne", name: "Le Monde : Bardella conteste les pièces de Mediapart",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-10-01", verifiedAt: "2026-10-02",
+    description: "Plainte avec constitution de partie civile du 30 septembre ; aucune décision de justice",
+    url: "https://www.lemonde.fr/politique/article/2026/10/01/jordan-bardella-denonce-des-montages-grossiers-apres-que-mediapart-a-publie-ses-elements-de-preuves_6786582_823448.html"
+  },
+  {
+    id: "bfmtv-becht-2026", category: "Candidatures", name: "Olivier Becht se déclare candidat",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-24", verifiedAt: "2026-10-02",
+    description: "Ancien ministre, député du Haut-Rhin ; candidature d’« extrême centre » annoncée le 24 septembre",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-l-ancien-ministre-et-depute-olivier-becht-se-declare-officiellement-candidat_AN-202609240341.html"
   }
 ];

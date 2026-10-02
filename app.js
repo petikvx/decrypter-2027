@@ -91,9 +91,11 @@ function renderPollHistory() {
     const dots = series.values.map((value, index) => `<circle cx="${x(index)}" cy="${y(value)}" r="4" tabindex="0"><title>${series.name}, ${pollHistory.dates[index].label} : ${value} %</title></circle>`).join("");
     return `<g class="history-series" style="--series-color:${series.color}"><polyline points="${points}"></polyline>${dots}</g>`;
   }).join("");
-  document.querySelector("#poll-history-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="history-chart-title history-chart-desc"><title id="history-chart-title">Évolution de six intentions de vote de septembre 2025 à juillet 2026</title><desc id="history-chart-desc">Cinq vagues Ifop dans une hypothèse comparable avec Édouard Philippe et Marine Le Pen.</desc><g class="history-grid">${gridLines}${dateLabels}</g>${lines}</svg>`;
+  const firstDate = pollHistory.dates[0];
+  const lastDate = pollHistory.dates[pollHistory.dates.length - 1];
+  document.querySelector("#poll-history-chart").innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="history-chart-title history-chart-desc"><title id="history-chart-title">Évolution de six intentions de vote de ${firstDate.label} à ${lastDate.label}</title><desc id="history-chart-desc">${pollHistory.dates.length} vagues Ifop dans une hypothèse comparable avec Édouard Philippe et Marine Le Pen.</desc><g class="history-grid">${gridLines}${dateLabels}</g>${lines}</svg>`;
   document.querySelector("#poll-history-legend").innerHTML = pollHistory.series.map(series => `<span><i style="background:${series.color}"></i>${series.shortName}</span>`).join("");
-  document.querySelector("#poll-history-note").innerHTML = `${pollHistory.scenario}. Terrains du 24 septembre 2025 au 8 juillet 2026. Les variations restent soumises aux marges d'erreur et aux effets de campagne. <a href="${source.url}" target="_blank" rel="noreferrer">Rapport Ifop complet ↗</a>`;
+  document.querySelector("#poll-history-note").innerHTML = `${pollHistory.scenario}. Terrains du ${firstDate.fieldwork} au ${lastDate.fieldwork}. Les variations restent soumises aux marges d'erreur et aux effets de campagne. <a href="${source.url}" target="_blank" rel="noreferrer">Notice Ifop ↗</a>`;
   document.querySelector("#poll-history-table").innerHTML = `<table><thead><tr><th scope="col">Vague</th>${pollHistory.series.map(series => `<th scope="col">${series.shortName}</th>`).join("")}<th scope="col">Échantillon</th></tr></thead><tbody>${pollHistory.dates.map((date, dateIndex) => `<tr><th scope="row">${date.fieldwork}</th>${pollHistory.series.map(series => `<td>${series.values[dateIndex]} %</td>`).join("")}<td>${date.sample.toLocaleString("fr-FR")}</td></tr>`).join("")}</tbody></table>`;
 }
 

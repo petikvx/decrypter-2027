@@ -1111,3 +1111,50 @@ changé et pourquoi.
   fiches). Pas d’outil navigateur ; vérification par HTTP, y compris un
   en-tête mobile. Le serveur a été arrêté ensuite.
 - **Résultat** : édition du 30 septembre prête ; commit et push sur `main`.
+
+## 2026-10-02 09:06 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  30 septembre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 30 septembre.
+  Les fourchettes Ipsos EEM (3–9 septembre, 13 060 inscrits) sont conservées
+  comme affichage principal. Ifop-Fiducial vague 6 (25–29 septembre, 1 393
+  inscrits, notice du 30 septembre) est recensée à part : Le Pen 32–36 % ;
+  lorsque Philippe est seul au centre face à Glucksmann, Philippe 21 % et
+  Mélenchon 16 %. Cette hypothèse comparable est ajoutée à la série
+  historique Ifop (sixième vague). Elabe (Observatoire politique du
+  1er octobre) mesure des cotes de confiance, pas des intentions de vote :
+  il n’est pas affiché. Intégration des faits établis : le 30 septembre,
+  Attal oppose, sur Europe 1 / CNews, un système de retraite universel sans
+  âge légal au plan de Philippe ; Le Pen complète son équipe (Tanguy,
+  Diaz, Laporte, Sainte-Marie). Le 1er octobre, Philippe quitte la
+  présidence exécutive d’Horizons (intérim Béchu) ; deuxième débat de la
+  primaire sur France 2 / France Inter (fracture LFI et Gaza) ; Mediapart
+  publie des éléments d’authentification des messages attribués à Bardella,
+  qui annonce une plainte pour faux en plus de la diffamation — aucune
+  décision de justice, extraits non reproduits ; Le Pen propose dans
+  L’Opinion un référendum sur une règle d’or budgétaire. Omission de
+  l’édition du 28 septembre : Olivier Becht se déclare le 24 septembre.
+  Édition au 2 octobre 2026. Les `verifiedAt` de Le Pen, Bardella,
+  Mélenchon, Attal, Philippe, Glucksmann et des entrées du panorama
+  concernées passent au 2 octobre, après contrôle du statut, de la
+  maturité et des thèmes sourcés. Onze sources ajoutées.
+- **Sources consultées** : notice Commission des sondages Ifop vague 6
+  (30 sept.) ; tribune de Marine Le Pen dans L’Opinion (1er oct.) ;
+  communiqué RN de Julien Sanchez (30 sept.) ; franceinfo et France 24
+  (débat France 2, 1er–2 oct.) ; TV5MONDE / AFP (Attal retraites, 30 sept.) ;
+  Mediapart, franceinfo et Le Monde (Bardella, 1er oct.) ; BFMTV (Becht,
+  24 sept.) ; Ouest-France (intérim Horizons) ; page Ipsos EEM pour les
+  fourchettes affichées. Elabe octobre 2026 consulté (popularité, hors IV).
+- **Fichiers modifiés** : `index.html`, `app.js`, `data/candidates.js`,
+  `data/events.js`, `data/polls.js`, `data/sources.js` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  125 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8768) et contrôle du HTML
+  servi (édition du 2 octobre, ticker, cartes primaire/retraites,
+  chronologie). Pas d’outil navigateur ; vérification par HTTP, y compris
+  un en-tête mobile. Le serveur a été arrêté ensuite.
+- **Résultat** : édition du 2 octobre prête ; commit et push sur `main`.
