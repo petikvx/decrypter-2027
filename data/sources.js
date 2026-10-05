@@ -752,5 +752,47 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-09-24", verifiedAt: "2026-10-02",
     description: "Ancien ministre, député du Haut-Rhin ; candidature d’« extrême centre » annoncée le 24 septembre",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-l-ancien-ministre-et-depute-olivier-becht-se-declare-officiellement-candidat_AN-202609240341.html"
+  },
+  {
+    id: "elabe-primaire-oct-2026", category: "Opinion", name: "Elabe — Les Français et la primaire à gauche",
+    publisher: "Elabe", type: "poll", publishedAt: "2026-10-03", verifiedAt: "2026-10-05", featured: true,
+    description: "BFMTV / La Tribune Dimanche, terrain 29 septembre–2 octobre, 2 005 personnes. Intérêt, chance d’un second tour, alliance LFI. Pas d’intentions de vote de premier tour.",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10289-pres-primaire-a-gauche-elabe-3-octobre.pdf"
+  },
+  {
+    id: "lcp-debat-bfmtv-2026", category: "Campagne", name: "LCP : dernier débat BFMTV de la primaire",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-10-05", verifiedAt: "2026-10-05", featured: true,
+    description: "4 octobre : LFI, excuses de Glucksmann, retraites à 62 ans, Ukraine, école, régularisation",
+    url: "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+  },
+  {
+    id: "franceinfo-debat-bfmtv-2026", category: "Campagne", name: "franceinfo : dernier débat de la primaire socialiste",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-04", verifiedAt: "2026-10-05", featured: true,
+    description: "Compte rendu du 4 octobre, mis à jour le 5 : vidéos, lycéens, LFI, retraites, Ukraine",
+    url: "https://www.franceinfo.fr/politique/ps/primaire-a-gauche/invectives-retraites-soutien-aux-lyceens-ce-qu-il-faut-retenir-du-dernier-debat-de-la-primaire-socialiste_8222563.html"
+  },
+  {
+    id: "leparisien-attal-coalition-2026", category: "Campagne", name: "Attal : coalition de Glucksmann à la droite républicaine",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-03", verifiedAt: "2026-10-05", featured: true,
+    description: "Entretien du 3 octobre : « grande coalition », primaire encore possible",
+    url: "https://www.leparisien.fr/elections/presidentielle/gabriel-attal-il-faut-une-coalition-qui-aille-des-electeurs-de-raphael-glucksmann-a-ceux-de-la-droite-republicaine-03-10-2026-7A4AQ6UWBZAVZPFZJHDLQ2DM3A.php"
+  },
+  {
+    id: "franceinfo-attal-rejet-2026", category: "Campagne", name: "Le camp de Glucksmann et Retailleau écartent Attal",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-04", verifiedAt: "2026-10-05", featured: true,
+    description: "Jadot : « même pas en rêve » ; Vallaud y voit un « coup de communication »",
+    url: "https://www.franceinfo.fr/elections/presidentielle/meme-pas-en-reve-le-camp-de-raphael-glucksmann-rejette-la-main-tendue-par-gabriel-attal_8222443.html"
+  },
+  {
+    id: "leparisien-rejet-attal-2026", category: "Campagne", name: "Retailleau et le camp Glucksmann ferment la porte à Attal",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-04", verifiedAt: "2026-10-05", featured: true,
+    description: "Retailleau : « macronisme saison 3 », « ce sera sans nous » ; Jadot : « même pas en rêve »",
+    url: "https://www.leparisien.fr/elections/presidentielle/ce-sera-sans-nous-gauche-et-droite-opposent-une-fin-de-non-recevoir-a-loffre-de-coalition-de-gabriel-attal-04-10-2026-PUNK7BHVPRGKDDLWK2BYBATAEM.php"
+  },
+  {
+    id: "franceinfo-hollande-rose-2026", category: "Candidatures", name: "Hollande, à la Fête de la Rose, renvoie sa décision à décembre",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-03", verifiedAt: "2026-10-05",
+    description: "Meymac, 3 octobre : hors primaire, rendez-vous en décembre pour « rassembler plus largement »",
+    url: "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/correze/brive/interview-francois-hollande-veut-rassembler-plus-largement-au-lendemain-de-la-primaire-socialiste-et-donne-rendez-vous-en-decembre-3427488.html"
   }
 ];

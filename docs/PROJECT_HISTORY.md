@@ -1158,3 +1158,42 @@ changé et pourquoi.
   chronologie). Pas d’outil navigateur ; vérification par HTTP, y compris
   un en-tête mobile. Le serveur a été arrêté ensuite.
 - **Résultat** : édition du 2 octobre prête ; commit et push sur `main`.
+
+## 2026-10-05 09:00 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  2 octobre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 2 octobre. Les
+  fourchettes Ipsos EEM (3–9 septembre) restent l’affichage principal. Aucune
+  nouvelle vague d’intentions de vote de premier tour n’est retenue (Ifop
+  25–29 septembre reste la dernière IV comparable). Elabe pour BFMTV / La
+  Tribune Dimanche (29 septembre–2 octobre, 2 005 personnes, notice du
+  3 octobre) mesure l’intérêt pour la primaire (25 %), le doute sur un
+  second tour (72 %) et le rejet d’une alliance LFI chez les sympathisants
+  PS–Place publique (73 %) : recensée, non substituée. Intégration des faits
+  établis : le 3 octobre, Attal plaide une « grande coalition » de
+  Glucksmann à la droite républicaine ; le 4, le camp de Glucksmann et
+  Retailleau ferment la porte ; Hollande, à Meymac, confirme un rendez-vous
+  en décembre. Le 4 octobre, dernier débat BFMTV de la primaire (excuses de
+  Glucksmann, fracture LFI, retraites à 62 ans). La trajectoire RN du
+  6 octobre reste en « À venir ». Les `verifiedAt` d’Attal, Retailleau,
+  Glucksmann et des entrées du panorama concernées passent au 5 octobre.
+  Sept sources ajoutées. La série historique Ifop comparable est conservée.
+- **Sources consultées** : notice Commission des sondages Elabe 10289
+  (3 oct.) et page Elabe ; LCP et franceinfo (débat BFMTV, 4–5 oct.) ;
+  Le Parisien (Attal, 3 oct. ; rejets, 4 oct.) ; franceinfo (rejet
+  Glucksmann, 4 oct.) ; France 3 Corrèze (Hollande, 3 oct.) ; registre
+  Commission des sondages (octobre : Elabe primaire, YouGov popularité,
+  Odoxa lycéens, Elabe Observatoire — hors IV) ; page Ipsos EEM pour les
+  fourchettes affichées.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  132 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8769) et contrôle du HTML
+  servi (édition du 5 octobre, ticker, cartes coalition/primaire,
+  chronologie). Pas d’outil navigateur ; vérification par HTTP. Le
+  serveur a été arrêté ensuite.
+- **Résultat** : édition du 5 octobre prête ; commit et push sur `main`.
