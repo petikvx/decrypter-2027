@@ -794,5 +794,65 @@ window.DECRYPTER_2027.sources = [
     publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-03", verifiedAt: "2026-10-05",
     description: "Meymac, 3 octobre : hors primaire, rendez-vous en décembre pour « rassembler plus largement »",
     url: "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/correze/brive/interview-francois-hollande-veut-rassembler-plus-largement-au-lendemain-de-la-primaire-socialiste-et-donne-rendez-vous-en-decembre-3427488.html"
+  },
+  {
+    id: "rn-trajectoire-2026", category: "Proposition", name: "Marine Le Pen présente la trajectoire financière de son quinquennat",
+    publisher: "Rassemblement national", type: "official-campaign", publishedAt: "2026-10-06", verifiedAt: "2026-10-07", featured: true,
+    description: "Conférence de presse du 6 octobre : trajectoire 2027-2032 et contre-budget",
+    url: "https://rassemblementnational.fr/videos/marine-le-pen-presente-la-trajectoire-financiere-de-son-quinquennat"
+  },
+  {
+    id: "publicsenat-lepen-budget-2026", category: "Proposition", name: "Public Sénat : 140 Md€ d’économies d’ici 2032",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07", featured: true,
+    description: "Compte rendu de la conférence de presse : déficit, immigration, collectivités, retraites",
+    url: "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+  },
+  {
+    id: "capital-lepen-budget-2026", category: "Proposition", name: "Capital : déficit inférieur à 3 % en 2030",
+    publisher: "Capital", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "140 Md€ nets, 30 Md€ de baisses d’impôts, 15 à 20 Md€ sur les retraites, pilier de capitalisation",
+    url: "https://www.capital.fr/economie-politique/atteindre-un-deficit-public-inferieur-a-3-en-2030-la-promesse-de-marine-le-pen-1530767"
+  },
+  {
+    id: "lcp-rn-jeunes-2026", category: "Proposition", name: "LCP : permis gratuit et exonération jusqu’à 30 ans",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "Mesures jeunesse du 6 octobre : permis, IR, prime d’activité étudiante",
+    url: "https://lcp.fr/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+  },
+  {
+    id: "lcp-primaire-inscrits-2026", category: "Campagne", name: "LCP : 140 282 inscrits à la primaire",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07", featured: true,
+    description: "Communiqué de Patrick Mennucci : PP 28 456, PS 31 030 militants et 37 017 sympathisants",
+    url: "https://lcp.fr/actualites/primaire-de-gauche-plus-de-140000-inscrits-pour-voter-au-premier-tour-443021"
+  },
+  {
+    id: "tf1-primaire-inscrits-2026", category: "Campagne", name: "TF1 Info : détail du corps électoral de la primaire",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "Choisir 2027 : 42 695 ; GRS : 1 084 ; Place publique : 28 456 ; total 140 282",
+    url: "https://www.tf1info.fr/politique/elections/presidentielle/primaire-de-gauche-pres-de-128-000-personnes-sont-inscrites-pour-voter-2468196.html"
+  },
+  {
+    id: "afp-senat-groupes-2026", category: "Campagne", name: "AFP : composition officielle des groupes du Sénat",
+    publisher: "AFP", type: "agency", publishedAt: "2026-10-05", verifiedAt: "2026-10-07",
+    description: "LR 124, UCI 63, PS 62, UNT RN-UDR 15 présidée par Edwige Diaz",
+    url: "https://fr.news.yahoo.com/s%C3%A9natoriales-lr-perd-sept-si%C3%A8ges-172911712.html"
+  },
+  {
+    id: "afp-bardella-contestation-2026", category: "Campagne", name: "AFP : Bardella conteste à nouveau Mediapart",
+    publisher: "AFP", type: "agency", publishedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "6 octobre : contestation « formelle » des accusations, preuves et sources ; rendez-vous « devant les tribunaux »",
+    url: "https://fr.news.yahoo.com/bardella-conteste-%C3%A0-nouveau-formellement-102816488.html"
+  },
+  {
+    id: "publicsenat-melenchon-medias-2026", category: "Campagne", name: "Mélenchon à HEC limite les chaînes d’information",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "5 octobre : « le moins possible les pieds » sur les chaînes d’info, préférence pour les réseaux sociaux",
+    url: "https://www.publicsenat.fr/actualites/politique/comment-jean-luc-melenchon-tourne-le-dos-aux-medias-traditionnels-pour-en-faire-un-argument-de-campagne"
+  },
+  {
+    id: "francetvpro-heure-verite-2026", category: "Campagne", name: "France Télévisions : L’Heure de vérité avec Édouard Philippe",
+    publisher: "France Télévisions", type: "official-media", publishedAt: "2026-09-21", updatedAt: "2026-10-06", verifiedAt: "2026-10-07",
+    description: "Jeudi 8 octobre à 20h40 sur France 2 : premier invité de Caroline Roux",
+    url: "https://www.francetvpro.fr/contenu-de-presse/78675764"
   }
 ];

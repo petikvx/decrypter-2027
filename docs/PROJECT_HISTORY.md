@@ -1197,3 +1197,43 @@ changé et pourquoi.
   chronologie). Pas d’outil navigateur ; vérification par HTTP. Le
   serveur a été arrêté ensuite.
 - **Résultat** : édition du 5 octobre prête ; commit et push sur `main`.
+
+## 2026-10-07 09:15 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  5 octobre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 5 octobre. Les
+  fourchettes Ipsos EEM (3–9 septembre) restent l’affichage principal. Aucune
+  nouvelle vague d’intentions de vote de premier tour n’est retenue (Ifop
+  25–29 septembre reste la dernière IV comparable). Les notices d’octobre
+  (Ifop vote blanc, Ipsos jeunesse, CSA lycées) ne portent pas d’IV. Intégration
+  des faits établis : le 5 octobre, les listes de groupes du Sénat officialisent
+  l’Union nationale pour les territoires (RN-UDR, 15 sièges, présidée par
+  Edwige Diaz) ; LR reste premier avec 124 sièges. La même nuit, Patrick
+  Mennucci arrête 140 282 inscrits à la primaire sociale-démocrate. Le
+  5 octobre à HEC, Mélenchon dit vouloir limiter sa présence sur les chaînes
+  d’information. Le 6 octobre, Le Pen porte l’ajustement à 140 Md€ nets
+  d’économies en 2032 par rapport à 2026 ; Bardella présente le contre-budget
+  2027 et réitère sa contestation « formelle » des publications de Mediapart,
+  sans décision de justice. La maturité de Le Pen passe au niveau 2. Édition
+  au 7 octobre 2026. Les `verifiedAt` de Le Pen, Bardella, Mélenchon,
+  Glucksmann et des entrées du panorama de la primaire passent au 7 octobre,
+  après contrôle du statut, de la maturité et des thèmes sourcés. Dix sources
+  ajoutées. La série historique Ifop comparable est conservée.
+- **Sources consultées** : page vidéo du RN (6 oct.) ; Public Sénat et Capital
+  (trajectoire, 6 oct.) ; LCP (inscrits et mesures jeunesse, 6 oct.) ; TF1 Info
+  / AFP (détail du corps électoral) ; AFP (groupes du Sénat, 5 oct. ; Bardella,
+  6 oct.) ; France Télévisions (L’Heure de vérité, 8 oct.) ; registre
+  Commission des sondages d’octobre ; page Ipsos EEM pour les fourchettes
+  affichées.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  142 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8770) et contrôle du HTML
+  servi (édition du 7 octobre, ticker, cartes budget/primaire, chronologie).
+  Pas d’outil navigateur ; vérification par HTTP. Le serveur a été arrêté
+  ensuite.
+- **Résultat** : édition du 7 octobre prête ; commit et push sur `main`.
