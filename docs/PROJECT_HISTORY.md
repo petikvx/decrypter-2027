@@ -1237,3 +1237,48 @@ changé et pourquoi.
   Pas d’outil navigateur ; vérification par HTTP. Le serveur a été arrêté
   ensuite.
 - **Résultat** : édition du 7 octobre prête ; commit et push sur `main`.
+
+## 2026-10-09 09:15 UTC — mise à jour automatique cron
+
+- **Environnement** : cron / Grok headless.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  7 octobre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 7 octobre. Les
+  fourchettes Ipsos EEM (3–9 septembre) restent l’affichage principal. Aucune
+  nouvelle vague d’intentions de vote de premier tour n’est retenue (Ifop
+  25–29 septembre reste la dernière IV comparable). Cluster17 pour Le Point
+  (28–30 septembre, 1 700 personnes, notice 10296 du 7 octobre, publié le 8)
+  mesure des cotes de popularité : Le Pen 34 % (−4), Bardella 30 % (−5) ;
+  recensée, non substituée. Intégration des faits établis : le 7 octobre, au
+  Sommet de l’élevage, Le Pen maintient « à 1 000 % » sa confiance en Bardella
+  et parle de « manœuvre infâme » ; aucune décision de justice. Le 8 octobre,
+  Faure oppose sur franceinfo une « option de gauche » à l’« option centriste »
+  qu’il prête à Glucksmann ; celui-ci répond qu’il sera « le candidat du Parti
+  socialiste ». Le même soir, Philippe inaugure L’Heure de vérité : allocation
+  familiale unique de 350 € dès le premier enfant, chômage de 18 à 12 mois,
+  remplacement de deux départs à la retraite sur trois dans la fonction
+  publique, immigration légale « divisée par deux », une vingtaine
+  d’ordonnances en juillet 2027. Le 9 octobre à 8 h s’ouvre le premier tour
+  électronique de la primaire (140 282 inscrits, clôture le 10 à 20 h). Le
+  meeting d’Attal à Lyon (Amphithéâtre 3000) reste en « À venir » pour le
+  10 octobre. Édition au 9 octobre 2026. Les `verifiedAt` de Le Pen, Bardella,
+  Attal, Philippe, Glucksmann et des entrées du panorama de la primaire
+  passent au 9 octobre, après contrôle du statut, de la maturité et des
+  thèmes sourcés. Six sources ajoutées. La série historique Ifop comparable
+  est conservée.
+- **Sources consultées** : franceinfo (Heure de vérité, 8–9 oct.) ; Le Figaro /
+  AFP (Le Pen, 7 oct.) ; notice Commission des sondages 10296 et rapport
+  Cluster17 (8 oct.) ; BFMTV / AFP (Faure–Glucksmann, 8 oct.) ; Ouest-France /
+  AFP (ouverture du vote, 9 oct.) ; BFMTV (meeting Attal, 8 oct.) ; registre
+  Commission des sondages d’octobre (popularité, lycéens, vote blanc — hors
+  IV) ; page Ipsos EEM pour les fourchettes affichées.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  148 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check` ; serveur HTTP local (port 8771) et contrôle du HTML
+  servi (édition du 9 octobre, ticker, cartes primaire/centre, chronologie).
+  Pas d’outil navigateur ; vérification par HTTP. Le serveur a été arrêté
+  ensuite.
+- **Résultat** : édition du 9 octobre prête ; commit et push sur `main`.

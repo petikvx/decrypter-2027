@@ -851,8 +851,44 @@ window.DECRYPTER_2027.sources = [
   },
   {
     id: "francetvpro-heure-verite-2026", category: "Campagne", name: "France Télévisions : L’Heure de vérité avec Édouard Philippe",
-    publisher: "France Télévisions", type: "official-media", publishedAt: "2026-09-21", updatedAt: "2026-10-06", verifiedAt: "2026-10-07",
-    description: "Jeudi 8 octobre à 20h40 sur France 2 : premier invité de Caroline Roux",
+    publisher: "France Télévisions", type: "official-media", publishedAt: "2026-09-21", updatedAt: "2026-10-08", verifiedAt: "2026-10-09",
+    description: "Émission du 8 octobre à 20h40 sur France 2 : premier invité de Caroline Roux",
     url: "https://www.francetvpro.fr/contenu-de-presse/78675764"
+  },
+  {
+    id: "franceinfo-philippe-heure-verite-2026", category: "Programmes", name: "franceinfo : ce qu’il faut retenir de L’Heure de vérité",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-09", featured: true,
+    description: "8 octobre : allocation 350 €, chômage 12 mois, immigration légale divisée par deux, ordonnances de juillet 2027",
+    url: "https://www.franceinfo.fr/politique/edouard-philippe/immigration-retraites-allocations-familiales-parcoursup-ce-qu-il-faut-retenir-de-l-interview-d-edouard-philippe-dans-l-emission-l-heure-de-verite_8228416.html"
+  },
+  {
+    id: "lefigaro-lepen-bardella-confiance-2026", category: "Campagne", name: "Le Pen maintient « à 1 000 % » sa confiance en Bardella",
+    publisher: "Le Figaro / AFP", type: "reference-media", publishedAt: "2026-10-07", verifiedAt: "2026-10-09", featured: true,
+    description: "7 octobre, Sommet de l’élevage : « manœuvre infâme » ; aucune décision de justice",
+    url: "https://www.lefigaro.fr/politique/affaire-des-ecrits-antisemites-marine-le-pen-maintient-a-1000-sa-confiance-en-jordan-bardella-20261007"
+  },
+  {
+    id: "cluster17-point-oct-2026", category: "Opinion", name: "Cluster17 / Le Point — baromètre des personnalités, octobre 2026",
+    publisher: "Cluster17", type: "poll", publishedAt: "2026-10-08", verifiedAt: "2026-10-09", featured: true,
+    description: "Terrain 28–30 septembre, 1 700 personnes. Popularité, pas d’intentions de vote. Le Pen 34 % (−4), Bardella 30 % (−5)",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10296-pres-barometre-personnalites-politiques-cluster-17-le-point-7-octobre.pdf"
+  },
+  {
+    id: "bfmtv-faure-glucksmann-2026", category: "Campagne", name: "Faure : « option centriste » contre Glucksmann",
+    publisher: "BFMTV / AFP", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-09", featured: true,
+    description: "8 octobre : Faure sur franceinfo ; Glucksmann répond qu’il sera « le candidat du Parti socialiste »",
+    url: "https://www.bfmtv.com/politique/parti-socialiste/il-y-a-une-option-au-fond-centriste-et-puis-une-option-de-gauche-a-l-approche-de-la-primaire-socialiste-olivier-faure-tire-ses-dernieres-cartouches-contre-raphael-glucksmann_AD-202610080408.html"
+  },
+  {
+    id: "ouest-france-primaire-tour1-2026", category: "Campagne", name: "Ouverture du premier tour de la primaire sociale-démocrate",
+    publisher: "Ouest-France / AFP", type: "agency", publishedAt: "2026-10-09", verifiedAt: "2026-10-09", featured: true,
+    description: "Vote électronique du 9 octobre 8 h au 10 octobre 20 h ; 140 282 inscrits ; cinq candidats",
+    url: "https://www.ouest-france.fr/elections/presidentielle/primaire-gauche/primaire-sociale-democrate-debut-des-votes-pour-le-premier-tour-0a0d7342-c36d-11f1-a107-88e926908e5f"
+  },
+  {
+    id: "bfmtv-attal-lyon-2026", category: "Campagne", name: "Attal annonce son meeting de Lyon",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-09",
+    description: "10 octobre, Amphithéâtre 3000 : premier meeting régional, « pacte pour la jeunesse »",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/jeunesse-lfi-tifos-a-quoi-va-ressembler-le-meeting-de-gabriel-attal-ce-samedi-a-lyon_AN-202610080568.html"
   }
 ];
