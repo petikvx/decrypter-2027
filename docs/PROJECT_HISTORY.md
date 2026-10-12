@@ -1374,3 +1374,38 @@ changé et pourquoi.
   `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `bash -n scripts/auto-update.sh` ; `git diff --check`.
 - **Résultat** : commit et push sur `main`.
+
+## 2026-10-12 09:08 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (Decrypter 2027), passage programmé du
+  lundi 9 h.
+- **Demande** : mise à jour éditoriale depuis l’édition du 12 octobre (07:58),
+  puis commit et push sur `main`.
+- **Travail effectué** : audit des faits survenus depuis le passage du matin
+  et des événements du 11 octobre non encore recensés. Ajout à la chronologie
+  et aux fiches : meeting de Jean-Luc Mélenchon au Zénith de Clermont-Ferrand
+  le 11 octobre (plus de 10 000 personnes selon LFI ; abrogation de
+  Parcoursup, droit de vote à 16 ans, retraite à 60 ans, « non-alignement ») ;
+  entretien de Raphaël Glucksmann au 20 Heures de France 2 le même soir
+  (« Il y aura un bulletin de vote à mon nom », campagne de porte-à-porte) et
+  réactions de Faure, Royal et Tondelier. Ticker et carte « Le nœud de la
+  gauche » complétés. Les `verifiedAt` ne sont pas avancés (pas de contrôle
+  complet des six thèmes ce passage). Aucun nouveau sondage d’intentions de
+  vote publié depuis Toluna Harris vague 7 ; aucune décision de justice
+  nouvelle. Rubrique « Insolite » passée en revue : pas de nouvelle anecdote
+  vérifiée ; pour l’enfarinage de Glucksmann, franceinfo et Le Figaro / AFP
+  (12 oct.) indiquent toujours un auteur non identifié, sans plainte ni
+  enquête rapportée — texte inchangé. Écarts mineurs entre médias sur le
+  pourcentage (66,13 % RFI / AFP contre 66,17 % commission) : la valeur de la
+  commission d’organisation est conservée. Cinq sources ajoutées (162 au
+  total).
+- **Sources consultées** : franceinfo et TF1 Info (Clermont-Ferrand, 11 oct.) ;
+  France 2 / franceinfo et Public Sénat (20 Heures, 11 oct.) ; RTL (réactions,
+  11 oct.) ; franceinfo et Le Figaro / AFP (enfarinage, 12 oct.) ; RFI / AFP ;
+  page Ipsos du baromètre La Tribune Dimanche (popularité, déjà recensé).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  162 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check`. Pas de modification visuelle.
+- **Résultat** : édition du 12 octobre complétée ; commit et push sur `main`.

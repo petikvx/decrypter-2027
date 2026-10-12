@@ -944,5 +944,35 @@ window.DECRYPTER_2027.sources = [
     publisher: "Ipsos bva", type: "poll", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
     description: "Cotes de popularité (pas d’intentions de vote) ; Lisnard 16 % d’opinions favorables (+4)",
     url: "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Ipsos-bva-CESI-La-Tribune-Dimanche-Barometre-Politique-octobre-2026-web.pdf"
+  },
+  {
+    id: "franceinfo-melenchon-clermont-2026", category: "Campagne", name: "franceinfo : Mélenchon fait salle comble à Clermont-Ferrand",
+    publisher: "franceinfo / Radio France", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre, Zénith : plus de 10 000 personnes selon LFI ; Parcoursup, droit de vote à 16 ans, retraite à 60 ans",
+    url: "https://www.franceinfo.fr/elections/presidentielle/a-clermont-ferrand-jean-luc-melenchon-fait-salle-comble-et-deroule-ses-propositions-sur-la-jeunesse-et-l-education_8232880.html"
+  },
+  {
+    id: "tf1-melenchon-clermont-2026", category: "Campagne", name: "TF1 Info : Mélenchon prône le « non-alignement » à Clermont-Ferrand",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre : partie internationale du meeting (Ukraine, Gaza, États-Unis), environ 10 000 personnes",
+    url: "https://www.tf1info.fr/politique/elections/presidentielle/video-nous-sommes-les-partisans-du-non-alignement-pour-la-fin-des-carnages-en-ukraine-et-a-gaza-lance-jean-luc-melenchon-en-meeting-a-clermont-ferrand-2469303.html"
+  },
+  {
+    id: "franceinfo-glucksmann-20h-2026", category: "Campagne", name: "France 2 : Glucksmann invité du 20 Heures après la primaire",
+    publisher: "France Télévisions", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre : entretien avec Laurent Delahousse, retranscription partielle",
+    url: "https://www.franceinfo.fr/replay-jt/france-2/20-heures/raphael-glucksmann-gagne-la-primaire-de-la-gauche-c-est-la-victoire-de-ceux-qui-croient-qu-il-faut-une-gauche-democratique-dans-notre-pays-declare-le-candidat-a-l-election-presidentielle_8233051.html"
+  },
+  {
+    id: "publicsenat-glucksmann-20h-2026", category: "Campagne", name: "Public Sénat : « rien ne me fera lâcher »",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre : discours de victoire et 20 Heures de France 2 ; « Il y aura un bulletin de vote à mon nom »",
+    url: "https://www.publicsenat.fr/actualites/politique/ce-soir-la-bataille-de-france-commence-apres-sa-victoire-a-la-primaire-de-la-gauche-raphael-glucksmann-assure-que-rien-ne-le-fera-l"
+  },
+  {
+    id: "rtl-reactions-primaire-2026", category: "Campagne", name: "RTL : les réactions à gauche après la primaire",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre : Faure « a su convaincre », Royal pose la condition d’un rassemblement, Tondelier parle du « choix du repli »",
+    url: "https://www.rtl.fr/actu/politique/primaire-de-la-gauche-faure-salue-un-glucksmann-qui-a-su-convaincre-royal-appelle-a-un-rassemblement-de-la-gauche-tondelier-constate-le-choix-du-repli-7900683932"
   }
 ];
