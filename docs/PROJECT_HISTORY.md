@@ -1353,3 +1353,24 @@ changé et pourquoi.
   5 liens). jsdom est incompatible avec Node 20 sur la box ; aucun contrôle
   visuel au navigateur.
 - **Résultat** : rubrique publiée ; commit et push sur `main`.
+
+## 2026-10-12 08:10 Europe/Paris (UTC+2) — documentation de l’automatisation
+
+- **Environnement** : routine Grok Bot (New Bot), session à la demande.
+- **Demande** : documenter dans le README la routine Grok Bot, la rubrique
+  « Insolite » et l’architecture des données.
+- **Travail effectué** : nouvelle section README sur la routine Grok Bot
+  (agent « Decrypter 2027 », lun/mer/ven 9h Europe/Paris, étapes, push sur
+  `main` sans force ni PR, résumé envoyé à l’utilisateur). Le cron
+  `scripts/auto-update.sh` est présenté comme désactivé et conservé en
+  alternative manuelle. `data/anecdotes.js` est ajouté à la liste des
+  données, avec une sous-section « Rubrique Insolite » (section 06, schéma
+  des entrées, renvoi à `AGENTS.md` et au §11 de la charte). L’en-tête de
+  `scripts/auto-update.sh` est mis à jour (commentaire uniquement). Le README
+  ne décrivait ni arborescence ni numérotation des sections ; seule la
+  position 06/07 est mentionnée.
+- **Sources consultées** : aucune (documentation interne).
+- **Fichiers modifiés** : `README.md`, `scripts/auto-update.sh` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `bash -n scripts/auto-update.sh` ; `git diff --check`.
+- **Résultat** : commit et push sur `main`.

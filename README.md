@@ -233,7 +233,37 @@ Un fichier inchangé indiqué dans `git add` est simplement ignoré. Ajouter
 explicitement un autre fichier à la commande s’il fait réellement partie de la
 mise à jour.
 
-### Mise à jour automatique (cron + Grok)
+### Mise à jour automatique : routine Grok Bot (mode actuel)
+
+Depuis le 12 octobre 2026, la mise à jour éditoriale est assurée par une
+routine Grok Bot (agent « Decrypter 2027 »), le **lundi, le mercredi et le
+vendredi à 9h, heure de Paris** (Europe/Paris). À chaque passage, l’agent :
+
+1. clone le dépôt ou fait `git pull --ff-only` (arrêt si le working tree est
+   sale) ;
+2. lit `AGENTS.md`, `docs/PROJECT_HISTORY.md` et `docs/EDITORIAL_POLICY.md`, et
+   les applique ;
+3. fait la veille depuis la dernière édition (candidatures, programmes,
+   meetings, alliances, décisions judiciaires, sondages, rubrique « Insolite »)
+   et met à jour `data/`, `index.html`, `app.js` ou `styles.css` si nécessaire ;
+4. ajoute une entrée à la fin de `docs/PROJECT_HISTORY.md`, même sans
+   changement éditorial ;
+5. vérifie avec `node --check app.js` et `git diff --check` ;
+6. commit (« Mettre à jour l’analyse du AAAA-MM-JJ ») et push sur `main`,
+   sans force-push ni pull request ;
+7. envoie un résumé du passage à l’utilisateur (commit, faits ajoutés et
+   sources, problèmes rencontrés).
+
+Contrairement à la routine manuelle ci-dessus, il n’y a pas de validation du
+diff avant commit : la relecture se fait après coup, sur GitHub et dans le
+journal du projet.
+
+### Alternative manuelle : script cron + Grok headless
+
+Le cron du serveur qui lançait ce script a été **désactivé** au passage à la
+routine Grok Bot. Le script est conservé comme alternative manuelle ou de
+secours. Ne pas réactiver le cron en parallèle de la routine, afin d’éviter
+deux pushes concurrents.
 
 Le script [`scripts/auto-update.sh`](scripts/auto-update.sh) lance Grok en
 mode headless (`grok -p --always-approve`), demande la veille éditoriale,
@@ -246,7 +276,8 @@ Test manuel :
 ./scripts/auto-update.sh
 ```
 
-Exemple crontab (lundi, mercredi et vendredi à 9h, heure machine) :
+Exemple crontab, si le cron devait être réactivé à la place de la routine
+(lundi, mercredi et vendredi à 9h, heure machine) :
 
 ```cron
 0 9 * * 1,3,5 /home/petik/decrypter-2027/scripts/auto-update.sh
@@ -308,6 +339,7 @@ Les données éditoriales sont séparées par fonction :
 - `data/polls.js` : photographie des intentions de vote et série historique
   comparable ;
 - `data/events.js` : chronologie ;
+- `data/anecdotes.js` : rubrique « Insolite » (anecdotes de campagne) ;
 - `data/sources.js` : registre central des sources, avec éditeur, type et dates
   de publication et de vérification.
 
@@ -348,3 +380,14 @@ terrain et la taille de son échantillon. Pour ajouter une mesure, vérifier que
 la question, la personnalité testée pour chaque famille politique et le périmètre
 des répondants sont comparables. Dans le doute, créer une autre série plutôt que
 prolonger artificiellement la courbe existante.
+
+### Rubrique « Insolite »
+
+La section `#insolite` (« 06 — Insolite », avant « 07 — Transparence ») affiche
+les anecdotes de `data/anecdotes.js`, rendues en cartes par `renderAnecdotes()`
+dans `app.js`. Chaque entrée comporte `date` (ISO), `dateLabel`, `person`,
+`family`, `title`, `text` et `sourceIds`, qui renvoient au registre
+`data/sources.js`. Les règles (faits vérifiés, datés et sourcés, ton
+descriptif et symétrique, ni moquerie ni rumeur, respect des personnes, revue à
+chaque passage de veille) figurent dans `AGENTS.md` et au §11 de
+`docs/EDITORIAL_POLICY.md`.

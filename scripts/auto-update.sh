@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 # Mise à jour éditoriale automatique via Grok (headless) + push Git.
 # Usage manuel : ./scripts/auto-update.sh
-# Cron (lun/mer/ven 9h) :
+# Depuis le 12 octobre 2026, la mise à jour est faite par une routine Grok Bot
+# (lun/mer/ven 9h Europe/Paris). Le cron serveur est désactivé ; ce script est
+# conservé comme alternative manuelle. Ne pas réactiver le cron en parallèle.
+# Cron historique (lun/mer/ven 9h, heure machine) :
 #   0 9 * * 1,3,5 /home/petik/decrypter-2027/scripts/auto-update.sh
 set -euo pipefail
 
