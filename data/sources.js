@@ -890,5 +890,29 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-09",
     description: "10 octobre, Amphithéâtre 3000 : premier meeting régional, « pacte pour la jeunesse »",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/jeunesse-lfi-tifos-a-quoi-va-ressembler-le-meeting-de-gabriel-attal-ce-samedi-a-lyon_AN-202610080568.html"
+  },
+  {
+    id: "lcp-primaire-resultats-2026", category: "Campagne", name: "LCP : Glucksmann vainqueur dès le premier tour de la primaire",
+    publisher: "LCP", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12", featured: true,
+    description: "11 octobre : résultats proclamés par Patrick Mennucci ; Glucksmann 66,17 %, Faure 14,46 %, Royal 7,62 %, Maurel 5,92 %, Guedj 5,83 %",
+    url: "https://lcp.fr/actualites/primaire-socialiste-vainqueur-des-le-1er-tour-raphael-glucksmann-sera-le-candidat-de-la"
+  },
+  {
+    id: "lexpress-primaire-resultats-2026", category: "Campagne", name: "L’Express : résultats en voix du premier tour de la primaire",
+    publisher: "L’Express", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "79 613 voix pour Glucksmann ; scrutin prolongé au 11 octobre 18 h après une cyberattaque",
+    url: "https://www.lexpress.fr/politique/ps/primaire-de-la-gauche-raphael-glucksmann-lemporte-des-le-premier-tour-avec-66-des-voix-77XWJDWI7BE4RCP5VNH4BH33RI/"
+  },
+  {
+    id: "bfmtv-attal-pacte-jeunesse-2026", category: "Programmes", name: "BFMTV : Attal présente son « pacte pour la jeunesse » à Lyon",
+    publisher: "BFMTV / AFP", type: "reference-media", publishedAt: "2026-10-10", verifiedAt: "2026-10-12", featured: true,
+    description: "10 octobre, premier meeting régional : classes, temps scolaires, Parcoursup ; critiques du RN et de LFI",
+    url: "https://www.bfmtv.com/politique/la-republique-en-marche/presidentielle-gabriel-attal-presente-son-pacte-pour-la-jeunesse-lors-d-un-meeting-et-vise-le-rn-et-lfi_AD-202610100323.html"
+  },
+  {
+    id: "harris-rtl-oct12-2026", category: "Opinion", name: "Toluna Harris Interactive — vague 7, 12 octobre 2026",
+    publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-10-12", verifiedAt: "2026-10-12", featured: true,
+    description: "M6 / RTL. Terrain 5–8 octobre, 2 004 inscrits, cinq hypothèses. Le Pen 35–37 %, Mélenchon 18–19 %, Philippe 13–17 %",
+    url: "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-7-M6-RTL-12-octobre-2026.pdf"
   }
 ];

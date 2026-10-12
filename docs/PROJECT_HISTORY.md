@@ -1282,3 +1282,40 @@ changé et pourquoi.
   Pas d’outil navigateur ; vérification par HTTP. Le serveur a été arrêté
   ensuite.
 - **Résultat** : édition du 9 octobre prête ; commit et push sur `main`.
+
+## 2026-10-12 07:58 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (New Bot), premier passage remplaçant le
+  cron du serveur.
+- **Demande** : mise à jour automatique de Décrypter 2027 depuis l’édition du
+  9 octobre 2026, puis commit et push sur `main`.
+- **Travail effectué** : audit des candidatures, programmes, alliances, faits
+  de campagne, décisions judiciaires et sondages depuis le 9 octobre. Le
+  premier tour de la primaire sociale-démocrate, prolongé jusqu’au 11 octobre
+  18 h après des attaques informatiques, désigne Raphaël Glucksmann dès le
+  premier tour : 79 613 voix (66,17 % selon la commission d’organisation),
+  devant Faure (14,46 %), Royal (7,62 %), Maurel (5,92 %) et Guedj (5,83 %) ;
+  120 787 votants sur 134 456 électeurs habilités. Le statut de Glucksmann
+  passe de « Déclaré » à « Désigné par la primaire » (catégorie « désigné » de
+  la charte ; pas de candidature officielle avant le Conseil constitutionnel).
+  Le second tour prévu les 16-17 octobre est retiré de la chronologie. Le
+  10 octobre à Lyon, Attal présente un « pacte pour la jeunesse » lors de son
+  premier meeting régional ; l’entrée passe de « À venir » à « Centre ».
+  Toluna Harris Interactive pour M6 / RTL (vague 7, 5–8 octobre, 2 004
+  inscrits, publiée le 12 octobre, marge ±1,4 à 2,9 points) : Le Pen 35–37 %,
+  Mélenchon 18–19 %, Philippe 13–17 % ; recensée dans le texte et la
+  chronologie, non substituée aux fourchettes Ipsos EEM, qui restent
+  l’affichage principal ; série Ifop comparable conservée. Aucune décision
+  de justice nouvelle relevée. Édition au 12 octobre 2026. Les `verifiedAt`
+  de Glucksmann, Attal et des entrées Faure, Royal, Maurel et Guedj du
+  panorama passent au 12 octobre. Quatre sources ajoutées (152 au total).
+- **Sources consultées** : LCP (résultats de la primaire, 11 oct.) ;
+  L’Express (résultats en voix, 11 oct.) ; communiqué des organisateurs cité
+  par CNews ; BFMTV / AFP, franceinfo et CNews (meeting Attal, 10 oct.) ;
+  rapport Toluna Harris Interactive vague 7 (PDF, 12 oct.) et RTL.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  152 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check`. Pas de modification visuelle ni de contrôle navigateur.
+- **Résultat** : édition du 12 octobre prête ; commit et push sur `main`.
