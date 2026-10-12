@@ -137,3 +137,20 @@ Quand un programme est suffisamment avancé, distinguer : coût annoncé par le
 candidat, évaluation externe, recettes attendues, calendrier et obstacles
 juridiques. Une estimation contestée doit être attribuée et accompagnée de ses
 hypothèses principales.
+
+## 11. Rubrique « Insolite »
+
+Les anecdotes de campagne (`data/anecdotes.js`) obéissent aux mêmes règles que
+le reste du site :
+
+- fait vérifié par au moins une source de référence, idéalement deux ; jamais
+  une rumeur, un montage ou une publication de réseau social isolée ;
+- date précise et lien direct vers chaque source ;
+- ton descriptif, sans moquerie, ironie ni qualificatif dévalorisant ; une
+  citation est attribuée et replacée dans son contexte ;
+- équilibre dans la durée entre familles politiques, sans quota artificiel ;
+- respect des personnes : pas de détail humiliant ou relevant de la vie
+  privée ; pour une agression ou un incident, présenter la personne visée
+  comme telle et indiquer les suites judiciaires connues ;
+- revue à chaque passage de veille : ajout des faits nouveaux, correction ou
+  retrait d’une anecdote infirmée.

@@ -1,4 +1,4 @@
-const { candidates, otherCandidates, polls, pollHistory, events, sources } = window.DECRYPTER_2027;
+const { candidates, otherCandidates, polls, pollHistory, events, sources, anecdotes = [] } = window.DECRYPTER_2027;
 const sourcesById = new Map(sources.map(source => [source.id, source]));
 
 const topics = [
@@ -144,6 +144,17 @@ tabs.addEventListener("click", e => { if (!e.target.dataset.topic) return; tabs.
 selectA.addEventListener("change", updateComparison); selectB.addEventListener("change", updateComparison);
 
 document.querySelector("#timeline").innerHTML = events.map(e => `<article class="timeline-item"><time class="timeline-date">${e[0]}</time><div><h3>${e[1]}</h3><p>${e[2]}</p></div><span class="timeline-tag">${e[3]}</span></article>`).join("");
+
+function renderAnecdotes() {
+  const target = document.querySelector("#anecdote-grid");
+  if (!target) return;
+  target.innerHTML = anecdotes.map(a => {
+    const links = (a.sourceIds || []).map(id => sourcesById.get(id)).filter(Boolean)
+      .map(s => `<li><a href="${s.url}" target="_blank" rel="noreferrer">${s.publisher} ↗</a></li>`).join("");
+    return `<article class="anecdote-card"><p class="anecdote-meta"><time datetime="${a.date}">${a.dateLabel}</time><span>${a.person} · ${a.family}</span></p><h3>${a.title}</h3><p>${a.text}</p><ul class="anecdote-sources" aria-label="Sources">${links}</ul></article>`;
+  }).join("");
+}
+renderAnecdotes();
 
 document.querySelector("#source-grid").innerHTML = sources.filter(source => source.featured).map(source => `<a href="${source.url}" target="_blank" rel="noreferrer"><span>${source.category}</span><strong>${source.name}</strong><small>${source.description} ↗</small></a>`).join("");
 

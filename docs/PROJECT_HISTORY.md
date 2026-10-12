@@ -1319,3 +1319,37 @@ changé et pourquoi.
   152 identifiants de sources uniques et relations `sourceIds` valides ;
   `git diff --check`. Pas de modification visuelle ni de contrôle navigateur.
 - **Résultat** : édition du 12 octobre prête ; commit et push sur `main`.
+
+## 2026-10-12 08:08 Europe/Paris (UTC+2) — rubrique « Insolite »
+
+- **Environnement** : routine Grok Bot (New Bot), session à la demande.
+- **Demande** : ajouter une rubrique « Insolite » (anecdotes de campagne),
+  en commençant par l’enfarinage de Raphaël Glucksmann le 11 octobre, et la
+  documenter dans `AGENTS.md` et `docs/EDITORIAL_POLICY.md`.
+- **Travail effectué** : nouveau fichier `data/anecdotes.js` ; rendu
+  `renderAnecdotes()` dans `app.js` ; section `#insolite` (06) dans
+  `index.html`, avec un lien dans la navigation ; « Transparence » passe en 07.
+  Styles en cartes, une colonne sur mobile, focus visible. Trois anecdotes
+  vérifiées : Glucksmann enfariné le 11 octobre à la sortie de sa soirée de
+  victoire (Paris XXe), avec le soutien de Bardella sur X ; auteur et suites
+  judiciaires inconnus. Mélenchon à Gergovie le 10 octobre (« C’est pire
+  qu’une primaire »). Vague ironique #ilsepassequelquechose autour de Lisnard
+  et sa réponse du 5 octobre, en distinguant popularité et intentions de vote.
+  Écartés : le lancement de campagne Lalanne/Dieudonné, jugé non pertinent et
+  sensible, et les sources secondaires non recoupées (21 News). Ajout d’une
+  règle dans `AGENTS.md` et d’une section 11 dans la charte. Cinq sources
+  ajoutées (157 au total).
+- **Sources consultées** : BFMTV et 20 Minutes (enfarinage, 11-12 oct.) ;
+  franceinfo / AFP et CNews (recoupement) ; Le Figaro (Gergovie, 11 oct.) ;
+  L’Opinion (Lisnard, 7 oct.) ; baromètre Ipsos bva-CESI / La Tribune
+  Dimanche d’octobre (PDF).
+- **Fichiers modifiés** : `data/anecdotes.js` (nouveau), `data/sources.js`,
+  `app.js`, `index.html`, `styles.css`, `AGENTS.md`,
+  `docs/EDITORIAL_POLICY.md` et `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` (app et data) ; 157 identifiants de
+  sources uniques, relations valides ; `git diff --check` ; serveur HTTP
+  local (port 8772), HTML et `data/anecdotes.js` servis (HTTP 200) ; rendu
+  de `renderAnecdotes()` testé sous Node avec un DOM minimal (3 cartes,
+  5 liens). jsdom est incompatible avec Node 20 sur la box ; aucun contrôle
+  visuel au navigateur.
+- **Résultat** : rubrique publiée ; commit et push sur `main`.

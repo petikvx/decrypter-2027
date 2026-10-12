@@ -914,5 +914,35 @@ window.DECRYPTER_2027.sources = [
     publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-10-12", verifiedAt: "2026-10-12", featured: true,
     description: "M6 / RTL. Terrain 5–8 octobre, 2 004 inscrits, cinq hypothèses. Le Pen 35–37 %, Mélenchon 18–19 %, Philippe 13–17 %",
     url: "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-7-M6-RTL-12-octobre-2026.pdf"
+  },
+  {
+    id: "bfmtv-glucksmann-farine-2026", category: "Insolite", name: "BFMTV : Glucksmann enfariné après sa victoire",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "11 octobre, XXe arrondissement de Paris : jet de farine à la sortie du bar de la soirée de victoire ; réaction de Bardella",
+    url: "https://www.bfmtv.com/politique/parti-socialiste/primaire-ps-place-publique-raphael-glucksmann-enfarine-apres-sa-victoire_AV-202610110397.html"
+  },
+  {
+    id: "vingtminutes-glucksmann-farine-2026", category: "Insolite", name: "20 Minutes : Glucksmann enfariné à Paris",
+    publisher: "20 Minutes", type: "reference-media", publishedAt: "2026-10-12", verifiedAt: "2026-10-12",
+    description: "Vidéos de la scène devant un taxi ; soutien de Jordan Bardella sur X",
+    url: "https://www.20minutes.fr/politique/4253331-20261012-presidentielle-2027-raphael-glucksmann-enfarine-paris-issue-victoire-primaire"
+  },
+  {
+    id: "lefigaro-melenchon-gergovie-2026", category: "Insolite", name: "Le Figaro : Mélenchon à Gergovie",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "10 octobre : visite du plateau de Gergovie avant le meeting de Clermont-Ferrand ; « guerre de mouvement »",
+    url: "https://www.lefigaro.fr/politique/a-gergovie-melenchon-se-voit-en-vercingetorix-luttant-contre-cesar-et-donne-un-cours-de-tactique-militaire-20261011"
+  },
+  {
+    id: "lopinion-lisnard-mania-2026", category: "Insolite", name: "L’Opinion : la « Lisnard-mania » s’arrête aux portes des sondages",
+    publisher: "L’Opinion", type: "reference-media", publishedAt: "2026-10-07", verifiedAt: "2026-10-12",
+    description: "Hashtag #ilsepassequelquechose, réponse du candidat, abonnés et intentions de vote",
+    url: "https://www.lopinion.fr/politique/lisnard-mania-le-phenomene-qui-agite-les-reseaux-pas-les-sondages"
+  },
+  {
+    id: "ipsos-tribune-barometre-oct-2026", category: "Opinion", name: "Ipsos bva-CESI / La Tribune Dimanche — baromètre politique, octobre 2026",
+    publisher: "Ipsos bva", type: "poll", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
+    description: "Cotes de popularité (pas d’intentions de vote) ; Lisnard 16 % d’opinions favorables (+4)",
+    url: "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Ipsos-bva-CESI-La-Tribune-Dimanche-Barometre-Politique-octobre-2026-web.pdf"
   }
 ];

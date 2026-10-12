@@ -17,7 +17,8 @@ Avant une modification importante, lire :
 
 - `index.html` : structure et contenus éditoriaux fixes ;
 - `styles.css` : identité visuelle et responsive design ;
-- `data/` : candidats, sondages, chronologie et sources éditoriales ;
+- `data/` : candidats, sondages, chronologie, anecdotes (`data/anecdotes.js`,
+  rubrique « Insolite ») et sources éditoriales ;
 - `app.js` : rendu des données et interactions ;
 - `.devcontainer/` : environnement GitHub Codespaces et installation de Codex
   ou de Grok Build.
@@ -42,6 +43,13 @@ l’utilisateur.
   politiques. Éviter les jugements de valeur et les formulations militantes.
 - Pour les affaires judiciaires, préciser le stade de la procédure et respecter
   la présomption d’innocence lorsqu’elle s’applique.
+- Rubrique « Insolite » (`data/anecdotes.js`, rendue par `app.js` dans la
+  section `#insolite`) : n’y retenir que des anecdotes de campagne vérifiées,
+  datées et reliées à des sources de `data/sources.js` (idéalement deux médias
+  de référence). Ton descriptif, symétrique entre familles politiques ; ni
+  moquerie, ni rumeur, ni détail humiliant ; respect des personnes et, pour un
+  incident, mention du stade des suites judiciaires connues. La passer en revue
+  et la mettre à jour à chaque passage de veille.
 - Suivre intégralement `docs/EDITORIAL_POLICY.md`.
 
 ## Travail sur le code
