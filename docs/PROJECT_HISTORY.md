@@ -1409,3 +1409,37 @@ changé et pourquoi.
   162 identifiants de sources uniques et relations `sourceIds` valides ;
   `git diff --check`. Pas de modification visuelle.
 - **Résultat** : édition du 12 octobre complétée ; commit et push sur `main`.
+
+## 2026-10-14 09:15 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (Decrypter 2027), passage programmé du
+  mercredi 9 h.
+- **Demande** : mise à jour éditoriale depuis l’édition du 12 octobre, puis
+  commit et push sur `main`.
+- **Travail effectué** : recensement des faits du 12 au 14 octobre. Natacha
+  Polony annonce sa candidature le 14 octobre sur France Inter (« candidature
+  de rassemblement », mouvement « Nous sommes la France ») ; ajoutée au
+  panorama élargi. Le 12 octobre, Glucksmann appelle sur France Inter à
+  « travailler ensemble » avec les écologistes et confie à Jadot la
+  « révolution écologique » ; Tondelier maintient le diagnostic d’un « choix
+  du repli » et une trajectoire d’offre autonome (vote adhérents en décembre).
+  Hollande salue une « première étape » plutôt bonne et prévient que « l’union,
+  ça ne peut pas être l’union des seuls socialistes ». Aucun nouveau sondage
+  d’intentions de vote depuis Toluna Harris vague 7 ; aucune décision de
+  justice nouvelle. Rubrique « Insolite » : anecdote Lisnard / retard au Face
+  à Face BFMTV du 13 octobre ; mise à jour de l’enfarinage de Glucksmann avec
+  sa déclaration du 12 octobre (attribution à des militants LFI selon lui ;
+  auteur du geste toujours non identifié). Édition au 14 octobre 2026. Les
+  `verifiedAt` des fiches principales ne sont pas avancés (pas de contrôle
+  complet des six thèmes). Neuf sources ajoutées (171 au total).
+- **Sources consultées** : France Inter et franceinfo (Polony, 14 oct. ;
+  Glucksmann, 12 oct.) ; 20 Minutes (Polony) ; BFMTV (Tondelier / gauche
+  unitaire) ; Le Figaro (analyse Écologistes, 13 oct.) ; Public Sénat
+  (Hollande, 12 oct.) ; RMC-BFMTV et La Dépêche (Lisnard, 13 oct.).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/anecdotes.js`, `data/sources.js` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  171 identifiants de sources uniques et relations `sourceIds` valides ;
+  `git diff --check`. Pas de modification visuelle.
+- **Résultat** : édition du 14 octobre prête ; commit et push sur `main`.

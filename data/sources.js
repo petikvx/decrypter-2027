@@ -974,5 +974,59 @@ window.DECRYPTER_2027.sources = [
     publisher: "RTL", type: "reference-media", publishedAt: "2026-10-11", verifiedAt: "2026-10-12",
     description: "11 octobre : Faure « a su convaincre », Royal pose la condition d’un rassemblement, Tondelier parle du « choix du repli »",
     url: "https://www.rtl.fr/actu/politique/primaire-de-la-gauche-faure-salue-un-glucksmann-qui-a-su-convaincre-royal-appelle-a-un-rassemblement-de-la-gauche-tondelier-constate-le-choix-du-repli-7900683932"
+  },
+  {
+    id: "franceinter-glucksmann-12oct-2026", category: "Campagne", name: "France Inter : Glucksmann au lendemain de la primaire",
+    publisher: "France Inter / Radio France", type: "reference-media", publishedAt: "2026-10-12", verifiedAt: "2026-10-14", featured: true,
+    description: "12 octobre : appel aux écologistes, Jadot, exclusion de LFI, demande de désaveu à Mélenchon, Hollande et Faure dans l’équipe",
+    url: "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-lundi-12-octobre-2026-8406439"
+  },
+  {
+    id: "bfmtv-tondelier-repli-2026", category: "Campagne", name: "BFMTV : Tondelier et la gauche unitaire face à Glucksmann",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-12", verifiedAt: "2026-10-14",
+    description: "12 octobre : « choix du repli », réactions de Ruffin, Autain et Corbière ; réponse de Glucksmann sur France Inter",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/le-choix-du-repli-de-francois-ruffin-a-marine-tondelier-la-gauche-unitaire-accueille-froidement-la-victoire-de-raphael-glucksmann_AN-202610120285.html"
+  },
+  {
+    id: "lefigaro-tondelier-autonome-2026", category: "Campagne", name: "Le Figaro : Tondelier et une candidature écologiste autonome",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-13", verifiedAt: "2026-10-14",
+    description: "13 octobre : analyse sur la trajectoire des Écologistes après la primaire ; Glucksmann tend la main, Tondelier « prend acte »",
+    url: "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-marine-tondelier-precipite-les-ecologistes-vers-une-candidature-autonome-et-incertaine-20261013"
+  },
+  {
+    id: "publicsenat-hollande-union-2026", category: "Campagne", name: "Public Sénat : Hollande et l’union au-delà des socialistes",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-10-12", verifiedAt: "2026-10-14",
+    description: "12 octobre, UNCCAS : « l’union, ça ne peut pas être l’union des seuls socialistes » ; première étape « plutôt bonne »",
+    url: "https://www.publicsenat.fr/actualites/politique/lunion-ca-ne-peut-pas-etre-lunion-des-seuls-socialistes-previent-francois-hollande"
+  },
+  {
+    id: "franceinfo-polony-2026", category: "Candidatures", name: "franceinfo : Natacha Polony annonce sa candidature",
+    publisher: "franceinfo / Radio France", type: "reference-media", publishedAt: "2026-10-14", verifiedAt: "2026-10-14", featured: true,
+    description: "14 octobre : annonce sur France Inter ; rassemblement, politique de production ; présentée comme 28e candidate déclarée",
+    url: "https://www.franceinfo.fr/elections/presidentielle/l-essayiste-natacha-polony-annonce-sa-candidature-a-l-election-presidentielle_8236714.html"
+  },
+  {
+    id: "franceinter-polony-2026", category: "Candidatures", name: "France Inter : Polony « je suis candidate »",
+    publisher: "France Inter / Radio France", type: "reference-media", publishedAt: "2026-10-14", verifiedAt: "2026-10-14",
+    description: "14 octobre, invitée de 7h50 : candidature de rassemblement, 60 000 adhésions revendiquées, urgence de la production",
+    url: "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mercredi-14-octobre-2026-3340206"
+  },
+  {
+    id: "vingtminutes-polony-2026", category: "Candidatures", name: "20 Minutes : Polony candidate, mouvement Nous sommes la France",
+    publisher: "20 Minutes", type: "reference-media", publishedAt: "2026-10-14", verifiedAt: "2026-10-14",
+    description: "14 octobre : confirmation sur X, orientations production / école / travail, 28e personnalité déclarée",
+    url: "https://www.20minutes.fr/politique/4254145-20261014-presidentielle-2027-essayiste-journaliste-natacha-polony-declare-candidate-28e"
+  },
+  {
+    id: "bfmtv-lisnard-retard-2026", category: "Insolite", name: "RMC-BFMTV : Lisnard en retard au Face à Face",
+    publisher: "RMC / BFMTV", type: "reference-media", publishedAt: "2026-10-13", verifiedAt: "2026-10-14",
+    description: "13 octobre : retard d’environ deux minutes, échange avec Apolline de Malherbe sur la ponctualité",
+    url: "https://rmc.bfmtv.com/actualites/politique/video-david-lisnard-en-retard-sur-rmc-bfmtv-et-recadre-en-direct_VN-202610130600.html"
+  },
+  {
+    id: "ladepeche-lisnard-retard-2026", category: "Insolite", name: "La Dépêche : Lisnard recadré pour son retard sur BFMTV",
+    publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-10-13", verifiedAt: "2026-10-14",
+    description: "13 octobre : citation de l’échange (« vous n’êtes pas du matin ? ») et réponse du candidat",
+    url: "https://www.ladepeche.fr/2026/10/13/video-presidentielle-2027-vous-netes-pas-du-matin-ca-fait-deux-fois-que-vous-me-faites-le-coup-en-retard-david-lisnard-se-fait-sermonner-par-la-13598663.php"
   }
 ];

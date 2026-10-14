@@ -4,10 +4,16 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-10-13", dateLabel: "13 octobre 2026", person: "David Lisnard", family: "Droite",
+    title: "Deux minutes de retard, une question sur le matin",
+    text: "Invité du Face à Face d’Apolline de Malherbe sur BFMTV / RMC, le candidat Nouvelle Énergie arrive avec environ deux minutes de retard (début décalé à 8 h 31). En fin d’entretien, la journaliste rappelle un précédent retard et demande : « Est-ce qu’il ne faut pas être du matin pour gouverner la France ? » Il répond qu’il est « du matin, de la nuit et du jour », évoque qu’« il faut se faire désirer », puis présente ses excuses en citant des dossiers traités depuis son réveil.",
+    sourceIds: ["bfmtv-lisnard-retard-2026", "ladepeche-lisnard-retard-2026"]
+  },
+  {
     date: "2026-10-11", dateLabel: "11 octobre 2026", person: "Raphaël Glucksmann", family: "Gauche",
     title: "Un jet de farine au soir de la primaire",
-    text: "Quelques heures après sa désignation à la primaire sociale-démocrate, il est visé par un jet de farine en quittant un bar du XXe arrondissement de Paris où il fêtait sa victoire. Un journaliste de BFMTV entend « Glucksmann, tu feras 2 % et pas un de plus », sans pouvoir attribuer la phrase à l’auteur du geste. Jordan Bardella (RN) lui apporte son soutien sur X : « Il n’y a pas de petite agression ». Identité de l’auteur et suites judiciaires non connues à ce stade.",
-    sourceIds: ["bfmtv-glucksmann-farine-2026", "vingtminutes-glucksmann-farine-2026"]
+    text: "Quelques heures après sa désignation à la primaire sociale-démocrate, il est visé par un jet de farine en quittant un bar du XXe arrondissement de Paris où il fêtait sa victoire. Un journaliste de BFMTV entend « Glucksmann, tu feras 2 % et pas un de plus », sans pouvoir attribuer la phrase à l’auteur du geste. Jordan Bardella (RN) lui apporte son soutien sur X. Le 12 octobre sur France Inter, Glucksmann attribue un schéma de harcèlement à des militants de LFI et demande à Mélenchon de le désavouer « formellement » ; l’identité de l’auteur du geste du 11 octobre et d’éventuelles suites judiciaires restent non établies publiquement.",
+    sourceIds: ["bfmtv-glucksmann-farine-2026", "vingtminutes-glucksmann-farine-2026", "franceinter-glucksmann-12oct-2026"]
   },
   {
     date: "2026-10-10", dateLabel: "10 octobre 2026", person: "Jean-Luc Mélenchon", family: "Gauche",
