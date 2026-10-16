@@ -1028,5 +1028,89 @@ window.DECRYPTER_2027.sources = [
     publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-10-13", verifiedAt: "2026-10-14",
     description: "13 octobre : citation de l’échange (« vous n’êtes pas du matin ? ») et réponse du candidat",
     url: "https://www.ladepeche.fr/2026/10/13/video-presidentielle-2027-vous-netes-pas-du-matin-ca-fait-deux-fois-que-vous-me-faites-le-coup-en-retard-david-lisnard-se-fait-sermonner-par-la-13598663.php"
+  },
+  {
+    id: "ifop-lci-oct-2026", category: "Opinion", name: "Ifop-Fiducial — climat politique après la primaire, 14 octobre 2026",
+    publisher: "Ifop", type: "poll", publishedAt: "2026-10-14", verifiedAt: "2026-10-16", featured: true,
+    description: "LCI et Sud Radio, terrain 12–14 octobre, 1 390 inscrits. Philippe seul au centre : Le Pen 35 %, Philippe 18 %, Mélenchon 16 %, Glucksmann 13,5 %. Quatre hypothèses, Le Pen 32–36 %.",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10314-pres-climat-politique-post-primaire-ps-pp-ifop-lci-14-octobre.pdf"
+  },
+  {
+    id: "opinionway-oct-2026", category: "Opinion", name: "OpinionWay PrésiTrack — vague 3, 15 octobre 2026",
+    publisher: "OpinionWay", type: "poll", publishedAt: "2026-10-15", verifiedAt: "2026-10-16", featured: true,
+    description: "Les Echos et Radio Classique, terrain 13–14 octobre, 978 inscrits. Le Pen 35–37 % ; Glucksmann 13–16 % ; Mélenchon 14–15 % ; Philippe 12–15 % ; Attal 7–11 % ; Retailleau 7–9 %. Marge 1,4 à 3,1 points.",
+    url: "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-Les-Echos-et-Radio-Classique-Barometre-Presitrack-2027-Vague-3-Octobre-2026.pdf"
+  },
+  {
+    id: "odoxa-oct-2026", category: "Opinion", name: "Odoxa-Backbone — intentions de vote, octobre 2026",
+    publisher: "Odoxa", type: "poll", publishedAt: "2026-10-14", verifiedAt: "2026-10-16", featured: true,
+    description: "Presse régionale, Public Sénat et Le Nouvel Obs, terrain 24 septembre–7 octobre, 12 005 personnes. Hypothèse Philippe : Le Pen 37 %, Mélenchon 18 %, Philippe 17 %, Glucksmann 9,5 % ; terrain antérieur à la primaire.",
+    url: "https://www.odoxa.fr/wp-content/uploads/2026/10/Odoxa-Backbone-pour-la-Presse-Regionale-Public-Senat-et-le-Nouvel-Obs-IV-a-lelection-presidentielle-de-2027.pdf"
+  },
+  {
+    id: "publicsenat-odoxa-oct-2026", category: "Opinion", name: "Public Sénat : le baromètre Odoxa-Backbone d’octobre",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-10-14", verifiedAt: "2026-10-16",
+    description: "14 octobre : Le Pen 37 % au premier tour ; second tour 68–32 face à Mélenchon, 53–47 face à Philippe ; marge 0,6 à 1,2 point",
+    url: "https://www.publicsenat.fr/actualites/politique/sondage-marine-le-pen-creuse-lecart-et-sinstalle-en-grande-favorite-a-quelques-mois-de-la-presidentielle"
+  },
+  {
+    id: "lesechos-presitrack-oct-2026", category: "Opinion", name: "Les Echos : les résultats du PrésiTrack d’octobre",
+    publisher: "Les Echos", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "15 octobre : Glucksmann à égalité avec Mélenchon et Philippe (15 %) ; +4 à 5 points depuis septembre ; enjeux du premier tour",
+    url: "https://www.lesechos.fr/elections/presidentielle/sondage-presidentielle-2027-tous-les-resultats-du-barometre-presitrack-2250959"
+  },
+  {
+    id: "leparisien-lisnard-ifop-2026", category: "Campagne", name: "Le Parisien : Lisnard devant Retailleau dans un sondage Ifop",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "15 octobre : Lisnard 6 % contre 5 % dans l’hypothèse élargie ; Retailleau « très bien le vivre », déjeuner annoncé avec Lisnard et Ménard",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-david-lisnard-devant-bruno-retailleau-selon-un-sondage-le-candidat-lr-repond-tres-bien-le-vivre-15-10-2026-BS3HYOSMMJDCDGXA6YWFHZYLBQ.php"
+  },
+  {
+    id: "europe1-retailleau-lisnard-2026", category: "Campagne", name: "Europe 1 : Retailleau, « il y en a un qui devra se retirer »",
+    publisher: "Europe 1", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "15 octobre, Pascal Praud et vous : « Évidemment qu’il faut qu’on se retrouve » avec Lisnard",
+    url: "https://www.europe1.fr/politique/presidentielle-2027-un-ticket-avec-david-lisnard-evidemment-quil-faut-quon-se-retrouve-affirme-bruno-retailleau-1151534"
+  },
+  {
+    id: "europe1-retailleau-union-droites-2026", category: "Campagne", name: "Europe 1 : Retailleau et l’union des droites « dans les urnes »",
+    publisher: "Europe 1", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "15 octobre : refus d’une union des appareils, appel aux électeurs de Reconquête",
+    url: "https://www.europe1.fr/politique/presidentielle-2027-jai-toujours-voulu-lunion-des-droites-par-les-electeurs-dans-les-urnes-affirme-bruno-retailleau-1151717"
+  },
+  {
+    id: "franceinfo-lepen-retraites-17nov-2026", category: "Programmes", name: "franceinfo : Le Pen détaillera sa réforme des retraites le 17 novembre",
+    publisher: "franceinfo / AFP", type: "reference-media", publishedAt: "2026-10-14", verifiedAt: "2026-10-16", featured: true,
+    description: "14 octobre, Bruxelles : réforme « chiffrée », hausse du taux d’activité, âge légal entre 60 et 62 ans, 40 à 42 annuités",
+    url: "https://www.franceinfo.fr/elections/presidentielle/marine-le-pen-presentera-de-maniere-extremement-precise-sa-reforme-des-retraites-le-17-novembre_8237821.html"
+  },
+  {
+    id: "lefigaro-attal-ukraine-2026", category: "Campagne", name: "Le Figaro : Le Pen veut cesser l’aide à l’Ukraine, Attal réplique",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "14-15 octobre : aide maintenue six mois puis arrêtée selon Le Pen ; Attal l’accuse de défendre « les intérêts de la Russie »",
+    url: "https://www.lefigaro.fr/elections/presidentielles/elle-veut-laisser-les-ukrainiens-se-faire-trucider-la-charge-de-gabriel-attal-contre-marine-le-pen-20261015"
+  },
+  {
+    id: "franceinfo-barrot-primaire-2026", category: "Campagne", name: "franceinfo : Barrot ouvre la primaire du bloc central à Glucksmann",
+    publisher: "franceinfo / Radio France", type: "reference-media", publishedAt: "2026-10-15", verifiedAt: "2026-10-16",
+    description: "15 octobre, France Inter : primaire « très ouverte » contre le « double poison » des extrêmes ; législatives et coalition",
+    url: "https://www.franceinfo.fr/elections/presidentielle/jean-noel-barrot-assure-que-la-primaire-du-bloc-central-est-ouverte-jusqu-a-raphael-glucksmann_8238292.html"
+  },
+  {
+    id: "franceinfo-philippe-rythmes-2026", category: "Programmes", name: "franceinfo : Philippe et les rythmes scolaires",
+    publisher: "franceinfo / AFP", type: "reference-media", publishedAt: "2026-10-16", verifiedAt: "2026-10-16",
+    description: "15 octobre, réunion de campagne sur l’éducation : apprentissages le matin, vacances de Toussaint et de Pâques réduites, orientation et Parcoursup",
+    url: "https://www.franceinfo.fr/societe/education/blocage-des-lycees/edouard-philippe-prone-une-evolution-des-rythmes-scolaires-avec-un-apprentissage-concentre-en-matinee-et-des-vacances-plus-courtes_8239537.html"
+  },
+  {
+    id: "bfmtv-platret-2026", category: "Candidatures", name: "BFMTV : Gilles Platret annonce sa candidature",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-09", verifiedAt: "2026-10-16",
+    description: "8 octobre, Chalon-sur-Saône : maire divers droite, ancien vice-président LR ; 39 heures, dette sous 100 % du PIB, livre en novembre",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-le-maire-divers-droite-de-chalon-sur-saone-gilles-platret-annonce-sa-candidature_AN-202610090630.html"
+  },
+  {
+    id: "lejsl-platret-2026", category: "Candidatures", name: "Le Journal de Saône-et-Loire : Platret candidat devant 800 personnes",
+    publisher: "Le Journal de Saône-et-Loire", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-16",
+    description: "8 octobre, salons du Colisée : « Devant vous, avec vous, je m’engage résolument vers 2027 »",
+    url: "https://www.lejsl.com/elections/2026/10/08/retablir-les-frontieres-en-finir-avec-les-35-heures-mener-la-guerre-contre-les-islamistes-gilles-platret-s-annonce-candidat-a-l-election-presidentielle"
   }
 ];

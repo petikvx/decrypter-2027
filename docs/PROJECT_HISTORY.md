@@ -1443,3 +1443,58 @@ changé et pourquoi.
   171 identifiants de sources uniques et relations `sourceIds` valides ;
   `git diff --check`. Pas de modification visuelle.
 - **Résultat** : édition du 14 octobre prête ; commit et push sur `main`.
+
+## 2026-10-16 09:25 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (Decrypter 2027), passage programmé du
+  vendredi 9 h.
+- **Demande** : mise à jour éditoriale depuis l’édition du 14 octobre, puis
+  commit et push sur `main`.
+- **Travail effectué** : recensement des faits du 14 au 16 octobre. Trois
+  enquêtes d’intentions de vote recensées à part, sans remplacer les
+  fourchettes Ipsos EEM affichées : Ifop-Fiducial pour LCI / Sud Radio
+  (12–14 octobre, 1 390 inscrits, premier sondage après la primaire ; Le Pen
+  32–36 %, Glucksmann 11,5–16 %, Lisnard 6 % devant Retailleau 5 % dans
+  l’hypothèse élargie) ; OpinionWay PrésiTrack vague 3 pour Les Echos / Radio
+  Classique (13–14 octobre, 978 inscrits ; Le Pen 35–37 %, Glucksmann 13–16 %,
+  à égalité avec Mélenchon et Philippe à 15 % quand Philippe est seul) ;
+  Odoxa-Backbone (24 septembre–7 octobre, 12 005 personnes, terrain antérieur
+  à la primaire ; Le Pen 37–38 %). Série historique Ifop : ajout d’une
+  septième vague (12–14 octobre), l’hypothèse « Philippe candidat du bloc
+  central » reprenant exactement la liste de candidats, la question et la
+  population de la vague 6 (notices comparées) ; l’étude n’est pas le
+  baromètre Le Figaro mais une enquête Ifop-Fiducial pour LCI, ce qui est
+  signalé ici. Faits ajoutés : Le Pen annonce à Bruxelles (14 octobre) une
+  réforme des retraites chiffrée le 17 novembre (60–62 ans, 40–42 annuités)
+  et l’arrêt de l’aide financière à l’Ukraine après six mois ; Attal l’accuse
+  de défendre « les intérêts de la Russie » (15 octobre) ; Barrot (MoDem)
+  ouvre la primaire du bloc central à Glucksmann ; Retailleau, après le
+  sondage Ifop, estime qu’« il y en a un qui devra se retirer » entre Lisnard
+  et lui et annonce un déjeuner avec Lisnard et Ménard ; Philippe propose de
+  revoir les rythmes scolaires. Omission de l’édition du 9 octobre : Gilles
+  Platret (DVD, maire de Chalon-sur-Saône) s’est déclaré le 8 octobre ;
+  ajouté au panorama. Échéance du 17 novembre ajoutée à la chronologie.
+  Aucune décision de justice nouvelle (affaire Bardella : plaintes déjà
+  recensées, pas de décision). Rubrique « Insolite » passée en revue : pas
+  de nouvelle anecdote retenue (campagne « Cantona 2027 » écartée, datée
+  d’août et sans candidature) ; enfarinage de Glucksmann : auteur toujours
+  non identifié, texte inchangé. Édition au 16 octobre 2026. Les
+  `verifiedAt` des fiches principales ne sont pas avancés (pas de contrôle
+  complet des six thèmes). Quatorze sources ajoutées (185 au total).
+- **Sources consultées** : notices Ifop (Commission des sondages, 14 oct. ;
+  vague 6 du 30 sept. pour comparaison) ; rapport OpinionWay PrésiTrack
+  vague 3 et Les Echos (15 oct.) ; rapport Odoxa-Backbone et Public Sénat
+  (14 oct.) ; franceinfo / AFP (Le Pen retraites, 14 oct. ; Barrot, 15 oct. ;
+  Philippe, 16 oct.) ; Le Figaro (Attal / Ukraine, 15 oct.) ; Le Parisien et
+  Europe 1 (Retailleau / Lisnard, 15 oct.) ; BFMTV et Le Journal de
+  Saône-et-Loire (Platret, 8-9 oct.) ; franceinfo, 20 Minutes et Le Parisien
+  (suivi de l’enfarinage).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/polls.js`, `data/sources.js` et
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check` sur `app.js` et les scripts `data/` ;
+  185 identifiants de sources uniques, relations `sourceIds` et
+  `positionSourceIds` valides ; série historique à 7 vagues et 6 séries de
+  même longueur ; `git diff --check`. Pas de modification visuelle hors
+  textes.
+- **Résultat** : édition du 16 octobre prête ; commit et push sur `main`.
