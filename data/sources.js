@@ -1112,5 +1112,41 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Journal de Saône-et-Loire", type: "reference-media", publishedAt: "2026-10-08", verifiedAt: "2026-10-16",
     description: "8 octobre, salons du Colisée : « Devant vous, avec vous, je m’engage résolument vers 2027 »",
     url: "https://www.lejsl.com/elections/2026/10/08/retablir-les-frontieres-en-finir-avec-les-35-heures-mener-la-guerre-contre-les-islamistes-gilles-platret-s-annonce-candidat-a-l-election-presidentielle"
+  },
+  {
+    id: "elabe-oct-2026", category: "Opinion", name: "Elabe — Les Français et l’élection présidentielle 2027, 17 octobre 2026",
+    publisher: "Elabe", type: "poll", publishedAt: "2026-10-17", verifiedAt: "2026-10-19", featured: true,
+    description: "BFMTV et La Tribune Dimanche, terrain 14–16 octobre (après la primaire), 1 701 personnes dont 1 553 inscrits, marge 1,2 à 2,8 points. Six configurations : Le Pen 31–33,5 % ; Philippe 15,5–16,5 % seul au centre ; Glucksmann 15–16,5 % ; Mélenchon 15–16 % ; Attal 9,5–10,5 %. Second tour : Le Pen 52,5 % face à Philippe, 53,5 % face à Glucksmann, 69 % face à Mélenchon.",
+    url: "https://elabe.fr/fichier-pdf/13329-les-francais-et-lelection-presidentielle-2027/"
+  },
+  {
+    id: "bfmtv-elabe-oct-2026", category: "Opinion", name: "BFMTV : Philippe, Glucksmann et Mélenchon au coude-à-coude derrière Le Pen",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-17", verifiedAt: "2026-10-19",
+    description: "Présentation du sondage Elabe du 17 octobre : Le Pen en léger recul (−1 à −1,5 point depuis fin août) ; 46 % des électeurs exprimant une intention disent pouvoir changer d’avis dans une configuration",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/sondage-bfmtv-presidentielle-2027-edouard-philippe-raphael-glucksmann-et-jean-luc-melenchon-donnes-au-coude-a-coude-derriere-marine-le-pen_AN-202610170298.html"
+  },
+  {
+    id: "cluster17-point-iv-oct-2026", category: "Opinion", name: "Cluster17 / Le Point — intentions de vote, octobre 2026",
+    publisher: "Cluster17", type: "poll", publishedAt: "2026-10-18", verifiedAt: "2026-10-19", featured: true,
+    description: "Terrain 14–15 octobre, 1 263 personnes de 18 ans et plus, en ligne, marge 1,2 à 2,8 points. Cinq hypothèses : Le Pen 31–35,5 %. Philippe, Retailleau et Lisnard candidats : Le Pen 31 %, Mélenchon 18 %, Philippe 17 %, Glucksmann 11 %, Lisnard et Retailleau 7 %. Candidat unique du bloc central et de LR : Philippe 20 %, Retailleau 17,5 %, Lisnard 17 %, Attal 17 %.",
+    url: "https://cluster17.com/wp-content/uploads/2026/10/Sondage_Cluster17_ITV_P2027.pdf"
+  },
+  {
+    id: "rtl-cassation-qpc-2026", category: "Justice", name: "RTL / AFP : la Cour de cassation examinera les QPC le 16 décembre",
+    publisher: "RTL / AFP", type: "reference-media", publishedAt: "2026-10-17", verifiedAt: "2026-10-19",
+    description: "Annonce de la Cour de cassation (16 octobre) : QPC de Marine Le Pen et de coprévenus examinées le 16 décembre, décision en principe le jour même ; en cas de transmission, trois mois pour le Conseil constitutionnel ; sinon arrêt possible fin mars ou début avril",
+    url: "https://www.rtl.fr/actu/justice-faits-divers/proces-des-assistants-parlementaires-du-rn-la-cour-de-cassation-examinera-les-qpc-le-16-decembre-une-date-cruciale-avant-la-presidentielle-2027-7900686372"
+  },
+  {
+    id: "nouvelobs-cassation-2026", category: "Justice", name: "Le Nouvel Obs : Marine Le Pen fixée sur son sort avant la présidentielle",
+    publisher: "Le Nouvel Obs", type: "reference-media", publishedAt: "2026-10-16", verifiedAt: "2026-10-19",
+    description: "16 octobre : mémoires déposés au 15 octobre par les douze condamnés et le Parlement européen ; nouveaux délais, mais objectif d’une décision avant l’élection maintenu",
+    url: "https://www.nouvelobs.com/justice/20261016.OBS119265/affaire-des-assistants-parlementaires-du-fn-marine-le-pen-sera-bien-fixee-sur-son-sort-avant-la-presidentielle.html"
+  },
+  {
+    id: "rn-congres-2026", category: "Campagne", name: "Rassemblement national — XIXe Congrès, Orléans",
+    publisher: "Rassemblement national", type: "official-party", publishedAt: null, verifiedAt: "2026-10-19",
+    description: "Page officielle du congrès des 24 et 25 octobre 2026 à Orléans",
+    url: "https://rassemblementnational.fr/congres2026"
   }
 ];

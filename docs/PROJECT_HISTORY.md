@@ -1498,3 +1498,27 @@ changé et pourquoi.
   même longueur ; `git diff --check`. Pas de modification visuelle hors
   textes.
 - **Résultat** : édition du 16 octobre prête ; commit et push sur `main`.
+
+## 2026-10-19 09:20 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : deux sondages postérieurs à la primaire ajoutés
+  (Elabe pour BFMTV / La Tribune Dimanche, 14–16 octobre ; Cluster17 pour
+  Le Point, 14–15 octobre) ; annonce de la Cour de cassation (16 octobre) :
+  QPC de Marine Le Pen examinées le 16 décembre ; congrès du RN à Orléans
+  (24–25 octobre) et audience du 16 décembre ajoutés à la chronologie.
+  Fiches Le Pen et Glucksmann complétées (sondages, procédure), bandeau et
+  date d’édition mis à jour. Série historique Ifop inchangée. Rubrique
+  « Insolite » passée en revue : aucune nouvelle anecdote retenue. Déjeuner
+  Retailleau–Lisnard–Ménard annoncé pour la semaine du 19 octobre, pas
+  encore tenu. `verifiedAt` des fiches non avancés. Six sources ajoutées
+  (191 au total).
+- **Sources consultées** : rapport Elabe et notice Commission des sondages
+  (17 oct.), BFMTV et RTL / AFP (17-18 oct.) ; rapport Cluster17 (18 oct.) ;
+  RTL / AFP (17 oct.) et Le Nouvel Obs (16 oct.) sur la Cour de cassation ;
+  page officielle du congrès du RN.
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants de sources uniques et
+  références valides, `git diff --check`.
+- **Résultat** : édition du 19 octobre ; commit et push sur `main`.
