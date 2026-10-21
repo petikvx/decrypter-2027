@@ -1036,6 +1036,24 @@ window.DECRYPTER_2027.sources = [
     url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10314-pres-climat-politique-post-primaire-ps-pp-ifop-lci-14-octobre.pdf"
   },
   {
+    id: "ifop-v7-oct-2026", category: "Opinion", name: "Ifop-Fiducial — baromètre présidentiel, vague 7, 20 octobre 2026",
+    publisher: "Ifop", type: "poll", publishedAt: "2026-10-20", verifiedAt: "2026-10-21", featured: true,
+    description: "LCI, Le Figaro et Sud Radio, terrain 17 (20 h)–19 octobre, 1 928 inscrits. Philippe seul au centre : Le Pen 36 %, Mélenchon 16,5 %, Philippe 15 %, Glucksmann 14 %, Retailleau 7,5 %. Sept hypothèses, Le Pen 34–38 % ; second tour Le Pen 56–68 %.",
+    url: "https://www.ifopgroup.com/wp-content/uploads/2026/10/122853-barometre-de-lelection-presidentielle-vague-7-resultats-densemble.pdf"
+  },
+  {
+    id: "tf1info-ifop-v7-2026", category: "Opinion", name: "TF1 Info : le sondage Ifop-Fiducial après les violences du 17 octobre",
+    publisher: "TF1 Info / LCI", type: "reference-media", publishedAt: "2026-10-20", verifiedAt: "2026-10-21",
+    description: "20 octobre : Le Pen 34–38 % au premier tour ; Mélenchon 16–16,5 % ; Glucksmann 14–16 % ; seconds tours de 56–44 (Philippe) à 68–32 (Mélenchon)",
+    url: "https://www.tf1info.fr/politique/elections/presidentielle/sondage-lci-presidentielle-2027-apres-les-violences-du-17-octobre-ce-que-revele-notre-derniere-enquete-2471007.html"
+  },
+  {
+    id: "lefigaro-retailleau-lisnard-dejeuner-2026", category: "Campagne", name: "Le Figaro : Retailleau et Lisnard, l’urgence d’un accord",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-20", verifiedAt: "2026-10-21",
+    description: "20 octobre : égalité Lisnard–Retailleau (5,5 %) dans l’hypothèse Ifop où les deux se présentent ; déjeuner prévu le 21 octobre à 12 h 30 avec Robert Ménard, à l’initiative de ce dernier",
+    url: "https://www.lefigaro.fr/elections/presidentielles/il-faut-qu-ils-s-entendent-autrement-c-est-de-la-folie-entre-bruno-retailleau-et-david-lisnard-l-urgence-d-un-accord-entre-deux-competiteurs-du-meme-camp-20261020"
+  },
+  {
     id: "opinionway-oct-2026", category: "Opinion", name: "OpinionWay PrésiTrack — vague 3, 15 octobre 2026",
     publisher: "OpinionWay", type: "poll", publishedAt: "2026-10-15", verifiedAt: "2026-10-16", featured: true,
     description: "Les Echos et Radio Classique, terrain 13–14 octobre, 978 inscrits. Le Pen 35–37 % ; Glucksmann 13–16 % ; Mélenchon 14–15 % ; Philippe 12–15 % ; Attal 7–11 % ; Retailleau 7–9 %. Marge 1,4 à 3,1 points.",

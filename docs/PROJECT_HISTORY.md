@@ -1522,3 +1522,22 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants de sources uniques et
   références valides, `git diff --check`.
 - **Résultat** : édition du 19 octobre ; commit et push sur `main`.
+
+## 2026-10-21 09:25 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : baromètre Ifop-Fiducial vague 7 (LCI / Le Figaro /
+  Sud Radio, 17–19 octobre, 1 928 inscrits) ajouté : série historique passée
+  à 8 vagues (hypothèse Philippe : Le Pen 36 %, Mélenchon 16,5 %, Philippe
+  15 %, Glucksmann 14 %, Retailleau 7,5 %, Zemmour 3,5 %), événement en
+  chronologie, phrase ajoutée à la carte « Le nœud de la gauche ». Déjeuner
+  Retailleau–Lisnard–Ménard du 21 octobre (12 h 30) inscrit « À venir ».
+  Bandeau daté du 21 octobre. Rubrique « Insolite » revue : rien de nouveau
+  retenu. Trois sources ajoutées.
+- **Sources consultées** : rapport Ifop vague 7 (20 oct.) ; TF1 Info (20 oct.) ;
+  Le Figaro (20 oct.) ; L’Opinion (20 oct., recoupement).
+- **Fichiers modifiés** : `index.html`, `data/polls.js`, `data/events.js`,
+  `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants de sources uniques,
+  références valides, séries de même longueur, `git diff --check`.
+- **Résultat** : édition du 21 octobre ; commit et push sur `main`.
