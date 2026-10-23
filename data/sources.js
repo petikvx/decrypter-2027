@@ -1166,5 +1166,41 @@ window.DECRYPTER_2027.sources = [
     publisher: "Rassemblement national", type: "official-party", publishedAt: null, verifiedAt: "2026-10-19",
     description: "Page officielle du congrès des 24 et 25 octobre 2026 à Orléans",
     url: "https://rassemblementnational.fr/congres2026"
+  },
+  {
+    id: "lefigaro-menard-retailleau-lisnard-2026", category: "Campagne", name: "Le Figaro : entretien avec Robert Ménard après le déjeuner Retailleau–Lisnard",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-21", verifiedAt: "2026-10-23",
+    description: "21 octobre : déjeuner « plutôt cordial » ; selon Ménard, Retailleau et Lisnard « ne finiront pas à deux face aux Français »",
+    url: "https://www.lefigaro.fr/elections/presidentielles/candidats/robert-menard-au-figaro-bruno-retailleau-et-david-lisnard-ne-finiront-pas-a-deux-face-aux-francais-20261021"
+  },
+  {
+    id: "lopinion-retailleau-lisnard-primaire-2026", category: "Campagne", name: "L’Opinion : Retailleau–Lisnard, le débat sur la primaire resurgit",
+    publisher: "L’Opinion", type: "reference-media", publishedAt: "2026-10-21", verifiedAt: "2026-10-23",
+    description: "21 octobre : la primaire au menu du déjeuner organisé par Robert Ménard",
+    url: "https://www.lopinion.fr/politique/retailleau-lisnard-quand-resurgit-le-debat-sur-la-primaire"
+  },
+  {
+    id: "leparisien-didier-candidature-unique-2026", category: "Campagne", name: "Le Parisien : Retailleau et Lisnard ont discuté d’une candidature unique",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-22", verifiedAt: "2026-10-23",
+    description: "22 octobre : Geoffroy Didier (LR) sur Radio J évoque une « solution pour avoir une candidature unique »",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-david-lisnard-et-bruno-retailleau-ont-discute-dune-solution-pour-avoir-une-candidature-unique-22-10-2026-ZARM6MUJJVB25AVHWZ26SQQTQ4.php"
+  },
+  {
+    id: "rtl-harris-oct21-2026", category: "Opinion", name: "RTL : sondage Toluna Harris Interactive, 19–21 octobre 2026",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-10-21", verifiedAt: "2026-10-23",
+    description: "M6 et RTL, en ligne du 19 au 21 octobre, 2 094 inscrits. Le Pen 33–35 % ; Mélenchon 17 % ; Philippe 13–16 % ; Glucksmann 12–13 % ; Attal 5 %",
+    url: "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-le-pen-melenchon-philippe-les-violences-du-17-octobre-n-ont-pas-rebattu-les-cartes-7900688275"
+  },
+  {
+    id: "opinionway-cnews-oct22-2026", category: "Opinion", name: "OpinionWay pour CNews — intentions de vote, 22 octobre 2026",
+    publisher: "OpinionWay", type: "poll", publishedAt: "2026-10-22", verifiedAt: "2026-10-23",
+    description: "Terrain 21–22 octobre, 973 inscrits. Le Pen 36 % ; Mélenchon 16 % ; Glucksmann 13 % ; Philippe 12 % ; Lisnard et Retailleau 6 % ; Attal et Zemmour 4 %",
+    url: "https://www.opinion-way.com/fr/publications/les-intentions-de-vote-a-lelection-presidentielle-de-2027-vague-3-2026-24596/"
+  },
+  {
+    id: "cnews-opinionway-oct22-2026", category: "Opinion", name: "CNews : Marine Le Pen conforte son avance (OpinionWay)",
+    publisher: "CNews", type: "reference-media", publishedAt: "2026-10-22", verifiedAt: "2026-10-23",
+    description: "22 octobre : détail du sondage OpinionWay, dont les seconds tours Le Pen–Mélenchon (69–31), Le Pen–Philippe et Le Pen–Glucksmann (56–44)",
+    url: "https://www.cnews.fr/france/2026-10-22/sondage-marine-le-pen-conforte-son-avance-au-premier-tour-de-lelection"
   }
 ];

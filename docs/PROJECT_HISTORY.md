@@ -1541,3 +1541,24 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants de sources uniques,
   références valides, séries de même longueur, `git diff --check`.
 - **Résultat** : édition du 21 octobre ; commit et push sur `main`.
+
+## 2026-10-23 09:20 Europe/Paris (UTC+2) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (vendredi, mode économe en tokens).
+- **Travail effectué** : déjeuner Retailleau–Lisnard–Ménard du 21 octobre
+  passé de « À venir » à fait tenu (rencontre cordiale ; selon Ménard, pas
+  de double candidature au premier tour ; modalités d’une primaire non
+  arrêtées ; Geoffroy Didier évoque une « candidature unique » le 22).
+  Sondages ajoutés à la chronologie : Toluna Harris Interactive pour M6 / RTL
+  (19–21 oct., 2 094 inscrits) et OpinionWay pour CNews (21–22 oct.,
+  973 inscrits ; Lisnard et Retailleau à 6 %). Fiche Lisnard complétée,
+  date d’édition mise à jour. Série Ifop inchangée. Rubrique « Insolite »
+  revue : rien retenu. Six sources ajoutées.
+- **Sources consultées** : Le Figaro (21 oct., récit et entretien Ménard) ;
+  L’Opinion (21 oct.) ; Sud Radio et Le Parisien (22 oct.) ; RTL (21 oct.) ;
+  OpinionWay et CNews (22 oct.) ; Europe 1 (22 oct., recoupement).
+- **Fichiers modifiés** : `index.html`, `data/candidates.js`,
+  `data/events.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants de sources uniques,
+  références valides, `git diff --check`.
+- **Résultat** : édition du 23 octobre ; commit et push sur `main`.
