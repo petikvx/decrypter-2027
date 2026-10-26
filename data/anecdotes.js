@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-10-25", dateLabel: "Relevé le 25 octobre 2026", person: "Gabriel Attal", family: "Centre",
+    title: "Des chaussettes « ni de gauche, ni de droite »",
+    text: "Le site des Jeunes en Marche, mouvement de jeunesse soutenant Gabriel Attal, met en vente des produits dérivés de campagne : des chaussettes « ni de gauche, ni de droite » et une peluche à l’effigie de Volta, la chienne du candidat, relève le point hebdomadaire de franceinfo.",
+    sourceIds: ["franceinfo-semaine-25oct-2026"]
+  },
+  {
     date: "2026-10-13", dateLabel: "13 octobre 2026", person: "David Lisnard", family: "Droite",
     title: "Deux minutes de retard, une question sur le matin",
     text: "Invité du Face à Face d’Apolline de Malherbe sur BFMTV / RMC, le candidat Nouvelle Énergie arrive avec environ deux minutes de retard (début décalé à 8 h 31). En fin d’entretien, la journaliste rappelle un précédent retard et demande : « Est-ce qu’il ne faut pas être du matin pour gouverner la France ? » Il répond qu’il est « du matin, de la nuit et du jour », évoque qu’« il faut se faire désirer », puis présente ses excuses en citant des dossiers traités depuis son réveil.",

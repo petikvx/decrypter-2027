@@ -1202,5 +1202,65 @@ window.DECRYPTER_2027.sources = [
     publisher: "CNews", type: "reference-media", publishedAt: "2026-10-22", verifiedAt: "2026-10-23",
     description: "22 octobre : détail du sondage OpinionWay, dont les seconds tours Le Pen–Mélenchon (69–31), Le Pen–Philippe et Le Pen–Glucksmann (56–44)",
     url: "https://www.cnews.fr/france/2026-10-22/sondage-marine-le-pen-conforte-son-avance-au-premier-tour-de-lelection"
+  },
+  {
+    id: "franceinfo-bardella-reelu-2026", category: "Campagne", name: "franceinfo : Bardella réélu président du RN avec 98,98 %",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-24", verifiedAt: "2026-10-26",
+    description: "24 octobre, congrès d’Orléans : seul candidat, 75 497 suffrages contre 779 blancs, participation proche de 68 %",
+    url: "https://www.franceinfo.fr/politique/front-national/au-congres-du-rassemblement-national-l-unique-candidat-jordan-bardella-est-reelu-sans-surprise-a-la-presidence-du-parti-avec-98-98-des-voix_8252326.html"
+  },
+  {
+    id: "france24-bardella-reelu-2026", category: "Campagne", name: "France 24 : Jordan Bardella réélu président du RN",
+    publisher: "France 24", type: "reference-media", publishedAt: "2026-10-24", verifiedAt: "2026-10-26",
+    description: "Réélection à 98,98 % ; manifestation d’opposants à Orléans, entre 13 000 (autorités) et 26 000 (organisateurs) personnes",
+    url: "https://www.france24.com/fr/france/20261024-jordan-bardella-r%C3%A9%C3%A9lu-pr%C3%A9sident-du-rn-avec-98-98-des-voix"
+  },
+  {
+    id: "franceinfo-lepen-orleans-2026", category: "Campagne", name: "franceinfo : Le Pen promet un gouvernement « d’union nationale » dirigé par Bardella",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "25 octobre, premier meeting de campagne à Orléans : gouvernement « pluraliste », Bardella « chef de l’orchestre gouvernemental »",
+    url: "https://www.franceinfo.fr/politique/front-national/congres-du-rn-marine-le-pen-promet-un-gouvernement-d-union-nationale-pluraliste-et-dirige-par-jordan-bardella_8253364.html"
+  },
+  {
+    id: "europe1-lepen-orleans-2026", category: "Campagne", name: "Europe 1 : ce qu’il faut retenir du premier discours de campagne de Marine Le Pen",
+    publisher: "Europe 1", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "Thème de la « Renaissance pour la France », environ 8 500 spectateurs selon les organisateurs",
+    url: "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118"
+  },
+  {
+    id: "afp-lepen-orleans-2026", category: "Campagne", name: "AFP : Le Pen lance sa campagne en promettant de « restaurer l’État de droit »",
+    publisher: "AFP", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "Discours d’Orléans : État de droit, « double frontière » française et européenne, nationalité « héritée ou méritée »",
+    url: "https://www.afp.com/en/frances-le-pen-launches-presidential-bid-vowing-restore-rule-law"
+  },
+  {
+    id: "cnews-bardella-orleans-2026", category: "Campagne", name: "CNews : ce qu’il faut retenir du discours de Jordan Bardella",
+    publisher: "CNews", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "25 octobre : « milices d’ultra-gauche » sur la liste des organisations terroristes, mesures pénales, présence d’Éric Ciotti",
+    url: "https://www.cnews.fr/france/2026-10-25/congres-du-rn-presidentielle-2027-ultra-gauche-ecole-ce-quil-faut-retenir-du"
+  },
+  {
+    id: "ipsos-leparisien-oct-2026", category: "Opinion", name: "Ipsos bva-CESI pour Le Parisien — intentions de vote, octobre 2026",
+    publisher: "Ipsos bva", type: "poll", publishedAt: "2026-10-24", verifiedAt: "2026-10-26",
+    description: "Terrain 21–22 octobre, 1 500 inscrits, quatre hypothèses : Le Pen 32–33,5 % ; Mélenchon 17 % ; Philippe 13–15 % ; Glucksmann 13–15,5 % ; Lisnard 6,5 %, Retailleau 5,5 % lorsque les deux sont testés",
+    url: "https://www.ipsos.com/fr-fr/presidentielle-2027-melenchon-progresse-le-pen-reste-en-tete"
+  },
+  {
+    id: "vingtminutes-ipsos-oct-2026", category: "Opinion", name: "20 Minutes / AFP : un duel Le Pen–Mélenchon encore annoncé (Ipsos)",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "Détail du sondage Ipsos pour Le Parisien, marge 0,7 à 2,5 points, et jugements sur les violences du 17 octobre",
+    url: "https://www.20minutes.fr/politique/4257273-20261025-presidentielle-2027-duel-pen-melenchon-encore-annonce-sondage"
+  },
+  {
+    id: "politico-cluster17-oct-2026", category: "Opinion", name: "Politico / Cluster17 : Philippe relégué derrière Mélenchon",
+    publisher: "Politico", type: "reference-media", publishedAt: "2026-10-26", verifiedAt: "2026-10-26",
+    description: "Sondage Cluster17 (19–22 octobre, 3 000 personnes, marge 0,8 à 1,8 point) : Le Pen 33 %, Mélenchon 18,5 %, Philippe 16 %, Glucksmann 13 %, Lisnard 8 % lorsqu’il est testé",
+    url: "https://www.politico.eu/article/sondage-exclusif-2027-la-chute-de-philippe-relegue-derriere-melenchon/"
+  },
+  {
+    id: "franceinfo-semaine-25oct-2026", category: "Campagne", name: "franceinfo : le point sur la semaine de campagne (25 octobre)",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
+    description: "Le Pen à Orléans, Glucksmann à Amiens, boutique en ligne des Jeunes en Marche",
+    url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-lance-sa-campagne-manifestations-raphael-glucksmann-a-amiens-le-point-sur-la-semaine_8253493.html"
   }
 ];

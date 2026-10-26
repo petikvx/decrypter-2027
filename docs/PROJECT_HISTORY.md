@@ -1562,3 +1562,24 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants de sources uniques,
   références valides, `git diff --check`.
 - **Résultat** : édition du 23 octobre ; commit et push sur `main`.
+
+## 2026-10-26 09:06 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : congrès du RN à Orléans passé de « À venir » à faits
+  tenus : réélection de Jordan Bardella (24 oct., 98,98 %, participation
+  67,91 %) et premier meeting de campagne de Marine Le Pen (25 oct.). Deux
+  sondages ajoutés à la chronologie : Ipsos bva-CESI pour Le Parisien
+  (21–22 oct., 1 500 inscrits) et Cluster17 pour Politico (19–22 oct.,
+  3 000 personnes). Série Ifop inchangée. Rubrique « Insolite » : produits
+  dérivés des Jeunes en Marche (chaussettes, peluche Volta). Fiches Le Pen et
+  Bardella complétées de sources ; date d’édition mise à jour. Dix sources
+  ajoutées.
+- **Sources consultées** : franceinfo (24 et 25 oct.) ; France 24, Les Echos,
+  Sud Ouest (23–24 oct.) ; Europe 1, AFP, CNews, Ouest-France (25 oct.) ;
+  Ipsos, Le Parisien, 20 Minutes (24–25 oct.) ; Politico (26 oct.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`,
+  `data/candidates.js`, `data/anecdotes.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques,
+  références valides, `git diff --check`.
+- **Résultat** : édition du 26 octobre ; commit et push sur `main`.
