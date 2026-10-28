@@ -1262,5 +1262,23 @@ window.DECRYPTER_2027.sources = [
     publisher: "franceinfo", type: "reference-media", publishedAt: "2026-10-25", verifiedAt: "2026-10-26",
     description: "Le Pen à Orléans, Glucksmann à Amiens, boutique en ligne des Jeunes en Marche",
     url: "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-marine-le-pen-lance-sa-campagne-manifestations-raphael-glucksmann-a-amiens-le-point-sur-la-semaine_8253493.html"
+  },
+  {
+    id: "france24-afp-dates-presidentielle-2026", category: "Cadre officiel", name: "France 24 / AFP : du 17 octobre au 1er-Mai, les dates de la présidentielle contestées",
+    publisher: "France 24 / AFP", type: "reference-media", publishedAt: "2026-10-27", verifiedAt: "2026-10-28",
+    description: "Retailleau et le RN (Louis Aliot) demandent de ne pas tenir le second tour le 2 mai ; dates entérinées le 1er juillet, option alternative 11 et 25 avril, décret au plus tard dix semaines avant",
+    url: "https://www.france24.com/fr/info-en-continu/20261027-du-17-octobre-au-1er-mai-les-dates-de-la-pr%C3%A9sidentielle-contest%C3%A9es"
+  },
+  {
+    id: "vingtminutes-braunpivet-larcher-2026", category: "Alliances", name: "20 Minutes / AFP : Braun-Pivet voit en Larcher un recours possible",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-10-27", verifiedAt: "2026-10-28",
+    description: "Entretien au Figaro du 27 octobre : candidature unique « du MoDem à la droite républicaine », « le plus vite sera le mieux », Gérard Larcher cité",
+    url: "https://www.20minutes.fr/politique/4258122-20261027-presidentielle-2027-yael-braun-pivet-voit-gerard-larcher-recours-possible-droite-centre"
+  },
+  {
+    id: "ladepeche-direct-27oct-2026", category: "Campagne", name: "La Dépêche : le direct présidentielle du 27 octobre",
+    publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-10-27", verifiedAt: "2026-10-28",
+    description: "Lisnard appelle Ciotti à le rejoindre (CNews) ; propos de Barnier à Retailleau rapportés par Le Figaro ; demande de Retailleau sur les dates du scrutin",
+    url: "https://www.ladepeche.fr/2026/10/27/direct-presidentielle-2027-des-risques-de-debordements-bruno-retailleau-candidat-lr-souhaite-modifier-les-dates-du-scrutin-13622128.php"
   }
 ];

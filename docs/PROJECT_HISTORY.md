@@ -1583,3 +1583,20 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques,
   références valides, `git diff --check`.
 - **Résultat** : édition du 26 octobre ; commit et push sur `main`.
+
+## 2026-10-28 09:03 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : trois faits du 27 octobre ajoutés à la chronologie :
+  contestation de la date du second tour (2 mai) par Retailleau et le RN ;
+  appel de Yaël Braun-Pivet à une candidature unique, Gérard Larcher cité ;
+  appel de Lisnard à Ciotti et propos de Barnier à Retailleau (selon Le
+  Figaro). Aucun nouveau sondage depuis le 26. Rubrique « Insolite » : rien
+  retenu. Date d’édition mise à jour. Trois sources ajoutées.
+- **Sources consultées** : France 24 / AFP, 20 Minutes / AFP, La Dépêche
+  (27 oct.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`,
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques,
+  `git diff --check`.
+- **Résultat** : édition du 28 octobre ; commit et push sur `main`.
