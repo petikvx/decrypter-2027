@@ -1280,5 +1280,41 @@ window.DECRYPTER_2027.sources = [
     publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-10-27", verifiedAt: "2026-10-28",
     description: "Lisnard appelle Ciotti à le rejoindre (CNews) ; propos de Barnier à Retailleau rapportés par Le Figaro ; demande de Retailleau sur les dates du scrutin",
     url: "https://www.ladepeche.fr/2026/10/27/direct-presidentielle-2027-des-risques-de-debordements-bruno-retailleau-candidat-lr-souhaite-modifier-les-dates-du-scrutin-13622128.php"
+  },
+  {
+    id: "lefigaro-larcher-pas-candidat-2026", category: "Alliances", name: "Le Figaro : « Je ne suis pas candidat », répond Gérard Larcher à Yaël Braun-Pivet",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-10-28", verifiedAt: "2026-10-30",
+    description: "Réponse du président du Sénat à la proposition de candidature unique ; soutien rappelé à Bruno Retailleau",
+    url: "https://www.lefigaro.fr/politique/presidentielle-2027-je-ne-suis-pas-candidat-repond-gerard-larcher-a-yael-braun-pivet-20261028"
+  },
+  {
+    id: "bfmtv-larcher-pas-candidat-2026", category: "Alliances", name: "BFMTV : suggéré par Yaël Braun-Pivet, Gérard Larcher assure qu’il n’est « pas candidat »",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-10-28", verifiedAt: "2026-10-30",
+    description: "Reprise de la déclaration au Figaro et rappel du débat sur une primaire de la droite et du centre",
+    url: "https://www.bfmtv.com/politique/parlement/presidentielle-2027-suggere-par-yael-braun-pivet-gerard-larcher-assure-qu-il-n-est-pas-candidat_AN-202610280873.html"
+  },
+  {
+    id: "leparisien-retailleau-janvier-2026", category: "Alliances", name: "Le Parisien : chacun doit faire sa campagne « jusqu’à janvier », affirme Bruno Retailleau",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-28", verifiedAt: "2026-10-30",
+    description: "Retailleau sur CNews / Europe 1 : campagnes séparées avec Lisnard jusqu’en janvier ; primaire sans Philippe jugée inutile",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-une-alliance-avec-david-lisnard-chacun-doit-faire-sa-campagne-jusqua-janvier-affirme-bruno-retailleau-28-10-2026-AI7JN4SXTFERFM3LXI55EH6WVY.php"
+  },
+  {
+    id: "sudouest-attal-primaire-democrates-2026", category: "Alliances", name: "Sud Ouest / AFP : Attal plaide pour une « grande primaire des démocrates »",
+    publisher: "Sud Ouest / AFP", type: "reference-media", publishedAt: "2026-10-28", verifiedAt: "2026-10-30",
+    description: "Proposition d’Attal ; réactions de Marcangeli (Horizons), de l’entourage de Retailleau et de Lisnard",
+    url: "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-gabriel-attal-plaide-pour-l-organisation-d-une-grande-primaire-des-democrates-31282748.php"
+  },
+  {
+    id: "vingtminutes-attal-primaire-2026", category: "Alliances", name: "20 Minutes / AFP : Attal veut une « primaire des démocrates », Philippe et Retailleau réticents",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-10-29", verifiedAt: "2026-10-30",
+    description: "Dépêche AFP sur la proposition de primaire et les réactions des autres candidats de la droite et du centre",
+    url: "https://www.20minutes.fr/politique/4258468-20261029-presidentielle-2027-attal-veut-primaire-democrates-philippe-retailleau-reticents"
+  },
+  {
+    id: "melenchon2027-agenda-2026", category: "Campagne", name: "Mélenchon 2027 : agenda de campagne",
+    publisher: "Mélenchon 2027", type: "official-campaign", publishedAt: "2026-10-30", verifiedAt: "2026-10-30",
+    description: "Grand meeting de présentation du programme le 7 novembre 2026 à 15 h au Parc des expositions Paris-Le Bourget",
+    url: "https://melenchon2027.fr/agenda-de-campagne/"
   }
 ];

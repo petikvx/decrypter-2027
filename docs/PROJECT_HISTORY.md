@@ -1600,3 +1600,21 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques,
   `git diff --check`.
 - **Résultat** : édition du 28 octobre ; commit et push sur `main`.
+
+## 2026-10-30 09:08 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (vendredi, mode économe en tokens).
+- **Travail effectué** : deux entrées du 28 octobre ajoutées à la chronologie :
+  refus de Gérard Larcher d’être candidat et position de Retailleau
+  (campagnes séparées « jusqu’à janvier ») ; proposition d’Attal d’une
+  « primaire des démocrates » et réactions (Horizons, entourage de Retailleau,
+  Lisnard). Rendez-vous « À venir » : meeting-programme de Mélenchon au
+  Bourget le 7 novembre. Aucun nouveau sondage depuis le 26. Rubrique
+  « Insolite » : rien retenu. Date d’édition mise à jour. Six sources ajoutées.
+- **Sources consultées** : Le Figaro, BFMTV, Le Parisien, Sud Ouest / AFP
+  (28 oct.) ; 20 Minutes / AFP (29 oct.) ; agenda officiel melenchon2027.fr.
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`,
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques,
+  `git diff --check`.
+- **Résultat** : édition du 30 octobre ; commit et push sur `main`.
