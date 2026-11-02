@@ -1618,3 +1618,21 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques,
   `git diff --check`.
 - **Résultat** : édition du 30 octobre ; commit et push sur `main`.
+
+## 2026-11-02 09:05 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : une entrée du 31 octobre ajoutée à la chronologie :
+  Aurore Bergé soutient une primaire limitée à la droite et au centre (sans
+  Glucksmann), modalités à fixer d’ici fin 2026 ; l’entourage de Glucksmann
+  exclut d’y participer. Aucun nouveau sondage d’intentions de vote depuis le
+  26 octobre. Comité Philippe de la Toussaint : aucune réunion confirmée,
+  entrée « À venir » conservée. Rubrique « Insolite » : rien retenu. Date
+  d’édition mise à jour. Deux sources ajoutées.
+- **Sources consultées** : Le Parisien, CNews, Le Figaro, 20 Minutes, BFMTV
+  (31 oct.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`,
+  `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques,
+  `git diff --check`.
+- **Résultat** : édition du 2 novembre ; commit et push sur `main`.

@@ -1316,5 +1316,17 @@ window.DECRYPTER_2027.sources = [
     publisher: "Mélenchon 2027", type: "official-campaign", publishedAt: "2026-10-30", verifiedAt: "2026-10-30",
     description: "Grand meeting de présentation du programme le 7 novembre 2026 à 15 h au Parc des expositions Paris-Le Bourget",
     url: "https://melenchon2027.fr/agenda-de-campagne/"
+  },
+  {
+    id: "leparisien-berge-primaire-2026", category: "Alliances", name: "Le Parisien : Aurore Bergé veut s’accorder sur une primaire du centre et de la droite d’ici la fin de l’année",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-10-31", verifiedAt: "2026-11-02",
+    description: "Entretien d’Aurore Bergé : primaire limitée à la droite et au centre, modalités à fixer avant fin 2026",
+    url: "https://www.leparisien.fr/politique/aurore-berge-sur-la-presidentielle-2027-dici-la-fin-de-lannee-on-doit-setre-mis-daccord-sur-les-modalites-dune-primaire-du-centre-et-de-la-droite-31-10-2026-J634ZK2Y3VHNNPG2OZJKDA2ITU.php"
+  },
+  {
+    id: "cnews-berge-primaire-2026", category: "Alliances", name: "CNews : « Il n’est pas encore trop tard », Aurore Bergé appelle la droite et le centre à s’entendre sur une primaire",
+    publisher: "CNews", type: "reference-media", publishedAt: "2026-10-31", verifiedAt: "2026-11-02",
+    description: "Recoupement de l’entretien au Parisien : périmètre sans Glucksmann, position de l’entourage de Glucksmann",
+    url: "https://www.cnews.fr/france/2026-10-31/il-nest-pas-encore-trop-tard-aurore-berge-appelle-la-droite-et-le-centre"
   }
 ];
