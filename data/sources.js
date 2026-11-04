@@ -1328,5 +1328,53 @@ window.DECRYPTER_2027.sources = [
     publisher: "CNews", type: "reference-media", publishedAt: "2026-10-31", verifiedAt: "2026-11-02",
     description: "Recoupement de l’entretien au Parisien : périmètre sans Glucksmann, position de l’entourage de Glucksmann",
     url: "https://www.cnews.fr/france/2026-10-31/il-nest-pas-encore-trop-tard-aurore-berge-appelle-la-droite-et-le-centre"
+  },
+  {
+    id: "lemonde-attal-primaire-ineluctable-2026", category: "Alliances", name: "Le Monde : Attal juge la primaire « inéluctable », malgré le refus de Philippe",
+    publisher: "Le Monde", type: "reference-media", publishedAt: "2026-11-02", verifiedAt: "2026-11-04",
+    description: "Refus de Philippe au 20 Heures de TF1 le 1er novembre et réponse d’Attal le 2 novembre",
+    url: "https://www.lemonde.fr/politique/article/2026/11/02/presidentielle-2027-gabriel-attal-juge-la-tenue-d-une-primaire-du-centre-et-de-la-droite-ineluctable-malgre-le-refus-d-edouard-philippe_6805225_823448.html"
+  },
+  {
+    id: "rtl-qui-veut-primaire-2026", category: "Alliances", name: "RTL : qui veut d’une primaire du bloc central et qui s’y oppose ?",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-02", verifiedAt: "2026-11-04",
+    description: "Recoupement des positions d’Attal, Philippe, Lisnard, Retailleau et Glucksmann sur la primaire",
+    url: "https://www.rtl.fr/actu/politique/presidentielle-2027-attal-philippe-lisnard-glucksmann-qui-veut-d-une-primaire-du-bloc-central-et-qui-s-y-oppose-7900691760"
+  },
+  {
+    id: "tf1info-ifop-lci-nov-2026", category: "Opinion", name: "TF1 Info : sondage Ifop pour LCI à six mois du scrutin",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-11-03", verifiedAt: "2026-11-04",
+    description: "Ifop pour LCI, terrain du 27 au 29 octobre 2026, 1 501 inscrits, plusieurs hypothèses de premier tour",
+    url: "https://www.tf1info.fr/politique/elections/presidentielle/sondage-lci-a-six-mois-de-la-presidentielle-2027-marine-le-pen-et-jean-luc-melenchon-sans-adversaires-au-premier-tour-philippe-attal-retailleau-lisnard-2473663.html"
+  },
+  {
+    id: "rtl-ifop-lci-nov-2026", category: "Opinion", name: "RTL / AFP : Mélenchon derrière Le Pen, Glucksmann chute, Lisnard progresse",
+    publisher: "RTL / AFP", type: "reference-media", publishedAt: "2026-11-03", verifiedAt: "2026-11-04",
+    description: "Dépêche sur le sondage Ifop-LCI : échantillon de 1 650 personnes, marge de 1,1 à 2,5 points, comparaison avec la vague de mi-octobre",
+    url: "https://www.rtl.fr/actu/politique/presidentielle-2027-melenchon-s-installe-derriere-le-pen-glucksmann-chute-et-lisnard-cree-la-surprise-dans-un-sondage-7900692301"
+  },
+  {
+    id: "france24-retailleau-primaire-2026", category: "Alliances", name: "France 24 / AFP : Retailleau remet la pression sur Philippe",
+    publisher: "France 24 / AFP", type: "reference-media", publishedAt: "2026-11-04", verifiedAt: "2026-11-04",
+    description: "Retailleau sur BFMTV le 3 novembre : primaire en début d’année entre quatre candidats, trois débats proposés",
+    url: "https://www.france24.com/fr/info-en-continu/20261104-primaire-%C3%A0-droite-et-au-centre-retailleau-remet-la-pression-sur-philippe"
+  },
+  {
+    id: "leparisien-retailleau-primaire-2026", category: "Alliances", name: "Le Parisien : « Sinon j’irai jusqu’au bout », Retailleau milite pour une primaire",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-04", verifiedAt: "2026-11-04",
+    description: "Recoupement de l’intervention de Retailleau sur BFMTV le 3 novembre",
+    url: "https://www.leparisien.fr/elections/presidentielle/sinon-jirai-jusquau-bout-bruno-retailleau-milite-desormais-pour-une-primaire-de-la-droite-et-du-centre-04-11-2026-ABWVERGWPVG2JFBA5MY5D7PVGU.php"
+  },
+  {
+    id: "franceinfo-villepin-pas-encore-2026", category: "Campagne", name: "franceinfo : « Je ne suis pas encore candidat », indique Dominique de Villepin",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-03", verifiedAt: "2026-11-04",
+    description: "Villepin sur France Inter le 3 novembre : pas encore candidat, « soyez patient »",
+    url: "https://www.franceinfo.fr/elections/presidentielle/je-ne-suis-pas-encore-candidat-a-la-presidentielle-2027-indique-dominique-de-villepin_8265395.html"
+  },
+  {
+    id: "vingtminutes-villepin-candidat-2026", category: "Campagne", name: "20 Minutes / AFP : « Pas de doute », Villepin confirme qu’il sera candidat",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-11-03", verifiedAt: "2026-11-04",
+    description: "Recoupement : refus d’alliance avec le bloc central et LFI, aucune date d’officialisation",
+    url: "https://www.20minutes.fr/politique/4259937-20261103-presidentielle-2027-doute-villepin-confirme-bien-candidat"
   }
 ];

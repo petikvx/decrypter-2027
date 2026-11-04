@@ -1636,3 +1636,23 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques,
   `git diff --check`.
 - **Résultat** : édition du 2 novembre ; commit et push sur `main`.
+
+## 2026-11-04 09:11 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : quatre entrées ajoutées à la chronologie : refus de
+  la primaire par Philippe sur TF1 (1er nov.) et réponse d’Attal
+  (« inéluctable », 2 nov.) ; sondage Ifop pour LCI (27–29 oct., publié le
+  3 nov.) ; ralliement de Retailleau à une primaire « en début d’année » et
+  proposition de trois débats (3 nov.) ; Villepin « pas encore » candidat
+  mais sans « doutes » (3 nov.), fiche complétée sans changement de statut ni
+  de date de vérification. `data/polls.js` inchangé (rapport Ifop complet
+  non consulté). Rubrique « Insolite » : rien de neuf retenu. Date d’édition
+  mise à jour. Huit sources ajoutées.
+- **Sources consultées** : Le Monde, RTL (2 nov.) ; TF1 Info, RTL / AFP,
+  franceinfo, 20 Minutes / AFP (3 nov.) ; France 24 / AFP, Le Parisien (4 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`,
+  `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques,
+  `git diff --check`.
+- **Résultat** : édition du 4 novembre ; commit et push sur `main`.
