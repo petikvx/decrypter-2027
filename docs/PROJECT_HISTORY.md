@@ -1656,3 +1656,12 @@ changé et pourquoi.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques,
   `git diff --check`.
 - **Résultat** : édition du 4 novembre ; commit et push sur `main`.
+
+## 2026-11-06 09:20 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (vendredi, mode économe en tokens).
+- **Travail effectué** : trois entrées ajoutées à la chronologie (ticket Bardella–Le Pen sur RTL le 4 nov. ; Odoxa-Backbone / Figaro du 5 nov. sur la primaire ; publication de la 5e édition de L’Avenir en commun le 6 nov.). Fiche Mélenchon : maturité portée au programme publié, sources et résumé actualisés. Rubrique « Insolite » : réaction de Lisnard à Patrick Sébastien (5 nov.). `data/polls.js` inchangé (Odoxa = souhait de primaire / cote, pas d’intentions de vote). Date d’édition et bandeau mis à jour. Sept sources ajoutées.
+- **Sources consultées** : RTL (4–5 nov.) ; Le Figaro / Odoxa-Backbone, CNews (5 nov.) ; LFI, Le Parisien (5–6 nov.) ; BFMTV (vidéo Lisnard).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`, `data/candidates.js`, `data/anecdotes.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 6 novembre ; commit et push sur `main`.

@@ -1376,5 +1376,47 @@ window.DECRYPTER_2027.sources = [
     publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-11-03", verifiedAt: "2026-11-04",
     description: "Recoupement : refus d’alliance avec le bloc central et LFI, aucune date d’officialisation",
     url: "https://www.20minutes.fr/politique/4259937-20261103-presidentielle-2027-doute-villepin-confirme-bien-candidat"
+  },
+  {
+    id: "rtl-bardella-ticket-2026", category: "Campagne", name: "RTL : Bardella assure que Le Pen le nommera à Matignon",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-04", verifiedAt: "2026-11-06",
+    description: "Interview Fogiel du 4 novembre : « ticket » Le Pen–Bardella et confirmation personnelle pour Matignon",
+    url: "https://www.rtl.fr/actu/politique/nous-formons-un-ticket-sur-rtl-jordan-bardella-assure-que-marine-le-pen-le-nommera-a-matignon-et-defend-la-solidite-de-leur-amitie-personnelle-7900692434"
+  },
+  {
+    id: "lefigaro-odoxa-primaire-nov-2026", category: "Opinion", name: "Le Figaro / Odoxa-Backbone : les Français favorables à une primaire de la droite",
+    publisher: "Le Figaro / Odoxa-Backbone", type: "poll", publishedAt: "2026-11-05", verifiedAt: "2026-11-06",
+    description: "Enquête des 4–5 novembre 2026, 1 005 personnes : 74 % des sympathisants droite/centre favorables à une primaire ; dynamiques Philippe, Lisnard, Retailleau, Attal",
+    url: "https://www.lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-les-francais-favorables-a-une-primaire-de-la-droite-david-lisnard-confirme-sa-dynamique-20261105"
+  },
+  {
+    id: "cnews-odoxa-primaire-nov-2026", category: "Opinion", name: "CNews : près de trois quarts des sympathisants droite/centre veulent une primaire (Odoxa)",
+    publisher: "CNews", type: "reference-media", publishedAt: "2026-11-05", verifiedAt: "2026-11-06",
+    description: "Recoupement du sondage Odoxa pour Le Figaro : échantillon de 1 005 personnes, quotas, 4–5 novembre",
+    url: "https://www.cnews.fr/france/2026-11-05/presidentielle-2027-pres-de-trois-quarts-des-sympathisants-de-droite-et-du-centre"
+  },
+  {
+    id: "lfi-avenir-en-commun-nov-2026", category: "Programme", name: "LFI : sortie de la 5e édition de L’Avenir en commun le 6 novembre",
+    publisher: "La France insoumise", type: "official", publishedAt: "2026-11-02", verifiedAt: "2026-11-06",
+    description: "Annonce partisane : 1 069 mesures, 238 nouvelles, 118 modifiées ; meeting du Bourget le 7 novembre",
+    url: "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/"
+  },
+  {
+    id: "leparisien-melenchon-programme-nov-2026", category: "Programme", name: "Le Parisien : les nouveautés du programme de Jean-Luc Mélenchon",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-05", verifiedAt: "2026-11-06",
+    description: "Publication le 6 novembre chez La Dispute ; 1 069 mesures dont 238 nouvelles ; tirage de 80 000 exemplaires",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-ia-maladies-ecologiques-lutte-contre-les-discriminations-les-nouveautes-du-programme-de-jean-luc-melenchon-05-11-2026-N5PVVQLFSFBTLERTV2CZ3AECPQ.php"
+  },
+  {
+    id: "rtl-lisnard-sebastien-2026", category: "Campagne", name: "RTL : Lisnard « ravi » des faveurs de Patrick Sébastien",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-05", verifiedAt: "2026-11-06",
+    description: "Réaction de Lisnard sur BFMTV le 5 novembre ; précisions de Sébastien à RTL sur un vote éventuel sans soutien formel",
+    url: "https://www.rtl.fr/actu/politique/toc-toc-c-est-moi-qui-frappe-a-la-porte-des-elections-david-lisnard-ravi-d-avoir-les-faveurs-de-patrick-sebastien-pour-2027-7900693100"
+  },
+  {
+    id: "bfmtv-lisnard-sebastien-2026", category: "Campagne", name: "BFMTV : « Toc toc, c’est moi qui frappe à la porte », Lisnard et Patrick Sébastien",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-04", verifiedAt: "2026-11-06",
+    description: "Extrait vidéo : Lisnard se réjouit de la préférence exprimée par Patrick Sébastien",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/video-le-20-27-toc-toc-c-est-moi-qui-frappe-a-la-porte-david-lisnard-se-rejouit-du-soutien-de-patrick-sebastien_VN-202611040770.html"
   }
 ];

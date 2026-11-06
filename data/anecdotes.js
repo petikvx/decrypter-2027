@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-05", dateLabel: "5 novembre 2026", person: "David Lisnard", family: "Droite",
+    title: "« Toc toc, on arrive » après Patrick Sébastien",
+    text: "Invité de BFMTV, le candidat Nouvelle Énergie se dit « ravi » que Patrick Sébastien ait déclaré sur Sud Radio le 28 octobre que, s’il devait voter « aujourd’hui », il choisirait Lisnard ; Sébastien précise ensuite à RTL qu’il ne le « soutient » pas formellement, tout en jugeant intéressantes ses propositions. Lisnard reprend le refrain de Sébastien : « Toc toc, c’est moi qui frappe à la porte des élections ».",
+    sourceIds: ["rtl-lisnard-sebastien-2026", "bfmtv-lisnard-sebastien-2026"]
+  },
+  {
     date: "2026-10-25", dateLabel: "Relevé le 25 octobre 2026", person: "Gabriel Attal", family: "Centre",
     title: "Des chaussettes « ni de gauche, ni de droite »",
     text: "Le site des Jeunes en Marche, mouvement de jeunesse soutenant Gabriel Attal, met en vente des produits dérivés de campagne : des chaussettes « ni de gauche, ni de droite » et une peluche à l’effigie de Volta, la chienne du candidat, relève le point hebdomadaire de franceinfo.",
