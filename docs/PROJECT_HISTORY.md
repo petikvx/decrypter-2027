@@ -1665,3 +1665,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`, `data/candidates.js`, `data/anecdotes.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 6 novembre ; commit et push sur `main`.
+
+## 2026-11-09 09:25 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : quatre entrées ajoutées à la chronologie : défections de députés GDR vers Mélenchon et Roussel « jusqu’au bout » (5–8 nov.) ; meeting de Mélenchon au Bourget (7 nov., remplace l’entrée « À venir ») ; Wauquiez pour un candidat unique « avant Noël » et réponse d’Attal à Philippe sur la primaire (8 nov.) ; Toluna Harris vague 9 pour M6 / RTL (3–5 nov., publié le 9 nov.). Fiche Roussel complétée. `data/polls.js` inchangé (série Ifop). Rubrique « Insolite » : les « repas du dimanche » de Mélenchon au Bourget (7 nov.). Date d’édition et bandeau mis à jour. Huit sources ajoutées.
+- **Sources consultées** : RFI, franceinfo (7–8 nov.) ; Le Figaro, BFMTV, Midi Libre, Le Dauphiné (8 nov.) ; rapport Toluna Harris Interactive, RTL (9 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 9 novembre ; commit et push sur `main`.

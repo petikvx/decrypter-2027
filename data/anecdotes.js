@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-07", dateLabel: "7 novembre 2026", person: "Jean-Luc Mélenchon", family: "Gauche",
+    title: "Les jeunes chargés de « pourrir les repas du dimanche »",
+    text: "Au meeting du Bourget, il présente les jeunes, nombreux dans la salle, comme les meilleurs relais de sa campagne en famille : « Heureusement qu’ils sont tous là : ils parlent, ils pourrissent les repas du dimanche, ils vont voir papa, maman, les grands-parents... pas un ne va pas y échapper ! »",
+    sourceIds: ["rfi-melenchon-bourget-2026"]
+  },
+  {
     date: "2026-11-05", dateLabel: "5 novembre 2026", person: "David Lisnard", family: "Droite",
     title: "« Toc toc, on arrive » après Patrick Sébastien",
     text: "Invité de BFMTV, le candidat Nouvelle Énergie se dit « ravi » que Patrick Sébastien ait déclaré sur Sud Radio le 28 octobre que, s’il devait voter « aujourd’hui », il choisirait Lisnard ; Sébastien précise ensuite à RTL qu’il ne le « soutient » pas formellement, tout en jugeant intéressantes ses propositions. Lisnard reprend le refrain de Sébastien : « Toc toc, c’est moi qui frappe à la porte des élections ».",

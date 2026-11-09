@@ -1418,5 +1418,53 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-04", verifiedAt: "2026-11-06",
     description: "Extrait vidéo : Lisnard se réjouit de la préférence exprimée par Patrick Sébastien",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/video-le-20-27-toc-toc-c-est-moi-qui-frappe-a-la-porte-david-lisnard-se-rejouit-du-soutien-de-patrick-sebastien_VN-202611040770.html"
+  },
+  {
+    id: "rfi-melenchon-bourget-2026", category: "Campagne", name: "RFI : Mélenchon présente son programme lors d’un grand meeting au Bourget",
+    publisher: "RFI", type: "reference-media", publishedAt: "2026-11-08", verifiedAt: "2026-11-09",
+    description: "Meeting du 7 novembre : plus de 20 000 personnes selon les organisateurs, minute de silence, adresse à la jeunesse, refus d’être « moins clivant »",
+    url: "https://www.rfi.fr/fr/france/20261108-pr%C3%A9sidentielle-en-france-jean-luc-m%C3%A9lenchon-pr%C3%A9sente-son-programme-lors-d-un-grand-meeting-au-bourget"
+  },
+  {
+    id: "franceinfo-melenchon-bourget-2026", category: "Campagne", name: "franceinfo : « Il faut tout changer ! », Mélenchon au Bourget",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-07", verifiedAt: "2026-11-09",
+    description: "Mesures citées : suppression de Parcoursup, Smic à 1 700 euros, retraite à 60 ans, sortie du nucléaire",
+    url: "https://www.franceinfo.fr/politique/melenchon/il-faut-tout-changer-scande-jean-luc-melenchon-lors-de-son-grand-meeting-du-bourget_8272676.html"
+  },
+  {
+    id: "lefigaro-roussel-jusquaubout-2026", category: "Campagne", name: "Le Figaro : malgré les défections, Fabien Roussel ira « jusqu’au bout »",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-11-08", verifiedAt: "2026-11-09",
+    description: "Déclaration sur ICI et franceinfo le 8 novembre ; neuf députés GDR ralliés à Mélenchon ; Roussel crédité de 2 à 3 %",
+    url: "https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-malgre-les-defections-fabien-roussel-pcf-ira-jusqu-au-bout-20261108"
+  },
+  {
+    id: "bfmtv-live-8nov-2026", category: "Campagne", name: "BFMTV : direct présidentielle du 8 novembre",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-08", verifiedAt: "2026-11-09",
+    description: "Wauquiez (candidat unique avant Noël), Attal sur la primaire, communiqué du PCF sur les adhérents soutenant un autre candidat, Roussel « jusqu’au bout »",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/direct-presidentielle-2027-edouard-philippe-bruno-retailleau-gabriel-attal-et-david-lisnard-attendus-dans-le-var_LN-202611080060.html"
+  },
+  {
+    id: "midilibre-wauquiez-candidat-unique-2026", category: "Droite", name: "Midi Libre : vers un « candidat unique » avant Noël ?",
+    publisher: "Midi Libre", type: "reference-media", publishedAt: "2026-11-08", verifiedAt: "2026-11-09",
+    description: "Wauquiez sur France Inter et France 2 : rencontre des candidats sous quinze jours, primaire, débats et sondage ou conclave",
+    url: "https://www.midilibre.fr/2026/11/08/presidentielle-2027-vers-un-candidat-unique-avant-noel-les-partis-de-droite-et-du-centre-de-plus-en-plus-tentes-par-une-primaire-13642623.php"
+  },
+  {
+    id: "ledauphine-attal-philippe-primaire-2026", category: "Centre", name: "Le Dauphiné : Attal répond à Philippe, Wauquiez veut un candidat « avant Noël »",
+    publisher: "Le Dauphiné libéré", type: "reference-media", publishedAt: "2026-11-08", verifiedAt: "2026-11-09",
+    description: "Attal aux Rencontres de l’Avenir (Saint-Raphaël) : la primaire « inéluctable », réponse à l’argument de la « division »",
+    url: "https://www.ledauphine.com/elections/2026/11/08/gabriel-attal-repond-a-edouard-philippe-et-juge-la-primaire-ineluctable"
+  },
+  {
+    id: "toluna-harris-v9-nov-2026", category: "Opinion", name: "Toluna Harris Interactive : baromètre présidentielle 2027, vague 9 (M6 / RTL)",
+    publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-11-09", verifiedAt: "2026-11-09",
+    description: "Rapport : terrain en ligne du 3 au 5 novembre, 2 101 inscrits, quotas, marge ±1,4 à 3,1 points ; premier et second tours",
+    url: "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-9-M6-RTL-9-novembre-2026.pdf"
+  },
+  {
+    id: "rtl-harris-v9-nov-2026", category: "Opinion", name: "RTL : Le Pen et Mélenchon creusent l’écart avec Philippe (Harris vague 9)",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-09", verifiedAt: "2026-11-09",
+    description: "Évolutions par hypothèse, 66 % favorables à une primaire, pouvoir d’achat première motivation de vote (58 %)",
+    url: "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-le-pen-et-melenchon-creusent-l-ecart-avec-philippe-la-percee-de-lisnard-se-confirme-7900693811"
   }
 ];
