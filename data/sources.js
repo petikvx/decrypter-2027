@@ -1466,5 +1466,47 @@ window.DECRYPTER_2027.sources = [
     publisher: "RTL", type: "reference-media", publishedAt: "2026-11-09", verifiedAt: "2026-11-09",
     description: "Évolutions par hypothèse, 66 % favorables à une primaire, pouvoir d’achat première motivation de vote (58 %)",
     url: "https://www.rtl.fr/actu/politique/sondage-rtl-presidentielle-2027-le-pen-et-melenchon-creusent-l-ecart-avec-philippe-la-percee-de-lisnard-se-confirme-7900693811"
+    },
+  {
+    id: "leparisien-riner-candidature-2026", category: "Candidature", name: "Le Parisien : « Je suis candidat pour dire qu’on peut relever la France », Teddy Riner se lance",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-09", verifiedAt: "2026-11-11",
+    description: "Entretien exclusif : candidature, positionnement « ni à droite, ni à gauche », site « La France qu’on veut »",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-je-suis-candidat-pour-dire-quon-peut-relever-la-france-teddy-riner-se-lance-dans-la-competition-09-11-2026-36MFSFMWDFGATLM2YGR3MDF4QI.php"
+  },
+  {
+    id: "ouestfrance-riner-candidature-2026", category: "Candidature", name: "Ouest-France : Teddy Riner annonce sa candidature à la présidentielle",
+    publisher: "Ouest-France", type: "reference-media", publishedAt: "2026-11-09", verifiedAt: "2026-11-11",
+    description: "Annonce par vidéo, slogan « La France qu’on veut », parrainages à réunir",
+    url: "https://www.ouest-france.fr/sport/judo/teddy-riner/video-teddy-riner-annonce-sa-candidature-a-lelection-presidentielle-de-2027-1b8ca9db-bd41-44b0-aefd-fbb011775543"
+  },
+  {
+    id: "tele2semaines-riner-jo-2026", category: "Campagne", name: "Télé 2 Semaines : Teddy Riner candidat, sans renoncer aux JO 2028",
+    publisher: "Télé 2 Semaines (programme.tv)", type: "media", publishedAt: "2026-11-09", verifiedAt: "2026-11-11",
+    description: "Citations de la vidéo et propos rapportés au Parisien sur Los Angeles 2028",
+    url: "https://www.programme.tv/news/celebrites/269381-teddy-riner-se-presente-a-l-election-presidentielle-de-2027-mais-assure-vouloir-continuer-sa-carriere-de-judoka-je-vous-le-dis-les-yeux-dans-les-yeux/"
+  },
+  {
+    id: "franceinfo-zemmour-tf1-2026", category: "Candidature", name: "franceinfo : Éric Zemmour officialise sa candidature",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-10", verifiedAt: "2026-11-11",
+    description: "Annonce au 20 heures de TF1, chômeurs étrangers de plus de six mois, plan de redressement des finances publiques",
+    url: "https://www.franceinfo.fr/elections/presidentielle/eric-zemmour-leader-du-parti-d-extreme-droite-reconquete-officialise-sa-candidature-a-la-presidentielle_8276858.html"
+  },
+  {
+    id: "rtl-zemmour-tf1-2026", category: "Candidature", name: "RTL : « Je me présente pour conserver une France française », Zemmour officialise sa candidature",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-10", verifiedAt: "2026-11-11",
+    description: "Deux millions d’immigrés en moins, référendum sur la politique migratoire, 280 milliards d’euros de baisse annoncée",
+    url: "https://www.rtl.fr/actu/politique/je-me-presente-pour-conserver-une-france-francaise-eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027-7900694983"
+  },
+  {
+    id: "lefigaro-retailleau-primaire-dates-2026", category: "Alliances", name: "Le Figaro : Retailleau propose de fixer la primaire aux 31 janvier et 7 février",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-11-10", verifiedAt: "2026-11-11",
+    description: "Courriers à Philippe, Attal et Lisnard ; calendrier proposé",
+    url: "https://www.lefigaro.fr/elections/presidentielles/presidentielle-retailleau-propose-de-fixer-la-primaire-aux-31-janvier-et-7-fevrier-le-temps-d-en-definir-les-modalites-et-de-faire-campagne-20261110"
+  },
+  {
+    id: "tf1info-retailleau-primaire-dates-2026", category: "Alliances", name: "TF1 Info : Retailleau propose une primaire de la droite et du centre les 31 janvier et 7 février",
+    publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-11-10", verifiedAt: "2026-11-11",
+    description: "Extraits du courrier du 10 novembre, réunion des directeurs de campagne sous quinze jours",
+    url: "https://www.tf1info.fr/politique/elections/presidentielle/le-temps-joue-contre-nous-bruno-retailleau-propose-une-primaire-de-la-droite-et-du-centre-les-31-janvier-et-7-fevrier-2475141.html"
   }
 ];

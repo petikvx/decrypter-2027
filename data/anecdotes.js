@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-09", dateLabel: "9 novembre 2026", person: "Teddy Riner", family: "Sans étiquette",
+    title: "Candidat à l’Élysée, sans renoncer aux Jeux de 2028",
+    text: "Le jour de l’annonce de sa candidature, le quintuple champion olympique de judo, interrogé par Le Parisien, indique ne pas renoncer aux Jeux olympiques de Los Angeles en 2028 « si la fonction [le lui] permet et si les Français [l’y] autorisent ». Dans sa vidéo, il anticipe les critiques : « Je sais ce qu’on va dire de moi. Il est fou, il n’est pas du sérail, il n’a pas les codes ».",
+    sourceIds: ["leparisien-riner-candidature-2026", "tele2semaines-riner-jo-2026"]
+  },
+  {
     date: "2026-11-07", dateLabel: "7 novembre 2026", person: "Jean-Luc Mélenchon", family: "Gauche",
     title: "Les jeunes chargés de « pourrir les repas du dimanche »",
     text: "Au meeting du Bourget, il présente les jeunes, nombreux dans la salle, comme les meilleurs relais de sa campagne en famille : « Heureusement qu’ils sont tous là : ils parlent, ils pourrissent les repas du dimanche, ils vont voir papa, maman, les grands-parents... pas un ne va pas y échapper ! »",

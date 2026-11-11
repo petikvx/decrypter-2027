@@ -1674,3 +1674,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 9 novembre ; commit et push sur `main`.
+
+## 2026-11-11 09:30 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : trois entrées ajoutées à la chronologie : candidature de Teddy Riner (9 nov.) ; Zemmour officialise sa candidature au 20 h de TF1 (10 nov.) ; Retailleau propose par courrier une primaire droite/centre les 31 janvier et 7 février (10 nov.). Fiche Zemmour : résumé, position immigration et maturité (orientations de campagne) actualisés. Rubrique « Insolite » : Riner candidat sans renoncer aux JO 2028 (9 nov.). `data/polls.js` inchangé (aucun nouveau sondage d’intentions de vote depuis Harris vague 9). Date d’édition et bandeau mis à jour. Sept sources ajoutées.
+- **Sources consultées** : Le Parisien, Ouest-France, Télé 2 Semaines (9 nov.) ; franceinfo, RTL (10 nov.) ; Le Figaro, TF1 Info (10 nov.), recoupés avec BFMTV / AFP et 20 Minutes (11 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 11 novembre ; commit et push sur `main`.
