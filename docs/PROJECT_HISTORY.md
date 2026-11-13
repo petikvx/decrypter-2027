@@ -1683,3 +1683,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 11 novembre ; commit et push sur `main`.
+
+## 2026-11-13 09:20 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (vendredi, mode économe en tokens).
+- **Travail effectué** : quatre entrées ajoutées à la chronologie : sondage Cluster17 / Politico testant Christine Lagarde (9–10 nov., publié le 11) ; Philippe répète son refus d’une primaire, réponses d’Attal et Lisnard au courrier de Retailleau (11–12 nov.) ; Bruno Le Maire présente 50 mesures sans être candidat (12 nov.) ; OpinionWay / CNews avec Teddy Riner (10–12 nov.). Entrée « À venir » : réunion des directeurs de campagne Retailleau, Attal, Lisnard (17 nov.). Fiche Le Maire actualisée. `data/polls.js` inchangé (série Ifop). Rubrique « Insolite » inchangée (aucune anecdote vérifiable en texte intégral). Date d’édition et bandeau mis à jour. Six sources ajoutées.
+- **Sources consultées** : Politico (11 nov.) ; RTL, France 24 (11 nov.) ; franceinfo, CNews, Les Echos (12 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 13 novembre ; commit et push sur `main`.

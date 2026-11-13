@@ -1508,5 +1508,41 @@ window.DECRYPTER_2027.sources = [
     publisher: "TF1 Info", type: "reference-media", publishedAt: "2026-11-10", verifiedAt: "2026-11-11",
     description: "Extraits du courrier du 10 novembre, réunion des directeurs de campagne sous quinze jours",
     url: "https://www.tf1info.fr/politique/elections/presidentielle/le-temps-joue-contre-nous-bruno-retailleau-propose-une-primaire-de-la-droite-et-du-centre-les-31-janvier-et-7-fevrier-2475141.html"
+    },
+  {
+    id: "politico-cluster17-lagarde-nov-2026", category: "Opinion", name: "Politico / Cluster17 : Christine Lagarde « bien accueillie » par les électeurs du centre",
+    publisher: "Politico", type: "reference-media", publishedAt: "2026-11-11", verifiedAt: "2026-11-13",
+    description: "Sondage Cluster17 en ligne du 9 au 10 novembre, 1 164 inscrits, quatre hypothèses de premier tour",
+    url: "https://www.politico.eu/article/sondage-exclusif-2027-christine-lagarde-bien-accueillie-par-les-electeurs-du-centre/"
+  },
+  {
+    id: "cnews-opinionway-nov12-2026", category: "Opinion", name: "CNews / OpinionWay : intentions de vote du 12 novembre 2026",
+    publisher: "CNews", type: "reference-media", publishedAt: "2026-11-12", verifiedAt: "2026-11-13",
+    description: "Sondage en ligne du 10 au 12 novembre, 1 001 personnes, avec et sans Teddy Riner",
+    url: "https://www.cnews.fr/france/2026-11-12/presidentielle-2027-marine-le-pen-reste-en-tete-des-intentions-de-vote-teddy"
+  },
+  {
+    id: "franceinfo-philippe-primaire-nov12-2026", category: "Alliances", name: "franceinfo : « Je ne me soumettrai pas à une primaire », répète Édouard Philippe",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-12", verifiedAt: "2026-11-13",
+    description: "Émission « Nos services publics » : Philippe, Retailleau et Attal sur la primaire",
+    url: "https://www.franceinfo.fr/elections/presidentielle-2027-je-ne-me-soumettrai-pas-a-une-primaire-repete-edouard-philippe-candidat-horizons_8279726.html"
+  },
+  {
+    id: "rtl-primaire-reunion-17nov-2026", category: "Alliances", name: "RTL : le camp Retailleau met la pression sur Philippe pour une primaire",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-11", verifiedAt: "2026-11-13",
+    description: "Réponses d’Attal et Lisnard au courrier de Retailleau, réunion des directeurs de campagne le 17 novembre",
+    url: "https://www.rtl.fr/actu/politique/il-etait-ultra-favori-il-ne-l-est-plus-le-camp-retailleau-met-la-pression-sur-edouard-philippe-pour-une-primaire-a-droite-et-au-centre-7900695120"
+  },
+  {
+    id: "france24-primaire-reunion-17nov-2026", category: "Alliances", name: "France 24 : Retailleau propose une primaire les 31 janvier et 7 février",
+    publisher: "France 24", type: "reference-media", publishedAt: "2026-11-11", verifiedAt: "2026-11-13",
+    description: "Réunion des directeurs de campagne Attal, Retailleau, Lisnard le 17 novembre ; refus réitéré d’Horizons",
+    url: "https://www.france24.com/fr/france/20261111-bruno-retailleau-propose-une-primaire-de-la-droite-et-du-centre-les-31-janvier-et-7-f%C3%A9vrier"
+  },
+  {
+    id: "lesechos-lemaire-50-mesures-2026", category: "Programmes", name: "Les Echos : Bruno Le Maire présente 50 mesures « pour une autre France »",
+    publisher: "Les Echos", type: "reference-media", publishedAt: "2026-11-12", verifiedAt: "2026-11-13",
+    description: "Présentation du projet sans déclaration de candidature (article abonnés, chapô consulté)",
+    url: "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-pas-encore-candidat-bruno-le-maire-presente-50-mesures-radicales-pour-une-autre-france-2262388"
   }
 ];
