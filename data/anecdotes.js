@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-13", dateLabel: "13 novembre 2026", person: "Teddy Riner", family: "Sans étiquette",
+    title: "Des fiches santé écrites tout l’été, « sans savoir pour qui »",
+    text: "Quatre jours après la déclaration du judoka, l’ex-ministre de la Santé François Braun, présenté comme son principal soutien politique, annonce « prendre du recul » de la campagne (Libération, Le Parisien, confirmé à franceinfo le 14 novembre). Selon Libération, cité par Le Figaro et le HuffPost, il avait rédigé tout l’été des fiches et propositions sur la santé à la demande d’une ancienne conseillère, sans connaître l’identité du candidat. BFMTV rapporte qu’il n’était pas informé du premier déplacement de Riner, dans un hôpital de Saint-Denis le 13 novembre. Braun n’a pas détaillé ses raisons.",
+    sourceIds: ["franceinfo-braun-riner-nov14-2026", "lefigaro-braun-riner-nov14-2026", "huffpost-braun-riner-nov14-2026", "bfmtv-braun-riner-nov14-2026"]
+  },
+  {
     date: "2026-11-09", dateLabel: "9 novembre 2026", person: "Teddy Riner", family: "Sans étiquette",
     title: "Candidat à l’Élysée, sans renoncer aux Jeux de 2028",
     text: "Le jour de l’annonce de sa candidature, le quintuple champion olympique de judo, interrogé par Le Parisien, indique ne pas renoncer aux Jeux olympiques de Los Angeles en 2028 « si la fonction [le lui] permet et si les Français [l’y] autorisent ». Dans sa vidéo, il anticipe les critiques : « Je sais ce qu’on va dire de moi. Il est fou, il n’est pas du sérail, il n’a pas les codes ».",

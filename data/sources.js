@@ -1544,5 +1544,65 @@ window.DECRYPTER_2027.sources = [
     publisher: "Les Echos", type: "reference-media", publishedAt: "2026-11-12", verifiedAt: "2026-11-13",
     description: "Présentation du projet sans déclaration de candidature (article abonnés, chapô consulté)",
     url: "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-pas-encore-candidat-bruno-le-maire-presente-50-mesures-radicales-pour-une-autre-france-2262388"
+  },
+  {
+    id: "bfmtv-elabe-nov14-2026", category: "Opinion", name: "BFMTV / Elabe : Mélenchon continue sa progression, Riner devant Attal dans un scénario",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Sondage Elabe pour BFMTV / La Tribune Dimanche, 12–13 novembre, 1 500 personnes dont 1 391 inscrits, six hypothèses",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/sondage-bfmtv-presidentielle-2027-jean-luc-melenchon-continue-sa-progression-teddy-riner-devant-gabriel-attal-dans-l-un-des-scenarios-testes_AN-202611140315.html"
+  },
+  {
+    id: "elabe-rapport-nov14-2026", category: "Opinion", name: "Elabe : Les Français et l’élection présidentielle 2027 (14 novembre 2026)",
+    publisher: "Elabe", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Rapport d’enquête et méthodologie, terrain du 12 au 13 novembre",
+    url: "https://elabe.fr/fichier-pdf/13399-les-francais-et-lelection-presidentielle-2027/"
+  },
+  {
+    id: "franceinfo-larcher-departage-nov14-2026", category: "Alliances", name: "franceinfo : Gérard Larcher veut réunir les candidats de droite et du centre pour arrêter « une méthode de départage »",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Déclaration de Larcher à l’AFP ; parrainages RN (« socle de 400 signatures ») ; salon Made in France",
+    url: "https://www.franceinfo.fr/elections/presidentielle-2027-raphael-glucksmann-et-teddy-riner-attendus-au-salon-du-made-in-france_8282213.html"
+  },
+  {
+    id: "bfmtv-philippe-larcher-nov15-2026", category: "Alliances", name: "BFMTV : Philippe réaffirme son opposition à une primaire mais accepte une « discussion »",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-15", verifiedAt: "2026-11-16",
+    description: "Réponse de Philippe dans Le Parisien à la proposition de Larcher",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/apres-la-proposition-de-gerard-larcher-edouard-philippe-reaffirme-son-opposition-a-une-primaire-mais-accepte-une-discussion-sur-un-rassemblement-de-la-droite-et-du-centre_AN-202611150297.html"
+  },
+  {
+    id: "lefigaro-philippe-larcher-nov15-2026", category: "Alliances", name: "Le Figaro : Philippe accepte une réunion autour de Larcher, mais pas pour parler d’une primaire",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-11-15", verifiedAt: "2026-11-16",
+    description: "Dépêche AFP du 15 novembre",
+    url: "https://www.lefigaro.fr/flash-actu/edouard-philippe-accepte-une-reunion-de-la-droite-et-du-centre-autour-de-gerard-larcher-mais-pas-pour-parler-d-une-primaire-20261115"
+  },
+  {
+    id: "franceinfo-braun-riner-nov14-2026", category: "Candidatures", name: "franceinfo : François Braun se « met en retrait » de la campagne de Teddy Riner",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Confirmation par l’intéressé, après Libération et Le Parisien (13 novembre)",
+    url: "https://www.franceinfo.fr/elections/presidentielle-2027-a-peine-entre-en-campagne-teddy-riner-perd-le-soutien-de-l-ex-ministre-de-la-sante-francois-braun-qui-se-met-en-retrait_8282237.html"
+  },
+  {
+    id: "lefigaro-braun-riner-nov14-2026", category: "Candidatures", name: "Le Figaro : à peine arrivé, François Braun quitte la campagne de Teddy Riner",
+    publisher: "Le Figaro", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Récit, d’après Libération, des fiches santé rédigées l’été sans connaître le candidat",
+    url: "https://www.lefigaro.fr/politique/a-peine-arrive-l-ex-ministre-de-la-sante-francois-braun-quitte-la-campagne-de-teddy-riner-20261114"
+  },
+  {
+    id: "huffpost-braun-riner-nov14-2026", category: "Candidatures", name: "HuffPost : François Braun, ancien ministre et soutien de Teddy Riner, lâche déjà le judoka",
+    publisher: "HuffPost", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Citation de Libération : fiches et propositions rédigées « tout l’été » mais « sans savoir pour qui »",
+    url: "https://www.huffingtonpost.fr/politique/article/francois-braun-ancien-ministre-et-soutien-de-teddy-riner-lache-deja-le-judoka_357821.html"
+  },
+  {
+    id: "nr-lepen-retraites-nov15-2026", category: "Programmes", name: "La Nouvelle République : Marine Le Pen s’apprête à présenter sa réforme des retraites",
+    publisher: "La Nouvelle République", type: "reference-media", publishedAt: "2026-11-15", verifiedAt: "2026-11-16",
+    description: "Conférence de presse du 17 novembre à 11 h au siège du RN avec Bardella ; 15 à 20 Md€ d’économies, capitalisation",
+    url: "https://www.lanouvellerepublique.fr/a-la-une/presidentielle-2027-depart-a-60-ou-62-ans-dose-de-capitalisation-marine-le-pen-s-apprete-a-presenter-sa-reforme-des-retraites-1794737975"
+  },
+  {
+    id: "bfmtv-braun-riner-nov14-2026", category: "Candidatures", name: "BFMTV : François Braun se met en retrait de la campagne de Teddy Riner « en attendant que les choses se précisent »",
+    publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
+    description: "Braun non informé du déplacement de Riner à l’hôpital de Saint-Denis le 13 novembre",
+    url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-l-ex-ministre-francois-braun-se-met-en-retrait-de-la-campagne-de-teddy-riner-en-attendant-que-les-choses-se-precisent_AN-202611140143.html"
   }
 ];

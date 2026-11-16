@@ -1692,3 +1692,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 13 novembre ; commit et push sur `main`.
+
+## 2026-11-16 09:25 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : trois entrées ajoutées à la chronologie : sondage Elabe / BFMTV–La Tribune Dimanche (12–13 nov., publié le 14) ; appel de Gérard Larcher à une « méthode de départage » et socle de 400 parrainages annoncé pour Le Pen (14 nov.) ; Philippe accepte une discussion mais refuse toute primaire (15 nov.). Entrée « À venir » du 17 nov. sur la réforme des retraites de Le Pen précisée (11 h, siège du RN, avec Bardella). Rubrique « Insolite » : François Braun prend du recul de la campagne de Teddy Riner après avoir rédigé des fiches santé « sans savoir pour qui » (13 nov.). `data/polls.js` inchangé (série Ifop). Date d’édition et bandeau mis à jour. Dix sources ajoutées.
+- **Sources consultées** : BFMTV, rapport Elabe, franceinfo, Le Figaro, HuffPost (14 nov.) ; BFMTV, Le Figaro / AFP, La Nouvelle République (15 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 16 novembre ; commit et push sur `main`.
