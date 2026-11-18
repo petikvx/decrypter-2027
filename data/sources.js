@@ -1604,5 +1604,23 @@ window.DECRYPTER_2027.sources = [
     publisher: "BFMTV", type: "reference-media", publishedAt: "2026-11-14", verifiedAt: "2026-11-16",
     description: "Braun non informé du déplacement de Riner à l’hôpital de Saint-Denis le 13 novembre",
     url: "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-l-ex-ministre-francois-braun-se-met-en-retrait-de-la-campagne-de-teddy-riner-en-attendant-que-les-choses-se-precisent_AN-202611140143.html"
+    },
+  {
+    id: "france24-lepen-retraites-nov17-2026", category: "Programmes", name: "France 24 : réforme des retraites de Marine Le Pen, départ à 60 ou 62 ans, capitalisation et conditions durcies",
+    publisher: "France 24", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-18",
+    description: "Conférence de presse du 17 novembre : abrogation de la réforme Borne, barème 60–62 ans, capitalisation obligatoire, référendum possible",
+    url: "https://www.france24.com/fr/france/20261117-france-presidentielle-2027-reforme-des-retraites-marine-le-pen-depart-a-60-ou-62-ans-capitalisation-conditions-durcies"
+  },
+  {
+    id: "franceinfo-primaire-modalites-nov17-2026", category: "Primaires", name: "franceinfo : premières modalités de la primaire de la droite et du centre",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-18",
+    description: "Réunion des directeurs de campagne Attal, Retailleau, Lisnard : dates de janvier, 2 euros, vote électronique, charte, parrainages en suspens",
+    url: "https://www.franceinfo.fr/elections/refus-d-alliance-avec-les-extremes-participation-a-deux-euros-les-premieres-modalites-de-la-primaire-de-la-droite-et-du-centre-devoilees_8286980.html"
+  },
+  {
+    id: "leparisien-primaire-modalites-nov17-2026", category: "Primaires", name: "Le Parisien : la primaire du centre et de la droite avance, sans Philippe",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-18",
+    description: "Neuf lieutenants réunis le 17 novembre ; primaire ouverte à 2 euros, parrainages d’élus, débats, votes en janvier ; chaise vide pour le camp Philippe",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-dates-participation-de-deux-euros-parrainage-la-primaire-du-centre-et-de-la-droite-avance-sans-philippe-17-11-2026-OQ673T3AVRHL7FUSIVAI6E4ZXU.php"
   }
 ];

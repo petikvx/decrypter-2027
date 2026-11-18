@@ -1701,3 +1701,13 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 16 novembre ; commit et push sur `main`.
+
+## 2026-11-18 09:20 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : les deux entrées « À venir » du 17 nov. deviennent des faits datés : présentation de la réforme des retraites de Marine Le Pen (abrogation de la réforme Borne au 1er janvier 2028, 62 ans / 60 ans pour les carrières précoces, 40 à 42 annuités, capitalisation obligatoire, référendum possible) ; première réunion des directeurs de campagne Attal, Retailleau, Lisnard sur la primaire (janvier, 2 euros, vote surtout électronique, charte, parrainages en discussion, camp Philippe absent). Position économie de Le Pen actualisée. `data/polls.js` inchangé (aucun nouveau sondage depuis Elabe). Rubrique « Insolite » inchangée (rien de vérifiable et pertinent). Date d’édition et bandeau mis à jour. Trois sources ajoutées.
+- **Sources consultées** : France 24, franceinfo, Le Parisien (17 nov.), recoupés avec Europe 1 et Public Sénat (17 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 18 novembre ; commit et push sur `main`.
+
