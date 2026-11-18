@@ -1710,4 +1710,3 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 18 novembre ; commit et push sur `main`.
-
