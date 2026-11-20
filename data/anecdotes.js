@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-19", dateLabel: "19 novembre 2026", person: "Gabriel Attal, Éric Zemmour et d’autres", family: "Plusieurs familles",
+    title: "La campagne aux couleurs de GTA 6",
+    text: "Le jour de la sortie du jeu vidéo « Grand Theft Auto VI », plusieurs candidats, de la gauche à l’extrême droite, reprennent ses codes : affiches, logos détournés, missions virtuelles. Dans une vidéo Instagram, Gabriel Attal s’approche d’une voiture garée puis lance « Voler une voiture, c’est pas bien », avant de promouvoir sa proposition d’une voiture électrique européenne à 10 000 euros ; Reconquête publie aussi un visuel inspiré du jeu.",
+    sourceIds: ["leparisien-gta6-campagne-nov19-2026"]
+  },
+  {
     date: "2026-11-13", dateLabel: "13 novembre 2026", person: "Teddy Riner", family: "Sans étiquette",
     title: "Des fiches santé écrites tout l’été, « sans savoir pour qui »",
     text: "Quatre jours après la déclaration du judoka, l’ex-ministre de la Santé François Braun, présenté comme son principal soutien politique, annonce « prendre du recul » de la campagne (Libération, Le Parisien, confirmé à franceinfo le 14 novembre). Selon Libération, cité par Le Figaro et le HuffPost, il avait rédigé tout l’été des fiches et propositions sur la santé à la demande d’une ancienne conseillère, sans connaître l’identité du candidat. BFMTV rapporte qu’il n’était pas informé du premier déplacement de Riner, dans un hôpital de Saint-Denis le 13 novembre. Braun n’a pas détaillé ses raisons.",

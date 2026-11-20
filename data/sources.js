@@ -1622,5 +1622,53 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-18",
     description: "Neuf lieutenants réunis le 17 novembre ; primaire ouverte à 2 euros, parrainages d’élus, débats, votes en janvier ; chaise vide pour le camp Philippe",
     url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-dates-participation-de-deux-euros-parrainage-la-primaire-du-centre-et-de-la-droite-avance-sans-philippe-17-11-2026-OQ673T3AVRHL7FUSIVAI6E4ZXU.php"
+  },
+  {
+    id: "ifop-tf1-nov18-2026", category: "Opinion", name: "Ifop-Fiducial — intentions de vote à l’élection présidentielle 2027, 18 novembre 2026",
+    publisher: "Ifop", type: "poll", publishedAt: "2026-11-18", verifiedAt: "2026-11-20",
+    description: "TF1-LCI, Le Figaro, Sud Radio ; terrain 13–16 novembre, 1 690 inscrits, en ligne. Le Pen 32–36 %, Mélenchon 17–19,5 %, Philippe 10–15 %, Lisnard jusqu’à 12 %, Riner 4 %",
+    url: "https://www.ifopgroup.com/article/les-intentions-de-vote-a-lelection-presidentielle-2027/"
+  },
+  {
+    id: "vingtminutes-ifop-nov18-2026", category: "Opinion", name: "20 Minutes : Mélenchon creuse l’écart avec Philippe, Riner à 4 % (Ifop-Fiducial)",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-11-18", verifiedAt: "2026-11-20",
+    description: "Lecture du sondage Ifop-Fiducial du 18 novembre : Philippe plafonne à 15 %, Lisnard 12 %, Retailleau 7 % dans la même configuration",
+    url: "https://www.20minutes.fr/politique/4263839-20261118-presidentielle-2027-melenchon-creuse-ecart-philippe-riner-4-nouveau-sondage"
+  },
+  {
+    id: "vingtminutes-lisnard-primaire-nov19-2026", category: "Primaires", name: "20 Minutes : Lisnard pose ses conditions à la primaire",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
+    description: "Sur TF1 le 18 novembre : participation de Philippe et de Zemmour souhaitée, « incapable » d’assurer la tenue de la primaire",
+    url: "https://www.20minutes.fr/politique/4263985-20261119-presidentielle-2027-longtemps-fervent-partisan-primaire-lisnard-semble-desormais-torpiller"
+  },
+  {
+    id: "leparisien-lisnard-primaire-nov19-2026", category: "Primaires", name: "Le Parisien : pas de primaire sans Philippe pour Lisnard, selon son porte-parole",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
+    description: "Thomas Elexhauser sur BFMTV le 19 novembre ; Lisnard en avait fait une « condition » la veille sur TF1",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-un-porte-parole-de-david-lisnard-affirme-que-son-candidat-ne-participera-pas-a-une-primaire-sans-edouard-philippe-19-11-2026-3XWAAFKGSBEALHGGIIZFS7LDMU.php"
+  },
+  {
+    id: "france24-larcher-departage-nov19-2026", category: "Primaires", name: "France 24 / AFP : réunion des candidats de la droite et du centre, « on va y arriver », assure Larcher",
+    publisher: "France 24 / AFP", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
+    description: "Larcher sur BFMTV : réunion sans date, exclusion de Zemmour, nouvelle réunion des équipes après l’élection de l’AMF",
+    url: "https://www.france24.com/fr/info-en-continu/20261119-r%C3%A9union-entre-les-candidats-du-centre-et-de-la-droite-on-va-y-arriver-assure-larcher"
+  },
+  {
+    id: "rtl-villepin-candidature-nov19-2026", category: "Candidatures", name: "RTL : comment Dominique de Villepin se prépare à officialiser sa candidature",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
+    description: "Officialisation annoncée le 20 novembre à la Maison de l’Amérique latine, slogan « Et si on s’aimait encore », primaire écartée",
+    url: "https://www.rtl.fr/actu/politique/et-si-on-s-aimait-encore-comment-dominique-de-villepin-se-prepare-a-l-election-presidentielle-2027-7900698047"
+  },
+  {
+    id: "rmc-villepin-candidature-nov20-2026", category: "Candidatures", name: "RMC / BFMTV : Villepin va officialiser sa candidature à l’Élysée",
+    publisher: "RMC / BFMTV", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-20",
+    description: "Annonce de l’officialisation du 20 novembre, slogan « Et si on s’aimait encore »",
+    url: "https://rmc.bfmtv.com/actualites/politique/et-si-on-s-aimait-encore-dominique-de-villepin-va-officialiser-sa-candidature-a-l-elysee-avec-la-fraternite-en-etendard_AV-202611200170.html"
+  },
+  {
+    id: "leparisien-gta6-campagne-nov19-2026", category: "Insolite", name: "Le Parisien : quand les candidats reprennent les codes de GTA 6",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
+    description: "Vidéo d’Attal « Voler une voiture, c’est pas bien », visuels de Reconquête et d’autres candidats le jour de la sortie du jeu",
+    url: "https://www.leparisien.fr/elections/presidentielle/voler-une-voiture-cest-pas-bien-jeu-alternatif-affiches-quand-les-candidats-a-la-presidentielle-2027-reprennent-les-codes-de-gta-6-19-11-2026-VCHR4LN3UZGYHDMPLZHHQ52NBE.php"
   }
 ];

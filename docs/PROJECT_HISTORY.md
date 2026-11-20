@@ -1710,3 +1710,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 18 novembre ; commit et push sur `main`.
+
+## 2026-11-20 09:20 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (vendredi, mode économe en tokens).
+- **Travail effectué** : chronologie : sondage Ifop-Fiducial (13–16 nov., publié le 18) ; Lisnard conditionne la primaire à la participation de Philippe (18–19 nov.) ; Larcher « on va y arriver » (19 nov.) ; « À venir » : officialisation de la candidature de Villepin le 20 nov. (statut inchangé en attendant la déclaration). Fiche Lisnard complétée. Rubrique « Insolite » : candidats reprenant les codes de GTA 6 (19 nov.). `data/polls.js` inchangé (valeurs de l’hypothèse Philippe–Le Pen non relevées dans le rapport Ifop). Date d’édition et bandeau mis à jour. Huit sources ajoutées.
+- **Sources consultées** : Ifop, 20 Minutes / AFP (18 et 19 nov.), Le Parisien (19 nov.), France 24 / AFP (19 nov.), RTL (19 nov.), RMC / BFMTV (20 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 20 novembre ; commit et push sur `main`.
