@@ -1719,3 +1719,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 20 novembre ; commit et push sur `main`.
+
+## 2026-11-23 09:12 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (lundi, mode économe en tokens).
+- **Travail effectué** : chronologie : Philippe publie le « volume 1 » de son programme et Tondelier se dit prête à une coalition autour de Mélenchon (18 nov.) ; Hollande repousse sa décision à février (19 nov.) ; Larcher puis la CFDT demandent d’avancer le scrutin (19–21 nov.) ; déclaration de candidature de Villepin (20 nov., remplace l’entrée « À venir ») ; Ifop / Sud Radio (terrain 2–4 nov., publié le 20) ; retrait de Ruffin (21 nov.) ; Lisnard durcit ses conditions sur la primaire (21–22 nov.). « À venir » : réunion primaire et conseil fédéral écologiste (26 nov.), vote des adhérents écologistes (10–13 déc.). Fiches : Ruffin passe en « Candidature retirée », Villepin en « déclaré » ; Philippe, Tondelier et Hollande complétés (dates de vérification inchangées). Rubrique « Insolite » : boutiques de campagne (17 nov.). `data/polls.js` inchangé. Date d’édition et bandeau mis à jour. Dix-sept sources ajoutées.
+- **Sources consultées** : franceinfo, site de campagne d’É. Philippe, France 24, Europe 1, RTL, Le Parisien, notice Ifop (Commission des sondages), 20 Minutes, Les Echos, La Dépêche (17–22 nov.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
+- **Résultat** : édition du 23 novembre ; commit et push sur `main`.

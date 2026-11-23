@@ -1670,5 +1670,107 @@ window.DECRYPTER_2027.sources = [
     publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-20",
     description: "Vidéo d’Attal « Voler une voiture, c’est pas bien », visuels de Reconquête et d’autres candidats le jour de la sortie du jeu",
     url: "https://www.leparisien.fr/elections/presidentielle/voler-une-voiture-cest-pas-bien-jeu-alternatif-affiches-quand-les-candidats-a-la-presidentielle-2027-reprennent-les-codes-de-gta-6-19-11-2026-VCHR4LN3UZGYHDMPLZHHQ52NBE.php"
+  },
+  {
+    id: "franceinfo-philippe-programme-nov18-2026", category: "Programmes", name: "franceinfo : Édouard Philippe développe plusieurs mesures de son programme",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-18", verifiedAt: "2026-11-23",
+    description: "Conférence de presse du 18 novembre : règle d’or, retraites à 65 ans, fonction publique, immigration, école",
+    url: "https://www.franceinfo.fr/politique/edouard-philippe/priorite-donnee-a-l-ecole-retablissement-des-comptes-publics-edouard-philippe-met-en-lumiere-plusieurs-mesures-de-son-programme-presidentiel_8287970.html"
+  },
+  {
+    id: "philippe-programme-vol1-2026", category: "Programmes", name: "Avec Édouard 2027 : présentation du premier volume du programme",
+    publisher: "Site de campagne d’Édouard Philippe", type: "official-campaign", publishedAt: "2026-11-17", verifiedAt: "2026-11-23",
+    description: "Annonce de la conférence de presse du 18 novembre et du livret « volume 1 »",
+    url: "https://www.edouardphilippe.fr/actualites/edouard-philippe-presente-le-premier-volume-de-son-programme-presidentiel"
+  },
+  {
+    id: "france24-tondelier-coalition-nov18-2026", category: "Alliances", name: "France 24 : Tondelier « prête à travailler à une coalition » autour de Mélenchon",
+    publisher: "France 24 / AFP", type: "reference-media", publishedAt: "2026-11-18", verifiedAt: "2026-11-23",
+    description: "Déclaration sur France 2, conditions, réaction de LFI, conseil fédéral du 26 novembre",
+    url: "https://www.france24.com/fr/france/20261118-presidentielle-2027-election-marine-tondelier-ecologistes-prete-travailler-coalition-autour-jean-luc-melenchon-la-france-insoumise-soutien"
+  },
+  {
+    id: "europe1-tondelier-vote-nov20-2026", category: "Alliances", name: "Europe 1 : Tondelier et le vote des adhérents écologistes",
+    publisher: "Europe 1 / AFP", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Vote des adhérents du 10 au 13 décembre : candidature Tondelier, ralliement à Mélenchon ou à Glucksmann",
+    url: "https://www.europe1.fr/politique/marine-tondelier-previent-jean-luc-melenchon-les-pas-vers-les-ecologistes-seront-scrutes-par-beaucoup-de-francais-1241161"
+  },
+  {
+    id: "rtl-hollande-fevrier-nov20-2026", category: "Candidatures", name: "RTL : Hollande laisse jusqu’à février à Glucksmann",
+    publisher: "RTL / AFP", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Entretien sur LCI du 19 novembre : décision repoussée à fin janvier-début février",
+    url: "https://www.rtl.fr/actu/politique/presidentielle-2027-francois-hollande-repousse-encore-son-eventuelle-candidature-a-l-election-7900698567"
+  },
+  {
+    id: "rtl-larcher-dates-nov20-2026", category: "Cadre officiel", name: "RTL : Larcher demande d’avancer les dates de l’élection",
+    publisher: "RTL", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Demande au Premier ministre, calendrier 18 avril / 2 mai, alternative 11 / 25 avril et délai du décret",
+    url: "https://www.rtl.fr/actu/politique/presidentielle-2027-gerard-larcher-a-demande-tres-clairement-a-sebastien-lecornu-d-avancer-la-date-de-l-election-7900698503"
+  },
+  {
+    id: "leparisien-cfdt-date-nov22-2026", category: "Cadre officiel", name: "Le Parisien : la CFDT appelle à changer la date du second tour",
+    publisher: "Le Parisien / AFP", type: "reference-media", publishedAt: "2026-11-22", verifiedAt: "2026-11-23",
+    description: "Marylise Léon (21 novembre) : le 2 mai, « pire scénario possible »",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-le-pire-scenario-possible-la-cfdt-appelle-a-son-tour-a-changer-la-date-du-second-tour-prevu-le-2-mai-22-11-2026-HOML65PUUBDGTOHZDW5CZTK2JE.php"
+  },
+  {
+    id: "franceinfo-villepin-candidature-nov20-2026", category: "Candidatures", name: "franceinfo : Dominique de Villepin annonce sa candidature",
+    publisher: "franceinfo / AFP", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Déclaration à la Maison de l’Amérique latine, plus de 200 propositions",
+    url: "https://www.franceinfo.fr/elections/dominique-de-villepin-annonce-sa-candidature-a-l-election-presidentielle-evoquant-une-decision-lourde-difficile_8292431.html"
+  },
+  {
+    id: "leparisien-villepin-candidature-nov20-2026", category: "Candidatures", name: "Le Parisien : « Je suis candidat », Villepin officialise sa course",
+    publisher: "Le Parisien", type: "reference-media", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Conférence de presse du 20 novembre",
+    url: "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-dominique-de-villepin-annonce-officiellement-sa-candidature-a-lelection-20-11-2026-VXX4JKEYUJCJJBGEHVGO2KG5IY.php"
+  },
+  {
+    id: "ifop-sudradio-notice-nov20-2026", category: "Opinion", name: "Commission des sondages : notice Ifop-Fiducial pour Sud Radio",
+    publisher: "Ifop / Commission des sondages", type: "poll", publishedAt: "2026-11-20", verifiedAt: "2026-11-23",
+    description: "Terrain 2–4 novembre, 1 834 inscrits, en ligne, quatre hypothèses. Philippe seul : Le Pen 37 %, Philippe 19 %, Mélenchon 18 %, Glucksmann 13 %",
+    url: "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10392-pres-iv-ifop-sud-radio-20-novembre.pdf"
+  },
+  {
+    id: "20minutes-direct-ifop-ruffin-nov21-2026", category: "Opinion", name: "20 Minutes : direct présidentielle du 21 novembre",
+    publisher: "20 Minutes", type: "reference-media", publishedAt: "2026-11-21", verifiedAt: "2026-11-23",
+    description: "Résultats Ifop pour Sud Radio (hypothèses Philippe et Lisnard) et retrait de Ruffin",
+    url: "https://www.20minutes.fr/politique/4264605-20261121-direct-presidentielle-2027-villepin-candidat-pen-toujours-tete-sondages"
+  },
+  {
+    id: "franceinfo-ruffin-retrait-nov21-2026", category: "Candidatures", name: "franceinfo : François Ruffin retire sa candidature",
+    publisher: "franceinfo / AFP", type: "reference-media", publishedAt: "2026-11-21", verifiedAt: "2026-11-23",
+    description: "Communiqué publié sur X, aucun soutien",
+    url: "https://www.franceinfo.fr/elections/francois-ruffin-retire-sa-candidature-a-l-election-presidentielle-et-souhaite-bonne-campagne-aux-candidats-de-gauche-encore-en-lice_8294003.html"
+  },
+  {
+    id: "france24-ruffin-retrait-nov21-2026", category: "Candidatures", name: "France 24 : Ruffin jette l’éponge face à « l’impasse » de sa campagne",
+    publisher: "France 24 / AFP", type: "reference-media", publishedAt: "2026-11-21", verifiedAt: "2026-11-23",
+    description: "Retrait, « duel des deux gauches irréconciliables »",
+    url: "https://www.france24.com/fr/france/20261121-pr%C3%A9sidentielle-prenant-acte-de-l-impasse-de-sa-campagne-fran%C3%A7ois-ruffin-retire-sa-candidature"
+  },
+  {
+    id: "lesechos-ruffin-retrait-nov21-2026", category: "Candidatures", name: "Les Echos : François Ruffin se retire de la course à l’Élysée",
+    publisher: "Les Echos", type: "reference-media", publishedAt: "2026-11-21", verifiedAt: "2026-11-23",
+    description: "Retrait de la candidature, contexte à gauche",
+    url: "https://www.lesechos.fr/elections/presidentielle/presidentielle-2027-francois-ruffin-se-retire-de-la-course-a-lelysee-2263932"
+  },
+  {
+    id: "franceinfo-primaire-reunion-nov21-2026", category: "Primaires", name: "franceinfo : nouvelle réunion des directeurs de campagne le 26 novembre",
+    publisher: "franceinfo", type: "reference-media", publishedAt: "2026-11-21", verifiedAt: "2026-11-23",
+    description: "Primaire droite-centre : dates envisagées, 2 euros, vote électronique ; camp Philippe invité",
+    url: "https://www.franceinfo.fr/politique/nouvelle-reunion-jeudi-prochain-entre-les-directeurs-de-campagne-de-gabriel-attal-bruno-retailleau-et-david-lisnard-pour-une-primaire-de-la-droite-et-du-centre_8294057.html"
+  },
+  {
+    id: "20minutes-lisnard-jdd-nov22-2026", category: "Primaires", name: "20 Minutes : Lisnard tend la main à Retailleau et tourne le dos à Attal",
+    publisher: "20 Minutes / AFP", type: "reference-media", publishedAt: "2026-11-22", verifiedAt: "2026-11-23",
+    description: "Entretien au JDD : primaire « pré-premier tour », conditions maintenues",
+    url: "https://www.20minutes.fr/politique/4264727-20261122-presidentielle-2027-lisnard-tend-main-retailleau-tourne-dos-attal"
+  },
+  {
+    id: "ladepeche-boutiques-nov17-2026", category: "Insolite", name: "La Dépêche : peluches, doudounes et pochettes surprises dans les boutiques des candidats",
+    publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-23",
+    description: "Produits dérivés des Jeunes en marche, du RN, d’Horizons, de LFI et de soutiens de Lisnard",
+    url: "https://www.ladepeche.fr/2026/11/17/presidentielle-2027-peluches-doudounes-sans-manches-et-pochettes-surprises-le-grand-nimporte-quoi-des-boutiques-des-candidats-13655537.php"
   }
 ];

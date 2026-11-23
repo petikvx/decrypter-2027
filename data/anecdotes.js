@@ -4,6 +4,12 @@ window.DECRYPTER_2027 = window.DECRYPTER_2027 || {};
 // Ton descriptif ; ni moquerie ni jugement. Les faits les plus récents en premier.
 window.DECRYPTER_2027.anecdotes = [
   {
+    date: "2026-11-17", dateLabel: "17 novembre 2026", person: "Plusieurs équipes de campagne", family: "Plusieurs familles",
+    title: "Peluches, mugs et doudounes : les boutiques de campagne",
+    text: "La Dépêche du Midi recense les produits dérivés vendus en ligne : peluche de « Volta », la chienne de Gabriel Attal, et tee-shirts « Don’t worry, be Gaby » chez les Jeunes en marche ; mugs à l’effigie de Jordan Bardella au RN ; gourdes, boutons de manchette et doudounes sans manches chez Horizons ; déclinaisons de la tortue, « animal totem » de Jean-Luc Mélenchon, côté LFI ; tee-shirts « Il se passe quelque chose » vendus par des soutiens de David Lisnard. Le journal rappelle que ces recettes, à la différence des dons plafonnés à 7 500 euros par an, ne sont pas plafonnées.",
+    sourceIds: ["ladepeche-boutiques-nov17-2026"]
+  },
+  {
     date: "2026-11-19", dateLabel: "19 novembre 2026", person: "Gabriel Attal, Éric Zemmour et d’autres", family: "Plusieurs familles",
     title: "La campagne aux couleurs de GTA 6",
     text: "Le jour de la sortie du jeu vidéo « Grand Theft Auto VI », plusieurs candidats, de la gauche à l’extrême droite, reprennent ses codes : affiches, logos détournés, missions virtuelles. Dans une vidéo Instagram, Gabriel Attal s’approche d’une voiture garée puis lance « Voler une voiture, c’est pas bien », avant de promouvoir sa proposition d’une voiture électrique européenne à 10 000 euros ; Reconquête publie aussi un visuel inspiré du jeu.",
