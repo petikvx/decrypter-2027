@@ -1772,5 +1772,41 @@ window.DECRYPTER_2027.sources = [
     publisher: "La Dépêche du Midi", type: "reference-media", publishedAt: "2026-11-17", verifiedAt: "2026-11-23",
     description: "Produits dérivés des Jeunes en marche, du RN, d’Horizons, de LFI et de soutiens de Lisnard",
     url: "https://www.ladepeche.fr/2026/11/17/presidentielle-2027-peluches-doudounes-sans-manches-et-pochettes-surprises-le-grand-nimporte-quoi-des-boutiques-des-candidats-13655537.php"
+  },
+  {
+    id: "toluna-harris-v10-nov-2026", category: "Opinion", name: "Toluna Harris Interactive : baromètre présidentielle 2027, vague 10 (M6 / RTL / L’Express)",
+    publisher: "Toluna Harris Interactive", type: "poll", publishedAt: "2026-11-23", verifiedAt: "2026-11-25",
+    description: "Rapport : terrain en ligne du 18 au 19 novembre, 2 088 inscrits, quotas, marge ±1,4 à 3,0 points ; trois hypothèses de premier tour, second tour Le Pen–Mélenchon",
+    url: "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-10-M6-RTL-LExpress-23-novembre-2026.pdf"
+  },
+  {
+    id: "france24-lisnard-nov24-2026", category: "Candidatures", name: "France 24 : David Lisnard, le candidat ultralibéral qui chamboule la campagne à droite",
+    publisher: "France 24", type: "reference-media", publishedAt: "2026-11-24", verifiedAt: "2026-11-25",
+    description: "Lisnard devant Philippe (11 % contre 10 %) dans le sondage Toluna Harris Interactive publié le 23 novembre",
+    url: "https://www.france24.com/fr/france/20261124-france-presidentielle-2027-david-lisnard-candidat-ultraliberal-chamboule-campagne-droite"
+  },
+  {
+    id: "europe1-primaire-report-nov23-2026", category: "Primaires", name: "Europe 1 : la seconde réunion préparatoire de la primaire reportée",
+    publisher: "Europe 1", type: "reference-media", publishedAt: "2026-11-23", verifiedAt: "2026-11-25",
+    description: "Report de la réunion du 26 novembre, périmètre (Zemmour) en débat, réunion à l’initiative de Gérard Larcher",
+    url: "https://www.europe1.fr/politique/primaire-de-la-droite-et-du-centre-la-seconde-reunion-preparatoire-reportee-quels-sont-les-points-de-blocage-1243192"
+  },
+  {
+    id: "rmc-primaire-report-nov24-2026", category: "Primaires", name: "RMC : la réunion Attal-Retailleau-Lisnard prévue jeudi est reportée",
+    publisher: "RMC / BFMTV", type: "reference-media", publishedAt: "2026-11-24", verifiedAt: "2026-11-25",
+    description: "Rencontre la semaine suivante autour de Gérard Larcher, en présence des équipes d’Édouard Philippe",
+    url: "https://rmc.bfmtv.com/actualites/politique/info-rmc-primaire-de-la-droite-et-du-centre-la-reunion-attal-retailleau-lisnard-prevue-jeudi-est-reportee_AN-202611240423.html"
+  },
+  {
+    id: "publicsenat-ecologistes-options-nov-2026", category: "Alliances", name: "Public Sénat : la main tendue de Marine Tondelier à Jean-Luc Mélenchon peut-elle faire imploser les Écologistes ?",
+    publisher: "Public Sénat", type: "reference-media", publishedAt: "2026-11-19", verifiedAt: "2026-11-25",
+    description: "Conseil fédéral du 26 novembre : options soumises au vote des adhérents du 10 au 13 décembre",
+    url: "https://www.publicsenat.fr/actualites/politique/la-main-tendue-de-marine-tondelier-a-melenchon-peut-elle-faire-imploser-les-ecologistes"
+  },
+  {
+    id: "rci-antilles-bardella-melenchon-nov23-2026", category: "Campagne", name: "RCI : Bardella et Mélenchon attendus aux Antilles, Glucksmann et Riner pourraient suivre",
+    publisher: "RCI", type: "reference-media", publishedAt: "2026-11-23", verifiedAt: "2026-11-25",
+    description: "Bardella du 30 novembre au 4 décembre, Mélenchon jusqu’au 18 décembre, d’après La Tribune Dimanche",
+    url: "https://rci.fm/deuxiles/infos/Politique/Presidentielle-2027-Bardella-et-Melenchon-attendus-aux-Antilles-Glucksmann-et-Riner"
   }
 ];

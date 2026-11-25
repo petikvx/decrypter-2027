@@ -1728,3 +1728,12 @@ changé et pourquoi.
 - **Fichiers modifiés** : `index.html`, `data/events.js`, `data/candidates.js`, `data/anecdotes.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
 - **Vérifications** : `node --check`, identifiants et URL de sources uniques, références valides, `git diff --check`.
 - **Résultat** : édition du 23 novembre ; commit et push sur `main`.
+
+## 2026-11-25 09:03 Europe/Paris (UTC+1) — mise à jour automatique
+
+- **Environnement** : routine Grok Bot (mercredi, mode économe en tokens).
+- **Travail effectué** : chronologie : sondage Toluna Harris Interactive vague 10 pour M6, RTL et L’Express (18–19 nov., publié le 23) ; report de la réunion primaire droite-centre du 26 nov. au profit d’une rencontre autour de Gérard Larcher la semaine suivante (23–24 nov.). « À venir » : entrée du 26 nov. recentrée sur le conseil fédéral des Écologistes ; déplacement de Jordan Bardella aux Antilles (30 nov.–4 déc.), puis Mélenchon jusqu’au 18 déc. Rubrique « Insolite » inchangée (rien de neuf vérifiable). `data/polls.js` et fiches inchangés. Date d’édition et bandeau mis à jour. Six sources ajoutées.
+- **Sources consultées** : rapport Toluna Harris Interactive, France 24 (24 nov.), Europe 1 (23 nov.), RMC (24 nov.), Public Sénat (19 nov.), RCI (23 nov.) ; vérification sans nouveauté : Cour de cassation (QPC Le Pen le 16 déc.).
+- **Fichiers modifiés** : `index.html`, `data/events.js`, `data/sources.js`, `docs/PROJECT_HISTORY.md`.
+- **Vérifications** : `node --check`, identifiants et URL de sources uniques, `git diff --check`.
+- **Résultat** : édition du 25 novembre ; commit et push sur `main`.
